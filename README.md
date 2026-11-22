@@ -1,5 +1,8 @@
 # cascadekit
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24434121.svg)](https://doi.org/10.5281/zenodo.24434121)
+[![tests](https://github.com/hilalhyder/Cascadekit/actions/workflows/tests.yml/badge.svg)](https://github.com/hilalhyder/Cascadekit/actions/workflows/tests.yml)
+
 **Collect social-media diffusion cascades, rebuild them as timed trees, and compute
 language-agnostic structural and temporal fingerprints.**
 
@@ -156,8 +159,10 @@ files on encrypted storage, and share only anonymised, text-free cascade files
 
 ## Citing
 
-If you use cascadekit, please cite it using `CITATION.cff` (GitHub shows a "Cite this
-repository" button).
+If you use cascadekit, please cite the version you used. Version 0.4.0 is archived on
+Zenodo as https://doi.org/10.5281/zenodo.24434122; https://doi.org/10.5281/zenodo.24434121
+always resolves to the latest version. `CITATION.cff` has the details (GitHub shows a
+"Cite this repository" button).
 
 ## Licence
 

@@ -4,7 +4,15 @@ title: "cascadekit: collect, rebuild and fingerprint social-media diffusion casc
 version: 0.4.0
 date-released: 2026-11-19
 license: MIT
-repository-code: "https://github.com/hilalhyder/cascadekit"
+doi: 10.5281/zenodo.24434122
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24434122
+    description: "This version (0.4.0)"
+  - type: doi
+    value: 10.5281/zenodo.24434121
+    description: "All versions (resolves to the latest)"
+repository-code: "https://github.com/hilalhyder/Cascadekit"
 authors:
   - family-names: Khanday
     given-names: Hilal Ahmad
