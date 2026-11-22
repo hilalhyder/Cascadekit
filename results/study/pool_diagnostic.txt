@@ -1,0 +1,47 @@
+Full mimic + rotation, pi = 20%, 10 seeds; medians and single-feature AUROC (mean over seeds)
+
+pool     50
+   reuse_overlap_max        organic   0.033   amplified   0.056   AUROC alone 0.882
+   reuse_overlap_top5       organic   0.026   amplified   0.047   AUROC alone 0.958
+   reuse_shared_max         organic   1.438   amplified   4.155   AUROC alone 0.849
+   reuse_shared_top5        organic   1.121   amplified   3.434   AUROC alone 0.864
+   distinct_account_share   organic   1.000   amplified   1.000   AUROC alone 0.471
+   overlaps no other cascade: organic 0.0%, amplified 0.0%
+   campaign share of an amplified cascade's accounts: 17.7%
+
+pool    150
+   reuse_overlap_max        organic   0.033   amplified   0.045   AUROC alone 0.780
+   reuse_overlap_top5       organic   0.025   amplified   0.036   AUROC alone 0.871
+   reuse_shared_max         organic   1.437   amplified   3.696   AUROC alone 0.838
+   reuse_shared_top5        organic   1.112   amplified   2.519   AUROC alone 0.812
+   distinct_account_share   organic   1.000   amplified   1.000   AUROC alone 0.490
+   overlaps no other cascade: organic 0.0%, amplified 0.0%
+   campaign share of an amplified cascade's accounts: 18.2%
+
+pool    500
+   reuse_overlap_max        organic   0.033   amplified   0.034   AUROC alone 0.546
+   reuse_overlap_top5       organic   0.025   amplified   0.027   AUROC alone 0.585
+   reuse_shared_max         organic   1.435   amplified   2.237   AUROC alone 0.698
+   reuse_shared_top5        organic   1.120   amplified   1.609   AUROC alone 0.673
+   distinct_account_share   organic   1.000   amplified   1.000   AUROC alone 0.482
+   overlaps no other cascade: organic 0.0%, amplified 0.0%
+   campaign share of an amplified cascade's accounts: 18.3%
+
+pool   2000
+   reuse_overlap_max        organic   0.032   amplified   0.029   AUROC alone 0.403
+   reuse_overlap_top5       organic   0.025   amplified   0.023   AUROC alone 0.383
+   reuse_shared_max         organic   1.443   amplified   1.665   AUROC alone 0.579
+   reuse_shared_top5        organic   1.118   amplified   1.287   AUROC alone 0.574
+   distinct_account_share   organic   1.000   amplified   1.000   AUROC alone 0.483
+   overlaps no other cascade: organic 0.0%, amplified 0.0%
+   campaign share of an amplified cascade's accounts: 18.2%
+
+pool  10000
+   reuse_overlap_max        organic   0.032   amplified   0.028   AUROC alone 0.375
+   reuse_overlap_top5       organic   0.025   amplified   0.022   AUROC alone 0.340
+   reuse_shared_max         organic   1.435   amplified   1.571   AUROC alone 0.546
+   reuse_shared_top5        organic   1.109   amplified   1.230   AUROC alone 0.549
+   distinct_account_share   organic   1.000   amplified   1.000   AUROC alone 0.479
+   overlaps no other cascade: organic 0.0%, amplified 0.0%
+   campaign share of an amplified cascade's accounts: 18.1%
+

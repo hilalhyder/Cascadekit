@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "cascadekit: collect, rebuild and fingerprint social-media diffusion cascades"
+version: 0.4.0
+date-released: 2026-11-19
+license: MIT
+repository-code: "https://github.com/hilalhyder/cascadekit"
+authors:
+  - family-names: Khanday
+    given-names: Hilal Ahmad
+    affiliation: "Department of Computer Sciences, South Campus, University of Kashmir"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+keywords:
+  - information diffusion
+  - cascades
+  - coordinated behaviour
+  - social networks
+  - Bluesky
+  - Telegram

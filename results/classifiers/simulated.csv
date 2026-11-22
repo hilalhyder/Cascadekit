@@ -1,0 +1,241 @@
+background,strategy,pi,seed,model,trained_on,auroc,tpr_at_1pct_fpr,auprc
+simulated,naive,0.3,0,random forest,same strategy (CV),0.9999,0.9975,0.9999
+simulated,naive,0.3,0,random forest,naive only,0.9999,1.0,0.9999
+simulated,naive,0.3,0,gradient boosting,same strategy (CV),0.9999,1.0,0.9999
+simulated,naive,0.3,0,gradient boosting,naive only,1.0,1.0,1.0
+simulated,naive,0.3,0,logistic regression,same strategy (CV),0.9999,0.9975,0.9999
+simulated,naive,0.3,0,logistic regression,naive only,1.0,1.0,1.0
+simulated,organic timing + structure,0.3,0,random forest,same strategy (CV),1.0,1.0,1.0
+simulated,organic timing + structure,0.3,0,random forest,naive only,0.9995,0.9925,0.9995
+simulated,organic timing + structure,0.3,0,gradient boosting,same strategy (CV),0.9999,0.9975,0.9999
+simulated,organic timing + structure,0.3,0,gradient boosting,naive only,0.9985,0.995,0.9989
+simulated,organic timing + structure,0.3,0,logistic regression,same strategy (CV),0.9998,0.995,0.9998
+simulated,organic timing + structure,0.3,0,logistic regression,naive only,0.9947,0.9725,0.9963
+simulated,naive,0.1,0,random forest,same strategy (CV),0.9495,0.565,0.9528
+simulated,naive,0.1,0,random forest,naive only,0.956,0.6375,0.9584
+simulated,naive,0.1,0,gradient boosting,same strategy (CV),0.9478,0.555,0.9502
+simulated,naive,0.1,0,gradient boosting,naive only,0.9567,0.605,0.9579
+simulated,naive,0.1,0,logistic regression,same strategy (CV),0.9278,0.4025,0.9312
+simulated,naive,0.1,0,logistic regression,naive only,0.9276,0.485,0.9372
+simulated,full mimic + rotation,0.3,0,random forest,same strategy (CV),0.9056,0.5175,0.9141
+simulated,full mimic + rotation,0.3,0,random forest,naive only,0.6174,0.0,0.5746
+simulated,full mimic + rotation,0.3,0,gradient boosting,same strategy (CV),0.9076,0.395,0.9117
+simulated,full mimic + rotation,0.3,0,gradient boosting,naive only,0.5605,0.0,0.5546
+simulated,full mimic + rotation,0.3,0,logistic regression,same strategy (CV),0.882,0.1625,0.8773
+simulated,full mimic + rotation,0.3,0,logistic regression,naive only,0.4707,0.005,0.4799
+simulated,full mimic + rotation,0.1,0,random forest,same strategy (CV),0.6456,0.07,0.6505
+simulated,full mimic + rotation,0.1,0,random forest,naive only,0.482,0.015,0.4872
+simulated,full mimic + rotation,0.1,0,gradient boosting,same strategy (CV),0.6302,0.04,0.6155
+simulated,full mimic + rotation,0.1,0,gradient boosting,naive only,0.4786,0.0225,0.4872
+simulated,full mimic + rotation,0.1,0,logistic regression,same strategy (CV),0.6383,0.045,0.6321
+simulated,full mimic + rotation,0.1,0,logistic regression,naive only,0.4272,0.0075,0.4534
+simulated,organic timing + structure,0.1,0,random forest,same strategy (CV),0.9184,0.5225,0.926
+simulated,organic timing + structure,0.1,0,random forest,naive only,0.83,0.21,0.825
+simulated,organic timing + structure,0.1,0,gradient boosting,same strategy (CV),0.9307,0.5425,0.9357
+simulated,organic timing + structure,0.1,0,gradient boosting,naive only,0.8641,0.25,0.8582
+simulated,organic timing + structure,0.1,0,logistic regression,same strategy (CV),0.904,0.3475,0.9085
+simulated,organic timing + structure,0.1,0,logistic regression,naive only,0.7947,0.2475,0.8231
+simulated,control: embedded accounts,0.3,0,random forest,same strategy (CV),1.0,1.0,1.0
+simulated,control: embedded accounts,0.3,0,random forest,naive only,1.0,1.0,1.0
+simulated,control: embedded accounts,0.3,0,gradient boosting,same strategy (CV),1.0,1.0,1.0
+simulated,control: embedded accounts,0.3,0,gradient boosting,naive only,0.9998,1.0,0.9998
+simulated,control: embedded accounts,0.3,0,logistic regression,same strategy (CV),1.0,1.0,1.0
+simulated,control: embedded accounts,0.3,0,logistic regression,naive only,0.9982,0.9925,0.9988
+simulated,organic timing + structure,0.3,1,random forest,same strategy (CV),0.9998,0.9975,0.9998
+simulated,organic timing + structure,0.3,1,random forest,naive only,0.9981,0.99,0.9986
+simulated,organic timing + structure,0.3,1,gradient boosting,same strategy (CV),0.9974,0.995,0.9984
+simulated,organic timing + structure,0.3,1,gradient boosting,naive only,0.9998,0.9975,0.9998
+simulated,organic timing + structure,0.3,1,logistic regression,same strategy (CV),0.9974,0.9925,0.9986
+simulated,organic timing + structure,0.3,1,logistic regression,naive only,0.9904,0.97,0.9942
+simulated,naive,0.3,1,random forest,same strategy (CV),0.9999,1.0,0.9999
+simulated,naive,0.3,1,random forest,naive only,0.9999,0.9975,0.9999
+simulated,naive,0.3,1,gradient boosting,same strategy (CV),0.9997,1.0,0.9997
+simulated,naive,0.3,1,gradient boosting,naive only,1.0,1.0,1.0
+simulated,naive,0.3,1,logistic regression,same strategy (CV),0.9999,0.9975,0.9999
+simulated,naive,0.3,1,logistic regression,naive only,1.0,1.0,1.0
+simulated,control: embedded accounts,0.1,0,random forest,same strategy (CV),0.907,0.4025,0.9077
+simulated,control: embedded accounts,0.1,0,random forest,naive only,0.8379,0.1925,0.8281
+simulated,control: embedded accounts,0.1,0,gradient boosting,same strategy (CV),0.9169,0.4375,0.9167
+simulated,control: embedded accounts,0.1,0,gradient boosting,naive only,0.8545,0.3025,0.8527
+simulated,control: embedded accounts,0.1,0,logistic regression,same strategy (CV),0.8956,0.3275,0.893
+simulated,control: embedded accounts,0.1,0,logistic regression,naive only,0.8245,0.24,0.8412
+simulated,naive,0.1,1,random forest,same strategy (CV),0.9427,0.5725,0.9496
+simulated,naive,0.1,1,random forest,naive only,0.9456,0.6675,0.9528
+simulated,naive,0.1,1,gradient boosting,same strategy (CV),0.9421,0.6,0.9498
+simulated,naive,0.1,1,gradient boosting,naive only,0.9449,0.5775,0.9516
+simulated,naive,0.1,1,logistic regression,same strategy (CV),0.9213,0.44,0.9265
+simulated,naive,0.1,1,logistic regression,naive only,0.928,0.5025,0.9361
+simulated,organic timing + structure,0.1,1,random forest,same strategy (CV),0.92,0.4325,0.9231
+simulated,organic timing + structure,0.1,1,random forest,naive only,0.821,0.1375,0.8089
+simulated,organic timing + structure,0.1,1,gradient boosting,same strategy (CV),0.9203,0.4525,0.9231
+simulated,organic timing + structure,0.1,1,gradient boosting,naive only,0.8424,0.2725,0.8386
+simulated,organic timing + structure,0.1,1,logistic regression,same strategy (CV),0.9052,0.3675,0.9089
+simulated,organic timing + structure,0.1,1,logistic regression,naive only,0.8053,0.2675,0.8331
+simulated,control: embedded accounts,0.3,1,random forest,same strategy (CV),1.0,1.0,1.0
+simulated,control: embedded accounts,0.3,1,random forest,naive only,1.0,1.0,1.0
+simulated,control: embedded accounts,0.3,1,gradient boosting,same strategy (CV),0.999,1.0,0.9984
+simulated,control: embedded accounts,0.3,1,gradient boosting,naive only,0.9999,1.0,0.9999
+simulated,control: embedded accounts,0.3,1,logistic regression,same strategy (CV),1.0,1.0,1.0
+simulated,control: embedded accounts,0.3,1,logistic regression,naive only,0.9836,0.975,0.9909
+simulated,full mimic + rotation,0.1,1,random forest,same strategy (CV),0.6424,0.0175,0.617
+simulated,full mimic + rotation,0.1,1,random forest,naive only,0.433,0.005,0.4538
+simulated,full mimic + rotation,0.1,1,gradient boosting,same strategy (CV),0.616,0.04,0.6037
+simulated,full mimic + rotation,0.1,1,gradient boosting,naive only,0.4355,0.005,0.4607
+simulated,full mimic + rotation,0.1,1,logistic regression,same strategy (CV),0.6598,0.06,0.6515
+simulated,full mimic + rotation,0.1,1,logistic regression,naive only,0.4353,0.0175,0.4691
+simulated,control: embedded accounts,0.1,1,random forest,same strategy (CV),0.9112,0.47,0.9122
+simulated,control: embedded accounts,0.1,1,random forest,naive only,0.8378,0.14,0.8198
+simulated,control: embedded accounts,0.1,1,gradient boosting,same strategy (CV),0.9215,0.5025,0.9232
+simulated,control: embedded accounts,0.1,1,gradient boosting,naive only,0.8546,0.125,0.8373
+simulated,control: embedded accounts,0.1,1,logistic regression,same strategy (CV),0.9025,0.315,0.8974
+simulated,control: embedded accounts,0.1,1,logistic regression,naive only,0.8495,0.25,0.8624
+simulated,full mimic + rotation,0.3,1,random forest,same strategy (CV),0.8844,0.3375,0.8927
+simulated,full mimic + rotation,0.3,1,random forest,naive only,0.5892,0.04,0.5994
+simulated,full mimic + rotation,0.3,1,gradient boosting,same strategy (CV),0.8909,0.265,0.8935
+simulated,full mimic + rotation,0.3,1,gradient boosting,naive only,0.5204,0.0075,0.5121
+simulated,full mimic + rotation,0.3,1,logistic regression,same strategy (CV),0.8655,0.2425,0.8544
+simulated,full mimic + rotation,0.3,1,logistic regression,naive only,0.4914,0.0125,0.496
+simulated,naive,0.3,2,random forest,same strategy (CV),1.0,1.0,1.0
+simulated,naive,0.3,2,random forest,naive only,0.9998,0.995,0.9998
+simulated,naive,0.3,2,gradient boosting,same strategy (CV),1.0,1.0,1.0
+simulated,naive,0.3,2,gradient boosting,naive only,1.0,1.0,1.0
+simulated,naive,0.3,2,logistic regression,same strategy (CV),0.9997,1.0,0.9997
+simulated,naive,0.3,2,logistic regression,naive only,1.0,1.0,1.0
+simulated,naive,0.1,2,random forest,same strategy (CV),0.9344,0.6075,0.9459
+simulated,naive,0.1,2,random forest,naive only,0.9389,0.5975,0.9476
+simulated,naive,0.1,2,gradient boosting,same strategy (CV),0.9374,0.6175,0.9455
+simulated,naive,0.1,2,gradient boosting,naive only,0.949,0.5875,0.9536
+simulated,naive,0.1,2,logistic regression,same strategy (CV),0.925,0.455,0.9283
+simulated,naive,0.1,2,logistic regression,naive only,0.9301,0.4475,0.9373
+simulated,organic timing + structure,0.1,2,random forest,same strategy (CV),0.8925,0.5,0.9068
+simulated,organic timing + structure,0.1,2,random forest,naive only,0.7885,0.1125,0.7697
+simulated,organic timing + structure,0.1,2,gradient boosting,same strategy (CV),0.9045,0.455,0.9124
+simulated,organic timing + structure,0.1,2,gradient boosting,naive only,0.8225,0.1475,0.807
+simulated,organic timing + structure,0.1,2,logistic regression,same strategy (CV),0.8769,0.3075,0.881
+simulated,organic timing + structure,0.1,2,logistic regression,naive only,0.7503,0.2075,0.7844
+simulated,organic timing + structure,0.3,2,random forest,same strategy (CV),0.9999,0.9975,0.9999
+simulated,organic timing + structure,0.3,2,random forest,naive only,0.9999,0.9975,0.9999
+simulated,organic timing + structure,0.3,2,gradient boosting,same strategy (CV),0.9995,0.9975,0.9996
+simulated,organic timing + structure,0.3,2,gradient boosting,naive only,1.0,1.0,1.0
+simulated,organic timing + structure,0.3,2,logistic regression,same strategy (CV),0.9999,0.995,0.9999
+simulated,organic timing + structure,0.3,2,logistic regression,naive only,0.9959,0.9925,0.9977
+simulated,control: embedded accounts,0.3,2,random forest,same strategy (CV),1.0,1.0,1.0
+simulated,control: embedded accounts,0.3,2,random forest,naive only,1.0,1.0,1.0
+simulated,control: embedded accounts,0.3,2,gradient boosting,same strategy (CV),1.0,1.0,1.0
+simulated,control: embedded accounts,0.3,2,gradient boosting,naive only,1.0,1.0,1.0
+simulated,control: embedded accounts,0.3,2,logistic regression,same strategy (CV),1.0,1.0,1.0
+simulated,control: embedded accounts,0.3,2,logistic regression,naive only,0.9997,0.995,0.9997
+simulated,full mimic + rotation,0.3,2,random forest,same strategy (CV),0.9166,0.4175,0.9222
+simulated,full mimic + rotation,0.3,2,random forest,naive only,0.6175,0.1225,0.6528
+simulated,full mimic + rotation,0.3,2,gradient boosting,same strategy (CV),0.918,0.4725,0.9224
+simulated,full mimic + rotation,0.3,2,gradient boosting,naive only,0.709,0.0075,0.6952
+simulated,full mimic + rotation,0.3,2,logistic regression,same strategy (CV),0.9006,0.1425,0.8826
+simulated,full mimic + rotation,0.3,2,logistic regression,naive only,0.5786,0.02,0.5531
+simulated,full mimic + rotation,0.1,2,random forest,same strategy (CV),0.6723,0.025,0.6559
+simulated,full mimic + rotation,0.1,2,random forest,naive only,0.4185,0.0025,0.4448
+simulated,full mimic + rotation,0.1,2,gradient boosting,same strategy (CV),0.6455,0.0125,0.6218
+simulated,full mimic + rotation,0.1,2,gradient boosting,naive only,0.4432,0.005,0.4627
+simulated,full mimic + rotation,0.1,2,logistic regression,same strategy (CV),0.6502,0.02,0.6223
+simulated,full mimic + rotation,0.1,2,logistic regression,naive only,0.4022,0.005,0.435
+simulated,control: embedded accounts,0.1,2,random forest,same strategy (CV),0.886,0.4825,0.8987
+simulated,control: embedded accounts,0.1,2,random forest,naive only,0.8018,0.06,0.7649
+simulated,control: embedded accounts,0.1,2,gradient boosting,same strategy (CV),0.8924,0.48,0.902
+simulated,control: embedded accounts,0.1,2,gradient boosting,naive only,0.8062,0.09,0.7806
+simulated,control: embedded accounts,0.1,2,logistic regression,same strategy (CV),0.8777,0.335,0.8818
+simulated,control: embedded accounts,0.1,2,logistic regression,naive only,0.7971,0.2375,0.8208
+simulated,naive,0.3,3,random forest,same strategy (CV),0.9999,0.9975,0.9999
+simulated,naive,0.3,3,random forest,naive only,1.0,1.0,1.0
+simulated,naive,0.3,3,gradient boosting,same strategy (CV),0.9999,1.0,0.9999
+simulated,naive,0.3,3,gradient boosting,naive only,0.9995,0.9825,0.9995
+simulated,naive,0.3,3,logistic regression,same strategy (CV),1.0,1.0,1.0
+simulated,naive,0.3,3,logistic regression,naive only,1.0,1.0,1.0
+simulated,naive,0.1,3,random forest,same strategy (CV),0.9467,0.625,0.9539
+simulated,naive,0.1,3,random forest,naive only,0.9482,0.6625,0.9561
+simulated,naive,0.1,3,gradient boosting,same strategy (CV),0.9505,0.635,0.957
+simulated,naive,0.1,3,gradient boosting,naive only,0.9489,0.645,0.9553
+simulated,naive,0.1,3,logistic regression,same strategy (CV),0.9277,0.4325,0.9312
+simulated,naive,0.1,3,logistic regression,naive only,0.9298,0.345,0.9307
+simulated,organic timing + structure,0.3,3,random forest,same strategy (CV),0.9999,0.9975,0.9999
+simulated,organic timing + structure,0.3,3,random forest,naive only,0.9992,0.9925,0.9993
+simulated,organic timing + structure,0.3,3,gradient boosting,same strategy (CV),0.9999,0.9975,1.0
+simulated,organic timing + structure,0.3,3,gradient boosting,naive only,0.9977,0.99,0.9976
+simulated,organic timing + structure,0.3,3,logistic regression,same strategy (CV),0.9999,0.9975,0.9999
+simulated,organic timing + structure,0.3,3,logistic regression,naive only,0.9989,0.99,0.999
+simulated,organic timing + structure,0.1,3,random forest,same strategy (CV),0.9054,0.5475,0.9149
+simulated,organic timing + structure,0.1,3,random forest,naive only,0.83,0.2625,0.8316
+simulated,organic timing + structure,0.1,3,gradient boosting,same strategy (CV),0.9152,0.5275,0.9221
+simulated,organic timing + structure,0.1,3,gradient boosting,naive only,0.8499,0.2075,0.8488
+simulated,organic timing + structure,0.1,3,logistic regression,same strategy (CV),0.897,0.25,0.8966
+simulated,organic timing + structure,0.1,3,logistic regression,naive only,0.821,0.2075,0.8308
+simulated,full mimic + rotation,0.3,3,random forest,same strategy (CV),0.9015,0.25,0.8964
+simulated,full mimic + rotation,0.3,3,random forest,naive only,0.498,0.0025,0.4902
+simulated,full mimic + rotation,0.3,3,gradient boosting,same strategy (CV),0.9032,0.325,0.8979
+simulated,full mimic + rotation,0.3,3,gradient boosting,naive only,0.4835,0.0025,0.4721
+simulated,full mimic + rotation,0.3,3,logistic regression,same strategy (CV),0.8856,0.085,0.8614
+simulated,full mimic + rotation,0.3,3,logistic regression,naive only,0.3718,0.0,0.4081
+simulated,full mimic + rotation,0.1,3,random forest,same strategy (CV),0.6325,0.0325,0.6162
+simulated,full mimic + rotation,0.1,3,random forest,naive only,0.4277,0.005,0.4492
+simulated,full mimic + rotation,0.1,3,gradient boosting,same strategy (CV),0.6094,0.07,0.6214
+simulated,full mimic + rotation,0.1,3,gradient boosting,naive only,0.4381,0.0025,0.4514
+simulated,full mimic + rotation,0.1,3,logistic regression,same strategy (CV),0.6683,0.0225,0.6362
+simulated,full mimic + rotation,0.1,3,logistic regression,naive only,0.3929,0.005,0.4337
+simulated,control: embedded accounts,0.3,3,random forest,same strategy (CV),1.0,1.0,1.0
+simulated,control: embedded accounts,0.3,3,random forest,naive only,0.9999,1.0,0.9999
+simulated,control: embedded accounts,0.3,3,gradient boosting,same strategy (CV),1.0,1.0,1.0
+simulated,control: embedded accounts,0.3,3,gradient boosting,naive only,0.9949,0.825,0.9938
+simulated,control: embedded accounts,0.3,3,logistic regression,same strategy (CV),1.0,1.0,1.0
+simulated,control: embedded accounts,0.3,3,logistic regression,naive only,0.9983,0.98,0.9982
+simulated,control: embedded accounts,0.1,3,random forest,same strategy (CV),0.9092,0.4675,0.9123
+simulated,control: embedded accounts,0.1,3,random forest,naive only,0.8494,0.1925,0.8406
+simulated,control: embedded accounts,0.1,3,gradient boosting,same strategy (CV),0.9113,0.455,0.9113
+simulated,control: embedded accounts,0.1,3,gradient boosting,naive only,0.8594,0.135,0.8436
+simulated,control: embedded accounts,0.1,3,logistic regression,same strategy (CV),0.9036,0.3,0.8967
+simulated,control: embedded accounts,0.1,3,logistic regression,naive only,0.8493,0.2375,0.8534
+simulated,naive,0.3,4,random forest,same strategy (CV),0.9997,0.9975,0.9997
+simulated,naive,0.3,4,random forest,naive only,0.9996,0.995,0.9997
+simulated,naive,0.3,4,gradient boosting,same strategy (CV),0.9998,0.9975,0.9998
+simulated,naive,0.3,4,gradient boosting,naive only,1.0,0.9975,1.0
+simulated,naive,0.3,4,logistic regression,same strategy (CV),0.9991,0.995,0.9993
+simulated,naive,0.3,4,logistic regression,naive only,0.9998,0.9975,0.9998
+simulated,naive,0.1,4,random forest,same strategy (CV),0.9469,0.5875,0.9498
+simulated,naive,0.1,4,random forest,naive only,0.9484,0.54,0.9494
+simulated,naive,0.1,4,gradient boosting,same strategy (CV),0.9499,0.55,0.9516
+simulated,naive,0.1,4,gradient boosting,naive only,0.9549,0.615,0.9577
+simulated,naive,0.1,4,logistic regression,same strategy (CV),0.929,0.4825,0.9322
+simulated,naive,0.1,4,logistic regression,naive only,0.9363,0.51,0.9402
+simulated,organic timing + structure,0.3,4,random forest,same strategy (CV),1.0,1.0,1.0
+simulated,organic timing + structure,0.3,4,random forest,naive only,0.9972,0.99,0.9979
+simulated,organic timing + structure,0.3,4,gradient boosting,same strategy (CV),0.9999,0.9975,0.9999
+simulated,organic timing + structure,0.3,4,gradient boosting,naive only,0.9999,0.995,0.9999
+simulated,organic timing + structure,0.3,4,logistic regression,same strategy (CV),0.9999,1.0,0.9999
+simulated,organic timing + structure,0.3,4,logistic regression,naive only,0.9985,0.985,0.9986
+simulated,organic timing + structure,0.1,4,random forest,same strategy (CV),0.9175,0.5175,0.9235
+simulated,organic timing + structure,0.1,4,random forest,naive only,0.8368,0.0825,0.8057
+simulated,organic timing + structure,0.1,4,gradient boosting,same strategy (CV),0.9225,0.5,0.9265
+simulated,organic timing + structure,0.1,4,gradient boosting,naive only,0.8344,0.1025,0.8129
+simulated,organic timing + structure,0.1,4,logistic regression,same strategy (CV),0.9027,0.2875,0.904
+simulated,organic timing + structure,0.1,4,logistic regression,naive only,0.829,0.285,0.8501
+simulated,full mimic + rotation,0.1,4,random forest,same strategy (CV),0.6365,0.0225,0.6078
+simulated,full mimic + rotation,0.1,4,random forest,naive only,0.4329,0.0025,0.4495
+simulated,full mimic + rotation,0.1,4,gradient boosting,same strategy (CV),0.6011,0.03,0.5862
+simulated,full mimic + rotation,0.1,4,gradient boosting,naive only,0.438,0.0125,0.4566
+simulated,full mimic + rotation,0.1,4,logistic regression,same strategy (CV),0.645,0.0575,0.6396
+simulated,full mimic + rotation,0.1,4,logistic regression,naive only,0.4401,0.0025,0.4518
+simulated,control: embedded accounts,0.3,4,random forest,same strategy (CV),1.0,1.0,1.0
+simulated,control: embedded accounts,0.3,4,random forest,naive only,0.9998,1.0,0.9998
+simulated,control: embedded accounts,0.3,4,gradient boosting,same strategy (CV),1.0,1.0,1.0
+simulated,control: embedded accounts,0.3,4,gradient boosting,naive only,0.9993,1.0,0.9992
+simulated,control: embedded accounts,0.3,4,logistic regression,same strategy (CV),1.0,1.0,1.0
+simulated,control: embedded accounts,0.3,4,logistic regression,naive only,0.9991,0.985,0.9991
+simulated,control: embedded accounts,0.1,4,random forest,same strategy (CV),0.9135,0.565,0.9189
+simulated,control: embedded accounts,0.1,4,random forest,naive only,0.8402,0.16,0.8159
+simulated,control: embedded accounts,0.1,4,gradient boosting,same strategy (CV),0.9146,0.5125,0.9196
+simulated,control: embedded accounts,0.1,4,gradient boosting,naive only,0.8416,0.265,0.833
+simulated,control: embedded accounts,0.1,4,logistic regression,same strategy (CV),0.9142,0.35,0.912
+simulated,control: embedded accounts,0.1,4,logistic regression,naive only,0.8419,0.305,0.8615
+simulated,full mimic + rotation,0.3,4,random forest,same strategy (CV),0.892,0.3375,0.8961
+simulated,full mimic + rotation,0.3,4,random forest,naive only,0.5453,0.0475,0.5599
+simulated,full mimic + rotation,0.3,4,gradient boosting,same strategy (CV),0.8972,0.3275,0.8973
+simulated,full mimic + rotation,0.3,4,gradient boosting,naive only,0.5852,0.005,0.5799
+simulated,full mimic + rotation,0.3,4,logistic regression,same strategy (CV),0.8945,0.3375,0.8999
+simulated,full mimic + rotation,0.3,4,logistic regression,naive only,0.5342,0.01,0.5156

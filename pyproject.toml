@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cascadekit"
+version = "0.4.0"
+description = "Collect social-media diffusion cascades, rebuild them as timed trees, and compute language-agnostic structural fingerprints."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Hilal Ahmad Khanday" }]
+keywords = ["information diffusion", "cascades", "social networks", "coordinated behaviour",
+            "misinformation", "Bluesky", "Telegram", "structural virality"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+  "Topic :: Sociology",
+]
+dependencies = []
+
+[project.optional-dependencies]
+bluesky = ["websockets>=12"]
+telegram = ["telethon>=1.34"]
+viz = ["matplotlib>=3.7"]
+graph = ["networkx>=3.0"]
+all = ["websockets>=12", "telethon>=1.34", "matplotlib>=3.7", "networkx>=3.0"]
+dev = ["pytest>=7", "networkx>=3.0", "matplotlib>=3.7", "scikit-learn>=1.3"]
+
+[project.scripts]
+cascadekit = "cascadekit.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/hilalhyder/cascadekit"
+Issues = "https://github.com/hilalhyder/cascadekit/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

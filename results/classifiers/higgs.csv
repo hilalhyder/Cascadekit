@@ -1,0 +1,301 @@
+background,strategy,pi,seed,model,trained_on,auroc,tpr_at_1pct_fpr,auprc
+higgs,organic timing + structure,0.3,0,random forest,same strategy (CV),0.9999,1.0,0.9999
+higgs,organic timing + structure,0.3,0,random forest,naive only,0.9941,0.705,0.9927
+higgs,organic timing + structure,0.3,0,gradient boosting,same strategy (CV),0.9999,0.9975,0.9999
+higgs,organic timing + structure,0.3,0,gradient boosting,naive only,0.9999,0.9975,0.9999
+higgs,organic timing + structure,0.3,0,logistic regression,same strategy (CV),0.9996,0.9975,0.9997
+higgs,organic timing + structure,0.3,0,logistic regression,naive only,0.987,0.9125,0.9884
+higgs,naive,0.3,0,random forest,same strategy (CV),0.9998,0.9975,0.9998
+higgs,naive,0.3,0,random forest,naive only,0.9989,0.9875,0.9988
+higgs,naive,0.3,0,gradient boosting,same strategy (CV),0.9997,0.9925,0.9997
+higgs,naive,0.3,0,gradient boosting,naive only,0.9998,0.9975,0.9998
+higgs,naive,0.3,0,logistic regression,same strategy (CV),0.9992,0.985,0.9991
+higgs,naive,0.3,0,logistic regression,naive only,0.9987,0.99,0.9983
+higgs,full mimic + rotation,0.3,0,random forest,same strategy (CV),0.9982,0.985,0.998
+higgs,full mimic + rotation,0.3,0,random forest,naive only,0.77,0.0075,0.6721
+higgs,full mimic + rotation,0.3,0,gradient boosting,same strategy (CV),0.9979,0.9725,0.9974
+higgs,full mimic + rotation,0.3,0,gradient boosting,naive only,0.6178,0.0075,0.5874
+higgs,full mimic + rotation,0.3,0,logistic regression,same strategy (CV),0.9982,0.9775,0.9978
+higgs,full mimic + rotation,0.3,0,logistic regression,naive only,0.3406,0.015,0.4274
+higgs,full mimic + rotation,0.1,0,random forest,same strategy (CV),0.945,0.3625,0.9404
+higgs,full mimic + rotation,0.1,0,random forest,naive only,0.5464,0.0025,0.5075
+higgs,full mimic + rotation,0.1,0,gradient boosting,same strategy (CV),0.9403,0.3425,0.9284
+higgs,full mimic + rotation,0.1,0,gradient boosting,naive only,0.5131,0.01,0.4981
+higgs,full mimic + rotation,0.1,0,logistic regression,same strategy (CV),0.9389,0.3925,0.9289
+higgs,full mimic + rotation,0.1,0,logistic regression,naive only,0.3731,0.0025,0.4167
+higgs,organic timing + structure,0.1,0,random forest,same strategy (CV),0.9676,0.65,0.9611
+higgs,organic timing + structure,0.1,0,random forest,naive only,0.8732,0.16,0.8416
+higgs,organic timing + structure,0.1,0,gradient boosting,same strategy (CV),0.9784,0.65,0.9768
+higgs,organic timing + structure,0.1,0,gradient boosting,naive only,0.9007,0.2875,0.8934
+higgs,organic timing + structure,0.1,0,logistic regression,same strategy (CV),0.9553,0.395,0.9371
+higgs,organic timing + structure,0.1,0,logistic regression,naive only,0.779,0.0125,0.7073
+higgs,naive,0.1,0,random forest,same strategy (CV),0.9632,0.3575,0.9519
+higgs,naive,0.1,0,random forest,naive only,0.964,0.52,0.9592
+higgs,naive,0.1,0,gradient boosting,same strategy (CV),0.9698,0.4875,0.9644
+higgs,naive,0.1,0,gradient boosting,naive only,0.9741,0.5825,0.9713
+higgs,naive,0.1,0,logistic regression,same strategy (CV),0.9012,0.0325,0.8298
+higgs,naive,0.1,0,logistic regression,naive only,0.9087,0.04,0.8358
+higgs,control: embedded accounts,0.3,0,random forest,same strategy (CV),1.0,1.0,1.0
+higgs,control: embedded accounts,0.3,0,random forest,naive only,0.9894,0.51,0.9827
+higgs,control: embedded accounts,0.3,0,gradient boosting,same strategy (CV),1.0,1.0,1.0
+higgs,control: embedded accounts,0.3,0,gradient boosting,naive only,0.9986,0.985,0.9984
+higgs,control: embedded accounts,0.3,0,logistic regression,same strategy (CV),0.9999,1.0,0.9999
+higgs,control: embedded accounts,0.3,0,logistic regression,naive only,0.9963,0.9525,0.9962
+higgs,naive,0.3,1,random forest,same strategy (CV),0.9982,0.97,0.9981
+higgs,naive,0.3,1,random forest,naive only,0.9986,0.965,0.9984
+higgs,naive,0.3,1,gradient boosting,same strategy (CV),0.997,0.9625,0.9939
+higgs,naive,0.3,1,gradient boosting,naive only,0.9992,0.965,0.9991
+higgs,naive,0.3,1,logistic regression,same strategy (CV),0.9973,0.98,0.9963
+higgs,naive,0.3,1,logistic regression,naive only,0.9966,0.975,0.9962
+higgs,empirical mimic + rotation,0.1,0,random forest,same strategy (CV),0.6239,0.02,0.6016
+higgs,empirical mimic + rotation,0.1,0,random forest,naive only,0.511,0.02,0.509
+higgs,empirical mimic + rotation,0.1,0,gradient boosting,same strategy (CV),0.6176,0.03,0.5841
+higgs,empirical mimic + rotation,0.1,0,gradient boosting,naive only,0.4846,0.0125,0.4874
+higgs,empirical mimic + rotation,0.1,0,logistic regression,same strategy (CV),0.6058,0.035,0.5956
+higgs,empirical mimic + rotation,0.1,0,logistic regression,naive only,0.4649,0.0075,0.4694
+higgs,naive,0.1,1,random forest,same strategy (CV),0.9667,0.4475,0.9555
+higgs,naive,0.1,1,random forest,naive only,0.968,0.5275,0.9614
+higgs,naive,0.1,1,gradient boosting,same strategy (CV),0.9753,0.5075,0.9696
+higgs,naive,0.1,1,gradient boosting,naive only,0.9758,0.5625,0.9713
+higgs,naive,0.1,1,logistic regression,same strategy (CV),0.9225,0.02,0.8655
+higgs,naive,0.1,1,logistic regression,naive only,0.9315,0.0625,0.8901
+higgs,empirical mimic + rotation,0.3,0,random forest,same strategy (CV),0.8292,0.11,0.7998
+higgs,empirical mimic + rotation,0.3,0,random forest,naive only,0.5897,0.0125,0.5577
+higgs,empirical mimic + rotation,0.3,0,gradient boosting,same strategy (CV),0.8344,0.1425,0.8161
+higgs,empirical mimic + rotation,0.3,0,gradient boosting,naive only,0.6229,0.0075,0.5649
+higgs,empirical mimic + rotation,0.3,0,logistic regression,same strategy (CV),0.8037,0.08,0.7804
+higgs,empirical mimic + rotation,0.3,0,logistic regression,naive only,0.5175,0.0125,0.5069
+higgs,control: embedded accounts,0.1,0,random forest,same strategy (CV),0.9262,0.3075,0.911
+higgs,control: embedded accounts,0.1,0,random forest,naive only,0.8751,0.19,0.862
+higgs,control: embedded accounts,0.1,0,gradient boosting,same strategy (CV),0.9554,0.445,0.947
+higgs,control: embedded accounts,0.1,0,gradient boosting,naive only,0.9114,0.2825,0.9058
+higgs,control: embedded accounts,0.1,0,logistic regression,same strategy (CV),0.8831,0.02,0.7982
+higgs,control: embedded accounts,0.1,0,logistic regression,naive only,0.8384,0.0025,0.7751
+higgs,organic timing + structure,0.3,1,random forest,same strategy (CV),0.9996,0.99,0.9996
+higgs,organic timing + structure,0.3,1,random forest,naive only,0.9969,0.9075,0.9957
+higgs,organic timing + structure,0.3,1,gradient boosting,same strategy (CV),0.9997,0.995,0.9997
+higgs,organic timing + structure,0.3,1,gradient boosting,naive only,0.9995,0.9925,0.9995
+higgs,organic timing + structure,0.3,1,logistic regression,same strategy (CV),0.9993,0.985,0.9993
+higgs,organic timing + structure,0.3,1,logistic regression,naive only,0.9957,0.9225,0.9944
+higgs,organic timing + structure,0.1,1,random forest,same strategy (CV),0.9723,0.56,0.9656
+higgs,organic timing + structure,0.1,1,random forest,naive only,0.8677,0.1225,0.836
+higgs,organic timing + structure,0.1,1,gradient boosting,same strategy (CV),0.9846,0.6575,0.9827
+higgs,organic timing + structure,0.1,1,gradient boosting,naive only,0.8706,0.2375,0.8655
+higgs,organic timing + structure,0.1,1,logistic regression,same strategy (CV),0.9556,0.2875,0.9404
+higgs,organic timing + structure,0.1,1,logistic regression,naive only,0.8072,0.0175,0.7671
+higgs,full mimic + rotation,0.3,1,random forest,same strategy (CV),0.9957,0.93,0.9948
+higgs,full mimic + rotation,0.3,1,random forest,naive only,0.8578,0.02,0.777
+higgs,full mimic + rotation,0.3,1,gradient boosting,same strategy (CV),0.996,0.9175,0.9953
+higgs,full mimic + rotation,0.3,1,gradient boosting,naive only,0.6817,0.0025,0.6275
+higgs,full mimic + rotation,0.3,1,logistic regression,same strategy (CV),0.9955,0.875,0.9949
+higgs,full mimic + rotation,0.3,1,logistic regression,naive only,0.4563,0.0125,0.4794
+higgs,full mimic + rotation,0.1,1,random forest,same strategy (CV),0.9489,0.3275,0.9404
+higgs,full mimic + rotation,0.1,1,random forest,naive only,0.5102,0.0,0.4862
+higgs,full mimic + rotation,0.1,1,gradient boosting,same strategy (CV),0.9469,0.305,0.9401
+higgs,full mimic + rotation,0.1,1,gradient boosting,naive only,0.5066,0.0,0.4897
+higgs,full mimic + rotation,0.1,1,logistic regression,same strategy (CV),0.9378,0.28,0.9189
+higgs,full mimic + rotation,0.1,1,logistic regression,naive only,0.3773,0.005,0.4259
+higgs,empirical mimic + rotation,0.3,1,random forest,same strategy (CV),0.8098,0.0425,0.7619
+higgs,empirical mimic + rotation,0.3,1,random forest,naive only,0.6007,0.0025,0.5807
+higgs,empirical mimic + rotation,0.3,1,gradient boosting,same strategy (CV),0.8202,0.0575,0.7743
+higgs,empirical mimic + rotation,0.3,1,gradient boosting,naive only,0.5309,0.0025,0.5179
+higgs,empirical mimic + rotation,0.3,1,logistic regression,same strategy (CV),0.7977,0.0675,0.765
+higgs,empirical mimic + rotation,0.3,1,logistic regression,naive only,0.5796,0.0075,0.5455
+higgs,empirical mimic + rotation,0.1,1,random forest,same strategy (CV),0.5755,0.01,0.5525
+higgs,empirical mimic + rotation,0.1,1,random forest,naive only,0.4921,0.025,0.5011
+higgs,empirical mimic + rotation,0.1,1,gradient boosting,same strategy (CV),0.5799,0.0275,0.5616
+higgs,empirical mimic + rotation,0.1,1,gradient boosting,naive only,0.5078,0.0125,0.5069
+higgs,empirical mimic + rotation,0.1,1,logistic regression,same strategy (CV),0.5451,0.0575,0.5603
+higgs,empirical mimic + rotation,0.1,1,logistic regression,naive only,0.4806,0.0025,0.481
+higgs,control: embedded accounts,0.3,1,random forest,same strategy (CV),0.9993,1.0,0.9993
+higgs,control: embedded accounts,0.3,1,random forest,naive only,0.9921,0.6725,0.9883
+higgs,control: embedded accounts,0.3,1,gradient boosting,same strategy (CV),0.9988,0.9975,0.9989
+higgs,control: embedded accounts,0.3,1,gradient boosting,naive only,0.9968,1.0,0.9951
+higgs,control: embedded accounts,0.3,1,logistic regression,same strategy (CV),0.9962,1.0,0.9932
+higgs,control: embedded accounts,0.3,1,logistic regression,naive only,0.9952,0.965,0.9934
+higgs,control: embedded accounts,0.1,1,random forest,same strategy (CV),0.9433,0.42,0.9366
+higgs,control: embedded accounts,0.1,1,random forest,naive only,0.8806,0.325,0.8726
+higgs,control: embedded accounts,0.1,1,gradient boosting,same strategy (CV),0.9643,0.48,0.9576
+higgs,control: embedded accounts,0.1,1,gradient boosting,naive only,0.8964,0.35,0.896
+higgs,control: embedded accounts,0.1,1,logistic regression,same strategy (CV),0.9234,0.0375,0.8735
+higgs,control: embedded accounts,0.1,1,logistic regression,naive only,0.8702,0.0975,0.8583
+higgs,naive,0.3,2,random forest,same strategy (CV),0.9997,0.99,0.9997
+higgs,naive,0.3,2,random forest,naive only,0.9998,0.995,0.9998
+higgs,naive,0.3,2,gradient boosting,same strategy (CV),0.9994,0.9875,0.9994
+higgs,naive,0.3,2,gradient boosting,naive only,0.9998,0.9925,0.9998
+higgs,naive,0.3,2,logistic regression,same strategy (CV),0.9997,1.0,0.9997
+higgs,naive,0.3,2,logistic regression,naive only,0.9982,0.9875,0.9986
+higgs,naive,0.1,2,random forest,same strategy (CV),0.9656,0.5125,0.9624
+higgs,naive,0.1,2,random forest,naive only,0.9669,0.4525,0.9605
+higgs,naive,0.1,2,gradient boosting,same strategy (CV),0.9753,0.6,0.9749
+higgs,naive,0.1,2,gradient boosting,naive only,0.9707,0.3725,0.9602
+higgs,naive,0.1,2,logistic regression,same strategy (CV),0.9233,0.065,0.8742
+higgs,naive,0.1,2,logistic regression,naive only,0.9214,0.03,0.8636
+higgs,organic timing + structure,0.3,2,random forest,same strategy (CV),0.9997,0.9975,0.9997
+higgs,organic timing + structure,0.3,2,random forest,naive only,0.9972,0.975,0.9958
+higgs,organic timing + structure,0.3,2,gradient boosting,same strategy (CV),0.9998,0.9975,0.9998
+higgs,organic timing + structure,0.3,2,gradient boosting,naive only,0.9958,0.9075,0.9943
+higgs,organic timing + structure,0.3,2,logistic regression,same strategy (CV),0.9999,0.9975,0.9999
+higgs,organic timing + structure,0.3,2,logistic regression,naive only,0.9651,0.8925,0.9785
+higgs,organic timing + structure,0.1,2,random forest,same strategy (CV),0.9683,0.6375,0.9693
+higgs,organic timing + structure,0.1,2,random forest,naive only,0.8692,0.2075,0.8473
+higgs,organic timing + structure,0.1,2,gradient boosting,same strategy (CV),0.9811,0.6675,0.9811
+higgs,organic timing + structure,0.1,2,gradient boosting,naive only,0.8951,0.1675,0.8845
+higgs,organic timing + structure,0.1,2,logistic regression,same strategy (CV),0.9466,0.1575,0.926
+higgs,organic timing + structure,0.1,2,logistic regression,naive only,0.8072,0.0125,0.7716
+higgs,full mimic + rotation,0.3,2,random forest,same strategy (CV),0.9971,0.9725,0.9968
+higgs,full mimic + rotation,0.3,2,random forest,naive only,0.8687,0.02,0.7687
+higgs,full mimic + rotation,0.3,2,gradient boosting,same strategy (CV),0.9973,0.98,0.9966
+higgs,full mimic + rotation,0.3,2,gradient boosting,naive only,0.7611,0.025,0.6876
+higgs,full mimic + rotation,0.3,2,logistic regression,same strategy (CV),0.9976,0.9725,0.9973
+higgs,full mimic + rotation,0.3,2,logistic regression,naive only,0.5705,0.025,0.5757
+higgs,full mimic + rotation,0.1,2,random forest,same strategy (CV),0.946,0.325,0.9413
+higgs,full mimic + rotation,0.1,2,random forest,naive only,0.5622,0.0075,0.5189
+higgs,full mimic + rotation,0.1,2,gradient boosting,same strategy (CV),0.948,0.4725,0.942
+higgs,full mimic + rotation,0.1,2,gradient boosting,naive only,0.494,0.005,0.4953
+higgs,full mimic + rotation,0.1,2,logistic regression,same strategy (CV),0.9371,0.3825,0.9271
+higgs,full mimic + rotation,0.1,2,logistic regression,naive only,0.4296,0.015,0.4569
+higgs,control: embedded accounts,0.1,2,random forest,same strategy (CV),0.9253,0.435,0.9247
+higgs,control: embedded accounts,0.1,2,random forest,naive only,0.8755,0.2575,0.8623
+higgs,control: embedded accounts,0.1,2,gradient boosting,same strategy (CV),0.9464,0.535,0.9448
+higgs,control: embedded accounts,0.1,2,gradient boosting,naive only,0.902,0.1975,0.8888
+higgs,control: embedded accounts,0.1,2,logistic regression,same strategy (CV),0.9017,0.0525,0.8389
+higgs,control: embedded accounts,0.1,2,logistic regression,naive only,0.861,0.025,0.8301
+higgs,control: embedded accounts,0.3,2,random forest,same strategy (CV),0.9996,1.0,0.9996
+higgs,control: embedded accounts,0.3,2,random forest,naive only,0.9956,0.83,0.9942
+higgs,control: embedded accounts,0.3,2,gradient boosting,same strategy (CV),0.9997,0.9975,0.9997
+higgs,control: embedded accounts,0.3,2,gradient boosting,naive only,0.9977,0.92,0.9976
+higgs,control: embedded accounts,0.3,2,logistic regression,same strategy (CV),0.9993,1.0,0.9992
+higgs,control: embedded accounts,0.3,2,logistic regression,naive only,0.9786,0.9225,0.9873
+higgs,empirical mimic + rotation,0.1,2,random forest,same strategy (CV),0.5935,0.0275,0.5766
+higgs,empirical mimic + rotation,0.1,2,random forest,naive only,0.5074,0.01,0.5042
+higgs,empirical mimic + rotation,0.1,2,gradient boosting,same strategy (CV),0.5934,0.03,0.5762
+higgs,empirical mimic + rotation,0.1,2,gradient boosting,naive only,0.4914,0.0125,0.4941
+higgs,empirical mimic + rotation,0.1,2,logistic regression,same strategy (CV),0.5509,0.0325,0.5489
+higgs,empirical mimic + rotation,0.1,2,logistic regression,naive only,0.4868,0.0125,0.4905
+higgs,empirical mimic + rotation,0.3,2,random forest,same strategy (CV),0.8107,0.08,0.7771
+higgs,empirical mimic + rotation,0.3,2,random forest,naive only,0.5533,0.0175,0.5438
+higgs,empirical mimic + rotation,0.3,2,gradient boosting,same strategy (CV),0.831,0.11,0.8012
+higgs,empirical mimic + rotation,0.3,2,gradient boosting,naive only,0.4578,0.0125,0.4923
+higgs,empirical mimic + rotation,0.3,2,logistic regression,same strategy (CV),0.8081,0.0725,0.7699
+higgs,empirical mimic + rotation,0.3,2,logistic regression,naive only,0.5339,0.0075,0.5155
+higgs,naive,0.3,3,random forest,same strategy (CV),0.9997,0.99,0.9997
+higgs,naive,0.3,3,random forest,naive only,0.9997,0.99,0.9997
+higgs,naive,0.3,3,gradient boosting,same strategy (CV),1.0,1.0,1.0
+higgs,naive,0.3,3,gradient boosting,naive only,1.0,1.0,1.0
+higgs,naive,0.3,3,logistic regression,same strategy (CV),0.9953,1.0,0.9855
+higgs,naive,0.3,3,logistic regression,naive only,0.9965,0.99,0.9935
+higgs,naive,0.1,3,random forest,same strategy (CV),0.9671,0.4175,0.9579
+higgs,naive,0.1,3,random forest,naive only,0.9788,0.5325,0.9728
+higgs,naive,0.1,3,gradient boosting,same strategy (CV),0.9822,0.5525,0.9789
+higgs,naive,0.1,3,gradient boosting,naive only,0.9784,0.44,0.9714
+higgs,naive,0.1,3,logistic regression,same strategy (CV),0.9377,0.04,0.8956
+higgs,naive,0.1,3,logistic regression,naive only,0.9361,0.04,0.888
+higgs,organic timing + structure,0.3,3,random forest,same strategy (CV),0.9995,0.995,0.9995
+higgs,organic timing + structure,0.3,3,random forest,naive only,0.9979,0.965,0.9975
+higgs,organic timing + structure,0.3,3,gradient boosting,same strategy (CV),0.9993,0.9925,0.9993
+higgs,organic timing + structure,0.3,3,gradient boosting,naive only,0.9986,0.9725,0.9984
+higgs,organic timing + structure,0.3,3,logistic regression,same strategy (CV),0.9997,0.9975,0.9997
+higgs,organic timing + structure,0.3,3,logistic regression,naive only,0.9829,0.9275,0.985
+higgs,organic timing + structure,0.1,3,random forest,same strategy (CV),0.9785,0.615,0.9775
+higgs,organic timing + structure,0.1,3,random forest,naive only,0.8945,0.2625,0.8837
+higgs,organic timing + structure,0.1,3,gradient boosting,same strategy (CV),0.9879,0.7875,0.9868
+higgs,organic timing + structure,0.1,3,gradient boosting,naive only,0.8817,0.295,0.8842
+higgs,organic timing + structure,0.1,3,logistic regression,same strategy (CV),0.9578,0.47,0.9454
+higgs,organic timing + structure,0.1,3,logistic regression,naive only,0.7933,0.04,0.7595
+higgs,full mimic + rotation,0.3,3,random forest,same strategy (CV),0.9989,0.98,0.999
+higgs,full mimic + rotation,0.3,3,random forest,naive only,0.8806,0.04,0.7908
+higgs,full mimic + rotation,0.3,3,gradient boosting,same strategy (CV),0.9993,0.9875,0.9994
+higgs,full mimic + rotation,0.3,3,gradient boosting,naive only,0.7243,0.025,0.6743
+higgs,full mimic + rotation,0.3,3,logistic regression,same strategy (CV),0.9982,0.955,0.998
+higgs,full mimic + rotation,0.3,3,logistic regression,naive only,0.5643,0.01,0.5663
+higgs,full mimic + rotation,0.1,3,random forest,same strategy (CV),0.9544,0.3125,0.9454
+higgs,full mimic + rotation,0.1,3,random forest,naive only,0.5556,0.0075,0.5484
+higgs,full mimic + rotation,0.1,3,gradient boosting,same strategy (CV),0.9537,0.3025,0.9428
+higgs,full mimic + rotation,0.1,3,gradient boosting,naive only,0.5504,0.0125,0.5521
+higgs,full mimic + rotation,0.1,3,logistic regression,same strategy (CV),0.9419,0.4175,0.9341
+higgs,full mimic + rotation,0.1,3,logistic regression,naive only,0.3722,0.0125,0.4311
+higgs,empirical mimic + rotation,0.1,3,random forest,same strategy (CV),0.6146,0.025,0.5986
+higgs,empirical mimic + rotation,0.1,3,random forest,naive only,0.5132,0.0125,0.5355
+higgs,empirical mimic + rotation,0.1,3,gradient boosting,same strategy (CV),0.5959,0.0325,0.5667
+higgs,empirical mimic + rotation,0.1,3,gradient boosting,naive only,0.5301,0.0175,0.537
+higgs,empirical mimic + rotation,0.1,3,logistic regression,same strategy (CV),0.5796,0.0425,0.5876
+higgs,empirical mimic + rotation,0.1,3,logistic regression,naive only,0.4913,0.0075,0.5063
+higgs,empirical mimic + rotation,0.3,3,random forest,same strategy (CV),0.8349,0.1375,0.8217
+higgs,empirical mimic + rotation,0.3,3,random forest,naive only,0.5892,0.0,0.5773
+higgs,empirical mimic + rotation,0.3,3,gradient boosting,same strategy (CV),0.847,0.195,0.8324
+higgs,empirical mimic + rotation,0.3,3,gradient boosting,naive only,0.52,0.0125,0.5339
+higgs,empirical mimic + rotation,0.3,3,logistic regression,same strategy (CV),0.81,0.09,0.7805
+higgs,empirical mimic + rotation,0.3,3,logistic regression,naive only,0.5674,0.0025,0.5528
+higgs,control: embedded accounts,0.3,3,random forest,same strategy (CV),0.999,0.9825,0.9989
+higgs,control: embedded accounts,0.3,3,random forest,naive only,0.9938,0.8225,0.9909
+higgs,control: embedded accounts,0.3,3,gradient boosting,same strategy (CV),0.9998,1.0,0.9998
+higgs,control: embedded accounts,0.3,3,gradient boosting,naive only,0.9976,0.9975,0.9973
+higgs,control: embedded accounts,0.3,3,logistic regression,same strategy (CV),0.9981,0.995,0.9967
+higgs,control: embedded accounts,0.3,3,logistic regression,naive only,0.9905,0.9625,0.99
+higgs,control: embedded accounts,0.1,3,random forest,same strategy (CV),0.9465,0.335,0.9352
+higgs,control: embedded accounts,0.1,3,random forest,naive only,0.8992,0.305,0.8929
+higgs,control: embedded accounts,0.1,3,gradient boosting,same strategy (CV),0.9628,0.435,0.9581
+higgs,control: embedded accounts,0.1,3,gradient boosting,naive only,0.9113,0.3025,0.9072
+higgs,control: embedded accounts,0.1,3,logistic regression,same strategy (CV),0.932,0.045,0.8825
+higgs,control: embedded accounts,0.1,3,logistic regression,naive only,0.8659,0.0425,0.8475
+higgs,naive,0.3,4,random forest,same strategy (CV),0.9994,0.9925,0.9994
+higgs,naive,0.3,4,random forest,naive only,0.9998,1.0,0.9998
+higgs,naive,0.3,4,gradient boosting,same strategy (CV),0.9991,0.9975,0.999
+higgs,naive,0.3,4,gradient boosting,naive only,0.9998,0.9975,0.9998
+higgs,naive,0.3,4,logistic regression,same strategy (CV),0.9975,0.9975,0.9966
+higgs,naive,0.3,4,logistic regression,naive only,0.9976,1.0,0.9941
+higgs,naive,0.1,4,random forest,same strategy (CV),0.964,0.42,0.9577
+higgs,naive,0.1,4,random forest,naive only,0.9692,0.5325,0.9642
+higgs,naive,0.1,4,gradient boosting,same strategy (CV),0.9758,0.575,0.9727
+higgs,naive,0.1,4,gradient boosting,naive only,0.9778,0.6325,0.9769
+higgs,naive,0.1,4,logistic regression,same strategy (CV),0.9331,0.0325,0.8745
+higgs,naive,0.1,4,logistic regression,naive only,0.9374,0.055,0.9035
+higgs,organic timing + structure,0.3,4,random forest,same strategy (CV),0.9997,1.0,0.9997
+higgs,organic timing + structure,0.3,4,random forest,naive only,0.9987,0.995,0.9983
+higgs,organic timing + structure,0.3,4,gradient boosting,same strategy (CV),0.9996,0.9875,0.9996
+higgs,organic timing + structure,0.3,4,gradient boosting,naive only,0.9995,0.9925,0.9994
+higgs,organic timing + structure,0.3,4,logistic regression,same strategy (CV),0.9995,0.995,0.9995
+higgs,organic timing + structure,0.3,4,logistic regression,naive only,0.9864,0.9525,0.9874
+higgs,organic timing + structure,0.1,4,random forest,same strategy (CV),0.973,0.5625,0.9709
+higgs,organic timing + structure,0.1,4,random forest,naive only,0.8973,0.205,0.8742
+higgs,organic timing + structure,0.1,4,gradient boosting,same strategy (CV),0.9848,0.68,0.9838
+higgs,organic timing + structure,0.1,4,gradient boosting,naive only,0.9021,0.4,0.9051
+higgs,organic timing + structure,0.1,4,logistic regression,same strategy (CV),0.9615,0.335,0.9549
+higgs,organic timing + structure,0.1,4,logistic regression,naive only,0.7901,0.0575,0.7939
+higgs,full mimic + rotation,0.3,4,random forest,same strategy (CV),0.9962,0.935,0.9962
+higgs,full mimic + rotation,0.3,4,random forest,naive only,0.8882,0.0525,0.8358
+higgs,full mimic + rotation,0.3,4,gradient boosting,same strategy (CV),0.9977,0.9525,0.9977
+higgs,full mimic + rotation,0.3,4,gradient boosting,naive only,0.8075,0.05,0.7564
+higgs,full mimic + rotation,0.3,4,logistic regression,same strategy (CV),0.9941,0.935,0.9946
+higgs,full mimic + rotation,0.3,4,logistic regression,naive only,0.4369,0.02,0.4739
+higgs,full mimic + rotation,0.1,4,random forest,same strategy (CV),0.9541,0.3475,0.9514
+higgs,full mimic + rotation,0.1,4,random forest,naive only,0.5829,0.005,0.5405
+higgs,full mimic + rotation,0.1,4,gradient boosting,same strategy (CV),0.945,0.375,0.9412
+higgs,full mimic + rotation,0.1,4,gradient boosting,naive only,0.5275,0.015,0.5264
+higgs,full mimic + rotation,0.1,4,logistic regression,same strategy (CV),0.9371,0.3075,0.9286
+higgs,full mimic + rotation,0.1,4,logistic regression,naive only,0.4551,0.01,0.4796
+higgs,empirical mimic + rotation,0.1,4,random forest,same strategy (CV),0.6323,0.045,0.6134
+higgs,empirical mimic + rotation,0.1,4,random forest,naive only,0.5324,0.0125,0.532
+higgs,empirical mimic + rotation,0.1,4,gradient boosting,same strategy (CV),0.6211,0.0475,0.5997
+higgs,empirical mimic + rotation,0.1,4,gradient boosting,naive only,0.5232,0.015,0.5308
+higgs,empirical mimic + rotation,0.1,4,logistic regression,same strategy (CV),0.6212,0.06,0.6311
+higgs,empirical mimic + rotation,0.1,4,logistic regression,naive only,0.5213,0.0175,0.525
+higgs,empirical mimic + rotation,0.3,4,random forest,same strategy (CV),0.835,0.1125,0.792
+higgs,empirical mimic + rotation,0.3,4,random forest,naive only,0.6179,0.025,0.6139
+higgs,empirical mimic + rotation,0.3,4,gradient boosting,same strategy (CV),0.8432,0.045,0.795
+higgs,empirical mimic + rotation,0.3,4,gradient boosting,naive only,0.5614,0.0225,0.565
+higgs,empirical mimic + rotation,0.3,4,logistic regression,same strategy (CV),0.8152,0.155,0.7865
+higgs,empirical mimic + rotation,0.3,4,logistic regression,naive only,0.5934,0.025,0.5756
+higgs,control: embedded accounts,0.3,4,random forest,same strategy (CV),1.0,1.0,1.0
+higgs,control: embedded accounts,0.3,4,random forest,naive only,0.9983,1.0,0.998
+higgs,control: embedded accounts,0.3,4,gradient boosting,same strategy (CV),0.9999,0.9975,0.9999
+higgs,control: embedded accounts,0.3,4,gradient boosting,naive only,0.9998,0.9975,0.9998
+higgs,control: embedded accounts,0.3,4,logistic regression,same strategy (CV),0.9983,1.0,0.9974
+higgs,control: embedded accounts,0.3,4,logistic regression,naive only,0.9933,0.98,0.993
+higgs,control: embedded accounts,0.1,4,random forest,same strategy (CV),0.9369,0.385,0.9279
+higgs,control: embedded accounts,0.1,4,random forest,naive only,0.8961,0.275,0.8849
+higgs,control: embedded accounts,0.1,4,gradient boosting,same strategy (CV),0.9629,0.495,0.9571
+higgs,control: embedded accounts,0.1,4,gradient boosting,naive only,0.9101,0.39,0.9103
+higgs,control: embedded accounts,0.1,4,logistic regression,same strategy (CV),0.9338,0.025,0.8776
+higgs,control: embedded accounts,0.1,4,logistic regression,naive only,0.8452,0.1125,0.8473

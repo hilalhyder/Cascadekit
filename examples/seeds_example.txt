@@ -1,0 +1,4 @@
+# One public Telegram channel username per line (without @). Lines starting with # are ignored.
+# Replace these placeholders with real Hindi / Urdu / Kashmiri public channels you have checked.
+example_hindi_news_channel
+example_urdu_news_channel

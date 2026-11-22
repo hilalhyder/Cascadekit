@@ -1,0 +1,37 @@
+setting,prefix,features,auc
+easy (pi 0.2-0.6),full,shape,0.883
+easy (pi 0.2-0.6),full,branching,0.89
+easy (pi 0.2-0.6),full,timing,0.966
+easy (pi 0.2-0.6),full,reuse,0.998
+easy (pi 0.2-0.6),full,structure + timing (no reuse),0.991
+easy (pi 0.2-0.6),full,all,1.0
+easy (pi 0.2-0.6),20,shape,0.878
+easy (pi 0.2-0.6),20,branching,0.867
+easy (pi 0.2-0.6),20,timing,0.986
+easy (pi 0.2-0.6),20,reuse,0.998
+easy (pi 0.2-0.6),20,structure + timing (no reuse),0.99
+easy (pi 0.2-0.6),20,all,0.999
+easy (pi 0.2-0.6),50,shape,0.87
+easy (pi 0.2-0.6),50,branching,0.869
+easy (pi 0.2-0.6),50,timing,0.986
+easy (pi 0.2-0.6),50,reuse,0.998
+easy (pi 0.2-0.6),50,structure + timing (no reuse),0.991
+easy (pi 0.2-0.6),50,all,0.999
+hard (pi 0.05-0.15),full,shape,0.662
+hard (pi 0.05-0.15),full,branching,0.61
+hard (pi 0.05-0.15),full,timing,0.862
+hard (pi 0.05-0.15),full,reuse,0.917
+hard (pi 0.05-0.15),full,structure + timing (no reuse),0.883
+hard (pi 0.05-0.15),full,all,0.932
+hard (pi 0.05-0.15),20,shape,0.68
+hard (pi 0.05-0.15),20,branching,0.623
+hard (pi 0.05-0.15),20,timing,0.859
+hard (pi 0.05-0.15),20,reuse,0.926
+hard (pi 0.05-0.15),20,structure + timing (no reuse),0.871
+hard (pi 0.05-0.15),20,all,0.941
+hard (pi 0.05-0.15),50,shape,0.672
+hard (pi 0.05-0.15),50,branching,0.622
+hard (pi 0.05-0.15),50,timing,0.87
+hard (pi 0.05-0.15),50,reuse,0.897
+hard (pi 0.05-0.15),50,structure + timing (no reuse),0.88
+hard (pi 0.05-0.15),50,all,0.932

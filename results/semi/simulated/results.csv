@@ -1,0 +1,1256 @@
+dataset,exp,strategy,pi,pi_realized,n_org,n_amp,view,features,trained_on,seed,auroc,tpr_at_1pct_fpr,auprc
+simulated,base rate,naive,0.1,0.0814,1800,200,full,structure + timing,same strategy (CV),1,0.9018,0.47,0.6824
+simulated,base rate,naive,0.1,0.0814,1800,200,full,reuse,same strategy (CV),1,0.9552,0.735,0.8644
+simulated,base rate,naive,0.1,0.0814,1800,200,full,all,same strategy (CV),1,0.975,0.765,0.898
+simulated,base rate,naive,0.1,0.0789,1800,200,full,structure + timing,same strategy (CV),0,0.8799,0.37,0.623
+simulated,base rate,naive,0.1,0.0789,1800,200,full,reuse,same strategy (CV),0,0.9472,0.705,0.8453
+simulated,base rate,naive,0.1,0.0789,1800,200,full,all,same strategy (CV),0,0.9628,0.71,0.8669
+simulated,base rate,organic timing + structure,0.1,0.0796,1800,200,full,structure + timing,same strategy (CV),1,0.6907,0.14,0.319
+simulated,base rate,organic timing + structure,0.1,0.0796,1800,200,full,reuse,same strategy (CV),1,0.9398,0.74,0.8579
+simulated,base rate,organic timing + structure,0.1,0.0796,1800,200,full,all,same strategy (CV),1,0.9581,0.73,0.8664
+simulated,base rate,organic timing + structure,0.1,0.0806,1800,200,full,structure + timing,same strategy (CV),0,0.6689,0.115,0.2656
+simulated,base rate,organic timing + structure,0.1,0.0806,1800,200,full,reuse,same strategy (CV),0,0.9513,0.73,0.8571
+simulated,base rate,organic timing + structure,0.1,0.0806,1800,200,full,all,same strategy (CV),0,0.958,0.685,0.8437
+simulated,base rate,full mimic + rotation,0.1,0.0816,1800,200,full,structure + timing,same strategy (CV),1,0.6854,0.12,0.2973
+simulated,base rate,full mimic + rotation,0.1,0.0816,1800,200,full,reuse,same strategy (CV),1,0.5562,0.035,0.1252
+simulated,base rate,full mimic + rotation,0.1,0.0816,1800,200,full,all,same strategy (CV),1,0.6932,0.155,0.3181
+simulated,base rate,empirical mimic + rotation,0.1,0.0794,1800,200,full,structure + timing,same strategy (CV),1,0.7178,0.135,0.3165
+simulated,base rate,empirical mimic + rotation,0.1,0.0794,1800,200,full,reuse,same strategy (CV),1,0.5623,0.03,0.1565
+simulated,base rate,empirical mimic + rotation,0.1,0.0794,1800,200,full,all,same strategy (CV),1,0.7357,0.13,0.3217
+simulated,base rate,full mimic + rotation,0.1,0.0803,1800,200,full,structure + timing,same strategy (CV),0,0.6628,0.11,0.2542
+simulated,base rate,full mimic + rotation,0.1,0.0803,1800,200,full,reuse,same strategy (CV),0,0.5432,0.035,0.1423
+simulated,base rate,full mimic + rotation,0.1,0.0803,1800,200,full,all,same strategy (CV),0,0.6463,0.105,0.2483
+simulated,base rate,empirical mimic + rotation,0.1,0.0786,1800,200,full,structure + timing,same strategy (CV),0,0.6961,0.09,0.2864
+simulated,base rate,empirical mimic + rotation,0.1,0.0786,1800,200,full,reuse,same strategy (CV),0,0.5433,0.06,0.1442
+simulated,base rate,empirical mimic + rotation,0.1,0.0786,1800,200,full,all,same strategy (CV),0,0.6847,0.1,0.289
+simulated,base rate,naive,0.1,0.0797,1800,200,full,structure + timing,same strategy (CV),2,0.8918,0.41,0.6331
+simulated,base rate,naive,0.1,0.0797,1800,200,full,reuse,same strategy (CV),2,0.9471,0.73,0.8584
+simulated,base rate,naive,0.1,0.0797,1800,200,full,all,same strategy (CV),2,0.9638,0.74,0.868
+simulated,base rate,organic timing + structure,0.1,0.0793,1800,200,full,structure + timing,same strategy (CV),2,0.6198,0.095,0.2182
+simulated,base rate,organic timing + structure,0.1,0.0793,1800,200,full,reuse,same strategy (CV),2,0.9311,0.645,0.8156
+simulated,base rate,organic timing + structure,0.1,0.0793,1800,200,full,all,same strategy (CV),2,0.9434,0.68,0.8222
+simulated,base rate,naive,0.1,0.08,1800,200,full,structure + timing,same strategy (CV),3,0.898,0.325,0.6121
+simulated,base rate,naive,0.1,0.08,1800,200,full,reuse,same strategy (CV),3,0.9546,0.73,0.8712
+simulated,base rate,naive,0.1,0.08,1800,200,full,all,same strategy (CV),3,0.9754,0.73,0.8919
+simulated,base rate,full mimic + rotation,0.1,0.0817,1800,200,full,structure + timing,same strategy (CV),2,0.6412,0.065,0.2224
+simulated,base rate,full mimic + rotation,0.1,0.0817,1800,200,full,reuse,same strategy (CV),2,0.5329,0.05,0.1491
+simulated,base rate,full mimic + rotation,0.1,0.0817,1800,200,full,all,same strategy (CV),2,0.6564,0.075,0.2358
+simulated,base rate,empirical mimic + rotation,0.1,0.0787,1800,200,full,structure + timing,same strategy (CV),2,0.7079,0.085,0.2799
+simulated,base rate,empirical mimic + rotation,0.1,0.0787,1800,200,full,reuse,same strategy (CV),2,0.5793,0.05,0.1562
+simulated,base rate,empirical mimic + rotation,0.1,0.0787,1800,200,full,all,same strategy (CV),2,0.7255,0.085,0.2804
+simulated,base rate,organic timing + structure,0.1,0.0796,1800,200,full,structure + timing,same strategy (CV),3,0.6588,0.145,0.2898
+simulated,base rate,organic timing + structure,0.1,0.0796,1800,200,full,reuse,same strategy (CV),3,0.9564,0.645,0.8512
+simulated,base rate,organic timing + structure,0.1,0.0796,1800,200,full,all,same strategy (CV),3,0.9568,0.605,0.8329
+simulated,base rate,full mimic + rotation,0.1,0.079,1800,200,full,structure + timing,same strategy (CV),3,0.6599,0.14,0.286
+simulated,base rate,full mimic + rotation,0.1,0.079,1800,200,full,reuse,same strategy (CV),3,0.569,0.095,0.1949
+simulated,base rate,full mimic + rotation,0.1,0.079,1800,200,full,all,same strategy (CV),3,0.6652,0.155,0.2973
+simulated,base rate,empirical mimic + rotation,0.1,0.0811,1800,200,full,structure + timing,same strategy (CV),3,0.7106,0.12,0.3013
+simulated,base rate,empirical mimic + rotation,0.1,0.0811,1800,200,full,reuse,same strategy (CV),3,0.5746,0.07,0.1771
+simulated,base rate,empirical mimic + rotation,0.1,0.0811,1800,200,full,all,same strategy (CV),3,0.7157,0.1,0.3011
+simulated,base rate,naive,0.1,0.0781,1800,200,full,structure + timing,same strategy (CV),4,0.888,0.405,0.6353
+simulated,base rate,naive,0.1,0.0781,1800,200,full,reuse,same strategy (CV),4,0.95,0.685,0.8449
+simulated,base rate,naive,0.1,0.0781,1800,200,full,all,same strategy (CV),4,0.9666,0.725,0.8747
+simulated,base rate,organic timing + structure,0.1,0.0794,1800,200,full,structure + timing,same strategy (CV),4,0.6791,0.12,0.295
+simulated,base rate,organic timing + structure,0.1,0.0794,1800,200,full,reuse,same strategy (CV),4,0.9614,0.72,0.869
+simulated,base rate,organic timing + structure,0.1,0.0794,1800,200,full,all,same strategy (CV),4,0.9516,0.66,0.8367
+simulated,base rate,full mimic + rotation,0.1,0.0786,1800,200,full,structure + timing,same strategy (CV),4,0.6652,0.11,0.2842
+simulated,base rate,full mimic + rotation,0.1,0.0786,1800,200,full,reuse,same strategy (CV),4,0.571,0.055,0.1632
+simulated,base rate,full mimic + rotation,0.1,0.0786,1800,200,full,all,same strategy (CV),4,0.6601,0.115,0.2815
+simulated,base rate,empirical mimic + rotation,0.1,0.0805,1800,200,full,structure + timing,same strategy (CV),4,0.7009,0.135,0.2942
+simulated,base rate,empirical mimic + rotation,0.1,0.0805,1800,200,full,reuse,same strategy (CV),4,0.5825,0.075,0.1875
+simulated,base rate,empirical mimic + rotation,0.1,0.0805,1800,200,full,all,same strategy (CV),4,0.6965,0.115,0.2846
+simulated,strategy,naive,0.3,0.1793,400,400,full,size only,same strategy (CV),0,0.649,0.11,0.6662
+simulated,strategy,naive,0.3,0.1793,400,400,full,shape,same strategy (CV),0,0.8387,0.1825,0.8344
+simulated,strategy,naive,0.3,0.1793,400,400,full,branching,same strategy (CV),0,0.8392,0.0875,0.8099
+simulated,strategy,naive,0.3,0.1793,400,400,full,timing,same strategy (CV),0,0.9665,0.6275,0.9668
+simulated,strategy,naive,0.3,0.1793,400,400,full,reuse,same strategy (CV),0,0.9997,0.995,0.9997
+simulated,strategy,naive,0.3,0.1793,400,400,full,structure + timing,same strategy (CV),0,0.9854,0.8175,0.9865
+simulated,strategy,naive,0.3,0.1793,400,400,full,all,same strategy (CV),0,0.9999,0.9975,0.9999
+simulated,strategy,naive,0.3,0.1793,400,400,20,structure + timing,same strategy (CV),0,0.9863,0.7475,0.9865
+simulated,strategy,naive,0.3,0.1793,400,400,20,reuse,same strategy (CV),0,0.9985,0.9975,0.9987
+simulated,strategy,naive,0.3,0.1793,400,400,20,all,same strategy (CV),0,0.9997,0.995,0.9997
+simulated,strategy,naive,0.3,0.1793,400,400,full,structure + timing,naive only,0,0.9889,0.825,0.9894
+simulated,strategy,naive,0.3,0.1793,400,400,full,reuse,naive only,0,0.9995,0.99,0.9995
+simulated,strategy,naive,0.3,0.1793,400,400,full,all,naive only,0,0.9996,0.9875,0.9996
+simulated,strategy,naive,0.1,0.0808,400,400,full,size only,same strategy (CV),0,0.5563,0.01,0.5538
+simulated,strategy,naive,0.1,0.0808,400,400,full,shape,same strategy (CV),0,0.5973,0.0175,0.5651
+simulated,strategy,naive,0.1,0.0808,400,400,full,branching,same strategy (CV),0,0.6214,0.01,0.5741
+simulated,strategy,naive,0.1,0.0808,400,400,full,timing,same strategy (CV),0,0.8718,0.28,0.8691
+simulated,strategy,naive,0.1,0.0808,400,400,full,reuse,same strategy (CV),0,0.8967,0.4675,0.9066
+simulated,strategy,naive,0.1,0.0808,400,400,full,structure + timing,same strategy (CV),0,0.8993,0.345,0.9037
+simulated,strategy,naive,0.1,0.0808,400,400,full,all,same strategy (CV),0,0.9408,0.56,0.944
+simulated,strategy,naive,0.1,0.0808,400,400,20,structure + timing,same strategy (CV),0,0.8804,0.3375,0.8819
+simulated,strategy,naive,0.1,0.0808,400,400,20,reuse,same strategy (CV),0,0.8857,0.58,0.9113
+simulated,strategy,naive,0.1,0.0808,400,400,20,all,same strategy (CV),0,0.9473,0.6725,0.9532
+simulated,strategy,naive,0.1,0.0808,400,400,full,structure + timing,naive only,0,0.9082,0.395,0.9158
+simulated,strategy,naive,0.1,0.0808,400,400,full,reuse,naive only,0,0.9026,0.4475,0.9122
+simulated,strategy,naive,0.1,0.0808,400,400,full,all,naive only,0,0.9458,0.5775,0.9505
+simulated,strategy,random timing,0.3,0.1793,400,400,full,size only,same strategy (CV),0,0.649,0.11,0.6662
+simulated,strategy,random timing,0.3,0.1793,400,400,full,shape,same strategy (CV),0,0.8387,0.1825,0.8344
+simulated,strategy,random timing,0.3,0.1793,400,400,full,branching,same strategy (CV),0,0.8392,0.0875,0.8099
+simulated,strategy,random timing,0.3,0.1793,400,400,full,timing,same strategy (CV),0,0.9812,0.78,0.9804
+simulated,strategy,random timing,0.3,0.1793,400,400,full,reuse,same strategy (CV),0,0.9997,0.995,0.9997
+simulated,strategy,random timing,0.3,0.1793,400,400,full,structure + timing,same strategy (CV),0,0.9916,0.8275,0.9919
+simulated,strategy,random timing,0.3,0.1793,400,400,full,all,same strategy (CV),0,0.9999,0.9975,0.9999
+simulated,strategy,random timing,0.3,0.1793,400,400,20,structure + timing,same strategy (CV),0,0.989,0.7675,0.9892
+simulated,strategy,random timing,0.3,0.1793,400,400,20,reuse,same strategy (CV),0,0.9985,0.9975,0.9987
+simulated,strategy,random timing,0.3,0.1793,400,400,20,all,same strategy (CV),0,0.9998,0.995,0.9998
+simulated,strategy,random timing,0.3,0.1793,400,400,full,structure + timing,naive only,0,0.9914,0.8475,0.9918
+simulated,strategy,random timing,0.3,0.1793,400,400,full,reuse,naive only,0,0.9995,0.99,0.9995
+simulated,strategy,random timing,0.3,0.1793,400,400,full,all,naive only,0,0.9997,0.9875,0.9997
+simulated,strategy,random timing,0.1,0.0808,400,400,full,size only,same strategy (CV),0,0.5563,0.01,0.5538
+simulated,strategy,random timing,0.1,0.0808,400,400,full,shape,same strategy (CV),0,0.5973,0.0175,0.5651
+simulated,strategy,random timing,0.1,0.0808,400,400,full,branching,same strategy (CV),0,0.6214,0.01,0.5741
+simulated,strategy,random timing,0.1,0.0808,400,400,full,timing,same strategy (CV),0,0.8746,0.225,0.8731
+simulated,strategy,random timing,0.1,0.0808,400,400,full,reuse,same strategy (CV),0,0.8967,0.4675,0.9066
+simulated,strategy,random timing,0.1,0.0808,400,400,full,structure + timing,same strategy (CV),0,0.904,0.34,0.9076
+simulated,strategy,random timing,0.1,0.0808,400,400,full,all,same strategy (CV),0,0.9409,0.585,0.9454
+simulated,strategy,random timing,0.1,0.0808,400,400,20,structure + timing,same strategy (CV),0,0.8885,0.355,0.8901
+simulated,strategy,random timing,0.1,0.0808,400,400,20,reuse,same strategy (CV),0,0.8852,0.575,0.9119
+simulated,strategy,random timing,0.1,0.0808,400,400,20,all,same strategy (CV),0,0.9469,0.6525,0.9527
+simulated,strategy,random timing,0.1,0.0808,400,400,full,structure + timing,naive only,0,0.909,0.4025,0.9169
+simulated,strategy,random timing,0.1,0.0808,400,400,full,reuse,naive only,0,0.9026,0.4475,0.9122
+simulated,strategy,random timing,0.1,0.0808,400,400,full,all,naive only,0,0.9457,0.5725,0.9505
+simulated,strategy,organic timing,0.1,0.0816,400,400,full,size only,same strategy (CV),0,0.5329,0.0425,0.5568
+simulated,strategy,organic timing,0.1,0.0816,400,400,full,shape,same strategy (CV),0,0.6361,0.025,0.5897
+simulated,strategy,organic timing,0.1,0.0816,400,400,full,branching,same strategy (CV),0,0.6225,0.01,0.5819
+simulated,strategy,organic timing,0.1,0.0816,400,400,full,timing,same strategy (CV),0,0.6327,0.0275,0.615
+simulated,strategy,organic timing,0.1,0.0816,400,400,full,reuse,same strategy (CV),0,0.8995,0.4575,0.9108
+simulated,strategy,organic timing,0.1,0.0816,400,400,full,structure + timing,same strategy (CV),0,0.6954,0.0225,0.6552
+simulated,strategy,organic timing,0.1,0.0816,400,400,full,all,same strategy (CV),0,0.9105,0.4175,0.9191
+simulated,strategy,organic timing,0.1,0.0816,400,400,20,structure + timing,same strategy (CV),0,0.6885,0.07,0.6752
+simulated,strategy,organic timing,0.1,0.0816,400,400,20,reuse,same strategy (CV),0,0.8518,0.52,0.8841
+simulated,strategy,organic timing,0.1,0.0816,400,400,20,all,same strategy (CV),0,0.8886,0.4575,0.8982
+simulated,strategy,organic timing,0.1,0.0816,400,400,full,structure + timing,naive only,0,0.6116,0.0325,0.5969
+simulated,strategy,organic timing,0.1,0.0816,400,400,full,reuse,naive only,0,0.9013,0.46,0.9117
+simulated,strategy,organic timing,0.1,0.0816,400,400,full,all,naive only,0,0.8554,0.315,0.866
+simulated,strategy,organic timing,0.3,0.1786,400,400,full,size only,same strategy (CV),0,0.6637,0.1175,0.6849
+simulated,strategy,organic timing,0.3,0.1786,400,400,full,shape,same strategy (CV),0,0.8094,0.2225,0.8087
+simulated,strategy,organic timing,0.3,0.1786,400,400,full,branching,same strategy (CV),0,0.8332,0.11,0.8151
+simulated,strategy,organic timing,0.3,0.1786,400,400,full,timing,same strategy (CV),0,0.8111,0.0625,0.7931
+simulated,strategy,organic timing,0.3,0.1786,400,400,full,reuse,same strategy (CV),0,1.0,1.0,1.0
+simulated,strategy,organic timing,0.3,0.1786,400,400,full,structure + timing,same strategy (CV),0,0.8922,0.235,0.8863
+simulated,strategy,organic timing,0.3,0.1786,400,400,full,all,same strategy (CV),0,1.0,1.0,1.0
+simulated,strategy,organic timing,0.3,0.1786,400,400,20,structure + timing,same strategy (CV),0,0.8295,0.2975,0.8388
+simulated,strategy,organic timing,0.3,0.1786,400,400,20,reuse,same strategy (CV),0,0.998,0.9875,0.9982
+simulated,strategy,organic timing,0.3,0.1786,400,400,20,all,same strategy (CV),0,0.9972,0.99,0.9982
+simulated,strategy,organic timing,0.3,0.1786,400,400,full,structure + timing,naive only,0,0.7669,0.145,0.7714
+simulated,strategy,organic timing,0.3,0.1786,400,400,full,reuse,naive only,0,0.9999,0.995,0.9999
+simulated,strategy,organic timing,0.3,0.1786,400,400,full,all,naive only,0,0.9994,0.9875,0.9995
+simulated,strategy,organic timing + structure,0.1,0.0806,400,400,full,size only,same strategy (CV),0,0.5449,0.035,0.5549
+simulated,strategy,organic timing + structure,0.1,0.0806,400,400,full,shape,same strategy (CV),0,0.5908,0.0525,0.5986
+simulated,strategy,organic timing + structure,0.1,0.0806,400,400,full,branching,same strategy (CV),0,0.6346,0.03,0.6391
+simulated,strategy,organic timing + structure,0.1,0.0806,400,400,full,timing,same strategy (CV),0,0.5946,0.04,0.607
+simulated,strategy,organic timing + structure,0.1,0.0806,400,400,full,reuse,same strategy (CV),0,0.9063,0.485,0.9169
+simulated,strategy,organic timing + structure,0.1,0.0806,400,400,full,structure + timing,same strategy (CV),0,0.6954,0.0375,0.6892
+simulated,strategy,organic timing + structure,0.1,0.0806,400,400,full,all,same strategy (CV),0,0.9098,0.4425,0.9148
+simulated,strategy,organic timing + structure,0.1,0.0806,400,400,20,structure + timing,same strategy (CV),0,0.5888,0.045,0.5823
+simulated,strategy,organic timing + structure,0.1,0.0806,400,400,20,reuse,same strategy (CV),0,0.5713,0.05,0.5919
+simulated,strategy,organic timing + structure,0.1,0.0806,400,400,20,all,same strategy (CV),0,0.6363,0.06,0.6505
+simulated,strategy,organic timing + structure,0.1,0.0806,400,400,full,structure + timing,naive only,0,0.554,0.0175,0.5455
+simulated,strategy,organic timing + structure,0.1,0.0806,400,400,full,reuse,naive only,0,0.8962,0.42,0.9031
+simulated,strategy,organic timing + structure,0.1,0.0806,400,400,full,all,naive only,0,0.8468,0.24,0.8487
+simulated,strategy,organic timing + structure,0.3,0.1832,400,400,full,size only,same strategy (CV),0,0.6371,0.12,0.6605
+simulated,strategy,organic timing + structure,0.3,0.1832,400,400,full,shape,same strategy (CV),0,0.7891,0.2175,0.8055
+simulated,strategy,organic timing + structure,0.3,0.1832,400,400,full,branching,same strategy (CV),0,0.8595,0.23,0.8665
+simulated,strategy,organic timing + structure,0.3,0.1832,400,400,full,timing,same strategy (CV),0,0.7384,0.1075,0.7437
+simulated,strategy,organic timing + structure,0.3,0.1832,400,400,full,reuse,same strategy (CV),0,0.9995,0.995,0.9995
+simulated,strategy,organic timing + structure,0.3,0.1832,400,400,full,structure + timing,same strategy (CV),0,0.8889,0.3175,0.8928
+simulated,strategy,organic timing + structure,0.3,0.1832,400,400,full,all,same strategy (CV),0,0.9997,0.9975,0.9997
+simulated,strategy,organic timing + structure,0.3,0.1832,400,400,20,structure + timing,same strategy (CV),0,0.7386,0.075,0.7226
+simulated,strategy,organic timing + structure,0.3,0.1832,400,400,20,reuse,same strategy (CV),0,0.855,0.4425,0.8812
+simulated,strategy,organic timing + structure,0.3,0.1832,400,400,20,all,same strategy (CV),0,0.9102,0.5075,0.9219
+simulated,strategy,organic timing + structure,0.3,0.1832,400,400,full,structure + timing,naive only,0,0.5754,0.0025,0.5169
+simulated,strategy,organic timing + structure,0.3,0.1832,400,400,full,reuse,naive only,0,0.9998,0.9925,0.9998
+simulated,strategy,organic timing + structure,0.3,0.1832,400,400,full,all,naive only,0,0.9996,0.99,0.9996
+simulated,strategy,full mimic + rotation,0.1,0.0819,400,400,full,size only,same strategy (CV),0,0.5287,0.01,0.5439
+simulated,strategy,full mimic + rotation,0.1,0.0819,400,400,full,shape,same strategy (CV),0,0.565,0.0475,0.5766
+simulated,strategy,full mimic + rotation,0.1,0.0819,400,400,full,branching,same strategy (CV),0,0.6764,0.0925,0.6934
+simulated,strategy,full mimic + rotation,0.1,0.0819,400,400,full,timing,same strategy (CV),0,0.5689,0.0125,0.5768
+simulated,strategy,full mimic + rotation,0.1,0.0819,400,400,full,reuse,same strategy (CV),0,0.515,0.0675,0.5511
+simulated,strategy,full mimic + rotation,0.1,0.0819,400,400,full,structure + timing,same strategy (CV),0,0.6826,0.075,0.6943
+simulated,strategy,full mimic + rotation,0.1,0.0819,400,400,full,all,same strategy (CV),0,0.6994,0.045,0.704
+simulated,strategy,full mimic + rotation,0.1,0.0819,400,400,20,structure + timing,same strategy (CV),0,0.6251,0.05,0.619
+simulated,strategy,full mimic + rotation,0.1,0.0819,400,400,20,reuse,same strategy (CV),0,0.5557,0.0075,0.5352
+simulated,strategy,full mimic + rotation,0.1,0.0819,400,400,20,all,same strategy (CV),0,0.6135,0.0225,0.6043
+simulated,strategy,full mimic + rotation,0.1,0.0819,400,400,full,structure + timing,naive only,0,0.562,0.0225,0.5489
+simulated,strategy,full mimic + rotation,0.1,0.0819,400,400,full,reuse,naive only,0,0.4496,0.01,0.468
+simulated,strategy,full mimic + rotation,0.1,0.0819,400,400,full,all,naive only,0,0.5242,0.005,0.5068
+simulated,share,naive,0.05,0.0471,400,400,full,structure + timing,same strategy (CV),0,0.7415,0.0625,0.7244
+simulated,share,naive,0.05,0.0471,400,400,full,reuse,same strategy (CV),0,0.6687,0.1775,0.6989
+simulated,share,naive,0.05,0.0471,400,400,full,all,same strategy (CV),0,0.7879,0.1525,0.7858
+simulated,share,naive,0.02,0.0326,400,400,full,structure + timing,same strategy (CV),0,0.6258,0.0425,0.6095
+simulated,share,naive,0.02,0.0326,400,400,full,reuse,same strategy (CV),0,0.5266,0.01,0.5186
+simulated,share,naive,0.02,0.0326,400,400,full,all,same strategy (CV),0,0.635,0.025,0.6156
+simulated,strategy,full mimic + rotation,0.3,0.1804,400,400,full,size only,same strategy (CV),0,0.6428,0.13,0.6642
+simulated,strategy,full mimic + rotation,0.3,0.1804,400,400,full,shape,same strategy (CV),0,0.8022,0.225,0.8074
+simulated,strategy,full mimic + rotation,0.3,0.1804,400,400,full,branching,same strategy (CV),0,0.8655,0.27,0.8734
+simulated,strategy,full mimic + rotation,0.3,0.1804,400,400,full,timing,same strategy (CV),0,0.7454,0.1225,0.7543
+simulated,strategy,full mimic + rotation,0.3,0.1804,400,400,full,reuse,same strategy (CV),0,0.7196,0.095,0.7122
+simulated,strategy,full mimic + rotation,0.3,0.1804,400,400,full,structure + timing,same strategy (CV),0,0.8985,0.3075,0.9029
+simulated,strategy,full mimic + rotation,0.3,0.1804,400,400,full,all,same strategy (CV),0,0.9006,0.34,0.9045
+simulated,strategy,full mimic + rotation,0.3,0.1804,400,400,20,structure + timing,same strategy (CV),0,0.7666,0.0475,0.7356
+simulated,strategy,full mimic + rotation,0.3,0.1804,400,400,20,reuse,same strategy (CV),0,0.6229,0.01,0.5914
+simulated,strategy,full mimic + rotation,0.3,0.1804,400,400,20,all,same strategy (CV),0,0.755,0.0575,0.7239
+simulated,strategy,full mimic + rotation,0.3,0.1804,400,400,full,structure + timing,naive only,0,0.5641,0.01,0.5179
+simulated,strategy,full mimic + rotation,0.3,0.1804,400,400,full,reuse,naive only,0,0.5057,0.0,0.5066
+simulated,strategy,full mimic + rotation,0.3,0.1804,400,400,full,all,naive only,0,0.6349,0.0,0.6019
+simulated,strategy,control: embedded accounts,0.3,0.2986,400,400,full,size only,same strategy (CV),0,0.4929,0.0075,0.4889
+simulated,strategy,control: embedded accounts,0.3,0.2986,400,400,full,shape,same strategy (CV),0,0.4996,0.015,0.5143
+simulated,strategy,control: embedded accounts,0.3,0.2986,400,400,full,branching,same strategy (CV),0,0.4834,0.0,0.4891
+simulated,strategy,control: embedded accounts,0.3,0.2986,400,400,full,timing,same strategy (CV),0,0.4747,0.02,0.4889
+simulated,strategy,control: embedded accounts,0.3,0.2986,400,400,full,reuse,same strategy (CV),0,1.0,0.9975,1.0
+simulated,strategy,control: embedded accounts,0.3,0.2986,400,400,full,structure + timing,same strategy (CV),0,0.4866,0.03,0.4971
+simulated,strategy,control: embedded accounts,0.3,0.2986,400,400,full,all,same strategy (CV),0,0.9999,0.9975,0.9999
+simulated,strategy,control: embedded accounts,0.3,0.2986,400,400,20,structure + timing,same strategy (CV),0,0.5529,0.0075,0.5499
+simulated,strategy,control: embedded accounts,0.3,0.2986,400,400,20,reuse,same strategy (CV),0,0.981,0.9225,0.9847
+simulated,strategy,control: embedded accounts,0.3,0.2986,400,400,20,all,same strategy (CV),0,0.9849,0.93,0.9887
+simulated,strategy,control: embedded accounts,0.3,0.2986,400,400,full,structure + timing,naive only,0,0.481,0.0175,0.4949
+simulated,strategy,control: embedded accounts,0.3,0.2986,400,400,full,reuse,naive only,0,1.0,1.0,1.0
+simulated,strategy,control: embedded accounts,0.3,0.2986,400,400,full,all,naive only,0,0.9999,1.0,0.9998
+simulated,strategy,control: embedded accounts,0.1,0.0994,400,400,full,size only,same strategy (CV),0,0.4928,0.005,0.4892
+simulated,strategy,control: embedded accounts,0.1,0.0994,400,400,full,shape,same strategy (CV),0,0.4927,0.0225,0.5067
+simulated,strategy,control: embedded accounts,0.1,0.0994,400,400,full,branching,same strategy (CV),0,0.4956,0.02,0.5132
+simulated,strategy,control: embedded accounts,0.1,0.0994,400,400,full,timing,same strategy (CV),0,0.4877,0.0225,0.5073
+simulated,strategy,control: embedded accounts,0.1,0.0994,400,400,full,reuse,same strategy (CV),0,0.9149,0.4825,0.9181
+simulated,strategy,control: embedded accounts,0.1,0.0994,400,400,full,structure + timing,same strategy (CV),0,0.4856,0.02,0.4928
+simulated,strategy,control: embedded accounts,0.1,0.0994,400,400,full,all,same strategy (CV),0,0.9103,0.4825,0.9126
+simulated,strategy,control: embedded accounts,0.1,0.0994,400,400,20,structure + timing,same strategy (CV),0,0.5547,0.0125,0.5458
+simulated,strategy,control: embedded accounts,0.1,0.0994,400,400,20,reuse,same strategy (CV),0,0.6367,0.02,0.638
+simulated,strategy,control: embedded accounts,0.1,0.0994,400,400,20,all,same strategy (CV),0,0.6839,0.1,0.7063
+simulated,strategy,control: embedded accounts,0.1,0.0994,400,400,full,structure + timing,naive only,0,0.4865,0.015,0.5018
+simulated,strategy,control: embedded accounts,0.1,0.0994,400,400,full,reuse,naive only,0,0.9051,0.4275,0.9082
+simulated,strategy,control: embedded accounts,0.1,0.0994,400,400,full,all,naive only,0,0.8226,0.205,0.8214
+simulated,share,naive,0.1,0.0808,400,400,full,structure + timing,same strategy (CV),0,0.8993,0.345,0.9037
+simulated,share,naive,0.1,0.0808,400,400,full,reuse,same strategy (CV),0,0.8967,0.4675,0.9066
+simulated,share,naive,0.1,0.0808,400,400,full,all,same strategy (CV),0,0.9408,0.56,0.944
+simulated,share,naive,0.4,0.2292,400,400,full,structure + timing,same strategy (CV),0,0.9944,0.895,0.994
+simulated,share,naive,0.4,0.2292,400,400,full,reuse,same strategy (CV),0,1.0,1.0,1.0
+simulated,share,naive,0.4,0.2292,400,400,full,all,same strategy (CV),0,1.0,1.0,1.0
+simulated,share,naive,0.2,0.1379,400,400,full,structure + timing,same strategy (CV),0,0.9674,0.6425,0.9669
+simulated,share,naive,0.2,0.1379,400,400,full,reuse,same strategy (CV),0,0.9948,0.9325,0.9957
+simulated,share,naive,0.2,0.1379,400,400,full,all,same strategy (CV),0,0.9972,0.9575,0.9974
+simulated,share,full mimic + rotation,0.02,0.0323,400,400,full,structure + timing,same strategy (CV),0,0.5193,0.02,0.5258
+simulated,share,full mimic + rotation,0.02,0.0323,400,400,full,reuse,same strategy (CV),0,0.556,0.0,0.5264
+simulated,share,full mimic + rotation,0.02,0.0323,400,400,full,all,same strategy (CV),0,0.5317,0.01,0.5219
+simulated,share,full mimic + rotation,0.05,0.0476,400,400,full,structure + timing,same strategy (CV),0,0.5623,0.0125,0.5556
+simulated,share,full mimic + rotation,0.05,0.0476,400,400,full,reuse,same strategy (CV),0,0.5425,0.0075,0.5238
+simulated,share,full mimic + rotation,0.05,0.0476,400,400,full,all,same strategy (CV),0,0.5847,0.0075,0.5585
+simulated,share,full mimic + rotation,0.1,0.0819,400,400,full,structure + timing,same strategy (CV),0,0.6826,0.075,0.6943
+simulated,share,full mimic + rotation,0.1,0.0819,400,400,full,reuse,same strategy (CV),0,0.515,0.0675,0.5511
+simulated,share,full mimic + rotation,0.1,0.0819,400,400,full,all,same strategy (CV),0,0.6994,0.045,0.704
+simulated,strategy,empirical mimic + rotation,0.1,0.0821,400,400,full,size only,same strategy (CV),0,0.566,0.025,0.5588
+simulated,strategy,empirical mimic + rotation,0.1,0.0821,400,400,full,shape,same strategy (CV),0,0.5321,0.0475,0.5396
+simulated,strategy,empirical mimic + rotation,0.1,0.0821,400,400,full,branching,same strategy (CV),0,0.5603,0.015,0.5527
+simulated,strategy,empirical mimic + rotation,0.1,0.0821,400,400,full,timing,same strategy (CV),0,0.6997,0.0125,0.6715
+simulated,strategy,empirical mimic + rotation,0.1,0.0821,400,400,full,reuse,same strategy (CV),0,0.5253,0.04,0.5529
+simulated,strategy,empirical mimic + rotation,0.1,0.0821,400,400,full,structure + timing,same strategy (CV),0,0.694,0.05,0.6766
+simulated,strategy,empirical mimic + rotation,0.1,0.0821,400,400,full,all,same strategy (CV),0,0.6895,0.065,0.6879
+simulated,strategy,empirical mimic + rotation,0.1,0.0821,400,400,20,structure + timing,same strategy (CV),0,0.6794,0.06,0.6762
+simulated,strategy,empirical mimic + rotation,0.1,0.0821,400,400,20,reuse,same strategy (CV),0,0.5951,0.025,0.5873
+simulated,strategy,empirical mimic + rotation,0.1,0.0821,400,400,20,all,same strategy (CV),0,0.6886,0.03,0.6786
+simulated,strategy,empirical mimic + rotation,0.1,0.0821,400,400,full,structure + timing,naive only,0,0.5997,0.0275,0.5915
+simulated,strategy,empirical mimic + rotation,0.1,0.0821,400,400,full,reuse,naive only,0,0.4519,0.005,0.4555
+simulated,strategy,empirical mimic + rotation,0.1,0.0821,400,400,full,all,naive only,0,0.5332,0.005,0.5148
+simulated,strategy,empirical mimic + rotation,0.3,0.1833,400,400,full,size only,same strategy (CV),0,0.6747,0.0,0.6812
+simulated,strategy,empirical mimic + rotation,0.3,0.1833,400,400,full,shape,same strategy (CV),0,0.7171,0.12,0.7243
+simulated,strategy,empirical mimic + rotation,0.3,0.1833,400,400,full,branching,same strategy (CV),0,0.716,0.0975,0.7224
+simulated,strategy,empirical mimic + rotation,0.3,0.1833,400,400,full,timing,same strategy (CV),0,0.8231,0.1125,0.8057
+simulated,strategy,empirical mimic + rotation,0.3,0.1833,400,400,full,reuse,same strategy (CV),0,0.6642,0.09,0.6635
+simulated,strategy,empirical mimic + rotation,0.3,0.1833,400,400,full,structure + timing,same strategy (CV),0,0.8766,0.2925,0.876
+simulated,strategy,empirical mimic + rotation,0.3,0.1833,400,400,full,all,same strategy (CV),0,0.8762,0.235,0.8711
+simulated,strategy,empirical mimic + rotation,0.3,0.1833,400,400,20,structure + timing,same strategy (CV),0,0.8145,0.2,0.8113
+simulated,strategy,empirical mimic + rotation,0.3,0.1833,400,400,20,reuse,same strategy (CV),0,0.642,0.055,0.6257
+simulated,strategy,empirical mimic + rotation,0.3,0.1833,400,400,20,all,same strategy (CV),0,0.8355,0.17,0.8284
+simulated,strategy,empirical mimic + rotation,0.3,0.1833,400,400,full,structure + timing,naive only,0,0.6603,0.0325,0.6308
+simulated,strategy,empirical mimic + rotation,0.3,0.1833,400,400,full,reuse,naive only,0,0.5444,0.005,0.5283
+simulated,strategy,empirical mimic + rotation,0.3,0.1833,400,400,full,all,naive only,0,0.6978,0.005,0.655
+simulated,share,full mimic + rotation,0.2,0.135,400,400,full,structure + timing,same strategy (CV),0,0.7892,0.1625,0.8056
+simulated,share,full mimic + rotation,0.2,0.135,400,400,full,reuse,same strategy (CV),0,0.6393,0.0625,0.6344
+simulated,share,full mimic + rotation,0.2,0.135,400,400,full,all,same strategy (CV),0,0.7979,0.1075,0.8064
+simulated,share,full mimic + rotation,0.4,0.2273,400,400,full,structure + timing,same strategy (CV),0,0.9303,0.43,0.9324
+simulated,share,full mimic + rotation,0.4,0.2273,400,400,full,reuse,same strategy (CV),0,0.7524,0.1525,0.7507
+simulated,share,full mimic + rotation,0.4,0.2273,400,400,full,all,same strategy (CV),0,0.9308,0.41,0.934
+simulated,share,empirical mimic + rotation,0.02,0.0323,400,400,full,structure + timing,same strategy (CV),0,0.5268,0.01,0.524
+simulated,share,empirical mimic + rotation,0.02,0.0323,400,400,full,reuse,same strategy (CV),0,0.5156,0.015,0.5108
+simulated,share,empirical mimic + rotation,0.02,0.0323,400,400,full,all,same strategy (CV),0,0.5479,0.0125,0.5309
+simulated,share,empirical mimic + rotation,0.05,0.0479,400,400,full,structure + timing,same strategy (CV),0,0.5887,0.005,0.557
+simulated,share,empirical mimic + rotation,0.05,0.0479,400,400,full,reuse,same strategy (CV),0,0.547,0.015,0.5387
+simulated,share,empirical mimic + rotation,0.05,0.0479,400,400,full,all,same strategy (CV),0,0.5945,0.0275,0.5769
+simulated,share,empirical mimic + rotation,0.1,0.0821,400,400,full,structure + timing,same strategy (CV),0,0.694,0.05,0.6766
+simulated,share,empirical mimic + rotation,0.1,0.0821,400,400,full,reuse,same strategy (CV),0,0.5253,0.04,0.5529
+simulated,share,empirical mimic + rotation,0.1,0.0821,400,400,full,all,same strategy (CV),0,0.6895,0.065,0.6879
+simulated,share,empirical mimic + rotation,0.2,0.1391,400,400,full,structure + timing,same strategy (CV),0,0.8082,0.095,0.8027
+simulated,share,empirical mimic + rotation,0.2,0.1391,400,400,full,reuse,same strategy (CV),0,0.5958,0.06,0.5981
+simulated,share,empirical mimic + rotation,0.2,0.1391,400,400,full,all,same strategy (CV),0,0.8071,0.0875,0.7881
+simulated,share,empirical mimic + rotation,0.4,0.2282,400,400,full,structure + timing,same strategy (CV),0,0.9121,0.3625,0.9143
+simulated,share,empirical mimic + rotation,0.4,0.2282,400,400,full,reuse,same strategy (CV),0,0.737,0.1,0.7196
+simulated,share,empirical mimic + rotation,0.4,0.2282,400,400,full,all,same strategy (CV),0,0.9121,0.35,0.9132
+simulated,strategy,naive,0.3,0.1853,400,400,full,size only,same strategy (CV),1,0.6901,0.1325,0.7094
+simulated,strategy,naive,0.3,0.1853,400,400,full,shape,same strategy (CV),1,0.8592,0.23,0.8514
+simulated,strategy,naive,0.3,0.1853,400,400,full,branching,same strategy (CV),1,0.8392,0.2075,0.8322
+simulated,strategy,naive,0.3,0.1853,400,400,full,timing,same strategy (CV),1,0.9619,0.5475,0.961
+simulated,strategy,naive,0.3,0.1853,400,400,full,reuse,same strategy (CV),1,0.9996,0.9975,0.9997
+simulated,strategy,naive,0.3,0.1853,400,400,full,structure + timing,same strategy (CV),1,0.9891,0.815,0.9889
+simulated,strategy,naive,0.3,0.1853,400,400,full,all,same strategy (CV),1,0.9998,0.9975,0.9998
+simulated,strategy,naive,0.3,0.1853,400,400,20,structure + timing,same strategy (CV),1,0.9849,0.84,0.9857
+simulated,strategy,naive,0.3,0.1853,400,400,20,reuse,same strategy (CV),1,0.9985,0.9975,0.9988
+simulated,strategy,naive,0.3,0.1853,400,400,20,all,same strategy (CV),1,0.9998,0.9975,0.9998
+simulated,strategy,naive,0.3,0.1853,400,400,full,structure + timing,naive only,1,0.992,0.88,0.9921
+simulated,strategy,naive,0.3,0.1853,400,400,full,reuse,naive only,1,0.9999,0.9975,0.9999
+simulated,strategy,naive,0.3,0.1853,400,400,full,all,naive only,1,0.9999,0.9975,0.9999
+simulated,strategy,naive,0.1,0.0788,400,400,full,size only,same strategy (CV),1,0.5814,0.045,0.595
+simulated,strategy,naive,0.1,0.0788,400,400,full,shape,same strategy (CV),1,0.6597,0.05,0.6466
+simulated,strategy,naive,0.1,0.0788,400,400,full,branching,same strategy (CV),1,0.6546,0.0275,0.626
+simulated,strategy,naive,0.1,0.0788,400,400,full,timing,same strategy (CV),1,0.885,0.2825,0.8833
+simulated,strategy,naive,0.1,0.0788,400,400,full,reuse,same strategy (CV),1,0.9088,0.39,0.9127
+simulated,strategy,naive,0.1,0.0788,400,400,full,structure + timing,same strategy (CV),1,0.9096,0.41,0.9187
+simulated,strategy,naive,0.1,0.0788,400,400,full,all,same strategy (CV),1,0.9534,0.63,0.9587
+simulated,strategy,naive,0.1,0.0788,400,400,20,structure + timing,same strategy (CV),1,0.8762,0.3675,0.8837
+simulated,strategy,naive,0.1,0.0788,400,400,20,reuse,same strategy (CV),1,0.9163,0.7025,0.9384
+simulated,strategy,naive,0.1,0.0788,400,400,20,all,same strategy (CV),1,0.9506,0.7025,0.9595
+simulated,strategy,naive,0.1,0.0788,400,400,full,structure + timing,naive only,1,0.9195,0.4925,0.9269
+simulated,strategy,naive,0.1,0.0788,400,400,full,reuse,naive only,1,0.9023,0.4175,0.9088
+simulated,strategy,naive,0.1,0.0788,400,400,full,all,naive only,1,0.9539,0.6175,0.9591
+simulated,strategy,random timing,0.3,0.1853,400,400,full,size only,same strategy (CV),1,0.6901,0.1325,0.7094
+simulated,strategy,random timing,0.3,0.1853,400,400,full,shape,same strategy (CV),1,0.8592,0.23,0.8514
+simulated,strategy,random timing,0.3,0.1853,400,400,full,branching,same strategy (CV),1,0.8392,0.2075,0.8322
+simulated,strategy,random timing,0.3,0.1853,400,400,full,timing,same strategy (CV),1,0.9791,0.6975,0.9795
+simulated,strategy,random timing,0.3,0.1853,400,400,full,reuse,same strategy (CV),1,0.9996,0.9975,0.9997
+simulated,strategy,random timing,0.3,0.1853,400,400,full,structure + timing,same strategy (CV),1,0.9929,0.885,0.9931
+simulated,strategy,random timing,0.3,0.1853,400,400,full,all,same strategy (CV),1,0.9999,0.9975,0.9999
+simulated,strategy,random timing,0.3,0.1853,400,400,20,structure + timing,same strategy (CV),1,0.9886,0.8475,0.9886
+simulated,strategy,random timing,0.3,0.1853,400,400,20,reuse,same strategy (CV),1,0.9985,0.9975,0.9988
+simulated,strategy,random timing,0.3,0.1853,400,400,20,all,same strategy (CV),1,0.9998,0.9975,0.9998
+simulated,strategy,random timing,0.3,0.1853,400,400,full,structure + timing,naive only,1,0.994,0.905,0.9939
+simulated,strategy,random timing,0.3,0.1853,400,400,full,reuse,naive only,1,0.9999,0.9975,0.9999
+simulated,strategy,random timing,0.3,0.1853,400,400,full,all,naive only,1,0.9999,0.9975,0.9999
+simulated,strategy,random timing,0.1,0.0788,400,400,full,size only,same strategy (CV),1,0.5814,0.045,0.595
+simulated,strategy,random timing,0.1,0.0788,400,400,full,shape,same strategy (CV),1,0.6597,0.05,0.6466
+simulated,strategy,random timing,0.1,0.0788,400,400,full,branching,same strategy (CV),1,0.6546,0.0275,0.626
+simulated,strategy,random timing,0.1,0.0788,400,400,full,timing,same strategy (CV),1,0.8916,0.275,0.8913
+simulated,strategy,random timing,0.1,0.0788,400,400,full,reuse,same strategy (CV),1,0.9088,0.39,0.9127
+simulated,strategy,random timing,0.1,0.0788,400,400,full,structure + timing,same strategy (CV),1,0.9195,0.505,0.929
+simulated,strategy,random timing,0.1,0.0788,400,400,full,all,same strategy (CV),1,0.9532,0.625,0.9579
+simulated,strategy,random timing,0.1,0.0788,400,400,20,structure + timing,same strategy (CV),1,0.8853,0.3475,0.8948
+simulated,strategy,random timing,0.1,0.0788,400,400,20,reuse,same strategy (CV),1,0.9165,0.7275,0.9392
+simulated,strategy,random timing,0.1,0.0788,400,400,20,all,same strategy (CV),1,0.9534,0.7075,0.9621
+simulated,strategy,random timing,0.1,0.0788,400,400,full,structure + timing,naive only,1,0.9253,0.51,0.9321
+simulated,strategy,random timing,0.1,0.0788,400,400,full,reuse,naive only,1,0.9023,0.4175,0.9088
+simulated,strategy,random timing,0.1,0.0788,400,400,full,all,naive only,1,0.956,0.62,0.9606
+simulated,strategy,organic timing,0.3,0.1778,400,400,full,size only,same strategy (CV),1,0.6954,0.0,0.6979
+simulated,strategy,organic timing,0.3,0.1778,400,400,full,shape,same strategy (CV),1,0.8694,0.275,0.8613
+simulated,strategy,organic timing,0.3,0.1778,400,400,full,branching,same strategy (CV),1,0.8265,0.2025,0.8223
+simulated,strategy,organic timing,0.3,0.1778,400,400,full,timing,same strategy (CV),1,0.8498,0.0925,0.8234
+simulated,strategy,organic timing,0.3,0.1778,400,400,full,reuse,same strategy (CV),1,0.9998,0.995,0.9998
+simulated,strategy,organic timing,0.3,0.1778,400,400,full,structure + timing,same strategy (CV),1,0.9213,0.2925,0.9158
+simulated,strategy,organic timing,0.3,0.1778,400,400,full,all,same strategy (CV),1,0.9998,0.995,0.9998
+simulated,strategy,organic timing,0.3,0.1778,400,400,20,structure + timing,same strategy (CV),1,0.866,0.275,0.8547
+simulated,strategy,organic timing,0.3,0.1778,400,400,20,reuse,same strategy (CV),1,1.0,0.9975,1.0
+simulated,strategy,organic timing,0.3,0.1778,400,400,20,all,same strategy (CV),1,1.0,1.0,1.0
+simulated,strategy,organic timing,0.3,0.1778,400,400,full,structure + timing,naive only,1,0.8134,0.185,0.8102
+simulated,strategy,organic timing,0.3,0.1778,400,400,full,reuse,naive only,1,0.9999,0.995,0.9999
+simulated,strategy,organic timing,0.3,0.1778,400,400,full,all,naive only,1,0.9998,0.995,0.9998
+simulated,strategy,organic timing,0.1,0.0764,400,400,full,size only,same strategy (CV),1,0.5768,0.06,0.5995
+simulated,strategy,organic timing,0.1,0.0764,400,400,full,shape,same strategy (CV),1,0.6619,0.0675,0.6534
+simulated,strategy,organic timing,0.1,0.0764,400,400,full,branching,same strategy (CV),1,0.654,0.02,0.6267
+simulated,strategy,organic timing,0.1,0.0764,400,400,full,timing,same strategy (CV),1,0.6602,0.0,0.6046
+simulated,strategy,organic timing,0.1,0.0764,400,400,full,reuse,same strategy (CV),1,0.9074,0.5275,0.918
+simulated,strategy,organic timing,0.1,0.0764,400,400,full,structure + timing,same strategy (CV),1,0.7207,0.0425,0.6858
+simulated,strategy,organic timing,0.1,0.0764,400,400,full,all,same strategy (CV),1,0.9144,0.4575,0.9239
+simulated,strategy,organic timing,0.1,0.0764,400,400,20,structure + timing,same strategy (CV),1,0.6747,0.065,0.6643
+simulated,strategy,organic timing,0.1,0.0764,400,400,20,reuse,same strategy (CV),1,0.8635,0.5775,0.8985
+simulated,strategy,organic timing,0.1,0.0764,400,400,20,all,same strategy (CV),1,0.8716,0.5775,0.9041
+simulated,strategy,organic timing,0.1,0.0764,400,400,full,structure + timing,naive only,1,0.6299,0.055,0.6235
+simulated,strategy,organic timing,0.1,0.0764,400,400,full,reuse,naive only,1,0.9082,0.485,0.9178
+simulated,strategy,organic timing,0.1,0.0764,400,400,full,all,naive only,1,0.892,0.355,0.9012
+simulated,strategy,organic timing + structure,0.1,0.0789,400,400,full,size only,same strategy (CV),1,0.5594,0.055,0.58
+simulated,strategy,organic timing + structure,0.1,0.0789,400,400,full,shape,same strategy (CV),1,0.5717,0.0575,0.6027
+simulated,strategy,organic timing + structure,0.1,0.0789,400,400,full,branching,same strategy (CV),1,0.6547,0.0275,0.6339
+simulated,strategy,organic timing + structure,0.1,0.0789,400,400,full,timing,same strategy (CV),1,0.5589,0.07,0.6031
+simulated,strategy,organic timing + structure,0.1,0.0789,400,400,full,reuse,same strategy (CV),1,0.8907,0.4725,0.9014
+simulated,strategy,organic timing + structure,0.1,0.0789,400,400,full,structure + timing,same strategy (CV),1,0.6802,0.09,0.6947
+simulated,strategy,organic timing + structure,0.1,0.0789,400,400,full,all,same strategy (CV),1,0.8979,0.4525,0.9095
+simulated,strategy,organic timing + structure,0.1,0.0789,400,400,20,structure + timing,same strategy (CV),1,0.5499,0.025,0.5462
+simulated,strategy,organic timing + structure,0.1,0.0789,400,400,20,reuse,same strategy (CV),1,0.5545,0.0825,0.5929
+simulated,strategy,organic timing + structure,0.1,0.0789,400,400,20,all,same strategy (CV),1,0.6226,0.0375,0.6249
+simulated,strategy,organic timing + structure,0.1,0.0789,400,400,full,structure + timing,naive only,1,0.5509,0.0225,0.534
+simulated,strategy,organic timing + structure,0.1,0.0789,400,400,full,reuse,naive only,1,0.8951,0.4225,0.905
+simulated,strategy,organic timing + structure,0.1,0.0789,400,400,full,all,naive only,1,0.8495,0.215,0.852
+simulated,strategy,organic timing + structure,0.3,0.1827,400,400,full,size only,same strategy (CV),1,0.6919,0.155,0.7123
+simulated,strategy,organic timing + structure,0.3,0.1827,400,400,full,shape,same strategy (CV),1,0.7995,0.235,0.8038
+simulated,strategy,organic timing + structure,0.3,0.1827,400,400,full,branching,same strategy (CV),1,0.8724,0.1725,0.8619
+simulated,strategy,organic timing + structure,0.3,0.1827,400,400,full,timing,same strategy (CV),1,0.7257,0.1775,0.7551
+simulated,strategy,organic timing + structure,0.3,0.1827,400,400,full,reuse,same strategy (CV),1,0.9984,0.9975,0.9987
+simulated,strategy,organic timing + structure,0.3,0.1827,400,400,full,structure + timing,same strategy (CV),1,0.8894,0.4225,0.8981
+simulated,strategy,organic timing + structure,0.3,0.1827,400,400,full,all,same strategy (CV),1,0.9997,0.9975,0.9998
+simulated,strategy,organic timing + structure,0.3,0.1827,400,400,20,structure + timing,same strategy (CV),1,0.7501,0.0625,0.7266
+simulated,strategy,organic timing + structure,0.3,0.1827,400,400,20,reuse,same strategy (CV),1,0.822,0.505,0.8619
+simulated,strategy,organic timing + structure,0.3,0.1827,400,400,20,all,same strategy (CV),1,0.8865,0.5225,0.9048
+simulated,strategy,organic timing + structure,0.3,0.1827,400,400,full,structure + timing,naive only,1,0.616,0.0025,0.5592
+simulated,strategy,organic timing + structure,0.3,0.1827,400,400,full,reuse,naive only,1,1.0,0.9975,1.0
+simulated,strategy,organic timing + structure,0.3,0.1827,400,400,full,all,naive only,1,0.9998,0.995,0.9998
+simulated,share,naive,0.02,0.0322,400,400,full,structure + timing,same strategy (CV),1,0.6601,0.0425,0.6407
+simulated,share,naive,0.02,0.0322,400,400,full,reuse,same strategy (CV),1,0.5575,0.0225,0.5499
+simulated,share,naive,0.02,0.0322,400,400,full,all,same strategy (CV),1,0.6656,0.045,0.6446
+simulated,share,naive,0.05,0.0471,400,400,full,structure + timing,same strategy (CV),1,0.7818,0.215,0.7958
+simulated,share,naive,0.05,0.0471,400,400,full,reuse,same strategy (CV),1,0.6756,0.2025,0.7054
+simulated,share,naive,0.05,0.0471,400,400,full,all,same strategy (CV),1,0.8144,0.2825,0.8294
+simulated,share,naive,0.1,0.0788,400,400,full,structure + timing,same strategy (CV),1,0.9096,0.41,0.9187
+simulated,share,naive,0.1,0.0788,400,400,full,reuse,same strategy (CV),1,0.9088,0.39,0.9127
+simulated,share,naive,0.1,0.0788,400,400,full,all,same strategy (CV),1,0.9534,0.63,0.9587
+simulated,share,naive,0.2,0.1346,400,400,full,structure + timing,same strategy (CV),1,0.9688,0.685,0.9709
+simulated,share,naive,0.2,0.1346,400,400,full,reuse,same strategy (CV),1,0.9971,0.9475,0.9973
+simulated,share,naive,0.2,0.1346,400,400,full,all,same strategy (CV),1,0.9975,0.9575,0.9977
+simulated,strategy,full mimic + rotation,0.3,0.181,400,400,full,size only,same strategy (CV),1,0.6739,0.0,0.6774
+simulated,strategy,full mimic + rotation,0.3,0.181,400,400,full,shape,same strategy (CV),1,0.813,0.1975,0.8147
+simulated,strategy,full mimic + rotation,0.3,0.181,400,400,full,branching,same strategy (CV),1,0.8629,0.2475,0.8643
+simulated,strategy,full mimic + rotation,0.3,0.181,400,400,full,timing,same strategy (CV),1,0.7108,0.1775,0.7378
+simulated,strategy,full mimic + rotation,0.3,0.181,400,400,full,reuse,same strategy (CV),1,0.7123,0.0875,0.7167
+simulated,strategy,full mimic + rotation,0.3,0.181,400,400,full,structure + timing,same strategy (CV),1,0.8953,0.435,0.8997
+simulated,strategy,full mimic + rotation,0.3,0.181,400,400,full,all,same strategy (CV),1,0.8984,0.45,0.8996
+simulated,strategy,full mimic + rotation,0.3,0.181,400,400,20,structure + timing,same strategy (CV),1,0.7289,0.105,0.7346
+simulated,strategy,full mimic + rotation,0.3,0.181,400,400,20,reuse,same strategy (CV),1,0.6078,0.0225,0.5707
+simulated,strategy,full mimic + rotation,0.3,0.181,400,400,20,all,same strategy (CV),1,0.7404,0.0625,0.73
+simulated,strategy,full mimic + rotation,0.3,0.181,400,400,full,structure + timing,naive only,1,0.6123,0.0,0.5603
+simulated,strategy,full mimic + rotation,0.3,0.181,400,400,full,reuse,naive only,1,0.5278,0.0,0.5435
+simulated,strategy,full mimic + rotation,0.3,0.181,400,400,full,all,naive only,1,0.6463,0.0,0.6059
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,size only,same strategy (CV),1,0.5415,0.0075,0.532
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,shape,same strategy (CV),1,0.5311,0.03,0.5382
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,branching,same strategy (CV),1,0.5751,0.0075,0.5726
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,timing,same strategy (CV),1,0.4468,0.005,0.4577
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,reuse,same strategy (CV),1,1.0,1.0,1.0
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,structure + timing,same strategy (CV),1,0.5193,0.01,0.5185
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,all,same strategy (CV),1,1.0,1.0,1.0
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,20,structure + timing,same strategy (CV),1,0.4886,0.01,0.4981
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,20,reuse,same strategy (CV),1,0.981,0.91,0.9862
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,20,all,same strategy (CV),1,0.9859,0.915,0.9889
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,structure + timing,naive only,1,0.5166,0.015,0.5113
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,reuse,naive only,1,1.0,1.0,1.0
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,all,naive only,1,0.9987,0.995,0.9986
+simulated,strategy,control: embedded accounts,0.1,0.0992,400,400,full,size only,same strategy (CV),1,0.5331,0.01,0.5344
+simulated,strategy,control: embedded accounts,0.1,0.0992,400,400,full,shape,same strategy (CV),1,0.5213,0.0125,0.5284
+simulated,strategy,control: embedded accounts,0.1,0.0992,400,400,full,branching,same strategy (CV),1,0.5737,0.0125,0.567
+simulated,strategy,control: embedded accounts,0.1,0.0992,400,400,full,timing,same strategy (CV),1,0.4739,0.015,0.4888
+simulated,strategy,control: embedded accounts,0.1,0.0992,400,400,full,reuse,same strategy (CV),1,0.9286,0.5125,0.9309
+simulated,strategy,control: embedded accounts,0.1,0.0992,400,400,full,structure + timing,same strategy (CV),1,0.5462,0.0125,0.5415
+simulated,strategy,control: embedded accounts,0.1,0.0992,400,400,full,all,same strategy (CV),1,0.9314,0.525,0.9336
+simulated,strategy,control: embedded accounts,0.1,0.0992,400,400,20,structure + timing,same strategy (CV),1,0.4924,0.0125,0.5074
+simulated,strategy,control: embedded accounts,0.1,0.0992,400,400,20,reuse,same strategy (CV),1,0.7119,0.1525,0.7251
+simulated,strategy,control: embedded accounts,0.1,0.0992,400,400,20,all,same strategy (CV),1,0.69,0.09,0.7085
+simulated,strategy,control: embedded accounts,0.1,0.0992,400,400,full,structure + timing,naive only,1,0.5066,0.03,0.5238
+simulated,strategy,control: embedded accounts,0.1,0.0992,400,400,full,reuse,naive only,1,0.908,0.5025,0.9162
+simulated,strategy,control: embedded accounts,0.1,0.0992,400,400,full,all,naive only,1,0.8563,0.215,0.8527
+simulated,strategy,full mimic + rotation,0.1,0.0773,400,400,full,size only,same strategy (CV),1,0.6163,0.0475,0.6007
+simulated,strategy,full mimic + rotation,0.1,0.0773,400,400,full,shape,same strategy (CV),1,0.6017,0.085,0.6337
+simulated,strategy,full mimic + rotation,0.1,0.0773,400,400,full,branching,same strategy (CV),1,0.6831,0.02,0.6517
+simulated,strategy,full mimic + rotation,0.1,0.0773,400,400,full,timing,same strategy (CV),1,0.5847,0.1025,0.6165
+simulated,strategy,full mimic + rotation,0.1,0.0773,400,400,full,reuse,same strategy (CV),1,0.5317,0.0525,0.5606
+simulated,strategy,full mimic + rotation,0.1,0.0773,400,400,full,structure + timing,same strategy (CV),1,0.6876,0.1175,0.7049
+simulated,strategy,full mimic + rotation,0.1,0.0773,400,400,full,all,same strategy (CV),1,0.6808,0.14,0.696
+simulated,strategy,full mimic + rotation,0.1,0.0773,400,400,20,structure + timing,same strategy (CV),1,0.5677,0.005,0.5402
+simulated,strategy,full mimic + rotation,0.1,0.0773,400,400,20,reuse,same strategy (CV),1,0.5093,0.005,0.4974
+simulated,strategy,full mimic + rotation,0.1,0.0773,400,400,20,all,same strategy (CV),1,0.5651,0.005,0.5356
+simulated,strategy,full mimic + rotation,0.1,0.0773,400,400,full,structure + timing,naive only,1,0.554,0.0225,0.5363
+simulated,strategy,full mimic + rotation,0.1,0.0773,400,400,full,reuse,naive only,1,0.4361,0.01,0.4654
+simulated,strategy,full mimic + rotation,0.1,0.0773,400,400,full,all,naive only,1,0.4956,0.01,0.4973
+simulated,strategy,empirical mimic + rotation,0.1,0.078,400,400,full,size only,same strategy (CV),1,0.5715,0.0475,0.5855
+simulated,strategy,empirical mimic + rotation,0.1,0.078,400,400,full,shape,same strategy (CV),1,0.5907,0.0375,0.5954
+simulated,strategy,empirical mimic + rotation,0.1,0.078,400,400,full,branching,same strategy (CV),1,0.5922,0.0425,0.5711
+simulated,strategy,empirical mimic + rotation,0.1,0.078,400,400,full,timing,same strategy (CV),1,0.6997,0.0625,0.6917
+simulated,strategy,empirical mimic + rotation,0.1,0.078,400,400,full,reuse,same strategy (CV),1,0.5451,0.05,0.5642
+simulated,strategy,empirical mimic + rotation,0.1,0.078,400,400,full,structure + timing,same strategy (CV),1,0.7272,0.085,0.7207
+simulated,strategy,empirical mimic + rotation,0.1,0.078,400,400,full,all,same strategy (CV),1,0.7332,0.085,0.7351
+simulated,strategy,empirical mimic + rotation,0.1,0.078,400,400,20,structure + timing,same strategy (CV),1,0.6422,0.0675,0.65
+simulated,strategy,empirical mimic + rotation,0.1,0.078,400,400,20,reuse,same strategy (CV),1,0.5004,0.0125,0.5028
+simulated,strategy,empirical mimic + rotation,0.1,0.078,400,400,20,all,same strategy (CV),1,0.6575,0.065,0.6701
+simulated,strategy,empirical mimic + rotation,0.1,0.078,400,400,full,structure + timing,naive only,1,0.6299,0.04,0.608
+simulated,strategy,empirical mimic + rotation,0.1,0.078,400,400,full,reuse,naive only,1,0.4337,0.0,0.4506
+simulated,strategy,empirical mimic + rotation,0.1,0.078,400,400,full,all,naive only,1,0.5414,0.015,0.5352
+simulated,share,naive,0.4,0.2258,400,400,full,structure + timing,same strategy (CV),1,0.995,0.88,0.9946
+simulated,share,naive,0.4,0.2258,400,400,full,reuse,same strategy (CV),1,1.0,0.9975,1.0
+simulated,share,naive,0.4,0.2258,400,400,full,all,same strategy (CV),1,0.9999,0.9975,0.9999
+simulated,strategy,empirical mimic + rotation,0.3,0.178,400,400,full,size only,same strategy (CV),1,0.6999,0.0,0.7082
+simulated,strategy,empirical mimic + rotation,0.3,0.178,400,400,full,shape,same strategy (CV),1,0.7466,0.1375,0.759
+simulated,strategy,empirical mimic + rotation,0.3,0.178,400,400,full,branching,same strategy (CV),1,0.7249,0.1525,0.7504
+simulated,strategy,empirical mimic + rotation,0.3,0.178,400,400,full,timing,same strategy (CV),1,0.8589,0.15,0.8486
+simulated,strategy,empirical mimic + rotation,0.3,0.178,400,400,full,reuse,same strategy (CV),1,0.7046,0.11,0.7273
+simulated,strategy,empirical mimic + rotation,0.3,0.178,400,400,full,structure + timing,same strategy (CV),1,0.8887,0.33,0.8862
+simulated,strategy,empirical mimic + rotation,0.3,0.178,400,400,full,all,same strategy (CV),1,0.8862,0.2825,0.8846
+simulated,strategy,empirical mimic + rotation,0.3,0.178,400,400,20,structure + timing,same strategy (CV),1,0.8152,0.1325,0.796
+simulated,strategy,empirical mimic + rotation,0.3,0.178,400,400,20,reuse,same strategy (CV),1,0.5902,0.0025,0.5581
+simulated,strategy,empirical mimic + rotation,0.3,0.178,400,400,20,all,same strategy (CV),1,0.8226,0.1325,0.8123
+simulated,strategy,empirical mimic + rotation,0.3,0.178,400,400,full,structure + timing,naive only,1,0.7543,0.0575,0.7118
+simulated,strategy,empirical mimic + rotation,0.3,0.178,400,400,full,reuse,naive only,1,0.4956,0.0,0.5277
+simulated,strategy,empirical mimic + rotation,0.3,0.178,400,400,full,all,naive only,1,0.7131,0.055,0.6762
+simulated,share,full mimic + rotation,0.02,0.0321,400,400,full,structure + timing,same strategy (CV),1,0.5663,0.025,0.5573
+simulated,share,full mimic + rotation,0.02,0.0321,400,400,full,reuse,same strategy (CV),1,0.4738,0.005,0.4795
+simulated,share,full mimic + rotation,0.02,0.0321,400,400,full,all,same strategy (CV),1,0.5646,0.02,0.5607
+simulated,share,full mimic + rotation,0.05,0.0465,400,400,full,structure + timing,same strategy (CV),1,0.6336,0.0525,0.6239
+simulated,share,full mimic + rotation,0.05,0.0465,400,400,full,reuse,same strategy (CV),1,0.535,0.0425,0.5613
+simulated,share,full mimic + rotation,0.05,0.0465,400,400,full,all,same strategy (CV),1,0.6352,0.065,0.6344
+simulated,share,full mimic + rotation,0.1,0.0773,400,400,full,structure + timing,same strategy (CV),1,0.6876,0.1175,0.7049
+simulated,share,full mimic + rotation,0.1,0.0773,400,400,full,reuse,same strategy (CV),1,0.5317,0.0525,0.5606
+simulated,share,full mimic + rotation,0.1,0.0773,400,400,full,all,same strategy (CV),1,0.6808,0.14,0.696
+simulated,share,full mimic + rotation,0.2,0.1341,400,400,full,structure + timing,same strategy (CV),1,0.8331,0.2425,0.8438
+simulated,share,full mimic + rotation,0.2,0.1341,400,400,full,reuse,same strategy (CV),1,0.6318,0.11,0.6612
+simulated,share,full mimic + rotation,0.2,0.1341,400,400,full,all,same strategy (CV),1,0.8339,0.325,0.8465
+simulated,share,full mimic + rotation,0.4,0.2269,400,400,full,structure + timing,same strategy (CV),1,0.9318,0.4775,0.931
+simulated,share,full mimic + rotation,0.4,0.2269,400,400,full,reuse,same strategy (CV),1,0.7559,0.21,0.771
+simulated,share,full mimic + rotation,0.4,0.2269,400,400,full,all,same strategy (CV),1,0.9347,0.525,0.9366
+simulated,share,empirical mimic + rotation,0.05,0.0474,400,400,full,structure + timing,same strategy (CV),1,0.6263,0.035,0.6274
+simulated,share,empirical mimic + rotation,0.05,0.0474,400,400,full,reuse,same strategy (CV),1,0.5073,0.0375,0.5422
+simulated,share,empirical mimic + rotation,0.05,0.0474,400,400,full,all,same strategy (CV),1,0.6233,0.0575,0.6284
+simulated,share,empirical mimic + rotation,0.02,0.0318,400,400,full,structure + timing,same strategy (CV),1,0.577,0.01,0.5584
+simulated,share,empirical mimic + rotation,0.02,0.0318,400,400,full,reuse,same strategy (CV),1,0.4636,0.0075,0.4796
+simulated,share,empirical mimic + rotation,0.02,0.0318,400,400,full,all,same strategy (CV),1,0.5614,0.0175,0.5564
+simulated,share,empirical mimic + rotation,0.1,0.078,400,400,full,structure + timing,same strategy (CV),1,0.7272,0.085,0.7207
+simulated,share,empirical mimic + rotation,0.1,0.078,400,400,full,reuse,same strategy (CV),1,0.5451,0.05,0.5642
+simulated,share,empirical mimic + rotation,0.1,0.078,400,400,full,all,same strategy (CV),1,0.7332,0.085,0.7351
+simulated,share,empirical mimic + rotation,0.2,0.1343,400,400,full,structure + timing,same strategy (CV),1,0.831,0.19,0.832
+simulated,share,empirical mimic + rotation,0.2,0.1343,400,400,full,reuse,same strategy (CV),1,0.5923,0.1025,0.6253
+simulated,share,empirical mimic + rotation,0.2,0.1343,400,400,full,all,same strategy (CV),1,0.8267,0.1925,0.8278
+simulated,share,empirical mimic + rotation,0.4,0.2263,400,400,full,structure + timing,same strategy (CV),1,0.9221,0.4875,0.9267
+simulated,share,empirical mimic + rotation,0.4,0.2263,400,400,full,reuse,same strategy (CV),1,0.7425,0.125,0.7511
+simulated,share,empirical mimic + rotation,0.4,0.2263,400,400,full,all,same strategy (CV),1,0.9167,0.5225,0.9235
+simulated,strategy,naive,0.3,0.1891,400,400,full,size only,same strategy (CV),2,0.6373,0.1275,0.659
+simulated,strategy,naive,0.3,0.1891,400,400,full,shape,same strategy (CV),2,0.818,0.25,0.8047
+simulated,strategy,naive,0.3,0.1891,400,400,full,branching,same strategy (CV),2,0.8139,0.1,0.8032
+simulated,strategy,naive,0.3,0.1891,400,400,full,timing,same strategy (CV),2,0.9528,0.435,0.9482
+simulated,strategy,naive,0.3,0.1891,400,400,full,reuse,same strategy (CV),2,0.9999,0.9975,0.9999
+simulated,strategy,naive,0.3,0.1891,400,400,full,structure + timing,same strategy (CV),2,0.9831,0.6925,0.9831
+simulated,strategy,naive,0.3,0.1891,400,400,full,all,same strategy (CV),2,1.0,0.9975,1.0
+simulated,strategy,naive,0.3,0.1891,400,400,20,structure + timing,same strategy (CV),2,0.9751,0.685,0.977
+simulated,strategy,naive,0.3,0.1891,400,400,20,reuse,same strategy (CV),2,0.9983,0.995,0.9986
+simulated,strategy,naive,0.3,0.1891,400,400,20,all,same strategy (CV),2,0.9996,0.9925,0.9996
+simulated,strategy,naive,0.3,0.1891,400,400,full,structure + timing,naive only,2,0.9828,0.6725,0.9826
+simulated,strategy,naive,0.3,0.1891,400,400,full,reuse,naive only,2,1.0,1.0,1.0
+simulated,strategy,naive,0.3,0.1891,400,400,full,all,naive only,2,1.0,1.0,1.0
+simulated,strategy,naive,0.1,0.079,400,400,full,size only,same strategy (CV),2,0.536,0.0675,0.5879
+simulated,strategy,naive,0.1,0.079,400,400,full,shape,same strategy (CV),2,0.6153,0.08,0.6404
+simulated,strategy,naive,0.1,0.079,400,400,full,branching,same strategy (CV),2,0.5864,0.0225,0.5815
+simulated,strategy,naive,0.1,0.079,400,400,full,timing,same strategy (CV),2,0.8494,0.1,0.8229
+simulated,strategy,naive,0.1,0.079,400,400,full,reuse,same strategy (CV),2,0.8937,0.39,0.8991
+simulated,strategy,naive,0.1,0.079,400,400,full,structure + timing,same strategy (CV),2,0.8803,0.32,0.8793
+simulated,strategy,naive,0.1,0.079,400,400,full,all,same strategy (CV),2,0.9373,0.575,0.9415
+simulated,strategy,naive,0.1,0.079,400,400,20,structure + timing,same strategy (CV),2,0.8523,0.2975,0.859
+simulated,strategy,naive,0.1,0.079,400,400,20,reuse,same strategy (CV),2,0.9105,0.635,0.9276
+simulated,strategy,naive,0.1,0.079,400,400,20,all,same strategy (CV),2,0.9334,0.62,0.9428
+simulated,strategy,naive,0.1,0.079,400,400,full,structure + timing,naive only,2,0.8935,0.26,0.8908
+simulated,strategy,naive,0.1,0.079,400,400,full,reuse,naive only,2,0.9075,0.48,0.9149
+simulated,strategy,naive,0.1,0.079,400,400,full,all,naive only,2,0.9407,0.5325,0.9436
+simulated,strategy,random timing,0.1,0.079,400,400,full,size only,same strategy (CV),2,0.536,0.0675,0.5879
+simulated,strategy,random timing,0.1,0.079,400,400,full,shape,same strategy (CV),2,0.6153,0.08,0.6404
+simulated,strategy,random timing,0.1,0.079,400,400,full,branching,same strategy (CV),2,0.5864,0.0225,0.5815
+simulated,strategy,random timing,0.1,0.079,400,400,full,timing,same strategy (CV),2,0.8538,0.205,0.8364
+simulated,strategy,random timing,0.1,0.079,400,400,full,reuse,same strategy (CV),2,0.8937,0.39,0.8991
+simulated,strategy,random timing,0.1,0.079,400,400,full,structure + timing,same strategy (CV),2,0.8836,0.3,0.8814
+simulated,strategy,random timing,0.1,0.079,400,400,full,all,same strategy (CV),2,0.937,0.5575,0.941
+simulated,strategy,random timing,0.1,0.079,400,400,20,structure + timing,same strategy (CV),2,0.859,0.325,0.865
+simulated,strategy,random timing,0.1,0.079,400,400,20,reuse,same strategy (CV),2,0.9121,0.6325,0.9292
+simulated,strategy,random timing,0.1,0.079,400,400,20,all,same strategy (CV),2,0.9339,0.62,0.9431
+simulated,strategy,random timing,0.1,0.079,400,400,full,structure + timing,naive only,2,0.895,0.265,0.8932
+simulated,strategy,random timing,0.1,0.079,400,400,full,reuse,naive only,2,0.9075,0.48,0.9149
+simulated,strategy,random timing,0.1,0.079,400,400,full,all,naive only,2,0.9417,0.5425,0.9447
+simulated,strategy,random timing,0.3,0.1891,400,400,full,size only,same strategy (CV),2,0.6373,0.1275,0.659
+simulated,strategy,random timing,0.3,0.1891,400,400,full,shape,same strategy (CV),2,0.818,0.25,0.8047
+simulated,strategy,random timing,0.3,0.1891,400,400,full,branching,same strategy (CV),2,0.8139,0.1,0.8032
+simulated,strategy,random timing,0.3,0.1891,400,400,full,timing,same strategy (CV),2,0.9757,0.715,0.9763
+simulated,strategy,random timing,0.3,0.1891,400,400,full,reuse,same strategy (CV),2,0.9999,0.9975,0.9999
+simulated,strategy,random timing,0.3,0.1891,400,400,full,structure + timing,same strategy (CV),2,0.9894,0.8225,0.9898
+simulated,strategy,random timing,0.3,0.1891,400,400,full,all,same strategy (CV),2,1.0,1.0,1.0
+simulated,strategy,random timing,0.3,0.1891,400,400,20,structure + timing,same strategy (CV),2,0.9848,0.765,0.9848
+simulated,strategy,random timing,0.3,0.1891,400,400,20,reuse,same strategy (CV),2,0.9984,0.9975,0.9987
+simulated,strategy,random timing,0.3,0.1891,400,400,20,all,same strategy (CV),2,0.9998,0.995,0.9998
+simulated,strategy,random timing,0.3,0.1891,400,400,full,structure + timing,naive only,2,0.986,0.6775,0.9855
+simulated,strategy,random timing,0.3,0.1891,400,400,full,reuse,naive only,2,1.0,1.0,1.0
+simulated,strategy,random timing,0.3,0.1891,400,400,full,all,naive only,2,1.0,1.0,1.0
+simulated,strategy,organic timing,0.3,0.186,400,400,full,size only,same strategy (CV),2,0.6261,0.1275,0.6572
+simulated,strategy,organic timing,0.3,0.186,400,400,full,shape,same strategy (CV),2,0.8135,0.225,0.804
+simulated,strategy,organic timing,0.3,0.186,400,400,full,branching,same strategy (CV),2,0.8187,0.1425,0.8129
+simulated,strategy,organic timing,0.3,0.186,400,400,full,timing,same strategy (CV),2,0.8282,0.125,0.817
+simulated,strategy,organic timing,0.3,0.186,400,400,full,reuse,same strategy (CV),2,1.0,1.0,1.0
+simulated,strategy,organic timing,0.3,0.186,400,400,full,structure + timing,same strategy (CV),2,0.8887,0.2025,0.8822
+simulated,strategy,organic timing,0.3,0.186,400,400,full,all,same strategy (CV),2,1.0,1.0,1.0
+simulated,strategy,organic timing,0.3,0.186,400,400,20,structure + timing,same strategy (CV),2,0.8421,0.165,0.8375
+simulated,strategy,organic timing,0.3,0.186,400,400,20,reuse,same strategy (CV),2,0.9993,0.995,0.9994
+simulated,strategy,organic timing,0.3,0.186,400,400,20,all,same strategy (CV),2,0.9986,0.995,0.999
+simulated,strategy,organic timing,0.3,0.186,400,400,full,structure + timing,naive only,2,0.7703,0.07,0.758
+simulated,strategy,organic timing,0.3,0.186,400,400,full,reuse,naive only,2,1.0,1.0,1.0
+simulated,strategy,organic timing,0.3,0.186,400,400,full,all,naive only,2,1.0,1.0,1.0
+simulated,strategy,organic timing,0.1,0.0785,400,400,full,size only,same strategy (CV),2,0.5742,0.0725,0.5911
+simulated,strategy,organic timing,0.1,0.0785,400,400,full,shape,same strategy (CV),2,0.6595,0.0675,0.6531
+simulated,strategy,organic timing,0.1,0.0785,400,400,full,branching,same strategy (CV),2,0.6159,0.0075,0.5935
+simulated,strategy,organic timing,0.1,0.0785,400,400,full,timing,same strategy (CV),2,0.6202,0.0175,0.5959
+simulated,strategy,organic timing,0.1,0.0785,400,400,full,reuse,same strategy (CV),2,0.8896,0.45,0.8986
+simulated,strategy,organic timing,0.1,0.0785,400,400,full,structure + timing,same strategy (CV),2,0.7034,0.07,0.6875
+simulated,strategy,organic timing,0.1,0.0785,400,400,full,all,same strategy (CV),2,0.9031,0.47,0.9118
+simulated,strategy,organic timing,0.1,0.0785,400,400,20,structure + timing,same strategy (CV),2,0.6538,0.0225,0.6208
+simulated,strategy,organic timing,0.1,0.0785,400,400,20,reuse,same strategy (CV),2,0.8715,0.5775,0.8989
+simulated,strategy,organic timing,0.1,0.0785,400,400,20,all,same strategy (CV),2,0.8839,0.5175,0.9022
+simulated,strategy,organic timing,0.1,0.0785,400,400,full,structure + timing,naive only,2,0.6051,0.005,0.5726
+simulated,strategy,organic timing,0.1,0.0785,400,400,full,reuse,naive only,2,0.896,0.475,0.9049
+simulated,strategy,organic timing,0.1,0.0785,400,400,full,all,naive only,2,0.8595,0.1725,0.8546
+simulated,strategy,organic timing + structure,0.3,0.1806,400,400,full,size only,same strategy (CV),2,0.6692,0.15,0.7
+simulated,strategy,organic timing + structure,0.3,0.1806,400,400,full,shape,same strategy (CV),2,0.7821,0.2025,0.7994
+simulated,strategy,organic timing + structure,0.3,0.1806,400,400,full,branching,same strategy (CV),2,0.8542,0.25,0.8629
+simulated,strategy,organic timing + structure,0.3,0.1806,400,400,full,timing,same strategy (CV),2,0.7452,0.14,0.7503
+simulated,strategy,organic timing + structure,0.3,0.1806,400,400,full,reuse,same strategy (CV),2,0.9998,0.9975,0.9998
+simulated,strategy,organic timing + structure,0.3,0.1806,400,400,full,structure + timing,same strategy (CV),2,0.8833,0.35,0.8932
+simulated,strategy,organic timing + structure,0.3,0.1806,400,400,full,all,same strategy (CV),2,0.9999,1.0,0.9999
+simulated,strategy,organic timing + structure,0.3,0.1806,400,400,20,structure + timing,same strategy (CV),2,0.7231,0.0475,0.7065
+simulated,strategy,organic timing + structure,0.3,0.1806,400,400,20,reuse,same strategy (CV),2,0.8305,0.5225,0.8734
+simulated,strategy,organic timing + structure,0.3,0.1806,400,400,20,all,same strategy (CV),2,0.8976,0.54,0.9126
+simulated,strategy,organic timing + structure,0.3,0.1806,400,400,full,structure + timing,naive only,2,0.591,0.0,0.5326
+simulated,strategy,organic timing + structure,0.3,0.1806,400,400,full,reuse,naive only,2,0.9997,0.9975,0.9997
+simulated,strategy,organic timing + structure,0.3,0.1806,400,400,full,all,naive only,2,1.0,0.9975,1.0
+simulated,strategy,organic timing + structure,0.1,0.0785,400,400,full,size only,same strategy (CV),2,0.5357,0.0775,0.5708
+simulated,strategy,organic timing + structure,0.1,0.0785,400,400,full,shape,same strategy (CV),2,0.5716,0.0925,0.6126
+simulated,strategy,organic timing + structure,0.1,0.0785,400,400,full,branching,same strategy (CV),2,0.6363,0.0575,0.6525
+simulated,strategy,organic timing + structure,0.1,0.0785,400,400,full,timing,same strategy (CV),2,0.6083,0.0525,0.6148
+simulated,strategy,organic timing + structure,0.1,0.0785,400,400,full,reuse,same strategy (CV),2,0.9,0.42,0.9093
+simulated,strategy,organic timing + structure,0.1,0.0785,400,400,full,structure + timing,same strategy (CV),2,0.656,0.1225,0.6902
+simulated,strategy,organic timing + structure,0.1,0.0785,400,400,full,all,same strategy (CV),2,0.9087,0.4375,0.9135
+simulated,strategy,organic timing + structure,0.1,0.0785,400,400,20,structure + timing,same strategy (CV),2,0.564,0.045,0.5773
+simulated,strategy,organic timing + structure,0.1,0.0785,400,400,20,reuse,same strategy (CV),2,0.5753,0.05,0.5987
+simulated,strategy,organic timing + structure,0.1,0.0785,400,400,20,all,same strategy (CV),2,0.6291,0.055,0.6222
+simulated,strategy,organic timing + structure,0.1,0.0785,400,400,full,structure + timing,naive only,2,0.5563,0.0025,0.5236
+simulated,strategy,organic timing + structure,0.1,0.0785,400,400,full,reuse,naive only,2,0.9111,0.5,0.9192
+simulated,strategy,organic timing + structure,0.1,0.0785,400,400,full,all,naive only,2,0.838,0.13,0.8252
+simulated,share,naive,0.02,0.0344,400,400,full,structure + timing,same strategy (CV),2,0.639,0.0225,0.6039
+simulated,share,naive,0.02,0.0344,400,400,full,reuse,same strategy (CV),2,0.5383,0.045,0.548
+simulated,share,naive,0.02,0.0344,400,400,full,all,same strategy (CV),2,0.636,0.0225,0.6047
+simulated,share,naive,0.05,0.0479,400,400,full,structure + timing,same strategy (CV),2,0.7393,0.08,0.7148
+simulated,share,naive,0.05,0.0479,400,400,full,reuse,same strategy (CV),2,0.6875,0.125,0.7073
+simulated,share,naive,0.05,0.0479,400,400,full,all,same strategy (CV),2,0.785,0.18,0.7809
+simulated,share,naive,0.1,0.079,400,400,full,structure + timing,same strategy (CV),2,0.8803,0.32,0.8793
+simulated,share,naive,0.1,0.079,400,400,full,reuse,same strategy (CV),2,0.8937,0.39,0.8991
+simulated,share,naive,0.1,0.079,400,400,full,all,same strategy (CV),2,0.9373,0.575,0.9415
+simulated,strategy,full mimic + rotation,0.3,0.1831,400,400,full,size only,same strategy (CV),2,0.6715,0.1275,0.6975
+simulated,strategy,full mimic + rotation,0.3,0.1831,400,400,full,shape,same strategy (CV),2,0.7754,0.2275,0.7955
+simulated,strategy,full mimic + rotation,0.3,0.1831,400,400,full,branching,same strategy (CV),2,0.8431,0.1975,0.8463
+simulated,strategy,full mimic + rotation,0.3,0.1831,400,400,full,timing,same strategy (CV),2,0.7518,0.12,0.7532
+simulated,strategy,full mimic + rotation,0.3,0.1831,400,400,full,reuse,same strategy (CV),2,0.7026,0.135,0.7208
+simulated,strategy,full mimic + rotation,0.3,0.1831,400,400,full,structure + timing,same strategy (CV),2,0.8771,0.35,0.8825
+simulated,strategy,full mimic + rotation,0.3,0.1831,400,400,full,all,same strategy (CV),2,0.8737,0.335,0.8776
+simulated,strategy,full mimic + rotation,0.3,0.1831,400,400,20,structure + timing,same strategy (CV),2,0.7461,0.0225,0.7238
+simulated,strategy,full mimic + rotation,0.3,0.1831,400,400,20,reuse,same strategy (CV),2,0.571,0.0275,0.5587
+simulated,strategy,full mimic + rotation,0.3,0.1831,400,400,20,all,same strategy (CV),2,0.7478,0.085,0.7391
+simulated,strategy,full mimic + rotation,0.3,0.1831,400,400,full,structure + timing,naive only,2,0.5938,0.0,0.536
+simulated,strategy,full mimic + rotation,0.3,0.1831,400,400,full,reuse,naive only,2,0.5864,0.01,0.5765
+simulated,strategy,full mimic + rotation,0.3,0.1831,400,400,full,all,naive only,2,0.6754,0.095,0.683
+simulated,share,naive,0.2,0.1369,400,400,full,structure + timing,same strategy (CV),2,0.9574,0.425,0.9533
+simulated,share,naive,0.2,0.1369,400,400,full,reuse,same strategy (CV),2,0.9965,0.9475,0.9967
+simulated,share,naive,0.2,0.1369,400,400,full,all,same strategy (CV),2,0.9984,0.9575,0.9985
+simulated,strategy,full mimic + rotation,0.1,0.0793,400,400,full,size only,same strategy (CV),2,0.5465,0.08,0.5848
+simulated,strategy,full mimic + rotation,0.1,0.0793,400,400,full,shape,same strategy (CV),2,0.5653,0.08,0.607
+simulated,strategy,full mimic + rotation,0.1,0.0793,400,400,full,branching,same strategy (CV),2,0.6259,0.0725,0.6514
+simulated,strategy,full mimic + rotation,0.1,0.0793,400,400,full,timing,same strategy (CV),2,0.6299,0.0775,0.6512
+simulated,strategy,full mimic + rotation,0.1,0.0793,400,400,full,reuse,same strategy (CV),2,0.5215,0.045,0.5449
+simulated,strategy,full mimic + rotation,0.1,0.0793,400,400,full,structure + timing,same strategy (CV),2,0.6435,0.1225,0.6829
+simulated,strategy,full mimic + rotation,0.1,0.0793,400,400,full,all,same strategy (CV),2,0.6432,0.14,0.6875
+simulated,strategy,full mimic + rotation,0.1,0.0793,400,400,20,structure + timing,same strategy (CV),2,0.5419,0.0125,0.5412
+simulated,strategy,full mimic + rotation,0.1,0.0793,400,400,20,reuse,same strategy (CV),2,0.4917,0.015,0.5098
+simulated,strategy,full mimic + rotation,0.1,0.0793,400,400,20,all,same strategy (CV),2,0.5357,0.03,0.5511
+simulated,strategy,full mimic + rotation,0.1,0.0793,400,400,full,structure + timing,naive only,2,0.5414,0.0075,0.5223
+simulated,strategy,full mimic + rotation,0.1,0.0793,400,400,full,reuse,naive only,2,0.469,0.0075,0.4751
+simulated,strategy,full mimic + rotation,0.1,0.0793,400,400,full,all,naive only,2,0.5132,0.0,0.4929
+simulated,strategy,control: embedded accounts,0.1,0.0995,400,400,full,size only,same strategy (CV),2,0.4871,0.005,0.4996
+simulated,strategy,control: embedded accounts,0.1,0.0995,400,400,full,shape,same strategy (CV),2,0.5746,0.0375,0.5697
+simulated,strategy,control: embedded accounts,0.1,0.0995,400,400,full,branching,same strategy (CV),2,0.5129,0.0025,0.5071
+simulated,strategy,control: embedded accounts,0.1,0.0995,400,400,full,timing,same strategy (CV),2,0.5136,0.015,0.5156
+simulated,strategy,control: embedded accounts,0.1,0.0995,400,400,full,reuse,same strategy (CV),2,0.9246,0.45,0.9286
+simulated,strategy,control: embedded accounts,0.1,0.0995,400,400,full,structure + timing,same strategy (CV),2,0.51,0.025,0.5249
+simulated,strategy,control: embedded accounts,0.1,0.0995,400,400,full,all,same strategy (CV),2,0.9157,0.5075,0.9213
+simulated,strategy,control: embedded accounts,0.1,0.0995,400,400,20,structure + timing,same strategy (CV),2,0.4987,0.0175,0.5001
+simulated,strategy,control: embedded accounts,0.1,0.0995,400,400,20,reuse,same strategy (CV),2,0.6997,0.0975,0.706
+simulated,strategy,control: embedded accounts,0.1,0.0995,400,400,20,all,same strategy (CV),2,0.684,0.0625,0.6841
+simulated,strategy,control: embedded accounts,0.1,0.0995,400,400,full,structure + timing,naive only,2,0.5031,0.005,0.4988
+simulated,strategy,control: embedded accounts,0.1,0.0995,400,400,full,reuse,naive only,2,0.898,0.445,0.9046
+simulated,strategy,control: embedded accounts,0.1,0.0995,400,400,full,all,naive only,2,0.8088,0.1475,0.7967
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,size only,same strategy (CV),2,0.4823,0.0075,0.5064
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,shape,same strategy (CV),2,0.5711,0.02,0.5578
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,branching,same strategy (CV),2,0.5021,0.0175,0.505
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,timing,same strategy (CV),2,0.5234,0.01,0.5109
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,reuse,same strategy (CV),2,1.0,1.0,1.0
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,structure + timing,same strategy (CV),2,0.5259,0.0075,0.5239
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,all,same strategy (CV),2,1.0,1.0,1.0
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,20,structure + timing,same strategy (CV),2,0.5216,0.01,0.5199
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,20,reuse,same strategy (CV),2,0.9761,0.8675,0.9823
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,20,all,same strategy (CV),2,0.9744,0.8775,0.9818
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,structure + timing,naive only,2,0.4773,0.0025,0.4757
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,reuse,naive only,2,1.0,1.0,1.0
+simulated,strategy,control: embedded accounts,0.3,0.2991,400,400,full,all,naive only,2,0.9999,1.0,0.9999
+simulated,strategy,empirical mimic + rotation,0.1,0.0798,400,400,full,size only,same strategy (CV),2,0.5316,0.055,0.5598
+simulated,strategy,empirical mimic + rotation,0.1,0.0798,400,400,full,shape,same strategy (CV),2,0.606,0.0925,0.6291
+simulated,strategy,empirical mimic + rotation,0.1,0.0798,400,400,full,branching,same strategy (CV),2,0.5574,0.0175,0.5582
+simulated,strategy,empirical mimic + rotation,0.1,0.0798,400,400,full,timing,same strategy (CV),2,0.7061,0.0825,0.7095
+simulated,strategy,empirical mimic + rotation,0.1,0.0798,400,400,full,reuse,same strategy (CV),2,0.5181,0.055,0.5586
+simulated,strategy,empirical mimic + rotation,0.1,0.0798,400,400,full,structure + timing,same strategy (CV),2,0.6949,0.09,0.7027
+simulated,strategy,empirical mimic + rotation,0.1,0.0798,400,400,full,all,same strategy (CV),2,0.6968,0.105,0.7033
+simulated,strategy,empirical mimic + rotation,0.1,0.0798,400,400,20,structure + timing,same strategy (CV),2,0.5913,0.0175,0.5797
+simulated,strategy,empirical mimic + rotation,0.1,0.0798,400,400,20,reuse,same strategy (CV),2,0.5098,0.0075,0.5169
+simulated,strategy,empirical mimic + rotation,0.1,0.0798,400,400,20,all,same strategy (CV),2,0.59,0.035,0.58
+simulated,strategy,empirical mimic + rotation,0.1,0.0798,400,400,full,structure + timing,naive only,2,0.5773,0.0025,0.5479
+simulated,strategy,empirical mimic + rotation,0.1,0.0798,400,400,full,reuse,naive only,2,0.4585,0.0175,0.4676
+simulated,strategy,empirical mimic + rotation,0.1,0.0798,400,400,full,all,naive only,2,0.541,0.005,0.5083
+simulated,strategy,empirical mimic + rotation,0.3,0.1896,400,400,full,size only,same strategy (CV),2,0.664,0.105,0.6798
+simulated,strategy,empirical mimic + rotation,0.3,0.1896,400,400,full,shape,same strategy (CV),2,0.726,0.14,0.7324
+simulated,strategy,empirical mimic + rotation,0.3,0.1896,400,400,full,branching,same strategy (CV),2,0.7379,0.13,0.7407
+simulated,strategy,empirical mimic + rotation,0.3,0.1896,400,400,full,timing,same strategy (CV),2,0.8378,0.1625,0.8324
+simulated,strategy,empirical mimic + rotation,0.3,0.1896,400,400,full,reuse,same strategy (CV),2,0.6539,0.09,0.6795
+simulated,strategy,empirical mimic + rotation,0.3,0.1896,400,400,full,structure + timing,same strategy (CV),2,0.8577,0.26,0.8547
+simulated,strategy,empirical mimic + rotation,0.3,0.1896,400,400,full,all,same strategy (CV),2,0.8511,0.21,0.8491
+simulated,strategy,empirical mimic + rotation,0.3,0.1896,400,400,20,structure + timing,same strategy (CV),2,0.7988,0.0475,0.7812
+simulated,strategy,empirical mimic + rotation,0.3,0.1896,400,400,20,reuse,same strategy (CV),2,0.6565,0.06,0.6397
+simulated,strategy,empirical mimic + rotation,0.3,0.1896,400,400,20,all,same strategy (CV),2,0.8099,0.13,0.8033
+simulated,strategy,empirical mimic + rotation,0.3,0.1896,400,400,full,structure + timing,naive only,2,0.6998,0.015,0.6444
+simulated,strategy,empirical mimic + rotation,0.3,0.1896,400,400,full,reuse,naive only,2,0.5989,0.0,0.581
+simulated,strategy,empirical mimic + rotation,0.3,0.1896,400,400,full,all,naive only,2,0.714,0.0975,0.7036
+simulated,share,naive,0.4,0.23,400,400,full,structure + timing,same strategy (CV),2,0.9932,0.8825,0.9934
+simulated,share,naive,0.4,0.23,400,400,full,reuse,same strategy (CV),2,1.0,1.0,1.0
+simulated,share,naive,0.4,0.23,400,400,full,all,same strategy (CV),2,1.0,1.0,1.0
+simulated,share,full mimic + rotation,0.02,0.0347,400,400,full,structure + timing,same strategy (CV),2,0.5084,0.0325,0.5267
+simulated,share,full mimic + rotation,0.02,0.0347,400,400,full,reuse,same strategy (CV),2,0.5216,0.0125,0.5339
+simulated,share,full mimic + rotation,0.02,0.0347,400,400,full,all,same strategy (CV),2,0.5076,0.025,0.5297
+simulated,share,full mimic + rotation,0.05,0.049,400,400,full,structure + timing,same strategy (CV),2,0.5996,0.0875,0.6299
+simulated,share,full mimic + rotation,0.05,0.049,400,400,full,reuse,same strategy (CV),2,0.5214,0.0325,0.5277
+simulated,share,full mimic + rotation,0.05,0.049,400,400,full,all,same strategy (CV),2,0.6067,0.07,0.6396
+simulated,share,full mimic + rotation,0.1,0.0793,400,400,full,structure + timing,same strategy (CV),2,0.6435,0.1225,0.6829
+simulated,share,full mimic + rotation,0.1,0.0793,400,400,full,reuse,same strategy (CV),2,0.5215,0.045,0.5449
+simulated,share,full mimic + rotation,0.1,0.0793,400,400,full,all,same strategy (CV),2,0.6432,0.14,0.6875
+simulated,share,full mimic + rotation,0.4,0.2366,400,400,full,structure + timing,same strategy (CV),2,0.9215,0.4375,0.9294
+simulated,share,full mimic + rotation,0.4,0.2366,400,400,full,reuse,same strategy (CV),2,0.7162,0.1275,0.7337
+simulated,share,full mimic + rotation,0.4,0.2366,400,400,full,all,same strategy (CV),2,0.9275,0.4125,0.9335
+simulated,share,full mimic + rotation,0.2,0.1362,400,400,full,structure + timing,same strategy (CV),2,0.7994,0.225,0.8211
+simulated,share,full mimic + rotation,0.2,0.1362,400,400,full,reuse,same strategy (CV),2,0.598,0.1175,0.6354
+simulated,share,full mimic + rotation,0.2,0.1362,400,400,full,all,same strategy (CV),2,0.8052,0.265,0.8276
+simulated,share,empirical mimic + rotation,0.02,0.0345,400,400,full,structure + timing,same strategy (CV),2,0.561,0.045,0.5579
+simulated,share,empirical mimic + rotation,0.02,0.0345,400,400,full,reuse,same strategy (CV),2,0.5214,0.03,0.545
+simulated,share,empirical mimic + rotation,0.02,0.0345,400,400,full,all,same strategy (CV),2,0.5633,0.0475,0.5761
+simulated,share,empirical mimic + rotation,0.05,0.0488,400,400,full,structure + timing,same strategy (CV),2,0.6507,0.0475,0.6389
+simulated,share,empirical mimic + rotation,0.05,0.0488,400,400,full,reuse,same strategy (CV),2,0.4875,0.02,0.5181
+simulated,share,empirical mimic + rotation,0.05,0.0488,400,400,full,all,same strategy (CV),2,0.6527,0.0475,0.6397
+simulated,share,empirical mimic + rotation,0.1,0.0798,400,400,full,structure + timing,same strategy (CV),2,0.6949,0.09,0.7027
+simulated,share,empirical mimic + rotation,0.1,0.0798,400,400,full,reuse,same strategy (CV),2,0.5181,0.055,0.5586
+simulated,share,empirical mimic + rotation,0.1,0.0798,400,400,full,all,same strategy (CV),2,0.6968,0.105,0.7033
+simulated,share,empirical mimic + rotation,0.2,0.1372,400,400,full,structure + timing,same strategy (CV),2,0.8108,0.185,0.8156
+simulated,share,empirical mimic + rotation,0.2,0.1372,400,400,full,reuse,same strategy (CV),2,0.613,0.09,0.6379
+simulated,share,empirical mimic + rotation,0.2,0.1372,400,400,full,all,same strategy (CV),2,0.8168,0.165,0.8214
+simulated,share,empirical mimic + rotation,0.4,0.2307,400,400,full,structure + timing,same strategy (CV),2,0.8994,0.4125,0.9056
+simulated,share,empirical mimic + rotation,0.4,0.2307,400,400,full,reuse,same strategy (CV),2,0.7203,0.0975,0.7281
+simulated,share,empirical mimic + rotation,0.4,0.2307,400,400,full,all,same strategy (CV),2,0.8987,0.345,0.9044
+simulated,strategy,naive,0.1,0.0774,400,400,full,size only,same strategy (CV),3,0.5674,0.01,0.5612
+simulated,strategy,naive,0.1,0.0774,400,400,full,shape,same strategy (CV),3,0.6198,0.0725,0.6192
+simulated,strategy,naive,0.1,0.0774,400,400,full,branching,same strategy (CV),3,0.6438,0.0125,0.6105
+simulated,strategy,naive,0.1,0.0774,400,400,full,timing,same strategy (CV),3,0.8734,0.2475,0.8765
+simulated,strategy,naive,0.1,0.0774,400,400,full,reuse,same strategy (CV),3,0.8943,0.47,0.9069
+simulated,strategy,naive,0.1,0.0774,400,400,full,structure + timing,same strategy (CV),3,0.8958,0.3325,0.903
+simulated,strategy,naive,0.1,0.0774,400,400,full,all,same strategy (CV),3,0.9434,0.6425,0.9504
+simulated,strategy,naive,0.1,0.0774,400,400,20,structure + timing,same strategy (CV),3,0.8738,0.3475,0.8849
+simulated,strategy,naive,0.1,0.0774,400,400,20,reuse,same strategy (CV),3,0.9076,0.66,0.9286
+simulated,strategy,naive,0.1,0.0774,400,400,20,all,same strategy (CV),3,0.9456,0.6675,0.9526
+simulated,strategy,naive,0.1,0.0774,400,400,full,structure + timing,naive only,3,0.9111,0.3,0.913
+simulated,strategy,naive,0.1,0.0774,400,400,full,reuse,naive only,3,0.8928,0.5075,0.903
+simulated,strategy,naive,0.1,0.0774,400,400,full,all,naive only,3,0.9498,0.5625,0.955
+simulated,strategy,naive,0.3,0.1797,400,400,full,size only,same strategy (CV),3,0.685,0.145,0.6977
+simulated,strategy,naive,0.3,0.1797,400,400,full,shape,same strategy (CV),3,0.8219,0.185,0.8185
+simulated,strategy,naive,0.3,0.1797,400,400,full,branching,same strategy (CV),3,0.8305,0.205,0.8268
+simulated,strategy,naive,0.3,0.1797,400,400,full,timing,same strategy (CV),3,0.9623,0.515,0.9609
+simulated,strategy,naive,0.3,0.1797,400,400,full,reuse,same strategy (CV),3,0.9998,1.0,0.9998
+simulated,strategy,naive,0.3,0.1797,400,400,full,structure + timing,same strategy (CV),3,0.9856,0.795,0.9849
+simulated,strategy,naive,0.3,0.1797,400,400,full,all,same strategy (CV),3,0.9999,1.0,0.9999
+simulated,strategy,naive,0.3,0.1797,400,400,20,structure + timing,same strategy (CV),3,0.9802,0.7625,0.9825
+simulated,strategy,naive,0.3,0.1797,400,400,20,reuse,same strategy (CV),3,0.9999,0.9975,0.9999
+simulated,strategy,naive,0.3,0.1797,400,400,20,all,same strategy (CV),3,0.9999,0.9975,0.9999
+simulated,strategy,naive,0.3,0.1797,400,400,full,structure + timing,naive only,3,0.9883,0.7925,0.9882
+simulated,strategy,naive,0.3,0.1797,400,400,full,reuse,naive only,3,0.9998,0.9975,0.9998
+simulated,strategy,naive,0.3,0.1797,400,400,full,all,naive only,3,0.9999,1.0,0.9999
+simulated,strategy,random timing,0.1,0.0774,400,400,full,size only,same strategy (CV),3,0.5674,0.01,0.5612
+simulated,strategy,random timing,0.1,0.0774,400,400,full,shape,same strategy (CV),3,0.6198,0.0725,0.6192
+simulated,strategy,random timing,0.1,0.0774,400,400,full,branching,same strategy (CV),3,0.6438,0.0125,0.6105
+simulated,strategy,random timing,0.1,0.0774,400,400,full,timing,same strategy (CV),3,0.8786,0.2925,0.8823
+simulated,strategy,random timing,0.1,0.0774,400,400,full,reuse,same strategy (CV),3,0.8943,0.47,0.9069
+simulated,strategy,random timing,0.1,0.0774,400,400,full,structure + timing,same strategy (CV),3,0.8987,0.435,0.9092
+simulated,strategy,random timing,0.1,0.0774,400,400,full,all,same strategy (CV),3,0.9434,0.625,0.9504
+simulated,strategy,random timing,0.1,0.0774,400,400,20,structure + timing,same strategy (CV),3,0.889,0.405,0.8986
+simulated,strategy,random timing,0.1,0.0774,400,400,20,reuse,same strategy (CV),3,0.9082,0.68,0.9291
+simulated,strategy,random timing,0.1,0.0774,400,400,20,all,same strategy (CV),3,0.9452,0.685,0.9529
+simulated,strategy,random timing,0.1,0.0774,400,400,full,structure + timing,naive only,3,0.9146,0.315,0.9169
+simulated,strategy,random timing,0.1,0.0774,400,400,full,reuse,naive only,3,0.8928,0.5075,0.903
+simulated,strategy,random timing,0.1,0.0774,400,400,full,all,naive only,3,0.9509,0.56,0.956
+simulated,strategy,random timing,0.3,0.1797,400,400,full,size only,same strategy (CV),3,0.685,0.145,0.6977
+simulated,strategy,random timing,0.3,0.1797,400,400,full,shape,same strategy (CV),3,0.8219,0.185,0.8185
+simulated,strategy,random timing,0.3,0.1797,400,400,full,branching,same strategy (CV),3,0.8305,0.205,0.8268
+simulated,strategy,random timing,0.3,0.1797,400,400,full,timing,same strategy (CV),3,0.9768,0.6625,0.9762
+simulated,strategy,random timing,0.3,0.1797,400,400,full,reuse,same strategy (CV),3,0.9998,1.0,0.9998
+simulated,strategy,random timing,0.3,0.1797,400,400,full,structure + timing,same strategy (CV),3,0.9892,0.85,0.9894
+simulated,strategy,random timing,0.3,0.1797,400,400,full,all,same strategy (CV),3,0.9999,0.9975,0.9999
+simulated,strategy,random timing,0.3,0.1797,400,400,20,structure + timing,same strategy (CV),3,0.9841,0.8025,0.9858
+simulated,strategy,random timing,0.3,0.1797,400,400,20,reuse,same strategy (CV),3,1.0,0.9975,1.0
+simulated,strategy,random timing,0.3,0.1797,400,400,20,all,same strategy (CV),3,0.9999,0.9975,0.9999
+simulated,strategy,random timing,0.3,0.1797,400,400,full,structure + timing,naive only,3,0.9902,0.825,0.9901
+simulated,strategy,random timing,0.3,0.1797,400,400,full,reuse,naive only,3,0.9998,0.9975,0.9998
+simulated,strategy,random timing,0.3,0.1797,400,400,full,all,naive only,3,1.0,1.0,1.0
+simulated,strategy,organic timing,0.3,0.1817,400,400,full,size only,same strategy (CV),3,0.6753,0.095,0.6763
+simulated,strategy,organic timing,0.3,0.1817,400,400,full,shape,same strategy (CV),3,0.8042,0.175,0.7973
+simulated,strategy,organic timing,0.3,0.1817,400,400,full,branching,same strategy (CV),3,0.8186,0.1275,0.8065
+simulated,strategy,organic timing,0.3,0.1817,400,400,full,timing,same strategy (CV),3,0.8065,0.1225,0.8013
+simulated,strategy,organic timing,0.3,0.1817,400,400,full,reuse,same strategy (CV),3,0.9998,0.9975,0.9998
+simulated,strategy,organic timing,0.3,0.1817,400,400,full,structure + timing,same strategy (CV),3,0.8875,0.285,0.8821
+simulated,strategy,organic timing,0.3,0.1817,400,400,full,all,same strategy (CV),3,0.9998,0.9975,0.9998
+simulated,strategy,organic timing,0.3,0.1817,400,400,20,structure + timing,same strategy (CV),3,0.8383,0.26,0.8436
+simulated,strategy,organic timing,0.3,0.1817,400,400,20,reuse,same strategy (CV),3,0.9921,0.985,0.9945
+simulated,strategy,organic timing,0.3,0.1817,400,400,20,all,same strategy (CV),3,0.9969,0.9875,0.9977
+simulated,strategy,organic timing,0.3,0.1817,400,400,full,structure + timing,naive only,3,0.7939,0.1125,0.7843
+simulated,strategy,organic timing,0.3,0.1817,400,400,full,reuse,naive only,3,0.9999,0.9975,0.9999
+simulated,strategy,organic timing,0.3,0.1817,400,400,full,all,naive only,3,0.9999,0.9975,0.9999
+simulated,strategy,organic timing,0.1,0.0777,400,400,full,size only,same strategy (CV),3,0.5663,0.025,0.5564
+simulated,strategy,organic timing,0.1,0.0777,400,400,full,shape,same strategy (CV),3,0.5889,0.05,0.5799
+simulated,strategy,organic timing,0.1,0.0777,400,400,full,branching,same strategy (CV),3,0.6109,0.02,0.5917
+simulated,strategy,organic timing,0.1,0.0777,400,400,full,timing,same strategy (CV),3,0.5867,0.01,0.5744
+simulated,strategy,organic timing,0.1,0.0777,400,400,full,reuse,same strategy (CV),3,0.897,0.49,0.9102
+simulated,strategy,organic timing,0.1,0.0777,400,400,full,structure + timing,same strategy (CV),3,0.6657,0.085,0.6669
+simulated,strategy,organic timing,0.1,0.0777,400,400,full,all,same strategy (CV),3,0.9025,0.5,0.912
+simulated,strategy,organic timing,0.1,0.0777,400,400,20,structure + timing,same strategy (CV),3,0.6537,0.0575,0.6412
+simulated,strategy,organic timing,0.1,0.0777,400,400,20,reuse,same strategy (CV),3,0.87,0.5725,0.9013
+simulated,strategy,organic timing,0.1,0.0777,400,400,20,all,same strategy (CV),3,0.8669,0.5775,0.8992
+simulated,strategy,organic timing,0.1,0.0777,400,400,full,structure + timing,naive only,3,0.6371,0.0125,0.6012
+simulated,strategy,organic timing,0.1,0.0777,400,400,full,reuse,naive only,3,0.8902,0.475,0.9021
+simulated,strategy,organic timing,0.1,0.0777,400,400,full,all,naive only,3,0.8727,0.3,0.8727
+simulated,strategy,organic timing + structure,0.3,0.1802,400,400,full,size only,same strategy (CV),3,0.7,0.0,0.7066
+simulated,strategy,organic timing + structure,0.3,0.1802,400,400,full,shape,same strategy (CV),3,0.8047,0.2925,0.8267
+simulated,strategy,organic timing + structure,0.3,0.1802,400,400,full,branching,same strategy (CV),3,0.8728,0.3,0.8701
+simulated,strategy,organic timing + structure,0.3,0.1802,400,400,full,timing,same strategy (CV),3,0.7205,0.105,0.7434
+simulated,strategy,organic timing + structure,0.3,0.1802,400,400,full,reuse,same strategy (CV),3,0.9999,0.9975,0.9999
+simulated,strategy,organic timing + structure,0.3,0.1802,400,400,full,structure + timing,same strategy (CV),3,0.8974,0.3275,0.9007
+simulated,strategy,organic timing + structure,0.3,0.1802,400,400,full,all,same strategy (CV),3,0.9999,1.0,0.9999
+simulated,strategy,organic timing + structure,0.3,0.1802,400,400,20,structure + timing,same strategy (CV),3,0.6941,0.0275,0.6628
+simulated,strategy,organic timing + structure,0.3,0.1802,400,400,20,reuse,same strategy (CV),3,0.8441,0.4875,0.8822
+simulated,strategy,organic timing + structure,0.3,0.1802,400,400,20,all,same strategy (CV),3,0.8927,0.49,0.9052
+simulated,strategy,organic timing + structure,0.3,0.1802,400,400,full,structure + timing,naive only,3,0.5953,0.0075,0.5458
+simulated,strategy,organic timing + structure,0.3,0.1802,400,400,full,reuse,naive only,3,0.9997,0.99,0.9997
+simulated,strategy,organic timing + structure,0.3,0.1802,400,400,full,all,naive only,3,0.9997,0.9875,0.9997
+simulated,strategy,organic timing + structure,0.1,0.0798,400,400,full,size only,same strategy (CV),3,0.5244,0.0325,0.5405
+simulated,strategy,organic timing + structure,0.1,0.0798,400,400,full,shape,same strategy (CV),3,0.5878,0.0425,0.5887
+simulated,strategy,organic timing + structure,0.1,0.0798,400,400,full,branching,same strategy (CV),3,0.6561,0.0725,0.6706
+simulated,strategy,organic timing + structure,0.1,0.0798,400,400,full,timing,same strategy (CV),3,0.5469,0.055,0.5843
+simulated,strategy,organic timing + structure,0.1,0.0798,400,400,full,reuse,same strategy (CV),3,0.8956,0.53,0.9119
+simulated,strategy,organic timing + structure,0.1,0.0798,400,400,full,structure + timing,same strategy (CV),3,0.6676,0.0325,0.6669
+simulated,strategy,organic timing + structure,0.1,0.0798,400,400,full,all,same strategy (CV),3,0.8951,0.44,0.9057
+simulated,strategy,organic timing + structure,0.1,0.0798,400,400,20,structure + timing,same strategy (CV),3,0.5049,0.005,0.4894
+simulated,strategy,organic timing + structure,0.1,0.0798,400,400,20,reuse,same strategy (CV),3,0.6071,0.0325,0.6011
+simulated,strategy,organic timing + structure,0.1,0.0798,400,400,20,all,same strategy (CV),3,0.5802,0.045,0.5944
+simulated,strategy,organic timing + structure,0.1,0.0798,400,400,full,structure + timing,naive only,3,0.5614,0.0075,0.5329
+simulated,strategy,organic timing + structure,0.1,0.0798,400,400,full,reuse,naive only,3,0.8993,0.4475,0.9113
+simulated,strategy,organic timing + structure,0.1,0.0798,400,400,full,all,naive only,3,0.832,0.11,0.8297
+simulated,share,naive,0.02,0.0335,400,400,full,structure + timing,same strategy (CV),3,0.6003,0.0575,0.6132
+simulated,share,naive,0.02,0.0335,400,400,full,reuse,same strategy (CV),3,0.5592,0.0175,0.5396
+simulated,share,naive,0.02,0.0335,400,400,full,all,same strategy (CV),3,0.6085,0.0375,0.6126
+simulated,share,naive,0.05,0.0477,400,400,full,structure + timing,same strategy (CV),3,0.7513,0.1225,0.7565
+simulated,share,naive,0.05,0.0477,400,400,full,reuse,same strategy (CV),3,0.6915,0.1525,0.7147
+simulated,share,naive,0.05,0.0477,400,400,full,all,same strategy (CV),3,0.7999,0.215,0.8107
+simulated,share,naive,0.1,0.0774,400,400,full,structure + timing,same strategy (CV),3,0.8958,0.3325,0.903
+simulated,share,naive,0.1,0.0774,400,400,full,reuse,same strategy (CV),3,0.8943,0.47,0.9069
+simulated,share,naive,0.1,0.0774,400,400,full,all,same strategy (CV),3,0.9434,0.6425,0.9504
+simulated,share,naive,0.2,0.1337,400,400,full,structure + timing,same strategy (CV),3,0.9629,0.565,0.9641
+simulated,share,naive,0.2,0.1337,400,400,full,reuse,same strategy (CV),3,0.9964,0.95,0.9965
+simulated,share,naive,0.2,0.1337,400,400,full,all,same strategy (CV),3,0.9982,0.9425,0.9982
+simulated,strategy,full mimic + rotation,0.1,0.0797,400,400,full,size only,same strategy (CV),3,0.5066,0.0125,0.5248
+simulated,strategy,full mimic + rotation,0.1,0.0797,400,400,full,shape,same strategy (CV),3,0.5952,0.0725,0.6236
+simulated,strategy,full mimic + rotation,0.1,0.0797,400,400,full,branching,same strategy (CV),3,0.6955,0.0775,0.6983
+simulated,strategy,full mimic + rotation,0.1,0.0797,400,400,full,timing,same strategy (CV),3,0.5735,0.055,0.6082
+simulated,strategy,full mimic + rotation,0.1,0.0797,400,400,full,reuse,same strategy (CV),3,0.5704,0.0275,0.5719
+simulated,strategy,full mimic + rotation,0.1,0.0797,400,400,full,structure + timing,same strategy (CV),3,0.676,0.08,0.6888
+simulated,strategy,full mimic + rotation,0.1,0.0797,400,400,full,all,same strategy (CV),3,0.6734,0.06,0.6866
+simulated,strategy,full mimic + rotation,0.1,0.0797,400,400,20,structure + timing,same strategy (CV),3,0.5166,0.0075,0.5109
+simulated,strategy,full mimic + rotation,0.1,0.0797,400,400,20,reuse,same strategy (CV),3,0.5255,0.01,0.5216
+simulated,strategy,full mimic + rotation,0.1,0.0797,400,400,20,all,same strategy (CV),3,0.5302,0.0125,0.5221
+simulated,strategy,full mimic + rotation,0.1,0.0797,400,400,full,structure + timing,naive only,3,0.5644,0.005,0.5233
+simulated,strategy,full mimic + rotation,0.1,0.0797,400,400,full,reuse,naive only,3,0.444,0.005,0.4597
+simulated,strategy,full mimic + rotation,0.1,0.0797,400,400,full,all,naive only,3,0.5302,0.005,0.511
+simulated,strategy,full mimic + rotation,0.3,0.1774,400,400,full,size only,same strategy (CV),3,0.6738,0.1025,0.6837
+simulated,strategy,full mimic + rotation,0.3,0.1774,400,400,full,shape,same strategy (CV),3,0.8113,0.2925,0.8298
+simulated,strategy,full mimic + rotation,0.3,0.1774,400,400,full,branching,same strategy (CV),3,0.8711,0.295,0.8708
+simulated,strategy,full mimic + rotation,0.3,0.1774,400,400,full,timing,same strategy (CV),3,0.7491,0.135,0.766
+simulated,strategy,full mimic + rotation,0.3,0.1774,400,400,full,reuse,same strategy (CV),3,0.6744,0.15,0.7066
+simulated,strategy,full mimic + rotation,0.3,0.1774,400,400,full,structure + timing,same strategy (CV),3,0.8932,0.2975,0.8996
+simulated,strategy,full mimic + rotation,0.3,0.1774,400,400,full,all,same strategy (CV),3,0.8915,0.345,0.898
+simulated,strategy,full mimic + rotation,0.3,0.1774,400,400,20,structure + timing,same strategy (CV),3,0.7285,0.0675,0.7085
+simulated,strategy,full mimic + rotation,0.3,0.1774,400,400,20,reuse,same strategy (CV),3,0.5502,0.005,0.5254
+simulated,strategy,full mimic + rotation,0.3,0.1774,400,400,20,all,same strategy (CV),3,0.733,0.0625,0.7232
+simulated,strategy,full mimic + rotation,0.3,0.1774,400,400,full,structure + timing,naive only,3,0.6003,0.0075,0.5435
+simulated,strategy,full mimic + rotation,0.3,0.1774,400,400,full,reuse,naive only,3,0.5623,0.0,0.5623
+simulated,strategy,full mimic + rotation,0.3,0.1774,400,400,full,all,naive only,3,0.6697,0.0025,0.6263
+simulated,strategy,control: embedded accounts,0.1,0.0997,400,400,full,size only,same strategy (CV),3,0.4855,0.0025,0.4767
+simulated,strategy,control: embedded accounts,0.1,0.0997,400,400,full,shape,same strategy (CV),3,0.4908,0.0125,0.5032
+simulated,strategy,control: embedded accounts,0.1,0.0997,400,400,full,branching,same strategy (CV),3,0.51,0.025,0.514
+simulated,strategy,control: embedded accounts,0.1,0.0997,400,400,full,timing,same strategy (CV),3,0.4622,0.0025,0.459
+simulated,strategy,control: embedded accounts,0.1,0.0997,400,400,full,reuse,same strategy (CV),3,0.9185,0.4825,0.9217
+simulated,strategy,control: embedded accounts,0.1,0.0997,400,400,full,structure + timing,same strategy (CV),3,0.4852,0.0025,0.4776
+simulated,strategy,control: embedded accounts,0.1,0.0997,400,400,full,all,same strategy (CV),3,0.905,0.5,0.9085
+simulated,strategy,control: embedded accounts,0.1,0.0997,400,400,20,structure + timing,same strategy (CV),3,0.4862,0.0,0.4752
+simulated,strategy,control: embedded accounts,0.1,0.0997,400,400,20,reuse,same strategy (CV),3,0.7056,0.1075,0.7307
+simulated,strategy,control: embedded accounts,0.1,0.0997,400,400,20,all,same strategy (CV),3,0.6753,0.1175,0.6948
+simulated,strategy,control: embedded accounts,0.1,0.0997,400,400,full,structure + timing,naive only,3,0.5091,0.0025,0.5022
+simulated,strategy,control: embedded accounts,0.1,0.0997,400,400,full,reuse,naive only,3,0.8925,0.415,0.8986
+simulated,strategy,control: embedded accounts,0.1,0.0997,400,400,full,all,naive only,3,0.8027,0.13,0.8014
+simulated,strategy,control: embedded accounts,0.3,0.2992,400,400,full,size only,same strategy (CV),3,0.4899,0.015,0.4852
+simulated,strategy,control: embedded accounts,0.3,0.2992,400,400,full,shape,same strategy (CV),3,0.4748,0.005,0.4809
+simulated,strategy,control: embedded accounts,0.3,0.2992,400,400,full,branching,same strategy (CV),3,0.5129,0.015,0.5132
+simulated,strategy,control: embedded accounts,0.3,0.2992,400,400,full,timing,same strategy (CV),3,0.4712,0.0,0.4613
+simulated,strategy,control: embedded accounts,0.3,0.2992,400,400,full,reuse,same strategy (CV),3,1.0,1.0,1.0
+simulated,strategy,control: embedded accounts,0.3,0.2992,400,400,full,structure + timing,same strategy (CV),3,0.4841,0.005,0.474
+simulated,strategy,control: embedded accounts,0.3,0.2992,400,400,full,all,same strategy (CV),3,1.0,1.0,1.0
+simulated,strategy,control: embedded accounts,0.3,0.2992,400,400,20,structure + timing,same strategy (CV),3,0.4701,0.0,0.4643
+simulated,strategy,control: embedded accounts,0.3,0.2992,400,400,20,reuse,same strategy (CV),3,0.968,0.89,0.9782
+simulated,strategy,control: embedded accounts,0.3,0.2992,400,400,20,all,same strategy (CV),3,0.9778,0.8825,0.9826
+simulated,strategy,control: embedded accounts,0.3,0.2992,400,400,full,structure + timing,naive only,3,0.4984,0.005,0.4968
+simulated,strategy,control: embedded accounts,0.3,0.2992,400,400,full,reuse,naive only,3,0.9997,1.0,0.9997
+simulated,strategy,control: embedded accounts,0.3,0.2992,400,400,full,all,naive only,3,0.9997,1.0,0.9997
+simulated,share,naive,0.4,0.2245,400,400,full,structure + timing,same strategy (CV),3,0.9909,0.8675,0.9917
+simulated,share,naive,0.4,0.2245,400,400,full,reuse,same strategy (CV),3,1.0,1.0,1.0
+simulated,share,naive,0.4,0.2245,400,400,full,all,same strategy (CV),3,1.0,1.0,1.0
+simulated,strategy,empirical mimic + rotation,0.1,0.08,400,400,full,size only,same strategy (CV),3,0.5031,0.0125,0.498
+simulated,strategy,empirical mimic + rotation,0.1,0.08,400,400,full,shape,same strategy (CV),3,0.5362,0.075,0.5817
+simulated,strategy,empirical mimic + rotation,0.1,0.08,400,400,full,branching,same strategy (CV),3,0.5872,0.0625,0.6115
+simulated,strategy,empirical mimic + rotation,0.1,0.08,400,400,full,timing,same strategy (CV),3,0.6685,0.0175,0.642
+simulated,strategy,empirical mimic + rotation,0.1,0.08,400,400,full,reuse,same strategy (CV),3,0.5274,0.055,0.5529
+simulated,strategy,empirical mimic + rotation,0.1,0.08,400,400,full,structure + timing,same strategy (CV),3,0.695,0.07,0.6913
+simulated,strategy,empirical mimic + rotation,0.1,0.08,400,400,full,all,same strategy (CV),3,0.702,0.065,0.702
+simulated,strategy,empirical mimic + rotation,0.1,0.08,400,400,20,structure + timing,same strategy (CV),3,0.6391,0.065,0.6392
+simulated,strategy,empirical mimic + rotation,0.1,0.08,400,400,20,reuse,same strategy (CV),3,0.5052,0.0175,0.513
+simulated,strategy,empirical mimic + rotation,0.1,0.08,400,400,20,all,same strategy (CV),3,0.6438,0.0725,0.6458
+simulated,strategy,empirical mimic + rotation,0.1,0.08,400,400,full,structure + timing,naive only,3,0.6141,0.015,0.5716
+simulated,strategy,empirical mimic + rotation,0.1,0.08,400,400,full,reuse,naive only,3,0.4634,0.005,0.4638
+simulated,strategy,empirical mimic + rotation,0.1,0.08,400,400,full,all,naive only,3,0.5704,0.005,0.5394
+simulated,strategy,empirical mimic + rotation,0.3,0.1806,400,400,full,size only,same strategy (CV),3,0.6898,0.0,0.702
+simulated,strategy,empirical mimic + rotation,0.3,0.1806,400,400,full,shape,same strategy (CV),3,0.7378,0.225,0.7617
+simulated,strategy,empirical mimic + rotation,0.3,0.1806,400,400,full,branching,same strategy (CV),3,0.7332,0.16,0.7581
+simulated,strategy,empirical mimic + rotation,0.3,0.1806,400,400,full,timing,same strategy (CV),3,0.8359,0.1,0.8277
+simulated,strategy,empirical mimic + rotation,0.3,0.1806,400,400,full,reuse,same strategy (CV),3,0.7009,0.0525,0.705
+simulated,strategy,empirical mimic + rotation,0.3,0.1806,400,400,full,structure + timing,same strategy (CV),3,0.8757,0.3625,0.8839
+simulated,strategy,empirical mimic + rotation,0.3,0.1806,400,400,full,all,same strategy (CV),3,0.8717,0.3225,0.8814
+simulated,strategy,empirical mimic + rotation,0.3,0.1806,400,400,20,structure + timing,same strategy (CV),3,0.8152,0.1175,0.8041
+simulated,strategy,empirical mimic + rotation,0.3,0.1806,400,400,20,reuse,same strategy (CV),3,0.6042,0.0,0.5771
+simulated,strategy,empirical mimic + rotation,0.3,0.1806,400,400,20,all,same strategy (CV),3,0.8229,0.1975,0.8295
+simulated,strategy,empirical mimic + rotation,0.3,0.1806,400,400,full,structure + timing,naive only,3,0.7171,0.0375,0.6725
+simulated,strategy,empirical mimic + rotation,0.3,0.1806,400,400,full,reuse,naive only,3,0.5585,0.0,0.5648
+simulated,strategy,empirical mimic + rotation,0.3,0.1806,400,400,full,all,naive only,3,0.7466,0.0025,0.7109
+simulated,share,full mimic + rotation,0.02,0.0337,400,400,full,structure + timing,same strategy (CV),3,0.4976,0.01,0.5067
+simulated,share,full mimic + rotation,0.02,0.0337,400,400,full,reuse,same strategy (CV),3,0.4576,0.0,0.4631
+simulated,share,full mimic + rotation,0.02,0.0337,400,400,full,all,same strategy (CV),3,0.5045,0.015,0.5132
+simulated,share,full mimic + rotation,0.05,0.0489,400,400,full,structure + timing,same strategy (CV),3,0.5786,0.02,0.5727
+simulated,share,full mimic + rotation,0.05,0.0489,400,400,full,reuse,same strategy (CV),3,0.5087,0.0275,0.508
+simulated,share,full mimic + rotation,0.05,0.0489,400,400,full,all,same strategy (CV),3,0.5822,0.0025,0.5656
+simulated,share,full mimic + rotation,0.1,0.0797,400,400,full,structure + timing,same strategy (CV),3,0.676,0.08,0.6888
+simulated,share,full mimic + rotation,0.1,0.0797,400,400,full,reuse,same strategy (CV),3,0.5704,0.0275,0.5719
+simulated,share,full mimic + rotation,0.1,0.0797,400,400,full,all,same strategy (CV),3,0.6734,0.06,0.6866
+simulated,share,full mimic + rotation,0.2,0.1355,400,400,full,structure + timing,same strategy (CV),3,0.7933,0.155,0.7966
+simulated,share,full mimic + rotation,0.2,0.1355,400,400,full,reuse,same strategy (CV),3,0.5976,0.1025,0.6368
+simulated,share,full mimic + rotation,0.2,0.1355,400,400,full,all,same strategy (CV),3,0.8011,0.1825,0.7949
+simulated,share,full mimic + rotation,0.4,0.224,400,400,full,structure + timing,same strategy (CV),3,0.9304,0.46,0.937
+simulated,share,full mimic + rotation,0.4,0.224,400,400,full,reuse,same strategy (CV),3,0.7397,0.155,0.7539
+simulated,share,full mimic + rotation,0.4,0.224,400,400,full,all,same strategy (CV),3,0.9266,0.4075,0.9319
+simulated,share,empirical mimic + rotation,0.02,0.0331,400,400,full,structure + timing,same strategy (CV),3,0.5605,0.005,0.5293
+simulated,share,empirical mimic + rotation,0.02,0.0331,400,400,full,reuse,same strategy (CV),3,0.5156,0.0025,0.4952
+simulated,share,empirical mimic + rotation,0.02,0.0331,400,400,full,all,same strategy (CV),3,0.5389,0.005,0.5261
+simulated,share,empirical mimic + rotation,0.05,0.0488,400,400,full,structure + timing,same strategy (CV),3,0.5905,0.0075,0.5671
+simulated,share,empirical mimic + rotation,0.05,0.0488,400,400,full,reuse,same strategy (CV),3,0.5175,0.0075,0.5162
+simulated,share,empirical mimic + rotation,0.05,0.0488,400,400,full,all,same strategy (CV),3,0.5943,0.0125,0.5716
+simulated,share,empirical mimic + rotation,0.1,0.08,400,400,full,structure + timing,same strategy (CV),3,0.695,0.07,0.6913
+simulated,share,empirical mimic + rotation,0.1,0.08,400,400,full,reuse,same strategy (CV),3,0.5274,0.055,0.5529
+simulated,share,empirical mimic + rotation,0.1,0.08,400,400,full,all,same strategy (CV),3,0.702,0.065,0.702
+simulated,share,empirical mimic + rotation,0.2,0.1368,400,400,full,structure + timing,same strategy (CV),3,0.8036,0.1875,0.7909
+simulated,share,empirical mimic + rotation,0.2,0.1368,400,400,full,reuse,same strategy (CV),3,0.6216,0.07,0.6375
+simulated,share,empirical mimic + rotation,0.2,0.1368,400,400,full,all,same strategy (CV),3,0.8035,0.145,0.7912
+simulated,share,empirical mimic + rotation,0.4,0.2251,400,400,full,structure + timing,same strategy (CV),3,0.9115,0.4525,0.9199
+simulated,share,empirical mimic + rotation,0.4,0.2251,400,400,full,reuse,same strategy (CV),3,0.7447,0.1425,0.7575
+simulated,share,empirical mimic + rotation,0.4,0.2251,400,400,full,all,same strategy (CV),3,0.9088,0.4275,0.9172
+simulated,strategy,naive,0.1,0.0763,400,400,full,size only,same strategy (CV),4,0.6055,0.015,0.5963
+simulated,strategy,naive,0.1,0.0763,400,400,full,shape,same strategy (CV),4,0.6705,0.035,0.6481
+simulated,strategy,naive,0.1,0.0763,400,400,full,branching,same strategy (CV),4,0.6282,0.0325,0.6221
+simulated,strategy,naive,0.1,0.0763,400,400,full,timing,same strategy (CV),4,0.8764,0.215,0.866
+simulated,strategy,naive,0.1,0.0763,400,400,full,reuse,same strategy (CV),4,0.895,0.5025,0.91
+simulated,strategy,naive,0.1,0.0763,400,400,full,structure + timing,same strategy (CV),4,0.9101,0.37,0.9076
+simulated,strategy,naive,0.1,0.0763,400,400,full,all,same strategy (CV),4,0.9483,0.575,0.9535
+simulated,strategy,naive,0.1,0.0763,400,400,20,structure + timing,same strategy (CV),4,0.8919,0.3775,0.9029
+simulated,strategy,naive,0.1,0.0763,400,400,20,reuse,same strategy (CV),4,0.9168,0.6975,0.9385
+simulated,strategy,naive,0.1,0.0763,400,400,20,all,same strategy (CV),4,0.9463,0.7175,0.9571
+simulated,strategy,naive,0.1,0.0763,400,400,full,structure + timing,naive only,4,0.9033,0.3425,0.9004
+simulated,strategy,naive,0.1,0.0763,400,400,full,reuse,naive only,4,0.8998,0.455,0.9124
+simulated,strategy,naive,0.1,0.0763,400,400,full,all,naive only,4,0.9435,0.5625,0.9495
+simulated,strategy,naive,0.3,0.173,400,400,full,size only,same strategy (CV),4,0.7016,0.14,0.7196
+simulated,strategy,naive,0.3,0.173,400,400,full,shape,same strategy (CV),4,0.8409,0.1875,0.8406
+simulated,strategy,naive,0.3,0.173,400,400,full,branching,same strategy (CV),4,0.8418,0.23,0.8373
+simulated,strategy,naive,0.3,0.173,400,400,full,timing,same strategy (CV),4,0.961,0.545,0.9525
+simulated,strategy,naive,0.3,0.173,400,400,full,reuse,same strategy (CV),4,0.9997,0.995,0.9998
+simulated,strategy,naive,0.3,0.173,400,400,full,structure + timing,same strategy (CV),4,0.9858,0.7875,0.9866
+simulated,strategy,naive,0.3,0.173,400,400,full,all,same strategy (CV),4,0.9999,0.995,0.9999
+simulated,strategy,naive,0.3,0.173,400,400,20,structure + timing,same strategy (CV),4,0.9854,0.8625,0.9873
+simulated,strategy,naive,0.3,0.173,400,400,20,reuse,same strategy (CV),4,0.9985,0.9975,0.9987
+simulated,strategy,naive,0.3,0.173,400,400,20,all,same strategy (CV),4,0.9998,0.9975,0.9998
+simulated,strategy,naive,0.3,0.173,400,400,full,structure + timing,naive only,4,0.9849,0.7125,0.9824
+simulated,strategy,naive,0.3,0.173,400,400,full,reuse,naive only,4,0.9966,0.9875,0.9973
+simulated,strategy,naive,0.3,0.173,400,400,full,all,naive only,4,0.9992,0.995,0.9993
+simulated,strategy,random timing,0.1,0.0763,400,400,full,size only,same strategy (CV),4,0.6055,0.015,0.5963
+simulated,strategy,random timing,0.1,0.0763,400,400,full,shape,same strategy (CV),4,0.6705,0.035,0.6481
+simulated,strategy,random timing,0.1,0.0763,400,400,full,branching,same strategy (CV),4,0.6282,0.0325,0.6221
+simulated,strategy,random timing,0.1,0.0763,400,400,full,timing,same strategy (CV),4,0.8895,0.26,0.8848
+simulated,strategy,random timing,0.1,0.0763,400,400,full,reuse,same strategy (CV),4,0.895,0.5025,0.91
+simulated,strategy,random timing,0.1,0.0763,400,400,full,structure + timing,same strategy (CV),4,0.9143,0.4475,0.9143
+simulated,strategy,random timing,0.1,0.0763,400,400,full,all,same strategy (CV),4,0.9545,0.585,0.9583
+simulated,strategy,random timing,0.1,0.0763,400,400,20,structure + timing,same strategy (CV),4,0.9018,0.39,0.9121
+simulated,strategy,random timing,0.1,0.0763,400,400,20,reuse,same strategy (CV),4,0.9216,0.71,0.9416
+simulated,strategy,random timing,0.1,0.0763,400,400,20,all,same strategy (CV),4,0.9473,0.725,0.9581
+simulated,strategy,random timing,0.1,0.0763,400,400,full,structure + timing,naive only,4,0.9044,0.355,0.9027
+simulated,strategy,random timing,0.1,0.0763,400,400,full,reuse,naive only,4,0.8998,0.455,0.9124
+simulated,strategy,random timing,0.1,0.0763,400,400,full,all,naive only,4,0.9441,0.5625,0.95
+simulated,strategy,random timing,0.3,0.173,400,400,full,size only,same strategy (CV),4,0.7016,0.14,0.7196
+simulated,strategy,random timing,0.3,0.173,400,400,full,shape,same strategy (CV),4,0.8409,0.1875,0.8406
+simulated,strategy,random timing,0.3,0.173,400,400,full,branching,same strategy (CV),4,0.8418,0.23,0.8373
+simulated,strategy,random timing,0.3,0.173,400,400,full,timing,same strategy (CV),4,0.9807,0.6325,0.9793
+simulated,strategy,random timing,0.3,0.173,400,400,full,reuse,same strategy (CV),4,0.9997,0.995,0.9998
+simulated,strategy,random timing,0.3,0.173,400,400,full,structure + timing,same strategy (CV),4,0.9911,0.865,0.9916
+simulated,strategy,random timing,0.3,0.173,400,400,full,all,same strategy (CV),4,0.9999,0.9975,0.9999
+simulated,strategy,random timing,0.3,0.173,400,400,20,structure + timing,same strategy (CV),4,0.9881,0.8575,0.9894
+simulated,strategy,random timing,0.3,0.173,400,400,20,reuse,same strategy (CV),4,0.9986,0.9975,0.9988
+simulated,strategy,random timing,0.3,0.173,400,400,20,all,same strategy (CV),4,0.9994,0.9975,0.9995
+simulated,strategy,random timing,0.3,0.173,400,400,full,structure + timing,naive only,4,0.9867,0.755,0.9843
+simulated,strategy,random timing,0.3,0.173,400,400,full,reuse,naive only,4,0.9966,0.9875,0.9973
+simulated,strategy,random timing,0.3,0.173,400,400,full,all,naive only,4,0.9992,0.995,0.9993
+simulated,strategy,organic timing,0.1,0.0776,400,400,full,size only,same strategy (CV),4,0.6026,0.0125,0.5829
+simulated,strategy,organic timing,0.1,0.0776,400,400,full,shape,same strategy (CV),4,0.6323,0.0025,0.6192
+simulated,strategy,organic timing,0.1,0.0776,400,400,full,branching,same strategy (CV),4,0.6539,0.08,0.6574
+simulated,strategy,organic timing,0.1,0.0776,400,400,full,timing,same strategy (CV),4,0.5752,0.0325,0.5808
+simulated,strategy,organic timing,0.1,0.0776,400,400,full,reuse,same strategy (CV),4,0.9028,0.485,0.9166
+simulated,strategy,organic timing,0.1,0.0776,400,400,full,structure + timing,same strategy (CV),4,0.6837,0.0325,0.6698
+simulated,strategy,organic timing,0.1,0.0776,400,400,full,all,same strategy (CV),4,0.8898,0.5075,0.9084
+simulated,strategy,organic timing,0.1,0.0776,400,400,20,structure + timing,same strategy (CV),4,0.6572,0.0475,0.6552
+simulated,strategy,organic timing,0.1,0.0776,400,400,20,reuse,same strategy (CV),4,0.8679,0.61,0.9014
+simulated,strategy,organic timing,0.1,0.0776,400,400,20,all,same strategy (CV),4,0.8782,0.545,0.904
+simulated,strategy,organic timing,0.1,0.0776,400,400,full,structure + timing,naive only,4,0.5883,0.02,0.5583
+simulated,strategy,organic timing,0.1,0.0776,400,400,full,reuse,naive only,4,0.9041,0.5375,0.92
+simulated,strategy,organic timing,0.1,0.0776,400,400,full,all,naive only,4,0.8595,0.31,0.8685
+simulated,strategy,organic timing,0.3,0.1742,400,400,full,size only,same strategy (CV),4,0.7276,0.0,0.7303
+simulated,strategy,organic timing,0.3,0.1742,400,400,full,shape,same strategy (CV),4,0.8436,0.2,0.8364
+simulated,strategy,organic timing,0.3,0.1742,400,400,full,branching,same strategy (CV),4,0.8579,0.285,0.8612
+simulated,strategy,organic timing,0.3,0.1742,400,400,full,timing,same strategy (CV),4,0.8393,0.1425,0.829
+simulated,strategy,organic timing,0.3,0.1742,400,400,full,reuse,same strategy (CV),4,0.9994,0.995,0.9995
+simulated,strategy,organic timing,0.3,0.1742,400,400,full,structure + timing,same strategy (CV),4,0.9155,0.325,0.9089
+simulated,strategy,organic timing,0.3,0.1742,400,400,full,all,same strategy (CV),4,0.9999,0.995,0.9999
+simulated,strategy,organic timing,0.3,0.1742,400,400,20,structure + timing,same strategy (CV),4,0.8676,0.185,0.8618
+simulated,strategy,organic timing,0.3,0.1742,400,400,20,reuse,same strategy (CV),4,0.996,0.9825,0.997
+simulated,strategy,organic timing,0.3,0.1742,400,400,20,all,same strategy (CV),4,0.9979,0.98,0.9984
+simulated,strategy,organic timing,0.3,0.1742,400,400,full,structure + timing,naive only,4,0.8105,0.0525,0.7832
+simulated,strategy,organic timing,0.3,0.1742,400,400,full,reuse,naive only,4,0.998,0.9925,0.9984
+simulated,strategy,organic timing,0.3,0.1742,400,400,full,all,naive only,4,0.9967,0.99,0.9979
+simulated,strategy,organic timing + structure,0.3,0.1748,400,400,full,size only,same strategy (CV),4,0.7402,0.1375,0.7436
+simulated,strategy,organic timing + structure,0.3,0.1748,400,400,full,shape,same strategy (CV),4,0.8378,0.3125,0.8392
+simulated,strategy,organic timing + structure,0.3,0.1748,400,400,full,branching,same strategy (CV),4,0.89,0.35,0.8932
+simulated,strategy,organic timing + structure,0.3,0.1748,400,400,full,timing,same strategy (CV),4,0.7515,0.21,0.7777
+simulated,strategy,organic timing + structure,0.3,0.1748,400,400,full,reuse,same strategy (CV),4,0.9998,1.0,0.9998
+simulated,strategy,organic timing + structure,0.3,0.1748,400,400,full,structure + timing,same strategy (CV),4,0.9093,0.37,0.912
+simulated,strategy,organic timing + structure,0.3,0.1748,400,400,full,all,same strategy (CV),4,0.9999,1.0,0.9999
+simulated,strategy,organic timing + structure,0.3,0.1748,400,400,20,structure + timing,same strategy (CV),4,0.7625,0.1,0.74
+simulated,strategy,organic timing + structure,0.3,0.1748,400,400,20,reuse,same strategy (CV),4,0.8522,0.49,0.8797
+simulated,strategy,organic timing + structure,0.3,0.1748,400,400,20,all,same strategy (CV),4,0.8957,0.47,0.909
+simulated,strategy,organic timing + structure,0.3,0.1748,400,400,full,structure + timing,naive only,4,0.5653,0.0075,0.5178
+simulated,strategy,organic timing + structure,0.3,0.1748,400,400,full,reuse,naive only,4,0.9998,0.9975,0.9998
+simulated,strategy,organic timing + structure,0.3,0.1748,400,400,full,all,naive only,4,0.9985,0.9825,0.9986
+simulated,strategy,organic timing + structure,0.1,0.078,400,400,full,size only,same strategy (CV),4,0.5566,0.0475,0.5743
+simulated,strategy,organic timing + structure,0.1,0.078,400,400,full,shape,same strategy (CV),4,0.6023,0.085,0.6218
+simulated,strategy,organic timing + structure,0.1,0.078,400,400,full,branching,same strategy (CV),4,0.6811,0.125,0.6958
+simulated,strategy,organic timing + structure,0.1,0.078,400,400,full,timing,same strategy (CV),4,0.6159,0.04,0.6171
+simulated,strategy,organic timing + structure,0.1,0.078,400,400,full,reuse,same strategy (CV),4,0.9082,0.53,0.9234
+simulated,strategy,organic timing + structure,0.1,0.078,400,400,full,structure + timing,same strategy (CV),4,0.7051,0.1275,0.7319
+simulated,strategy,organic timing + structure,0.1,0.078,400,400,full,all,same strategy (CV),4,0.9036,0.495,0.9142
+simulated,strategy,organic timing + structure,0.1,0.078,400,400,20,structure + timing,same strategy (CV),4,0.5459,0.015,0.5269
+simulated,strategy,organic timing + structure,0.1,0.078,400,400,20,reuse,same strategy (CV),4,0.6413,0.055,0.6362
+simulated,strategy,organic timing + structure,0.1,0.078,400,400,20,all,same strategy (CV),4,0.6111,0.0225,0.589
+simulated,strategy,organic timing + structure,0.1,0.078,400,400,full,structure + timing,naive only,4,0.5166,0.0125,0.4986
+simulated,strategy,organic timing + structure,0.1,0.078,400,400,full,reuse,naive only,4,0.909,0.53,0.924
+simulated,strategy,organic timing + structure,0.1,0.078,400,400,full,all,naive only,4,0.8314,0.1475,0.8281
+simulated,share,naive,0.02,0.0313,400,400,full,structure + timing,same strategy (CV),4,0.5932,0.04,0.5935
+simulated,share,naive,0.02,0.0313,400,400,full,reuse,same strategy (CV),4,0.5105,0.0,0.4991
+simulated,share,naive,0.02,0.0313,400,400,full,all,same strategy (CV),4,0.5884,0.0375,0.5861
+simulated,share,naive,0.05,0.047,400,400,full,structure + timing,same strategy (CV),4,0.7565,0.15,0.767
+simulated,share,naive,0.05,0.047,400,400,full,reuse,same strategy (CV),4,0.669,0.245,0.7259
+simulated,share,naive,0.05,0.047,400,400,full,all,same strategy (CV),4,0.7871,0.2525,0.8093
+simulated,share,naive,0.1,0.0763,400,400,full,structure + timing,same strategy (CV),4,0.9101,0.37,0.9076
+simulated,share,naive,0.1,0.0763,400,400,full,reuse,same strategy (CV),4,0.895,0.5025,0.91
+simulated,share,naive,0.1,0.0763,400,400,full,all,same strategy (CV),4,0.9483,0.575,0.9535
+simulated,share,naive,0.2,0.132,400,400,full,structure + timing,same strategy (CV),4,0.9715,0.6625,0.9707
+simulated,share,naive,0.2,0.132,400,400,full,reuse,same strategy (CV),4,0.9965,0.9625,0.9969
+simulated,share,naive,0.2,0.132,400,400,full,all,same strategy (CV),4,0.9977,0.9725,0.9981
+simulated,strategy,full mimic + rotation,0.1,0.0792,400,400,full,size only,same strategy (CV),4,0.5607,0.0525,0.5691
+simulated,strategy,full mimic + rotation,0.1,0.0792,400,400,full,shape,same strategy (CV),4,0.6301,0.065,0.6438
+simulated,strategy,full mimic + rotation,0.1,0.0792,400,400,full,branching,same strategy (CV),4,0.6845,0.0925,0.6996
+simulated,strategy,full mimic + rotation,0.1,0.0792,400,400,full,timing,same strategy (CV),4,0.5797,0.055,0.597
+simulated,strategy,full mimic + rotation,0.1,0.0792,400,400,full,reuse,same strategy (CV),4,0.6126,0.0375,0.6128
+simulated,strategy,full mimic + rotation,0.1,0.0792,400,400,full,structure + timing,same strategy (CV),4,0.7137,0.1175,0.7401
+simulated,strategy,full mimic + rotation,0.1,0.0792,400,400,full,all,same strategy (CV),4,0.7069,0.085,0.7305
+simulated,strategy,full mimic + rotation,0.1,0.0792,400,400,20,structure + timing,same strategy (CV),4,0.5321,0.005,0.5126
+simulated,strategy,full mimic + rotation,0.1,0.0792,400,400,20,reuse,same strategy (CV),4,0.5168,0.0125,0.5265
+simulated,strategy,full mimic + rotation,0.1,0.0792,400,400,20,all,same strategy (CV),4,0.5432,0.035,0.5567
+simulated,strategy,full mimic + rotation,0.1,0.0792,400,400,full,structure + timing,naive only,4,0.5175,0.01,0.4994
+simulated,strategy,full mimic + rotation,0.1,0.0792,400,400,full,reuse,naive only,4,0.4153,0.0075,0.4425
+simulated,strategy,full mimic + rotation,0.1,0.0792,400,400,full,all,naive only,4,0.4598,0.0125,0.4694
+simulated,strategy,full mimic + rotation,0.3,0.174,400,400,full,size only,same strategy (CV),4,0.6765,0.0,0.6932
+simulated,strategy,full mimic + rotation,0.3,0.174,400,400,full,shape,same strategy (CV),4,0.8396,0.2775,0.8508
+simulated,strategy,full mimic + rotation,0.3,0.174,400,400,full,branching,same strategy (CV),4,0.8684,0.2975,0.883
+simulated,strategy,full mimic + rotation,0.3,0.174,400,400,full,timing,same strategy (CV),4,0.7536,0.2525,0.781
+simulated,strategy,full mimic + rotation,0.3,0.174,400,400,full,reuse,same strategy (CV),4,0.7147,0.0925,0.7339
+simulated,strategy,full mimic + rotation,0.3,0.174,400,400,full,structure + timing,same strategy (CV),4,0.9031,0.4375,0.9171
+simulated,strategy,full mimic + rotation,0.3,0.174,400,400,full,all,same strategy (CV),4,0.9018,0.4025,0.914
+simulated,strategy,full mimic + rotation,0.3,0.174,400,400,20,structure + timing,same strategy (CV),4,0.7559,0.065,0.7262
+simulated,strategy,full mimic + rotation,0.3,0.174,400,400,20,reuse,same strategy (CV),4,0.6461,0.005,0.5981
+simulated,strategy,full mimic + rotation,0.3,0.174,400,400,20,all,same strategy (CV),4,0.7838,0.09,0.7609
+simulated,strategy,full mimic + rotation,0.3,0.174,400,400,full,structure + timing,naive only,4,0.5722,0.0025,0.5163
+simulated,strategy,full mimic + rotation,0.3,0.174,400,400,full,reuse,naive only,4,0.5298,0.0,0.5278
+simulated,strategy,full mimic + rotation,0.3,0.174,400,400,full,all,naive only,4,0.5871,0.0025,0.5288
+simulated,strategy,control: embedded accounts,0.1,0.099,400,400,full,size only,same strategy (CV),4,0.505,0.015,0.5134
+simulated,strategy,control: embedded accounts,0.1,0.099,400,400,full,shape,same strategy (CV),4,0.5135,0.0075,0.5109
+simulated,strategy,control: embedded accounts,0.1,0.099,400,400,full,branching,same strategy (CV),4,0.4792,0.0025,0.4718
+simulated,strategy,control: embedded accounts,0.1,0.099,400,400,full,timing,same strategy (CV),4,0.4675,0.0075,0.4736
+simulated,strategy,control: embedded accounts,0.1,0.099,400,400,full,reuse,same strategy (CV),4,0.9214,0.5675,0.9277
+simulated,strategy,control: embedded accounts,0.1,0.099,400,400,full,structure + timing,same strategy (CV),4,0.4762,0.0075,0.4747
+simulated,strategy,control: embedded accounts,0.1,0.099,400,400,full,all,same strategy (CV),4,0.9026,0.52,0.9114
+simulated,strategy,control: embedded accounts,0.1,0.099,400,400,20,structure + timing,same strategy (CV),4,0.4785,0.025,0.4849
+simulated,strategy,control: embedded accounts,0.1,0.099,400,400,20,reuse,same strategy (CV),4,0.6951,0.135,0.711
+simulated,strategy,control: embedded accounts,0.1,0.099,400,400,20,all,same strategy (CV),4,0.6489,0.095,0.6658
+simulated,strategy,control: embedded accounts,0.1,0.099,400,400,full,structure + timing,naive only,4,0.4733,0.0075,0.48
+simulated,strategy,control: embedded accounts,0.1,0.099,400,400,full,reuse,naive only,4,0.9147,0.5575,0.9257
+simulated,strategy,control: embedded accounts,0.1,0.099,400,400,full,all,naive only,4,0.8273,0.15,0.8232
+simulated,strategy,control: embedded accounts,0.3,0.3,400,400,full,size only,same strategy (CV),4,0.5195,0.0125,0.5203
+simulated,strategy,control: embedded accounts,0.3,0.3,400,400,full,shape,same strategy (CV),4,0.5376,0.005,0.5358
+simulated,strategy,control: embedded accounts,0.3,0.3,400,400,full,branching,same strategy (CV),4,0.4893,0.01,0.4849
+simulated,strategy,control: embedded accounts,0.3,0.3,400,400,full,timing,same strategy (CV),4,0.4744,0.005,0.4806
+simulated,strategy,control: embedded accounts,0.3,0.3,400,400,full,reuse,same strategy (CV),4,1.0,1.0,1.0
+simulated,strategy,control: embedded accounts,0.3,0.3,400,400,full,structure + timing,same strategy (CV),4,0.4934,0.01,0.5003
+simulated,strategy,control: embedded accounts,0.3,0.3,400,400,full,all,same strategy (CV),4,1.0,1.0,1.0
+simulated,strategy,control: embedded accounts,0.3,0.3,400,400,20,structure + timing,same strategy (CV),4,0.4539,0.0125,0.4697
+simulated,strategy,control: embedded accounts,0.3,0.3,400,400,20,reuse,same strategy (CV),4,0.9753,0.845,0.9816
+simulated,strategy,control: embedded accounts,0.3,0.3,400,400,20,all,same strategy (CV),4,0.9792,0.845,0.9837
+simulated,strategy,control: embedded accounts,0.3,0.3,400,400,full,structure + timing,naive only,4,0.4941,0.005,0.4866
+simulated,strategy,control: embedded accounts,0.3,0.3,400,400,full,reuse,naive only,4,1.0,1.0,1.0
+simulated,strategy,control: embedded accounts,0.3,0.3,400,400,full,all,naive only,4,1.0,1.0,1.0
+simulated,share,naive,0.4,0.2193,400,400,full,structure + timing,same strategy (CV),4,0.9961,0.8825,0.9962
+simulated,share,naive,0.4,0.2193,400,400,full,reuse,same strategy (CV),4,1.0,1.0,1.0
+simulated,share,naive,0.4,0.2193,400,400,full,all,same strategy (CV),4,1.0,1.0,1.0
+simulated,strategy,empirical mimic + rotation,0.1,0.0789,400,400,full,size only,same strategy (CV),4,0.5838,0.0275,0.586
+simulated,strategy,empirical mimic + rotation,0.1,0.0789,400,400,full,shape,same strategy (CV),4,0.608,0.055,0.6345
+simulated,strategy,empirical mimic + rotation,0.1,0.0789,400,400,full,branching,same strategy (CV),4,0.5675,0.055,0.5801
+simulated,strategy,empirical mimic + rotation,0.1,0.0789,400,400,full,timing,same strategy (CV),4,0.7351,0.085,0.7336
+simulated,strategy,empirical mimic + rotation,0.1,0.0789,400,400,full,reuse,same strategy (CV),4,0.5805,0.06,0.5916
+simulated,strategy,empirical mimic + rotation,0.1,0.0789,400,400,full,structure + timing,same strategy (CV),4,0.7288,0.1325,0.7513
+simulated,strategy,empirical mimic + rotation,0.1,0.0789,400,400,full,all,same strategy (CV),4,0.7317,0.17,0.7518
+simulated,strategy,empirical mimic + rotation,0.1,0.0789,400,400,20,structure + timing,same strategy (CV),4,0.6972,0.0625,0.6891
+simulated,strategy,empirical mimic + rotation,0.1,0.0789,400,400,20,reuse,same strategy (CV),4,0.5506,0.0025,0.5543
+simulated,strategy,empirical mimic + rotation,0.1,0.0789,400,400,20,all,same strategy (CV),4,0.7073,0.0625,0.7047
+simulated,strategy,empirical mimic + rotation,0.1,0.0789,400,400,full,structure + timing,naive only,4,0.5606,0.01,0.534
+simulated,strategy,empirical mimic + rotation,0.1,0.0789,400,400,full,reuse,naive only,4,0.4098,0.015,0.4464
+simulated,strategy,empirical mimic + rotation,0.1,0.0789,400,400,full,all,naive only,4,0.4818,0.01,0.4849
+simulated,strategy,empirical mimic + rotation,0.3,0.1724,400,400,full,size only,same strategy (CV),4,0.7184,0.0,0.7179
+simulated,strategy,empirical mimic + rotation,0.3,0.1724,400,400,full,shape,same strategy (CV),4,0.7787,0.205,0.7905
+simulated,strategy,empirical mimic + rotation,0.3,0.1724,400,400,full,branching,same strategy (CV),4,0.7654,0.125,0.7752
+simulated,strategy,empirical mimic + rotation,0.3,0.1724,400,400,full,timing,same strategy (CV),4,0.8611,0.155,0.8534
+simulated,strategy,empirical mimic + rotation,0.3,0.1724,400,400,full,reuse,same strategy (CV),4,0.7284,0.145,0.755
+simulated,strategy,empirical mimic + rotation,0.3,0.1724,400,400,full,structure + timing,same strategy (CV),4,0.8928,0.4225,0.9026
+simulated,strategy,empirical mimic + rotation,0.3,0.1724,400,400,full,all,same strategy (CV),4,0.8995,0.375,0.9085
+simulated,strategy,empirical mimic + rotation,0.3,0.1724,400,400,20,structure + timing,same strategy (CV),4,0.8459,0.265,0.8471
+simulated,strategy,empirical mimic + rotation,0.3,0.1724,400,400,20,reuse,same strategy (CV),4,0.6748,0.02,0.6248
+simulated,strategy,empirical mimic + rotation,0.3,0.1724,400,400,20,all,same strategy (CV),4,0.8568,0.2325,0.8541
+simulated,strategy,empirical mimic + rotation,0.3,0.1724,400,400,full,structure + timing,naive only,4,0.6982,0.0175,0.6392
+simulated,strategy,empirical mimic + rotation,0.3,0.1724,400,400,full,reuse,naive only,4,0.5544,0.0025,0.5527
+simulated,strategy,empirical mimic + rotation,0.3,0.1724,400,400,full,all,naive only,4,0.669,0.0125,0.6158
+simulated,share,full mimic + rotation,0.02,0.031,400,400,full,structure + timing,same strategy (CV),4,0.5172,0.0075,0.5027
+simulated,share,full mimic + rotation,0.02,0.031,400,400,full,reuse,same strategy (CV),4,0.5316,0.0275,0.536
+simulated,share,full mimic + rotation,0.02,0.031,400,400,full,all,same strategy (CV),4,0.5138,0.02,0.504
+simulated,share,full mimic + rotation,0.05,0.0478,400,400,full,structure + timing,same strategy (CV),4,0.627,0.0575,0.6327
+simulated,share,full mimic + rotation,0.05,0.0478,400,400,full,reuse,same strategy (CV),4,0.5394,0.0175,0.5318
+simulated,share,full mimic + rotation,0.05,0.0478,400,400,full,all,same strategy (CV),4,0.6234,0.0775,0.6315
+simulated,share,full mimic + rotation,0.1,0.0792,400,400,full,structure + timing,same strategy (CV),4,0.7137,0.1175,0.7401
+simulated,share,full mimic + rotation,0.1,0.0792,400,400,full,reuse,same strategy (CV),4,0.6126,0.0375,0.6128
+simulated,share,full mimic + rotation,0.1,0.0792,400,400,full,all,same strategy (CV),4,0.7069,0.085,0.7305
+simulated,share,full mimic + rotation,0.2,0.1299,400,400,full,structure + timing,same strategy (CV),4,0.819,0.3125,0.846
+simulated,share,full mimic + rotation,0.2,0.1299,400,400,full,reuse,same strategy (CV),4,0.7222,0.1525,0.7426
+simulated,share,full mimic + rotation,0.2,0.1299,400,400,full,all,same strategy (CV),4,0.8184,0.28,0.8381
+simulated,share,full mimic + rotation,0.4,0.222,400,400,full,structure + timing,same strategy (CV),4,0.9381,0.605,0.9421
+simulated,share,full mimic + rotation,0.4,0.222,400,400,full,reuse,same strategy (CV),4,0.7959,0.175,0.7953
+simulated,share,full mimic + rotation,0.4,0.222,400,400,full,all,same strategy (CV),4,0.9395,0.58,0.9438
+simulated,base rate,naive,0.1,0.0784,200,200,full,structure + timing,same strategy (CV),0,0.899,0.23,0.9004
+simulated,base rate,naive,0.1,0.0784,200,200,full,reuse,same strategy (CV),0,0.9392,0.64,0.9479
+simulated,base rate,naive,0.1,0.0784,200,200,full,all,same strategy (CV),0,0.9567,0.515,0.9544
+simulated,share,empirical mimic + rotation,0.02,0.0312,400,400,full,structure + timing,same strategy (CV),4,0.5555,0.01,0.5445
+simulated,share,empirical mimic + rotation,0.02,0.0312,400,400,full,reuse,same strategy (CV),4,0.5085,0.0075,0.5062
+simulated,share,empirical mimic + rotation,0.02,0.0312,400,400,full,all,same strategy (CV),4,0.5381,0.015,0.5244
+simulated,share,empirical mimic + rotation,0.05,0.0468,400,400,full,structure + timing,same strategy (CV),4,0.6037,0.0575,0.6226
+simulated,share,empirical mimic + rotation,0.05,0.0468,400,400,full,reuse,same strategy (CV),4,0.5174,0.0325,0.5509
+simulated,share,empirical mimic + rotation,0.05,0.0468,400,400,full,all,same strategy (CV),4,0.6269,0.08,0.649
+simulated,share,empirical mimic + rotation,0.1,0.0789,400,400,full,structure + timing,same strategy (CV),4,0.7288,0.1325,0.7513
+simulated,share,empirical mimic + rotation,0.1,0.0789,400,400,full,reuse,same strategy (CV),4,0.5805,0.06,0.5916
+simulated,share,empirical mimic + rotation,0.1,0.0789,400,400,full,all,same strategy (CV),4,0.7317,0.17,0.7518
+simulated,share,empirical mimic + rotation,0.2,0.1316,400,400,full,structure + timing,same strategy (CV),4,0.8268,0.245,0.8409
+simulated,share,empirical mimic + rotation,0.2,0.1316,400,400,full,reuse,same strategy (CV),4,0.6508,0.0925,0.6761
+simulated,share,empirical mimic + rotation,0.2,0.1316,400,400,full,all,same strategy (CV),4,0.8319,0.2625,0.8457
+simulated,base rate,organic timing + structure,0.1,0.0816,200,200,full,structure + timing,same strategy (CV),0,0.5844,0.04,0.599
+simulated,base rate,organic timing + structure,0.1,0.0816,200,200,full,reuse,same strategy (CV),0,0.9394,0.66,0.9499
+simulated,base rate,organic timing + structure,0.1,0.0816,200,200,full,all,same strategy (CV),0,0.9244,0.595,0.9332
+simulated,base rate,full mimic + rotation,0.1,0.0826,200,200,full,structure + timing,same strategy (CV),0,0.6337,0.085,0.6449
+simulated,base rate,full mimic + rotation,0.1,0.0826,200,200,full,reuse,same strategy (CV),0,0.534,0.085,0.5668
+simulated,base rate,full mimic + rotation,0.1,0.0826,200,200,full,all,same strategy (CV),0,0.6294,0.1,0.6508
+simulated,share,empirical mimic + rotation,0.4,0.2233,400,400,full,structure + timing,same strategy (CV),4,0.9195,0.56,0.9301
+simulated,share,empirical mimic + rotation,0.4,0.2233,400,400,full,reuse,same strategy (CV),4,0.7929,0.185,0.7923
+simulated,share,empirical mimic + rotation,0.4,0.2233,400,400,full,all,same strategy (CV),4,0.9233,0.525,0.9326
+simulated,base rate,empirical mimic + rotation,0.1,0.0801,200,200,full,structure + timing,same strategy (CV),0,0.6969,0.025,0.6712
+simulated,base rate,empirical mimic + rotation,0.1,0.0801,200,200,full,reuse,same strategy (CV),0,0.5853,0.04,0.6121
+simulated,base rate,empirical mimic + rotation,0.1,0.0801,200,200,full,all,same strategy (CV),0,0.6944,0.065,0.6828
+simulated,base rate,naive,0.1,0.079,200,200,full,structure + timing,same strategy (CV),1,0.8882,0.33,0.8875
+simulated,base rate,naive,0.1,0.079,200,200,full,reuse,same strategy (CV),1,0.919,0.64,0.9348
+simulated,base rate,naive,0.1,0.079,200,200,full,all,same strategy (CV),1,0.9495,0.65,0.9582
+simulated,base rate,organic timing + structure,0.1,0.0812,200,200,full,structure + timing,same strategy (CV),1,0.6538,0.04,0.6519
+simulated,base rate,organic timing + structure,0.1,0.0812,200,200,full,reuse,same strategy (CV),1,0.9436,0.595,0.9537
+simulated,base rate,organic timing + structure,0.1,0.0812,200,200,full,all,same strategy (CV),1,0.9295,0.525,0.9364
+simulated,base rate,naive,0.1,0.0793,200,200,full,structure + timing,same strategy (CV),2,0.901,0.46,0.9147
+simulated,base rate,naive,0.1,0.0793,200,200,full,reuse,same strategy (CV),2,0.941,0.64,0.9508
+simulated,base rate,naive,0.1,0.0793,200,200,full,all,same strategy (CV),2,0.9506,0.715,0.9591
+simulated,base rate,full mimic + rotation,0.1,0.0821,200,200,full,structure + timing,same strategy (CV),1,0.6425,0.01,0.6336
+simulated,base rate,full mimic + rotation,0.1,0.0821,200,200,full,reuse,same strategy (CV),1,0.5283,0.06,0.5699
+simulated,base rate,full mimic + rotation,0.1,0.0821,200,200,full,all,same strategy (CV),1,0.661,0.03,0.6478
+simulated,base rate,empirical mimic + rotation,0.1,0.08,200,200,full,structure + timing,same strategy (CV),1,0.6602,0.02,0.638
+simulated,base rate,empirical mimic + rotation,0.1,0.08,200,200,full,reuse,same strategy (CV),1,0.5231,0.075,0.5746
+simulated,base rate,empirical mimic + rotation,0.1,0.08,200,200,full,all,same strategy (CV),1,0.6675,0.095,0.6701
+simulated,base rate,organic timing + structure,0.1,0.0779,200,200,full,structure + timing,same strategy (CV),2,0.751,0.1,0.7465
+simulated,base rate,organic timing + structure,0.1,0.0779,200,200,full,reuse,same strategy (CV),2,0.9447,0.59,0.9534
+simulated,base rate,organic timing + structure,0.1,0.0779,200,200,full,all,same strategy (CV),2,0.9422,0.615,0.949
+simulated,base rate,full mimic + rotation,0.1,0.0786,200,200,full,structure + timing,same strategy (CV),2,0.7505,0.085,0.7579
+simulated,base rate,full mimic + rotation,0.1,0.0786,200,200,full,reuse,same strategy (CV),2,0.5922,0.075,0.6006
+simulated,base rate,full mimic + rotation,0.1,0.0786,200,200,full,all,same strategy (CV),2,0.7532,0.04,0.7696
+simulated,base rate,empirical mimic + rotation,0.1,0.0797,200,200,full,structure + timing,same strategy (CV),2,0.7347,0.105,0.7417
+simulated,base rate,empirical mimic + rotation,0.1,0.0797,200,200,full,reuse,same strategy (CV),2,0.6039,0.015,0.5991
+simulated,base rate,empirical mimic + rotation,0.1,0.0797,200,200,full,all,same strategy (CV),2,0.7462,0.085,0.7472
+simulated,base rate,naive,0.1,0.0823,200,200,full,structure + timing,same strategy (CV),3,0.8954,0.395,0.9037
+simulated,base rate,naive,0.1,0.0823,200,200,full,reuse,same strategy (CV),3,0.952,0.48,0.9553
+simulated,base rate,naive,0.1,0.0823,200,200,full,all,same strategy (CV),3,0.9656,0.74,0.9718
+simulated,base rate,organic timing + structure,0.1,0.0811,200,200,full,structure + timing,same strategy (CV),3,0.6379,0.05,0.6628
+simulated,base rate,organic timing + structure,0.1,0.0811,200,200,full,reuse,same strategy (CV),3,0.9492,0.55,0.9532
+simulated,base rate,organic timing + structure,0.1,0.0811,200,200,full,all,same strategy (CV),3,0.9536,0.475,0.9507
+simulated,base rate,full mimic + rotation,0.1,0.0817,200,200,full,structure + timing,same strategy (CV),3,0.6353,0.08,0.6693
+simulated,base rate,full mimic + rotation,0.1,0.0817,200,200,full,reuse,same strategy (CV),3,0.5468,0.01,0.537
+simulated,base rate,full mimic + rotation,0.1,0.0817,200,200,full,all,same strategy (CV),3,0.6313,0.055,0.6553
+simulated,base rate,empirical mimic + rotation,0.1,0.0811,200,200,full,structure + timing,same strategy (CV),3,0.6402,0.01,0.6005
+simulated,base rate,empirical mimic + rotation,0.1,0.0811,200,200,full,reuse,same strategy (CV),3,0.4718,0.03,0.5039
+simulated,base rate,empirical mimic + rotation,0.1,0.0811,200,200,full,all,same strategy (CV),3,0.6357,0.01,0.5991
+simulated,base rate,naive,0.1,0.0785,200,200,full,structure + timing,same strategy (CV),4,0.8924,0.3,0.8732
+simulated,base rate,naive,0.1,0.0785,200,200,full,reuse,same strategy (CV),4,0.9375,0.47,0.9425
+simulated,base rate,naive,0.1,0.0785,200,200,full,all,same strategy (CV),4,0.9681,0.7,0.9696
+simulated,base rate,organic timing + structure,0.1,0.0816,200,200,full,structure + timing,same strategy (CV),4,0.641,0.045,0.6442
+simulated,base rate,organic timing + structure,0.1,0.0816,200,200,full,reuse,same strategy (CV),4,0.9505,0.605,0.9542
+simulated,base rate,organic timing + structure,0.1,0.0816,200,200,full,all,same strategy (CV),4,0.9427,0.54,0.9452
+simulated,base rate,full mimic + rotation,0.1,0.0797,200,200,full,structure + timing,same strategy (CV),4,0.6655,0.075,0.6952
+simulated,base rate,full mimic + rotation,0.1,0.0797,200,200,full,reuse,same strategy (CV),4,0.4721,0.06,0.5254
+simulated,base rate,full mimic + rotation,0.1,0.0797,200,200,full,all,same strategy (CV),4,0.6488,0.1,0.6815
+simulated,base rate,empirical mimic + rotation,0.1,0.0815,200,200,full,structure + timing,same strategy (CV),4,0.7219,0.09,0.7275
+simulated,base rate,empirical mimic + rotation,0.1,0.0815,200,200,full,reuse,same strategy (CV),4,0.5556,0.01,0.5492
+simulated,base rate,empirical mimic + rotation,0.1,0.0815,200,200,full,all,same strategy (CV),4,0.718,0.14,0.7302

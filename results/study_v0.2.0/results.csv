@@ -1,0 +1,1755 @@
+exp,strategy,pi,pi_realized,m,pool_size,start_delay_s,n_org,n_amp,view,features,trained_on,seed,auroc,tpr_at_1pct_fpr,auprc
+base rate,naive,0.1,0.0935,0.8,150,300.0,9800,200,full,structure + timing,same strategy (CV),1,0.866,0.42,0.4007
+base rate,naive,0.1,0.0935,0.8,150,300.0,9800,200,full,reuse,same strategy (CV),1,0.5222,0.015,0.0226
+base rate,naive,0.1,0.0935,0.8,150,300.0,9800,200,full,all,same strategy (CV),1,0.8917,0.42,0.4282
+base rate,naive,0.1,0.0942,0.8,150,300.0,9800,200,full,structure + timing,same strategy (CV),0,0.8762,0.475,0.4817
+base rate,naive,0.1,0.0942,0.8,150,300.0,9800,200,full,reuse,same strategy (CV),0,0.5623,0.02,0.0246
+base rate,naive,0.1,0.0942,0.8,150,300.0,9800,200,full,all,same strategy (CV),0,0.891,0.465,0.5006
+base rate,naive,0.1,0.0948,0.8,150,300.0,9800,200,full,structure + timing,same strategy (CV),2,0.8841,0.43,0.4277
+base rate,naive,0.1,0.0948,0.8,150,300.0,9800,200,full,reuse,same strategy (CV),2,0.556,0.025,0.0279
+base rate,naive,0.1,0.0948,0.8,150,300.0,9800,200,full,all,same strategy (CV),2,0.885,0.435,0.4319
+base rate,organic timing + structure,0.1,0.0946,0.8,150,300.0,9800,200,full,structure + timing,same strategy (CV),0,0.6204,0.04,0.0396
+base rate,organic timing + structure,0.1,0.0946,0.8,150,300.0,9800,200,full,reuse,same strategy (CV),0,0.5848,0.015,0.0266
+base rate,organic timing + structure,0.1,0.0946,0.8,150,300.0,9800,200,full,all,same strategy (CV),0,0.6444,0.055,0.0463
+base rate,organic timing + structure,0.1,0.095,0.8,150,300.0,9800,200,full,structure + timing,same strategy (CV),1,0.603,0.055,0.0426
+base rate,organic timing + structure,0.1,0.095,0.8,150,300.0,9800,200,full,reuse,same strategy (CV),1,0.5894,0.005,0.0247
+base rate,organic timing + structure,0.1,0.095,0.8,150,300.0,9800,200,full,all,same strategy (CV),1,0.6288,0.055,0.0478
+base rate,organic timing + structure,0.1,0.0938,0.8,150,300.0,9800,200,full,structure + timing,same strategy (CV),2,0.6274,0.055,0.0496
+base rate,organic timing + structure,0.1,0.0938,0.8,150,300.0,9800,200,full,reuse,same strategy (CV),2,0.5966,0.02,0.0298
+base rate,organic timing + structure,0.1,0.0938,0.8,150,300.0,9800,200,full,all,same strategy (CV),2,0.6754,0.065,0.0633
+base rate,naive,0.1,0.0933,0.8,150,300.0,1800,200,full,structure + timing,same strategy (CV),0,0.899,0.475,0.6816
+base rate,naive,0.1,0.0933,0.8,150,300.0,1800,200,full,reuse,same strategy (CV),0,0.7437,0.06,0.2547
+base rate,naive,0.1,0.0933,0.8,150,300.0,1800,200,full,all,same strategy (CV),0,0.924,0.495,0.7483
+base rate,naive,0.1,0.0932,0.8,150,300.0,1800,200,full,structure + timing,same strategy (CV),1,0.9023,0.325,0.614
+base rate,naive,0.1,0.0932,0.8,150,300.0,1800,200,full,reuse,same strategy (CV),1,0.6959,0.03,0.1919
+base rate,naive,0.1,0.0932,0.8,150,300.0,1800,200,full,all,same strategy (CV),1,0.9224,0.435,0.689
+base rate,naive,0.1,0.0942,0.8,150,300.0,1800,200,full,structure + timing,same strategy (CV),2,0.9044,0.34,0.613
+base rate,naive,0.1,0.0942,0.8,150,300.0,1800,200,full,reuse,same strategy (CV),2,0.6552,0.015,0.1523
+base rate,naive,0.1,0.0942,0.8,150,300.0,1800,200,full,all,same strategy (CV),2,0.9174,0.4,0.6535
+base rate,organic timing + structure,0.1,0.0933,0.8,150,300.0,1800,200,full,structure + timing,same strategy (CV),0,0.6312,0.05,0.1897
+base rate,organic timing + structure,0.1,0.0933,0.8,150,300.0,1800,200,full,reuse,same strategy (CV),0,0.7472,0.075,0.2665
+base rate,organic timing + structure,0.1,0.0933,0.8,150,300.0,1800,200,full,all,same strategy (CV),0,0.775,0.14,0.3483
+base rate,organic timing + structure,0.1,0.0952,0.8,150,300.0,1800,200,full,structure + timing,same strategy (CV),1,0.6333,0.06,0.1836
+base rate,organic timing + structure,0.1,0.0952,0.8,150,300.0,1800,200,full,reuse,same strategy (CV),1,0.7122,0.045,0.2083
+base rate,organic timing + structure,0.1,0.0952,0.8,150,300.0,1800,200,full,all,same strategy (CV),1,0.7587,0.13,0.3215
+base rate,organic timing + structure,0.1,0.0941,0.8,150,300.0,1800,200,full,structure + timing,same strategy (CV),2,0.6175,0.035,0.1661
+base rate,organic timing + structure,0.1,0.0941,0.8,150,300.0,1800,200,full,reuse,same strategy (CV),2,0.7707,0.06,0.2644
+base rate,organic timing + structure,0.1,0.0941,0.8,150,300.0,1800,200,full,all,same strategy (CV),2,0.7841,0.145,0.3489
+share,naive,0.02,0.0336,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.473,0.0025,0.4695
+share,naive,0.02,0.0336,0.8,150,300.0,400,400,full,shape,same strategy (CV),0,0.5643,0.0025,0.5261
+share,naive,0.02,0.0336,0.8,150,300.0,400,400,full,branching,same strategy (CV),0,0.5548,0.0075,0.5262
+share,naive,0.02,0.0336,0.8,150,300.0,400,400,full,timing,same strategy (CV),0,0.5873,0.0375,0.5906
+share,naive,0.02,0.0336,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.6384,0.01,0.5886
+share,naive,0.02,0.0336,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.6123,0.0275,0.5885
+share,naive,0.02,0.0336,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.6853,0.035,0.6492
+share,naive,0.02,0.0353,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.553,0.0075,0.5413
+share,naive,0.02,0.0353,0.8,150,300.0,400,400,full,shape,same strategy (CV),1,0.5625,0.0175,0.5516
+share,naive,0.02,0.0353,0.8,150,300.0,400,400,full,branching,same strategy (CV),1,0.5562,0.03,0.5433
+share,naive,0.02,0.0353,0.8,150,300.0,400,400,full,timing,same strategy (CV),1,0.5805,0.02,0.5756
+share,naive,0.02,0.0353,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.612,0.0075,0.5519
+share,naive,0.02,0.0353,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.6059,0.0475,0.5903
+share,naive,0.02,0.0353,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.674,0.04,0.6465
+share,naive,0.02,0.0354,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.525,0.01,0.5247
+share,naive,0.02,0.0354,0.8,150,300.0,400,400,full,shape,same strategy (CV),2,0.5369,0.01,0.5267
+share,naive,0.02,0.0354,0.8,150,300.0,400,400,full,branching,same strategy (CV),2,0.508,0.0075,0.5071
+share,naive,0.02,0.0354,0.8,150,300.0,400,400,full,timing,same strategy (CV),2,0.63,0.045,0.6269
+share,naive,0.02,0.0354,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.6743,0.02,0.6134
+share,naive,0.02,0.0354,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.6447,0.02,0.6216
+share,naive,0.02,0.0354,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.7206,0.0275,0.6884
+share,naive,0.02,0.0336,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.516,0.025,0.5051
+share,naive,0.02,0.0336,0.8,150,300.0,400,400,full,shape,same strategy (CV),3,0.544,0.0225,0.543
+share,naive,0.02,0.0336,0.8,150,300.0,400,400,full,branching,same strategy (CV),3,0.5229,0.02,0.528
+share,naive,0.02,0.0336,0.8,150,300.0,400,400,full,timing,same strategy (CV),3,0.5658,0.0425,0.5779
+share,naive,0.02,0.0336,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.5389,0.005,0.5102
+share,naive,0.02,0.0336,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.5938,0.04,0.5938
+share,naive,0.02,0.0336,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.6447,0.0325,0.6113
+share,naive,0.02,0.0335,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.4602,0.005,0.4591
+share,naive,0.02,0.0335,0.8,150,300.0,400,400,full,shape,same strategy (CV),4,0.5503,0.005,0.5261
+share,naive,0.02,0.0335,0.8,150,300.0,400,400,full,branching,same strategy (CV),4,0.5554,0.0025,0.5113
+share,naive,0.02,0.0335,0.8,150,300.0,400,400,full,timing,same strategy (CV),4,0.5925,0.0025,0.5614
+share,naive,0.02,0.0335,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.5791,0.0125,0.5372
+share,naive,0.02,0.0335,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.6203,0.0225,0.5875
+share,naive,0.02,0.0335,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.6667,0.0325,0.6179
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.5315,0.015,0.5217
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,full,shape,same strategy (CV),0,0.587,0.0225,0.5471
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,full,branching,same strategy (CV),0,0.5704,0.0025,0.5287
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,full,timing,same strategy (CV),0,0.7371,0.11,0.7208
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.6557,0.0425,0.6281
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.7537,0.09,0.7432
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.8101,0.12,0.7968
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),0,0.748,0.145,0.7588
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,5,reuse,same strategy (CV),0,0.9728,0.9525,0.9787
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,5,all,same strategy (CV),0,0.9871,0.95,0.991
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),0,0.7759,0.145,0.7807
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,10,reuse,same strategy (CV),0,0.9635,0.1675,0.9437
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,10,all,same strategy (CV),0,0.9673,0.425,0.9614
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),0,0.7659,0.19,0.7728
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,20,reuse,same strategy (CV),0,0.9357,0.4525,0.9289
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,20,all,same strategy (CV),0,0.9239,0.4025,0.918
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),0,0.7801,0.11,0.7716
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,50,reuse,same strategy (CV),0,0.8148,0.1625,0.812
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,50,all,same strategy (CV),0,0.8779,0.285,0.8784
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),0,0.7653,0.15,0.7649
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,100,reuse,same strategy (CV),0,0.7012,0.015,0.6417
+share,naive,0.05,0.0524,0.8,150,300.0,400,400,100,all,same strategy (CV),0,0.833,0.165,0.8255
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.551,0.0175,0.545
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,full,shape,same strategy (CV),1,0.5969,0.0175,0.5623
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,full,branching,same strategy (CV),1,0.5712,0.0025,0.5418
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,full,timing,same strategy (CV),1,0.7254,0.055,0.7101
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.709,0.03,0.6629
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.7292,0.0775,0.6991
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.8169,0.075,0.7965
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),1,0.7901,0.1075,0.7821
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,5,reuse,same strategy (CV),1,0.9571,0.935,0.9741
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,5,all,same strategy (CV),1,0.99,0.9375,0.991
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),1,0.792,0.165,0.8043
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,10,reuse,same strategy (CV),1,0.9747,0.425,0.9689
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,10,all,same strategy (CV),1,0.9812,0.6325,0.9788
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),1,0.7739,0.145,0.7632
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,20,reuse,same strategy (CV),1,0.9304,0.3175,0.9201
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,20,all,same strategy (CV),1,0.9318,0.405,0.9274
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),1,0.756,0.055,0.7369
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,50,reuse,same strategy (CV),1,0.7951,0.0725,0.7655
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,50,all,same strategy (CV),1,0.859,0.17,0.8502
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),1,0.739,0.065,0.7175
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,100,reuse,same strategy (CV),1,0.7647,0.0525,0.7316
+share,naive,0.05,0.0518,0.8,150,300.0,400,400,100,all,same strategy (CV),1,0.8353,0.1625,0.8252
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.5595,0.01,0.5557
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,full,shape,same strategy (CV),2,0.6168,0.0225,0.5864
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,full,branching,same strategy (CV),2,0.5883,0.01,0.556
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,full,timing,same strategy (CV),2,0.7499,0.1025,0.7505
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.7538,0.0375,0.7103
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.764,0.1225,0.7651
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.8337,0.165,0.8255
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),2,0.7308,0.0725,0.7264
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,5,reuse,same strategy (CV),2,0.9737,0.9375,0.9821
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,5,all,same strategy (CV),2,0.9905,0.9375,0.9923
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),2,0.7504,0.0925,0.7599
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,10,reuse,same strategy (CV),2,0.985,0.44,0.9834
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,10,all,same strategy (CV),2,0.9858,0.6075,0.9835
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),2,0.7484,0.14,0.7649
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,20,reuse,same strategy (CV),2,0.9413,0.415,0.933
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,20,all,same strategy (CV),2,0.9286,0.4625,0.9282
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),2,0.774,0.0875,0.7705
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,50,reuse,same strategy (CV),2,0.8278,0.105,0.802
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,50,all,same strategy (CV),2,0.8814,0.3225,0.8807
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),2,0.767,0.1275,0.7613
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,100,reuse,same strategy (CV),2,0.7628,0.0625,0.7143
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,100,all,same strategy (CV),2,0.8522,0.24,0.8482
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.5197,0.04,0.5213
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,full,shape,same strategy (CV),3,0.5557,0.0125,0.5332
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,full,branching,same strategy (CV),3,0.5316,0.0375,0.5407
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,full,timing,same strategy (CV),3,0.735,0.1025,0.7452
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.6601,0.0125,0.6122
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.7435,0.0575,0.7448
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.8045,0.1125,0.7957
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),3,0.7222,0.1225,0.7425
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,5,reuse,same strategy (CV),3,0.9653,0.9325,0.9773
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,5,all,same strategy (CV),3,0.987,0.9375,0.9908
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),3,0.7634,0.21,0.7755
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,10,reuse,same strategy (CV),3,0.9791,0.44,0.9692
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,10,all,same strategy (CV),3,0.9839,0.6425,0.983
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),3,0.7738,0.2125,0.7936
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,20,reuse,same strategy (CV),3,0.9349,0.3675,0.9223
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,20,all,same strategy (CV),3,0.9417,0.3875,0.941
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),3,0.7661,0.0925,0.7752
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,50,reuse,same strategy (CV),3,0.8033,0.0225,0.7583
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,50,all,same strategy (CV),3,0.8626,0.235,0.8627
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),3,0.7605,0.18,0.7878
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,100,reuse,same strategy (CV),3,0.7006,0.0025,0.6471
+share,naive,0.05,0.0525,0.8,150,300.0,400,400,100,all,same strategy (CV),3,0.8319,0.18,0.8362
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.5107,0.015,0.5033
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,full,shape,same strategy (CV),4,0.5603,0.005,0.5448
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,full,branching,same strategy (CV),4,0.5695,0.015,0.544
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,full,timing,same strategy (CV),4,0.7011,0.08,0.6943
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.6916,0.0225,0.6412
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.7457,0.0625,0.7421
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.7859,0.11,0.7711
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),4,0.778,0.0975,0.7773
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,5,reuse,same strategy (CV),4,0.9538,0.9225,0.971
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,5,all,same strategy (CV),4,0.9893,0.935,0.9917
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),4,0.7515,0.1575,0.7628
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,10,reuse,same strategy (CV),4,0.9802,0.7025,0.9832
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,10,all,same strategy (CV),4,0.9852,0.6775,0.9834
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),4,0.7585,0.1325,0.7675
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,20,reuse,same strategy (CV),4,0.9251,0.4525,0.9202
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,20,all,same strategy (CV),4,0.9328,0.5075,0.9317
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),4,0.7356,0.125,0.7447
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,50,reuse,same strategy (CV),4,0.8089,0.1,0.7857
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,50,all,same strategy (CV),4,0.8426,0.23,0.8399
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),4,0.7434,0.1375,0.7532
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,100,reuse,same strategy (CV),4,0.7208,0.0325,0.676
+share,naive,0.05,0.0506,0.8,150,300.0,400,400,100,all,same strategy (CV),4,0.8086,0.115,0.7938
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.5394,0.005,0.5096
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,full,shape,same strategy (CV),0,0.6862,0.0875,0.669
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,full,branching,same strategy (CV),0,0.6589,0.015,0.6306
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,full,timing,same strategy (CV),0,0.9061,0.31,0.9021
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.8423,0.1,0.8138
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.9187,0.485,0.9242
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.9492,0.505,0.9517
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),0,0.8468,0.205,0.8513
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,5,reuse,same strategy (CV),0,0.9602,0.9475,0.9756
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,5,all,same strategy (CV),0,0.9951,0.9475,0.9957
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),0,0.8776,0.35,0.886
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,10,reuse,same strategy (CV),0,0.9857,0.7925,0.9847
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,10,all,same strategy (CV),0,0.9896,0.8375,0.9903
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),0,0.8868,0.345,0.8922
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,20,reuse,same strategy (CV),0,0.9716,0.42,0.9613
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,20,all,same strategy (CV),0,0.9794,0.68,0.9778
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),0,0.8879,0.3125,0.8885
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,50,reuse,same strategy (CV),0,0.9285,0.3875,0.9161
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,50,all,same strategy (CV),0,0.9582,0.5475,0.9615
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),0,0.9076,0.3725,0.9086
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,100,reuse,same strategy (CV),0,0.8821,0.19,0.855
+share,naive,0.1,0.0943,0.8,150,300.0,400,400,100,all,same strategy (CV),0,0.9555,0.4975,0.9572
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.5373,0.03,0.5468
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,full,shape,same strategy (CV),1,0.6415,0.04,0.6163
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,full,branching,same strategy (CV),1,0.6072,0.0175,0.5755
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,full,timing,same strategy (CV),1,0.8926,0.2225,0.887
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.8268,0.0625,0.781
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.9091,0.245,0.9048
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.9474,0.4675,0.9496
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),1,0.8523,0.195,0.8491
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,5,reuse,same strategy (CV),1,0.9733,0.945,0.983
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,5,all,same strategy (CV),1,0.9916,0.9525,0.9939
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),1,0.8319,0.335,0.8482
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,10,reuse,same strategy (CV),1,0.9869,0.7675,0.9873
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,10,all,same strategy (CV),1,0.9926,0.81,0.9924
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),1,0.868,0.25,0.8669
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,20,reuse,same strategy (CV),1,0.9745,0.565,0.9723
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,20,all,same strategy (CV),1,0.9772,0.6675,0.9774
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),1,0.894,0.2725,0.8921
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,50,reuse,same strategy (CV),1,0.9186,0.36,0.9105
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,50,all,same strategy (CV),1,0.9575,0.61,0.9595
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),1,0.9053,0.2925,0.9029
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,100,reuse,same strategy (CV),1,0.8949,0.1275,0.8771
+share,naive,0.1,0.0937,0.8,150,300.0,400,400,100,all,same strategy (CV),1,0.9543,0.515,0.9548
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.5934,0.005,0.5681
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,full,shape,same strategy (CV),2,0.6506,0.055,0.6448
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,full,branching,same strategy (CV),2,0.6209,0.0425,0.6078
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,full,timing,same strategy (CV),2,0.8963,0.185,0.8917
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.8352,0.14,0.8191
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.9008,0.4225,0.8991
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.9363,0.5425,0.9454
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),2,0.8282,0.2875,0.8396
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,5,reuse,same strategy (CV),2,0.9573,0.92,0.9716
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,5,all,same strategy (CV),2,0.9906,0.9175,0.9913
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),2,0.8678,0.3,0.8835
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,10,reuse,same strategy (CV),2,0.9946,0.965,0.9957
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,10,all,same strategy (CV),2,0.995,0.87,0.9951
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),2,0.8664,0.425,0.8876
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,20,reuse,same strategy (CV),2,0.9864,0.7225,0.9809
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,20,all,same strategy (CV),2,0.9825,0.83,0.9845
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),2,0.8858,0.345,0.8915
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,50,reuse,same strategy (CV),2,0.9149,0.17,0.8852
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,50,all,same strategy (CV),2,0.9569,0.725,0.964
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),2,0.8987,0.385,0.9013
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,100,reuse,same strategy (CV),2,0.861,0.07,0.8178
+share,naive,0.1,0.0936,0.8,150,300.0,400,400,100,all,same strategy (CV),2,0.9479,0.6225,0.9562
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.5253,0.0075,0.5088
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,full,shape,same strategy (CV),3,0.662,0.0275,0.6318
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,full,branching,same strategy (CV),3,0.6307,0.02,0.5928
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,full,timing,same strategy (CV),3,0.8944,0.335,0.9009
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.8337,0.0525,0.7874
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.9124,0.4075,0.9206
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.9454,0.48,0.9474
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),3,0.8489,0.225,0.8627
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,5,reuse,same strategy (CV),3,0.9794,0.9575,0.9867
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,5,all,same strategy (CV),3,0.9947,0.9675,0.9961
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),3,0.8395,0.3775,0.8663
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,10,reuse,same strategy (CV),3,0.9957,0.885,0.9953
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,10,all,same strategy (CV),3,0.9964,0.915,0.9964
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),3,0.8702,0.3275,0.886
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,20,reuse,same strategy (CV),3,0.9711,0.5975,0.9681
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,20,all,same strategy (CV),3,0.9799,0.6475,0.9801
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),3,0.8911,0.3475,0.9015
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,50,reuse,same strategy (CV),3,0.9125,0.0925,0.8797
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,50,all,same strategy (CV),3,0.9546,0.545,0.9569
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),3,0.9086,0.4375,0.9195
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,100,reuse,same strategy (CV),3,0.8851,0.095,0.8498
+share,naive,0.1,0.0942,0.8,150,300.0,400,400,100,all,same strategy (CV),3,0.9527,0.5825,0.9556
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.4735,0.005,0.4684
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,full,shape,same strategy (CV),4,0.6315,0.005,0.5725
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,full,branching,same strategy (CV),4,0.6444,0.0375,0.6054
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,full,timing,same strategy (CV),4,0.8755,0.225,0.8599
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.821,0.035,0.7679
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.8791,0.2375,0.8734
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.9268,0.36,0.92
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),4,0.8568,0.265,0.8675
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,5,reuse,same strategy (CV),4,0.9704,0.945,0.9814
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,5,all,same strategy (CV),4,0.9902,0.9625,0.9929
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),4,0.8378,0.35,0.8537
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,10,reuse,same strategy (CV),4,0.9912,0.9525,0.994
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,10,all,same strategy (CV),4,0.9929,0.9075,0.994
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),4,0.8589,0.3,0.8602
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,20,reuse,same strategy (CV),4,0.974,0.615,0.9725
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,20,all,same strategy (CV),4,0.9761,0.62,0.975
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),4,0.8606,0.24,0.8512
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,50,reuse,same strategy (CV),4,0.9014,0.2875,0.8817
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,50,all,same strategy (CV),4,0.942,0.505,0.9426
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),4,0.8765,0.25,0.8675
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,100,reuse,same strategy (CV),4,0.8628,0.055,0.8057
+share,naive,0.1,0.0947,0.8,150,300.0,400,400,100,all,same strategy (CV),4,0.9353,0.43,0.9286
+share,naive,0.15,0.1398,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.5458,0.005,0.5258
+share,naive,0.15,0.1398,0.8,150,300.0,400,400,full,shape,same strategy (CV),0,0.7335,0.0775,0.6986
+share,naive,0.15,0.1398,0.8,150,300.0,400,400,full,branching,same strategy (CV),0,0.6971,0.0225,0.6442
+share,naive,0.15,0.1398,0.8,150,300.0,400,400,full,timing,same strategy (CV),0,0.9439,0.365,0.9299
+share,naive,0.15,0.1398,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.9218,0.1675,0.8892
+share,naive,0.15,0.1398,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.9554,0.4475,0.9507
+share,naive,0.15,0.1398,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.9803,0.58,0.9791
+share,naive,0.15,0.1388,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.5786,0.0425,0.5819
+share,naive,0.15,0.1388,0.8,150,300.0,400,400,full,shape,same strategy (CV),1,0.739,0.0425,0.6966
+share,naive,0.15,0.1388,0.8,150,300.0,400,400,full,branching,same strategy (CV),1,0.6939,0.0175,0.652
+share,naive,0.15,0.1388,0.8,150,300.0,400,400,full,timing,same strategy (CV),1,0.9417,0.29,0.9235
+share,naive,0.15,0.1388,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.895,0.135,0.8657
+share,naive,0.15,0.1388,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.9518,0.355,0.9403
+share,naive,0.15,0.1388,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.9826,0.65,0.9817
+share,naive,0.15,0.1378,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.5847,0.0425,0.565
+share,naive,0.15,0.1378,0.8,150,300.0,400,400,full,shape,same strategy (CV),2,0.7127,0.0325,0.6698
+share,naive,0.15,0.1378,0.8,150,300.0,400,400,full,branching,same strategy (CV),2,0.6891,0.05,0.6771
+share,naive,0.15,0.1378,0.8,150,300.0,400,400,full,timing,same strategy (CV),2,0.936,0.355,0.9276
+share,naive,0.15,0.1378,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.9148,0.2625,0.9016
+share,naive,0.15,0.1378,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.9439,0.4125,0.9328
+share,naive,0.15,0.1378,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.9793,0.7425,0.981
+share,naive,0.15,0.1403,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.5288,0.0175,0.5218
+share,naive,0.15,0.1403,0.8,150,300.0,400,400,full,shape,same strategy (CV),3,0.694,0.05,0.6647
+share,naive,0.15,0.1403,0.8,150,300.0,400,400,full,branching,same strategy (CV),3,0.6788,0.075,0.6661
+share,naive,0.15,0.1403,0.8,150,300.0,400,400,full,timing,same strategy (CV),3,0.9569,0.495,0.9557
+share,naive,0.15,0.1403,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.9124,0.13,0.8867
+share,naive,0.15,0.1403,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.9631,0.5625,0.9571
+share,naive,0.15,0.1403,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.984,0.72,0.9824
+share,naive,0.15,0.1415,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.5373,0.02,0.5303
+share,naive,0.15,0.1415,0.8,150,300.0,400,400,full,shape,same strategy (CV),4,0.7331,0.02,0.6754
+share,naive,0.15,0.1415,0.8,150,300.0,400,400,full,branching,same strategy (CV),4,0.6805,0.015,0.6141
+share,naive,0.15,0.1415,0.8,150,300.0,400,400,full,timing,same strategy (CV),4,0.9278,0.2375,0.9156
+share,naive,0.15,0.1415,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.9249,0.2725,0.9222
+share,naive,0.15,0.1415,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.9381,0.4575,0.9348
+share,naive,0.15,0.1415,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.978,0.6275,0.977
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.6089,0.025,0.596
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,full,shape,same strategy (CV),0,0.7817,0.16,0.7644
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,full,branching,same strategy (CV),0,0.7546,0.09,0.7213
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,full,timing,same strategy (CV),0,0.9559,0.4825,0.9449
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.9596,0.2975,0.952
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.964,0.5525,0.9642
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.9902,0.8425,0.9908
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),0,0.9373,0.335,0.9329
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,5,reuse,same strategy (CV),0,0.9718,0.94,0.9809
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,5,all,same strategy (CV),0,0.993,0.945,0.9939
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),0,0.9522,0.6425,0.9564
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,10,reuse,same strategy (CV),0,0.9915,0.98,0.9946
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,10,all,same strategy (CV),0,0.999,0.965,0.999
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),0,0.963,0.66,0.9652
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,20,reuse,same strategy (CV),0,0.9979,0.9875,0.9979
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,20,all,same strategy (CV),0,0.9984,0.98,0.9983
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),0,0.9623,0.595,0.9631
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,50,reuse,same strategy (CV),0,0.9874,0.8275,0.9861
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,50,all,same strategy (CV),0,0.9958,0.9575,0.9959
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),0,0.9656,0.6625,0.9661
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,100,reuse,same strategy (CV),0,0.9734,0.3875,0.9632
+share,naive,0.2,0.1788,0.8,150,300.0,400,400,100,all,same strategy (CV),0,0.9939,0.865,0.994
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.5843,0.005,0.5666
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,full,shape,same strategy (CV),1,0.7442,0.0575,0.6994
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,full,branching,same strategy (CV),1,0.7302,0.1,0.7119
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,full,timing,same strategy (CV),1,0.9584,0.46,0.9492
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.9609,0.4625,0.9591
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.9683,0.505,0.9649
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.9895,0.8425,0.9901
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),1,0.9366,0.345,0.9326
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,5,reuse,same strategy (CV),1,0.9733,0.95,0.9827
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,5,all,same strategy (CV),1,0.9913,0.95,0.9929
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),1,0.956,0.63,0.9602
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,10,reuse,same strategy (CV),1,0.9984,0.99,0.9985
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,10,all,same strategy (CV),1,0.9988,0.9875,0.9989
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),1,0.9663,0.655,0.9681
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,20,reuse,same strategy (CV),1,0.9977,0.95,0.9976
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,20,all,same strategy (CV),1,0.9978,0.9525,0.9981
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),1,0.9681,0.6,0.9681
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,50,reuse,same strategy (CV),1,0.9908,0.77,0.9898
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,50,all,same strategy (CV),1,0.9945,0.915,0.9947
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),1,0.9678,0.6275,0.9652
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,100,reuse,same strategy (CV),1,0.9798,0.6525,0.9757
+share,naive,0.2,0.1818,0.8,150,300.0,400,400,100,all,same strategy (CV),1,0.9929,0.8675,0.9928
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.6355,0.0225,0.6017
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,full,shape,same strategy (CV),2,0.7719,0.11,0.76
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,full,branching,same strategy (CV),2,0.7489,0.0625,0.7153
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,full,timing,same strategy (CV),2,0.946,0.355,0.9338
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.9563,0.22,0.9427
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.9638,0.6275,0.9577
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.9905,0.8675,0.9908
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),2,0.9323,0.425,0.9323
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,5,reuse,same strategy (CV),2,0.9644,0.9325,0.9775
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,5,all,same strategy (CV),2,0.9957,0.945,0.9961
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),2,0.9446,0.6125,0.951
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,10,reuse,same strategy (CV),2,0.9943,0.9875,0.9964
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,10,all,same strategy (CV),2,0.9994,0.9875,0.9994
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),2,0.957,0.6,0.9604
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,20,reuse,same strategy (CV),2,0.9992,0.9925,0.9991
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,20,all,same strategy (CV),2,0.9993,0.9925,0.9994
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),2,0.9606,0.4725,0.9579
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,50,reuse,same strategy (CV),2,0.9857,0.6125,0.9834
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,50,all,same strategy (CV),2,0.9968,0.97,0.9974
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),2,0.9624,0.5875,0.96
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,100,reuse,same strategy (CV),2,0.9747,0.475,0.9656
+share,naive,0.2,0.1794,0.8,150,300.0,400,400,100,all,same strategy (CV),2,0.9936,0.9075,0.9938
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.5251,0.005,0.5064
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,full,shape,same strategy (CV),3,0.7526,0.0925,0.7395
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,full,branching,same strategy (CV),3,0.7489,0.105,0.7286
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,full,timing,same strategy (CV),3,0.9472,0.4725,0.9466
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.9312,0.1275,0.9006
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.9642,0.6025,0.9661
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.9864,0.815,0.9875
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),3,0.9457,0.47,0.9476
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,5,reuse,same strategy (CV),3,0.9724,0.945,0.9816
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,5,all,same strategy (CV),3,0.9953,0.9425,0.9958
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),3,0.9481,0.6425,0.956
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,10,reuse,same strategy (CV),3,0.994,0.99,0.9963
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,10,all,same strategy (CV),3,0.9995,0.99,0.9995
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),3,0.9614,0.6325,0.9648
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,20,reuse,same strategy (CV),3,0.9958,0.9725,0.9955
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,20,all,same strategy (CV),3,0.997,0.9775,0.9979
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),3,0.9605,0.625,0.9634
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,50,reuse,same strategy (CV),3,0.9792,0.6,0.9741
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,50,all,same strategy (CV),3,0.9958,0.955,0.9962
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),3,0.9619,0.61,0.963
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,100,reuse,same strategy (CV),3,0.9657,0.495,0.9626
+share,naive,0.2,0.1799,0.8,150,300.0,400,400,100,all,same strategy (CV),3,0.9916,0.8725,0.992
+share,naive,0.3,0.258,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.6284,0.025,0.6042
+share,naive,0.3,0.258,0.8,150,300.0,400,400,full,shape,same strategy (CV),0,0.8301,0.2075,0.821
+share,naive,0.3,0.258,0.8,150,300.0,400,400,full,branching,same strategy (CV),0,0.8398,0.175,0.8244
+share,naive,0.3,0.258,0.8,150,300.0,400,400,full,timing,same strategy (CV),0,0.9613,0.5925,0.9578
+share,naive,0.3,0.258,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.9855,0.6525,0.9798
+share,naive,0.3,0.258,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.9871,0.77,0.9873
+share,naive,0.3,0.258,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.9981,0.965,0.9983
+share,naive,0.3,0.2575,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.6356,0.0,0.5991
+share,naive,0.3,0.2575,0.8,150,300.0,400,400,full,shape,same strategy (CV),1,0.8413,0.1525,0.8221
+share,naive,0.3,0.2575,0.8,150,300.0,400,400,full,branching,same strategy (CV),1,0.8151,0.2,0.8142
+share,naive,0.3,0.2575,0.8,150,300.0,400,400,full,timing,same strategy (CV),1,0.9594,0.62,0.9587
+share,naive,0.3,0.2575,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.9834,0.76,0.9842
+share,naive,0.3,0.2575,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.9816,0.765,0.9805
+share,naive,0.3,0.2575,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.9973,0.9125,0.9971
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.4869,0.01,0.4952
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,full,shape,same strategy (CV),4,0.7454,0.0225,0.6796
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,full,branching,same strategy (CV),4,0.7446,0.0875,0.7051
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,full,timing,same strategy (CV),4,0.943,0.395,0.9273
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.9498,0.26,0.9321
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.9602,0.4275,0.9546
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.9859,0.745,0.9818
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),4,0.9432,0.46,0.944
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,5,reuse,same strategy (CV),4,0.9616,0.9275,0.9745
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,5,all,same strategy (CV),4,0.9913,0.9425,0.9929
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),4,0.948,0.5425,0.9534
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,10,reuse,same strategy (CV),4,0.9886,0.985,0.9934
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,10,all,same strategy (CV),4,0.9987,0.985,0.9989
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),4,0.9572,0.5625,0.9587
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,20,reuse,same strategy (CV),4,0.9982,0.9425,0.9981
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,20,all,same strategy (CV),4,0.999,0.985,0.999
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),4,0.9537,0.565,0.954
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,50,reuse,same strategy (CV),4,0.9888,0.83,0.9876
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,50,all,same strategy (CV),4,0.9946,0.9075,0.9951
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),4,0.9594,0.575,0.9584
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,100,reuse,same strategy (CV),4,0.9706,0.4325,0.9587
+share,naive,0.2,0.1814,0.8,150,300.0,400,400,100,all,same strategy (CV),4,0.9925,0.8875,0.9924
+share,naive,0.3,0.2561,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.6254,0.02,0.5952
+share,naive,0.3,0.2561,0.8,150,300.0,400,400,full,shape,same strategy (CV),2,0.8537,0.175,0.8369
+share,naive,0.3,0.2561,0.8,150,300.0,400,400,full,branching,same strategy (CV),2,0.8527,0.19,0.8444
+share,naive,0.3,0.2561,0.8,150,300.0,400,400,full,timing,same strategy (CV),2,0.9695,0.5175,0.9606
+share,naive,0.3,0.2561,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.9793,0.7475,0.9705
+share,naive,0.3,0.2561,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.9845,0.7025,0.9843
+share,naive,0.3,0.2561,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.9988,0.9775,0.9989
+share,naive,0.3,0.2584,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.6028,0.04,0.5877
+share,naive,0.3,0.2584,0.8,150,300.0,400,400,full,shape,same strategy (CV),3,0.8178,0.1375,0.8072
+share,naive,0.3,0.2584,0.8,150,300.0,400,400,full,branching,same strategy (CV),3,0.813,0.2175,0.8032
+share,naive,0.3,0.2584,0.8,150,300.0,400,400,full,timing,same strategy (CV),3,0.9652,0.4875,0.9619
+share,naive,0.3,0.2584,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.979,0.55,0.9765
+share,naive,0.3,0.2584,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.9856,0.7475,0.9858
+share,naive,0.3,0.2584,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.9969,0.95,0.9967
+share,naive,0.3,0.2586,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.5813,0.0,0.561
+share,naive,0.3,0.2586,0.8,150,300.0,400,400,full,shape,same strategy (CV),4,0.8615,0.1425,0.8339
+share,naive,0.3,0.2586,0.8,150,300.0,400,400,full,branching,same strategy (CV),4,0.8508,0.1225,0.817
+share,naive,0.3,0.2586,0.8,150,300.0,400,400,full,timing,same strategy (CV),4,0.9617,0.58,0.9607
+share,naive,0.3,0.2586,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.9822,0.465,0.9694
+share,naive,0.3,0.2586,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.9858,0.805,0.9867
+share,naive,0.3,0.2586,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.9976,0.975,0.9979
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.6808,0.0,0.6797
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,full,shape,same strategy (CV),0,0.9126,0.4175,0.9134
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,full,branching,same strategy (CV),0,0.9042,0.375,0.9008
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,full,timing,same strategy (CV),0,0.9662,0.505,0.9626
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.9924,0.895,0.9918
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.9952,0.9,0.9952
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.9991,0.985,0.9992
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),0,0.9611,0.43,0.9516
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,5,reuse,same strategy (CV),0,0.9624,0.935,0.976
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,5,all,same strategy (CV),0,0.9931,0.935,0.994
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),0,0.9941,0.865,0.994
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,10,reuse,same strategy (CV),0,0.9908,0.9825,0.994
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,10,all,same strategy (CV),0,0.9991,0.985,0.9992
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),0,0.993,0.8725,0.9935
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,20,reuse,same strategy (CV),0,1.0,1.0,1.0
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,20,all,same strategy (CV),0,1.0,1.0,1.0
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),0,0.9933,0.785,0.993
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,50,reuse,same strategy (CV),0,0.998,0.99,0.9983
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,50,all,same strategy (CV),0,0.9998,0.9925,0.9998
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),0,0.9953,0.91,0.9953
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,100,reuse,same strategy (CV),0,0.9949,0.97,0.9962
+share,naive,0.4,0.3302,0.8,150,300.0,400,400,100,all,same strategy (CV),0,0.9993,0.9875,0.9993
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.6686,0.0,0.6457
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,full,shape,same strategy (CV),1,0.909,0.305,0.9069
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,full,branching,same strategy (CV),1,0.9088,0.3325,0.908
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,full,timing,same strategy (CV),1,0.9652,0.5725,0.9663
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.9951,0.825,0.9949
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.9917,0.8925,0.9923
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.999,0.9875,0.9989
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),1,0.9659,0.5875,0.9663
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,5,reuse,same strategy (CV),1,0.9568,0.9275,0.9728
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,5,all,same strategy (CV),1,0.9907,0.9225,0.9924
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),1,0.9922,0.8825,0.9929
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,10,reuse,same strategy (CV),1,0.9931,0.9875,0.9958
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,10,all,same strategy (CV),1,0.9992,0.9875,0.9993
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),1,0.9918,0.9325,0.9937
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,20,reuse,same strategy (CV),1,0.9987,0.9975,0.9988
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,20,all,same strategy (CV),1,1.0,1.0,1.0
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),1,0.9943,0.9275,0.9952
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,50,reuse,same strategy (CV),1,0.9983,0.9925,0.9985
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,50,all,same strategy (CV),1,0.9996,0.9975,0.9996
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),1,0.9933,0.9,0.9935
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,100,reuse,same strategy (CV),1,0.9965,0.97,0.9943
+share,naive,0.4,0.3241,0.8,150,300.0,400,400,100,all,same strategy (CV),1,0.9996,0.9925,0.9996
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.6767,0.0,0.644
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,full,shape,same strategy (CV),2,0.9054,0.355,0.9071
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,full,branching,same strategy (CV),2,0.8988,0.28,0.8944
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,full,timing,same strategy (CV),2,0.9668,0.605,0.9654
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.9915,0.8425,0.992
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.9926,0.8275,0.9925
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.9994,0.98,0.9995
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),2,0.967,0.5625,0.9669
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,5,reuse,same strategy (CV),2,0.971,0.94,0.9806
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,5,all,same strategy (CV),2,0.995,0.94,0.9954
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),2,0.9934,0.85,0.993
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,10,reuse,same strategy (CV),2,0.9892,0.9775,0.9934
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,10,all,same strategy (CV),2,0.9992,0.9875,0.9993
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),2,0.9953,0.9325,0.9957
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,20,reuse,same strategy (CV),2,0.9985,0.9975,0.9988
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,20,all,same strategy (CV),2,1.0,1.0,1.0
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),2,0.9938,0.8925,0.9931
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,50,reuse,same strategy (CV),2,0.998,0.985,0.9982
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,50,all,same strategy (CV),2,0.9998,0.9975,0.9998
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),2,0.9947,0.905,0.9937
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,100,reuse,same strategy (CV),2,0.994,0.9625,0.9945
+share,naive,0.4,0.3258,0.8,150,300.0,400,400,100,all,same strategy (CV),2,0.9997,0.9925,0.9997
+share,naive,0.4,0.33,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.6209,0.055,0.6157
+share,naive,0.4,0.33,0.8,150,300.0,400,400,full,shape,same strategy (CV),3,0.8885,0.25,0.8772
+share,naive,0.4,0.33,0.8,150,300.0,400,400,full,branching,same strategy (CV),3,0.8736,0.3125,0.8671
+share,naive,0.4,0.33,0.8,150,300.0,400,400,full,timing,same strategy (CV),3,0.9641,0.615,0.9632
+share,naive,0.4,0.33,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.9866,0.7775,0.9769
+share,naive,0.4,0.33,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.9924,0.91,0.9934
+share,naive,0.4,0.33,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.9987,0.975,0.9988
+share,naive,0.4,0.33,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),3,0.964,0.6375,0.9668
+share,naive,0.4,0.33,0.8,150,300.0,400,400,5,reuse,same strategy (CV),3,0.9809,0.9625,0.9878
+share,naive,0.4,0.33,0.8,150,300.0,400,400,5,all,same strategy (CV),3,0.9975,0.9775,0.9978
+share,naive,0.4,0.33,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),3,0.9959,0.895,0.9957
+share,naive,0.4,0.33,0.8,150,300.0,400,400,10,reuse,same strategy (CV),3,0.9976,0.995,0.9983
+share,naive,0.4,0.33,0.8,150,300.0,400,400,10,all,same strategy (CV),3,1.0,1.0,1.0
+share,naive,0.4,0.33,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),3,0.9963,0.9575,0.9968
+share,naive,0.4,0.33,0.8,150,300.0,400,400,20,reuse,same strategy (CV),3,0.9985,0.9975,0.9988
+share,naive,0.4,0.33,0.8,150,300.0,400,400,20,all,same strategy (CV),3,1.0,0.9975,1.0
+share,naive,0.4,0.33,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),3,0.9929,0.93,0.994
+share,naive,0.4,0.33,0.8,150,300.0,400,400,50,reuse,same strategy (CV),3,0.9983,0.9925,0.9985
+share,naive,0.4,0.33,0.8,150,300.0,400,400,50,all,same strategy (CV),3,0.9996,0.9975,0.9997
+share,naive,0.4,0.33,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),3,0.9926,0.935,0.9937
+share,naive,0.4,0.33,0.8,150,300.0,400,400,100,reuse,same strategy (CV),3,0.9964,0.97,0.9969
+share,naive,0.4,0.33,0.8,150,300.0,400,400,100,all,same strategy (CV),3,0.9994,0.9925,0.9995
+share,naive,0.6,0.4371,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.7775,0.0,0.7732
+share,naive,0.6,0.4371,0.8,150,300.0,400,400,full,shape,same strategy (CV),0,0.9733,0.725,0.9743
+share,naive,0.6,0.4371,0.8,150,300.0,400,400,full,branching,same strategy (CV),0,0.9651,0.6325,0.9658
+share,naive,0.6,0.4371,0.8,150,300.0,400,400,full,timing,same strategy (CV),0,0.9777,0.66,0.9755
+share,naive,0.6,0.4371,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.9955,0.9575,0.9926
+share,naive,0.6,0.4371,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.9977,0.9625,0.9978
+share,naive,0.6,0.4371,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.9996,0.9975,0.9996
+share,naive,0.6,0.4418,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.7947,0.0,0.779
+share,naive,0.6,0.4418,0.8,150,300.0,400,400,full,shape,same strategy (CV),1,0.9771,0.65,0.9769
+share,naive,0.6,0.4418,0.8,150,300.0,400,400,full,branching,same strategy (CV),1,0.974,0.6575,0.9746
+share,naive,0.6,0.4418,0.8,150,300.0,400,400,full,timing,same strategy (CV),1,0.9826,0.7475,0.9833
+share,naive,0.6,0.4418,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.995,0.8825,0.9943
+share,naive,0.6,0.4418,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.9981,0.9675,0.9982
+share,naive,0.6,0.4418,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.9999,0.9975,0.9999
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.611,0.07,0.6142
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,full,shape,same strategy (CV),4,0.8842,0.195,0.864
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,full,branching,same strategy (CV),4,0.8914,0.2,0.8696
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,full,timing,same strategy (CV),4,0.9712,0.6625,0.9726
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.9923,0.855,0.9924
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.9907,0.8775,0.9916
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.9988,0.9825,0.9989
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,5,structure + timing,same strategy (CV),4,0.9653,0.4925,0.9601
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,5,reuse,same strategy (CV),4,0.9641,0.935,0.9769
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,5,all,same strategy (CV),4,0.9916,0.94,0.9933
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,10,structure + timing,same strategy (CV),4,0.9923,0.86,0.9925
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,10,reuse,same strategy (CV),4,0.9954,0.99,0.9971
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,10,all,same strategy (CV),4,0.9991,0.985,0.9992
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),4,0.9946,0.91,0.9949
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,20,reuse,same strategy (CV),4,1.0,1.0,1.0
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,20,all,same strategy (CV),4,1.0,1.0,1.0
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,50,structure + timing,same strategy (CV),4,0.9958,0.9375,0.9963
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,50,reuse,same strategy (CV),4,0.9995,0.99,0.9995
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,50,all,same strategy (CV),4,0.9998,0.995,0.9998
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,100,structure + timing,same strategy (CV),4,0.9936,0.915,0.9945
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,100,reuse,same strategy (CV),4,0.9971,0.9625,0.997
+share,naive,0.4,0.3223,0.8,150,300.0,400,400,100,all,same strategy (CV),4,0.9996,0.985,0.9996
+share,naive,0.6,0.4367,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.799,0.23,0.7958
+share,naive,0.6,0.4367,0.8,150,300.0,400,400,full,shape,same strategy (CV),2,0.9762,0.6175,0.9751
+share,naive,0.6,0.4367,0.8,150,300.0,400,400,full,branching,same strategy (CV),2,0.965,0.6325,0.9658
+share,naive,0.6,0.4367,0.8,150,300.0,400,400,full,timing,same strategy (CV),2,0.9823,0.7475,0.983
+share,naive,0.6,0.4367,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.9976,0.9675,0.9975
+share,naive,0.6,0.4367,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.9982,0.945,0.9982
+share,naive,0.6,0.4367,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.9998,0.995,0.9998
+share,naive,0.6,0.4359,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.7741,0.0,0.7627
+share,naive,0.6,0.4359,0.8,150,300.0,400,400,full,shape,same strategy (CV),3,0.9628,0.5775,0.9595
+share,naive,0.6,0.4359,0.8,150,300.0,400,400,full,branching,same strategy (CV),3,0.9599,0.6025,0.9607
+share,naive,0.6,0.4359,0.8,150,300.0,400,400,full,timing,same strategy (CV),3,0.9762,0.7925,0.9776
+share,naive,0.6,0.4359,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.9953,0.9375,0.9925
+share,naive,0.6,0.4359,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.9973,0.9425,0.9974
+share,naive,0.6,0.4359,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.9998,0.9925,0.9998
+virality,naive,0.1,0.0948,0.5,150,300.0,400,400,full,size only,same strategy (CV),0,0.5608,0.0025,0.5321
+virality,naive,0.1,0.0948,0.5,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.7859,0.0775,0.7771
+virality,naive,0.1,0.0948,0.5,150,300.0,400,400,full,reuse,same strategy (CV),0,0.8828,0.09,0.8441
+virality,naive,0.1,0.0948,0.5,150,300.0,400,400,full,all,same strategy (CV),0,0.907,0.155,0.8861
+share,naive,0.6,0.4343,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.7206,0.0,0.7063
+share,naive,0.6,0.4343,0.8,150,300.0,400,400,full,shape,same strategy (CV),4,0.9652,0.485,0.9624
+share,naive,0.6,0.4343,0.8,150,300.0,400,400,full,branching,same strategy (CV),4,0.9549,0.5,0.952
+share,naive,0.6,0.4343,0.8,150,300.0,400,400,full,timing,same strategy (CV),4,0.9802,0.77,0.9796
+share,naive,0.6,0.4343,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.9939,0.9675,0.9901
+share,naive,0.6,0.4343,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.9968,0.9375,0.9969
+share,naive,0.6,0.4343,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.9995,0.99,0.9995
+virality,naive,0.1,0.0948,0.5,150,300.0,400,400,full,size only,same strategy (CV),1,0.5484,0.0075,0.5171
+virality,naive,0.1,0.0948,0.5,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.7914,0.0675,0.7639
+virality,naive,0.1,0.0948,0.5,150,300.0,400,400,full,reuse,same strategy (CV),1,0.8956,0.1475,0.8587
+virality,naive,0.1,0.0948,0.5,150,300.0,400,400,full,all,same strategy (CV),1,0.9335,0.3575,0.9261
+virality,naive,0.1,0.095,0.5,150,300.0,400,400,full,size only,same strategy (CV),2,0.5601,0.035,0.5362
+virality,naive,0.1,0.095,0.5,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.8271,0.115,0.8085
+virality,naive,0.1,0.095,0.5,150,300.0,400,400,full,reuse,same strategy (CV),2,0.8911,0.215,0.8602
+virality,naive,0.1,0.095,0.5,150,300.0,400,400,full,all,same strategy (CV),2,0.939,0.3,0.9298
+virality,naive,0.1,0.0953,0.5,150,300.0,400,400,full,size only,same strategy (CV),3,0.5376,0.0375,0.5389
+virality,naive,0.1,0.0953,0.5,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.7815,0.0625,0.7529
+virality,naive,0.1,0.0953,0.5,150,300.0,400,400,full,reuse,same strategy (CV),3,0.8708,0.05,0.803
+virality,naive,0.1,0.0953,0.5,150,300.0,400,400,full,all,same strategy (CV),3,0.9179,0.1675,0.9008
+virality,naive,0.1,0.0959,0.5,150,300.0,400,400,full,size only,same strategy (CV),4,0.5845,0.0225,0.5641
+virality,naive,0.1,0.0959,0.5,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.7685,0.055,0.739
+virality,naive,0.1,0.0959,0.5,150,300.0,400,400,full,reuse,same strategy (CV),4,0.8898,0.0675,0.8446
+virality,naive,0.1,0.0959,0.5,150,300.0,400,400,full,all,same strategy (CV),4,0.9201,0.2025,0.8999
+virality,naive,0.3,0.2777,0.5,150,300.0,400,400,full,size only,same strategy (CV),0,0.6429,0.0375,0.6306
+virality,naive,0.3,0.2777,0.5,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.963,0.63,0.9599
+virality,naive,0.3,0.2777,0.5,150,300.0,400,400,full,reuse,same strategy (CV),0,0.9915,0.7275,0.9897
+virality,naive,0.3,0.2777,0.5,150,300.0,400,400,full,all,same strategy (CV),0,0.999,0.9875,0.9989
+virality,naive,0.3,0.2754,0.5,150,300.0,400,400,full,size only,same strategy (CV),1,0.6532,0.0475,0.6308
+virality,naive,0.3,0.2754,0.5,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.9664,0.515,0.965
+virality,naive,0.3,0.2754,0.5,150,300.0,400,400,full,reuse,same strategy (CV),1,0.9913,0.8275,0.9907
+virality,naive,0.3,0.2754,0.5,150,300.0,400,400,full,all,same strategy (CV),1,0.9992,0.9775,0.9992
+virality,naive,0.3,0.2775,0.5,150,300.0,400,400,full,size only,same strategy (CV),2,0.6576,0.07,0.6415
+virality,naive,0.3,0.2775,0.5,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.9709,0.655,0.9712
+virality,naive,0.3,0.2775,0.5,150,300.0,400,400,full,reuse,same strategy (CV),2,0.9934,0.8625,0.9934
+virality,naive,0.3,0.2775,0.5,150,300.0,400,400,full,all,same strategy (CV),2,0.9997,0.995,0.9997
+virality,naive,0.3,0.2792,0.5,150,300.0,400,400,full,size only,same strategy (CV),3,0.6339,0.0,0.5946
+virality,naive,0.3,0.2792,0.5,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.9514,0.4525,0.9507
+virality,naive,0.3,0.2792,0.5,150,300.0,400,400,full,reuse,same strategy (CV),3,0.9891,0.6625,0.9881
+virality,naive,0.3,0.2792,0.5,150,300.0,400,400,full,all,same strategy (CV),3,0.9986,0.9625,0.9986
+virality,naive,0.3,0.2759,0.5,150,300.0,400,400,full,size only,same strategy (CV),4,0.6627,0.0,0.6225
+virality,naive,0.3,0.2759,0.5,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.9562,0.4425,0.9494
+virality,naive,0.3,0.2759,0.5,150,300.0,400,400,full,reuse,same strategy (CV),4,0.9864,0.4475,0.9811
+virality,naive,0.3,0.2759,0.5,150,300.0,400,400,full,all,same strategy (CV),4,0.9992,0.9875,0.9992
+virality,naive,0.1,0.0959,0.65,150,300.0,400,400,full,size only,same strategy (CV),0,0.5297,0.0025,0.5025
+virality,naive,0.1,0.0959,0.65,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.8538,0.17,0.8396
+virality,naive,0.1,0.0959,0.65,150,300.0,400,400,full,reuse,same strategy (CV),0,0.8573,0.135,0.8177
+virality,naive,0.1,0.0959,0.65,150,300.0,400,400,full,all,same strategy (CV),0,0.9401,0.4925,0.9405
+virality,naive,0.1,0.0954,0.65,150,300.0,400,400,full,size only,same strategy (CV),1,0.5324,0.0125,0.5281
+virality,naive,0.1,0.0954,0.65,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.8527,0.16,0.8497
+virality,naive,0.1,0.0954,0.65,150,300.0,400,400,full,reuse,same strategy (CV),1,0.8291,0.0325,0.7588
+virality,naive,0.1,0.0954,0.65,150,300.0,400,400,full,all,same strategy (CV),1,0.9344,0.42,0.9279
+virality,naive,0.1,0.0942,0.65,150,300.0,400,400,full,size only,same strategy (CV),2,0.5112,0.015,0.5072
+virality,naive,0.1,0.0942,0.65,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.8586,0.2525,0.8578
+virality,naive,0.1,0.0942,0.65,150,300.0,400,400,full,reuse,same strategy (CV),2,0.8587,0.105,0.8208
+virality,naive,0.1,0.0942,0.65,150,300.0,400,400,full,all,same strategy (CV),2,0.9221,0.305,0.9125
+virality,naive,0.1,0.0952,0.65,150,300.0,400,400,full,size only,same strategy (CV),3,0.5866,0.0125,0.5808
+virality,naive,0.1,0.0952,0.65,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.8394,0.2375,0.8546
+virality,naive,0.1,0.0952,0.65,150,300.0,400,400,full,reuse,same strategy (CV),3,0.8823,0.06,0.8387
+virality,naive,0.1,0.0952,0.65,150,300.0,400,400,full,all,same strategy (CV),3,0.9278,0.4075,0.9251
+virality,naive,0.1,0.0938,0.65,150,300.0,400,400,full,size only,same strategy (CV),4,0.5482,0.03,0.5302
+virality,naive,0.1,0.0938,0.65,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.8637,0.1225,0.8575
+virality,naive,0.1,0.0938,0.65,150,300.0,400,400,full,reuse,same strategy (CV),4,0.8594,0.1075,0.8185
+virality,naive,0.1,0.0938,0.65,150,300.0,400,400,full,all,same strategy (CV),4,0.932,0.3125,0.9206
+virality,naive,0.3,0.2712,0.65,150,300.0,400,400,full,size only,same strategy (CV),0,0.596,0.0075,0.5491
+virality,naive,0.3,0.2712,0.65,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.9633,0.3075,0.9527
+virality,naive,0.3,0.2712,0.65,150,300.0,400,400,full,reuse,same strategy (CV),0,0.9942,0.9075,0.9945
+virality,naive,0.3,0.2712,0.65,150,300.0,400,400,full,all,same strategy (CV),0,0.9994,0.99,0.9994
+virality,naive,0.3,0.2723,0.65,150,300.0,400,400,full,size only,same strategy (CV),1,0.6368,0.0675,0.6409
+virality,naive,0.3,0.2723,0.65,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.9816,0.7875,0.9814
+virality,naive,0.3,0.2723,0.65,150,300.0,400,400,full,reuse,same strategy (CV),1,0.9845,0.445,0.9758
+virality,naive,0.3,0.2723,0.65,150,300.0,400,400,full,all,same strategy (CV),1,0.9993,0.9825,0.9993
+virality,naive,0.3,0.271,0.65,150,300.0,400,400,full,size only,same strategy (CV),2,0.6037,0.0025,0.5704
+virality,naive,0.3,0.271,0.65,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.9818,0.79,0.9813
+virality,naive,0.3,0.271,0.65,150,300.0,400,400,full,reuse,same strategy (CV),2,0.9922,0.8375,0.9911
+virality,naive,0.3,0.271,0.65,150,300.0,400,400,full,all,same strategy (CV),2,0.9997,0.995,0.9997
+virality,naive,0.3,0.2701,0.65,150,300.0,400,400,full,size only,same strategy (CV),3,0.7086,0.0,0.6459
+virality,naive,0.3,0.2701,0.65,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.9825,0.7275,0.983
+virality,naive,0.3,0.2701,0.65,150,300.0,400,400,full,reuse,same strategy (CV),3,0.9897,0.8,0.9858
+virality,naive,0.3,0.2701,0.65,150,300.0,400,400,full,all,same strategy (CV),3,0.9993,0.9875,0.9993
+virality,naive,0.3,0.2713,0.65,150,300.0,400,400,full,size only,same strategy (CV),4,0.6187,0.005,0.5685
+virality,naive,0.3,0.2713,0.65,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.9806,0.7,0.979
+virality,naive,0.3,0.2713,0.65,150,300.0,400,400,full,reuse,same strategy (CV),4,0.9849,0.5125,0.974
+virality,naive,0.3,0.2713,0.65,150,300.0,400,400,full,all,same strategy (CV),4,0.9993,0.9875,0.9993
+virality,naive,0.1,0.0943,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.5394,0.005,0.5096
+virality,naive,0.1,0.0943,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.9187,0.485,0.9242
+virality,naive,0.1,0.0943,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.8423,0.1,0.8138
+virality,naive,0.1,0.0943,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.9492,0.505,0.9517
+virality,naive,0.1,0.0937,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.5373,0.03,0.5468
+virality,naive,0.1,0.0937,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.9091,0.245,0.9048
+virality,naive,0.1,0.0937,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.8268,0.0625,0.781
+virality,naive,0.1,0.0937,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.9474,0.4675,0.9496
+virality,naive,0.1,0.0936,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.5934,0.005,0.5681
+virality,naive,0.1,0.0936,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.9008,0.4225,0.8991
+virality,naive,0.1,0.0936,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.8352,0.14,0.8191
+virality,naive,0.1,0.0936,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.9363,0.5425,0.9454
+virality,naive,0.1,0.0942,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.5253,0.0075,0.5088
+virality,naive,0.1,0.0942,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.9124,0.4075,0.9206
+virality,naive,0.1,0.0942,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.8337,0.0525,0.7874
+virality,naive,0.1,0.0942,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.9454,0.48,0.9474
+virality,naive,0.1,0.0947,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.4735,0.005,0.4684
+virality,naive,0.1,0.0947,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.8791,0.2375,0.8734
+virality,naive,0.1,0.0947,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.821,0.035,0.7679
+virality,naive,0.1,0.0947,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.9268,0.36,0.92
+virality,naive,0.3,0.258,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.6284,0.025,0.6042
+virality,naive,0.3,0.258,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.9871,0.77,0.9873
+virality,naive,0.3,0.258,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.9855,0.6525,0.9798
+virality,naive,0.3,0.258,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.9981,0.965,0.9983
+virality,naive,0.3,0.2575,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.6356,0.0,0.5991
+virality,naive,0.3,0.2575,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.9816,0.765,0.9805
+virality,naive,0.3,0.2575,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.9834,0.76,0.9842
+virality,naive,0.3,0.2575,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.9973,0.9125,0.9971
+virality,naive,0.3,0.2561,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.6254,0.02,0.5952
+virality,naive,0.3,0.2561,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.9845,0.7025,0.9843
+virality,naive,0.3,0.2561,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.9793,0.7475,0.9705
+virality,naive,0.3,0.2561,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.9988,0.9775,0.9989
+virality,naive,0.3,0.2584,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.6028,0.04,0.5877
+virality,naive,0.3,0.2584,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.9856,0.7475,0.9858
+virality,naive,0.3,0.2584,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.979,0.55,0.9765
+virality,naive,0.3,0.2584,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.9969,0.95,0.9967
+virality,naive,0.3,0.2586,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.5813,0.0,0.561
+virality,naive,0.3,0.2586,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.9858,0.805,0.9867
+virality,naive,0.3,0.2586,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.9822,0.465,0.9694
+virality,naive,0.3,0.2586,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.9976,0.975,0.9979
+virality,naive,0.1,0.0926,0.9,150,300.0,400,400,full,size only,same strategy (CV),0,0.557,0.025,0.5465
+virality,naive,0.1,0.0926,0.9,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.9229,0.43,0.9251
+virality,naive,0.1,0.0926,0.9,150,300.0,400,400,full,reuse,same strategy (CV),0,0.8266,0.1525,0.814
+virality,naive,0.1,0.0926,0.9,150,300.0,400,400,full,all,same strategy (CV),0,0.9401,0.3875,0.9409
+virality,naive,0.1,0.0927,0.9,150,300.0,400,400,full,size only,same strategy (CV),1,0.5256,0.005,0.5221
+virality,naive,0.1,0.0927,0.9,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.9369,0.4475,0.9352
+virality,naive,0.1,0.0927,0.9,150,300.0,400,400,full,reuse,same strategy (CV),1,0.7979,0.155,0.789
+virality,naive,0.1,0.0927,0.9,150,300.0,400,400,full,all,same strategy (CV),1,0.952,0.455,0.9513
+virality,naive,0.1,0.0919,0.9,150,300.0,400,400,full,size only,same strategy (CV),2,0.5303,0.0075,0.5205
+virality,naive,0.1,0.0919,0.9,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.9226,0.4375,0.925
+virality,naive,0.1,0.0919,0.9,150,300.0,400,400,full,reuse,same strategy (CV),2,0.8181,0.1525,0.8021
+virality,naive,0.1,0.0919,0.9,150,300.0,400,400,full,all,same strategy (CV),2,0.9383,0.46,0.9404
+virality,naive,0.1,0.0904,0.9,150,300.0,400,400,full,size only,same strategy (CV),3,0.5052,0.0,0.4888
+virality,naive,0.1,0.0904,0.9,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.9273,0.4125,0.9269
+virality,naive,0.1,0.0904,0.9,150,300.0,400,400,full,reuse,same strategy (CV),3,0.8073,0.105,0.7837
+virality,naive,0.1,0.0904,0.9,150,300.0,400,400,full,all,same strategy (CV),3,0.9367,0.45,0.9373
+virality,naive,0.1,0.0925,0.9,150,300.0,400,400,full,size only,same strategy (CV),4,0.5622,0.05,0.5768
+virality,naive,0.1,0.0925,0.9,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.9417,0.4,0.9331
+virality,naive,0.1,0.0925,0.9,150,300.0,400,400,full,reuse,same strategy (CV),4,0.8287,0.1675,0.8225
+virality,naive,0.1,0.0925,0.9,150,300.0,400,400,full,all,same strategy (CV),4,0.9573,0.52,0.9603
+virality,naive,0.3,0.2389,0.9,150,300.0,400,400,full,size only,same strategy (CV),0,0.546,0.0175,0.5342
+virality,naive,0.3,0.2389,0.9,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.9806,0.725,0.98
+virality,naive,0.3,0.2389,0.9,150,300.0,400,400,full,reuse,same strategy (CV),0,0.9684,0.5375,0.9658
+virality,naive,0.3,0.2389,0.9,150,300.0,400,400,full,all,same strategy (CV),0,0.9963,0.9125,0.9964
+virality,naive,0.3,0.2411,0.9,150,300.0,400,400,full,size only,same strategy (CV),1,0.5936,0.0,0.5792
+virality,naive,0.3,0.2411,0.9,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.9896,0.765,0.9892
+virality,naive,0.3,0.2411,0.9,150,300.0,400,400,full,reuse,same strategy (CV),1,0.9738,0.68,0.9635
+virality,naive,0.3,0.2411,0.9,150,300.0,400,400,full,all,same strategy (CV),1,0.9967,0.93,0.9966
+virality,naive,0.3,0.2371,0.9,150,300.0,400,400,full,size only,same strategy (CV),2,0.5766,0.0375,0.5776
+virality,naive,0.3,0.2371,0.9,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.983,0.8,0.985
+virality,naive,0.3,0.2371,0.9,150,300.0,400,400,full,reuse,same strategy (CV),2,0.9687,0.485,0.9663
+virality,naive,0.3,0.2371,0.9,150,300.0,400,400,full,all,same strategy (CV),2,0.9936,0.955,0.995
+virality,naive,0.3,0.2388,0.9,150,300.0,400,400,full,size only,same strategy (CV),3,0.5783,0.05,0.5799
+virality,naive,0.3,0.2388,0.9,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.985,0.7275,0.9838
+virality,naive,0.3,0.2388,0.9,150,300.0,400,400,full,reuse,same strategy (CV),3,0.9594,0.275,0.9462
+virality,naive,0.3,0.2388,0.9,150,300.0,400,400,full,all,same strategy (CV),3,0.9939,0.91,0.9941
+virality,naive,0.3,0.2355,0.9,150,300.0,400,400,full,size only,same strategy (CV),4,0.5729,0.015,0.5607
+virality,naive,0.3,0.2355,0.9,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.9888,0.8025,0.9889
+virality,naive,0.3,0.2355,0.9,150,300.0,400,400,full,reuse,same strategy (CV),4,0.9645,0.4125,0.9569
+virality,naive,0.3,0.2355,0.9,150,300.0,400,400,full,all,same strategy (CV),4,0.9973,0.95,0.9975
+virality,naive,0.1,0.0894,0.95,150,300.0,400,400,full,size only,same strategy (CV),0,0.5355,0.02,0.5207
+virality,naive,0.1,0.0894,0.95,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.9465,0.5325,0.947
+virality,naive,0.1,0.0894,0.95,150,300.0,400,400,full,reuse,same strategy (CV),0,0.7937,0.215,0.8049
+virality,naive,0.1,0.0894,0.95,150,300.0,400,400,full,all,same strategy (CV),0,0.9524,0.4975,0.9512
+virality,naive,0.1,0.0886,0.95,150,300.0,400,400,full,size only,same strategy (CV),1,0.5025,0.0075,0.5064
+virality,naive,0.1,0.0886,0.95,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.9384,0.485,0.9414
+virality,naive,0.1,0.0886,0.95,150,300.0,400,400,full,reuse,same strategy (CV),1,0.7733,0.0675,0.7559
+virality,naive,0.1,0.0886,0.95,150,300.0,400,400,full,all,same strategy (CV),1,0.9475,0.5575,0.9506
+virality,naive,0.1,0.0892,0.95,150,300.0,400,400,full,size only,same strategy (CV),2,0.5908,0.0225,0.5804
+virality,naive,0.1,0.0892,0.95,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.9546,0.605,0.9582
+virality,naive,0.1,0.0892,0.95,150,300.0,400,400,full,reuse,same strategy (CV),2,0.7782,0.09,0.7761
+virality,naive,0.1,0.0892,0.95,150,300.0,400,400,full,all,same strategy (CV),2,0.9592,0.6125,0.9617
+virality,naive,0.1,0.0903,0.95,150,300.0,400,400,full,size only,same strategy (CV),3,0.5538,0.0075,0.5323
+virality,naive,0.1,0.0903,0.95,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.9499,0.4425,0.948
+virality,naive,0.1,0.0903,0.95,150,300.0,400,400,full,reuse,same strategy (CV),3,0.777,0.145,0.7915
+virality,naive,0.1,0.0903,0.95,150,300.0,400,400,full,all,same strategy (CV),3,0.9582,0.5275,0.9562
+virality,naive,0.1,0.0882,0.95,150,300.0,400,400,full,size only,same strategy (CV),4,0.5744,0.0125,0.5512
+virality,naive,0.1,0.0882,0.95,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.9456,0.5325,0.9482
+virality,naive,0.1,0.0882,0.95,150,300.0,400,400,full,reuse,same strategy (CV),4,0.778,0.0575,0.7606
+virality,naive,0.1,0.0882,0.95,150,300.0,400,400,full,all,same strategy (CV),4,0.9534,0.6,0.9574
+virality,naive,0.3,0.2334,0.95,150,300.0,400,400,full,size only,same strategy (CV),0,0.5696,0.0025,0.5466
+virality,naive,0.3,0.2334,0.95,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.9889,0.6725,0.9875
+virality,naive,0.3,0.2334,0.95,150,300.0,400,400,full,reuse,same strategy (CV),0,0.9464,0.3525,0.945
+virality,naive,0.3,0.2334,0.95,150,300.0,400,400,full,all,same strategy (CV),0,0.9958,0.9275,0.9952
+virality,naive,0.3,0.223,0.95,150,300.0,400,400,full,size only,same strategy (CV),1,0.5702,0.0275,0.5645
+virality,naive,0.3,0.223,0.95,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.988,0.8425,0.9883
+virality,naive,0.3,0.223,0.95,150,300.0,400,400,full,reuse,same strategy (CV),1,0.9536,0.48,0.9519
+virality,naive,0.3,0.223,0.95,150,300.0,400,400,full,all,same strategy (CV),1,0.9959,0.935,0.9961
+virality,naive,0.3,0.2236,0.95,150,300.0,400,400,full,size only,same strategy (CV),2,0.6045,0.01,0.588
+virality,naive,0.3,0.2236,0.95,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.9912,0.8275,0.9903
+virality,naive,0.3,0.2236,0.95,150,300.0,400,400,full,reuse,same strategy (CV),2,0.9472,0.6,0.951
+virality,naive,0.3,0.2236,0.95,150,300.0,400,400,full,all,same strategy (CV),2,0.9966,0.9225,0.9967
+virality,naive,0.3,0.2284,0.95,150,300.0,400,400,full,size only,same strategy (CV),3,0.5937,0.045,0.5859
+virality,naive,0.3,0.2284,0.95,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.9895,0.7525,0.989
+virality,naive,0.3,0.2284,0.95,150,300.0,400,400,full,reuse,same strategy (CV),3,0.9408,0.5175,0.9478
+virality,naive,0.3,0.2284,0.95,150,300.0,400,400,full,all,same strategy (CV),3,0.9945,0.885,0.9945
+virality,naive,0.3,0.2208,0.95,150,300.0,400,400,full,size only,same strategy (CV),4,0.5642,0.0,0.5512
+virality,naive,0.3,0.2208,0.95,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.9935,0.91,0.9935
+virality,naive,0.3,0.2208,0.95,150,300.0,400,400,full,reuse,same strategy (CV),4,0.9646,0.695,0.9655
+virality,naive,0.3,0.2208,0.95,150,300.0,400,400,full,all,same strategy (CV),4,0.9972,0.9525,0.9973
+strategy,naive,0.1,0.0943,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.5394,0.005,0.5096
+strategy,naive,0.1,0.0943,0.8,150,300.0,400,400,full,shape,same strategy (CV),0,0.6862,0.0875,0.669
+strategy,naive,0.1,0.0943,0.8,150,300.0,400,400,full,branching,same strategy (CV),0,0.6589,0.015,0.6306
+strategy,naive,0.1,0.0943,0.8,150,300.0,400,400,full,timing,same strategy (CV),0,0.9061,0.31,0.9021
+strategy,naive,0.1,0.0943,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.8423,0.1,0.8138
+strategy,naive,0.1,0.0943,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.9187,0.485,0.9242
+strategy,naive,0.1,0.0943,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.9492,0.505,0.9517
+strategy,naive,0.1,0.0943,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),0,0.8868,0.345,0.8922
+strategy,naive,0.1,0.0943,0.8,150,300.0,400,400,20,reuse,same strategy (CV),0,0.9716,0.42,0.9613
+strategy,naive,0.1,0.0943,0.8,150,300.0,400,400,20,all,same strategy (CV),0,0.9794,0.68,0.9778
+strategy,naive,0.1,0.0943,0.8,150,300.0,400,400,full,structure + timing,naive only,0,0.9154,0.4,0.9178
+strategy,naive,0.1,0.0943,0.8,150,300.0,400,400,full,reuse,naive only,0,0.8338,0.025,0.7956
+strategy,naive,0.1,0.0943,0.8,150,300.0,400,400,full,all,naive only,0,0.9522,0.465,0.9522
+strategy,naive,0.1,0.0937,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.5373,0.03,0.5468
+strategy,naive,0.1,0.0937,0.8,150,300.0,400,400,full,shape,same strategy (CV),1,0.6415,0.04,0.6163
+strategy,naive,0.1,0.0937,0.8,150,300.0,400,400,full,branching,same strategy (CV),1,0.6072,0.0175,0.5755
+strategy,naive,0.1,0.0937,0.8,150,300.0,400,400,full,timing,same strategy (CV),1,0.8926,0.2225,0.887
+strategy,naive,0.1,0.0937,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.8268,0.0625,0.781
+strategy,naive,0.1,0.0937,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.9091,0.245,0.9048
+strategy,naive,0.1,0.0937,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.9474,0.4675,0.9496
+strategy,naive,0.1,0.0937,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),1,0.868,0.25,0.8669
+strategy,naive,0.1,0.0937,0.8,150,300.0,400,400,20,reuse,same strategy (CV),1,0.9745,0.565,0.9723
+strategy,naive,0.1,0.0937,0.8,150,300.0,400,400,20,all,same strategy (CV),1,0.9772,0.6675,0.9774
+strategy,naive,0.1,0.0937,0.8,150,300.0,400,400,full,structure + timing,naive only,1,0.9017,0.2525,0.8992
+strategy,naive,0.1,0.0937,0.8,150,300.0,400,400,full,reuse,naive only,1,0.8537,0.105,0.8269
+strategy,naive,0.1,0.0937,0.8,150,300.0,400,400,full,all,naive only,1,0.9403,0.45,0.9426
+strategy,naive,0.1,0.0936,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.5934,0.005,0.5681
+strategy,naive,0.1,0.0936,0.8,150,300.0,400,400,full,shape,same strategy (CV),2,0.6506,0.055,0.6448
+strategy,naive,0.1,0.0936,0.8,150,300.0,400,400,full,branching,same strategy (CV),2,0.6209,0.0425,0.6078
+strategy,naive,0.1,0.0936,0.8,150,300.0,400,400,full,timing,same strategy (CV),2,0.8963,0.185,0.8917
+strategy,naive,0.1,0.0936,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.8352,0.14,0.8191
+strategy,naive,0.1,0.0936,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.9008,0.4225,0.8991
+strategy,naive,0.1,0.0936,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.9363,0.5425,0.9454
+strategy,naive,0.1,0.0936,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),2,0.8664,0.425,0.8876
+strategy,naive,0.1,0.0936,0.8,150,300.0,400,400,20,reuse,same strategy (CV),2,0.9864,0.7225,0.9809
+strategy,naive,0.1,0.0936,0.8,150,300.0,400,400,20,all,same strategy (CV),2,0.9825,0.83,0.9845
+strategy,naive,0.1,0.0936,0.8,150,300.0,400,400,full,structure + timing,naive only,2,0.9057,0.3725,0.9096
+strategy,naive,0.1,0.0936,0.8,150,300.0,400,400,full,reuse,naive only,2,0.8576,0.045,0.8097
+strategy,naive,0.1,0.0936,0.8,150,300.0,400,400,full,all,naive only,2,0.9427,0.5125,0.9494
+strategy,naive,0.1,0.0942,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.5253,0.0075,0.5088
+strategy,naive,0.1,0.0942,0.8,150,300.0,400,400,full,shape,same strategy (CV),3,0.662,0.0275,0.6318
+strategy,naive,0.1,0.0942,0.8,150,300.0,400,400,full,branching,same strategy (CV),3,0.6307,0.02,0.5928
+strategy,naive,0.1,0.0942,0.8,150,300.0,400,400,full,timing,same strategy (CV),3,0.8944,0.335,0.9009
+strategy,naive,0.1,0.0942,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.8337,0.0525,0.7874
+strategy,naive,0.1,0.0942,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.9124,0.4075,0.9206
+strategy,naive,0.1,0.0942,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.9454,0.48,0.9474
+strategy,naive,0.1,0.0942,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),3,0.8702,0.3275,0.886
+strategy,naive,0.1,0.0942,0.8,150,300.0,400,400,20,reuse,same strategy (CV),3,0.9711,0.5975,0.9681
+strategy,naive,0.1,0.0942,0.8,150,300.0,400,400,20,all,same strategy (CV),3,0.9799,0.6475,0.9801
+strategy,naive,0.1,0.0942,0.8,150,300.0,400,400,full,structure + timing,naive only,3,0.9091,0.325,0.9144
+strategy,naive,0.1,0.0942,0.8,150,300.0,400,400,full,reuse,naive only,3,0.8359,0.04,0.7873
+strategy,naive,0.1,0.0942,0.8,150,300.0,400,400,full,all,naive only,3,0.9458,0.4225,0.9456
+strategy,naive,0.1,0.0947,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.4735,0.005,0.4684
+strategy,naive,0.1,0.0947,0.8,150,300.0,400,400,full,shape,same strategy (CV),4,0.6315,0.005,0.5725
+strategy,naive,0.1,0.0947,0.8,150,300.0,400,400,full,branching,same strategy (CV),4,0.6444,0.0375,0.6054
+strategy,naive,0.1,0.0947,0.8,150,300.0,400,400,full,timing,same strategy (CV),4,0.8755,0.225,0.8599
+strategy,naive,0.1,0.0947,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.821,0.035,0.7679
+strategy,naive,0.1,0.0947,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.8791,0.2375,0.8734
+strategy,naive,0.1,0.0947,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.9268,0.36,0.92
+strategy,naive,0.1,0.0947,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),4,0.8589,0.3,0.8602
+strategy,naive,0.1,0.0947,0.8,150,300.0,400,400,20,reuse,same strategy (CV),4,0.974,0.615,0.9725
+strategy,naive,0.1,0.0947,0.8,150,300.0,400,400,20,all,same strategy (CV),4,0.9761,0.62,0.975
+strategy,naive,0.1,0.0947,0.8,150,300.0,400,400,full,structure + timing,naive only,4,0.8869,0.265,0.8816
+strategy,naive,0.1,0.0947,0.8,150,300.0,400,400,full,reuse,naive only,4,0.8417,0.1325,0.8172
+strategy,naive,0.1,0.0947,0.8,150,300.0,400,400,full,all,naive only,4,0.9302,0.33,0.9212
+strategy,naive,0.3,0.258,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.6284,0.025,0.6042
+strategy,naive,0.3,0.258,0.8,150,300.0,400,400,full,shape,same strategy (CV),0,0.8301,0.2075,0.821
+strategy,naive,0.3,0.258,0.8,150,300.0,400,400,full,branching,same strategy (CV),0,0.8398,0.175,0.8244
+strategy,naive,0.3,0.258,0.8,150,300.0,400,400,full,timing,same strategy (CV),0,0.9613,0.5925,0.9578
+strategy,naive,0.3,0.258,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.9855,0.6525,0.9798
+strategy,naive,0.3,0.258,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.9871,0.77,0.9873
+strategy,naive,0.3,0.258,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.9981,0.965,0.9983
+strategy,naive,0.3,0.258,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),0,0.9808,0.76,0.9822
+strategy,naive,0.3,0.258,0.8,150,300.0,400,400,20,reuse,same strategy (CV),0,0.9981,0.9975,0.9988
+strategy,naive,0.3,0.258,0.8,150,300.0,400,400,20,all,same strategy (CV),0,0.9999,0.9975,0.9999
+strategy,naive,0.3,0.258,0.8,150,300.0,400,400,full,structure + timing,naive only,0,0.9892,0.7975,0.9897
+strategy,naive,0.3,0.258,0.8,150,300.0,400,400,full,reuse,naive only,0,0.9852,0.765,0.9746
+strategy,naive,0.3,0.258,0.8,150,300.0,400,400,full,all,naive only,0,0.9986,0.9775,0.9987
+strategy,naive,0.3,0.2575,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.6356,0.0,0.5991
+strategy,naive,0.3,0.2575,0.8,150,300.0,400,400,full,shape,same strategy (CV),1,0.8413,0.1525,0.8221
+strategy,naive,0.3,0.2575,0.8,150,300.0,400,400,full,branching,same strategy (CV),1,0.8151,0.2,0.8142
+strategy,naive,0.3,0.2575,0.8,150,300.0,400,400,full,timing,same strategy (CV),1,0.9594,0.62,0.9587
+strategy,naive,0.3,0.2575,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.9834,0.76,0.9842
+strategy,naive,0.3,0.2575,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.9816,0.765,0.9805
+strategy,naive,0.3,0.2575,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.9973,0.9125,0.9971
+strategy,naive,0.3,0.2575,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),1,0.9817,0.7975,0.9834
+strategy,naive,0.3,0.2575,0.8,150,300.0,400,400,20,reuse,same strategy (CV),1,1.0,0.9975,1.0
+strategy,naive,0.3,0.2575,0.8,150,300.0,400,400,20,all,same strategy (CV),1,1.0,1.0,1.0
+strategy,naive,0.3,0.2575,0.8,150,300.0,400,400,full,structure + timing,naive only,1,0.9827,0.755,0.9827
+strategy,naive,0.3,0.2575,0.8,150,300.0,400,400,full,reuse,naive only,1,0.9816,0.5625,0.9772
+strategy,naive,0.3,0.2575,0.8,150,300.0,400,400,full,all,naive only,1,0.9977,0.9475,0.9976
+strategy,naive,0.3,0.2561,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.6254,0.02,0.5952
+strategy,naive,0.3,0.2561,0.8,150,300.0,400,400,full,shape,same strategy (CV),2,0.8537,0.175,0.8369
+strategy,naive,0.3,0.2561,0.8,150,300.0,400,400,full,branching,same strategy (CV),2,0.8527,0.19,0.8444
+strategy,naive,0.3,0.2561,0.8,150,300.0,400,400,full,timing,same strategy (CV),2,0.9695,0.5175,0.9606
+strategy,naive,0.3,0.2561,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.9793,0.7475,0.9705
+strategy,naive,0.3,0.2561,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.9845,0.7025,0.9843
+strategy,naive,0.3,0.2561,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.9988,0.9775,0.9989
+strategy,naive,0.3,0.2561,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),2,0.9857,0.8175,0.9878
+strategy,naive,0.3,0.2561,0.8,150,300.0,400,400,20,reuse,same strategy (CV),2,0.9999,0.9975,0.9999
+strategy,naive,0.3,0.2561,0.8,150,300.0,400,400,20,all,same strategy (CV),2,1.0,0.9975,1.0
+strategy,naive,0.3,0.2561,0.8,150,300.0,400,400,full,structure + timing,naive only,2,0.9857,0.7575,0.9857
+strategy,naive,0.3,0.2561,0.8,150,300.0,400,400,full,reuse,naive only,2,0.9788,0.66,0.9789
+strategy,naive,0.3,0.2561,0.8,150,300.0,400,400,full,all,naive only,2,0.9976,0.96,0.9977
+strategy,naive,0.3,0.2584,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.6028,0.04,0.5877
+strategy,naive,0.3,0.2584,0.8,150,300.0,400,400,full,shape,same strategy (CV),3,0.8178,0.1375,0.8072
+strategy,naive,0.3,0.2584,0.8,150,300.0,400,400,full,branching,same strategy (CV),3,0.813,0.2175,0.8032
+strategy,naive,0.3,0.2584,0.8,150,300.0,400,400,full,timing,same strategy (CV),3,0.9652,0.4875,0.9619
+strategy,naive,0.3,0.2584,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.979,0.55,0.9765
+strategy,naive,0.3,0.2584,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.9856,0.7475,0.9858
+strategy,naive,0.3,0.2584,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.9969,0.95,0.9967
+strategy,naive,0.3,0.2584,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),3,0.9818,0.8375,0.9852
+strategy,naive,0.3,0.2584,0.8,150,300.0,400,400,20,reuse,same strategy (CV),3,0.9985,0.9975,0.9987
+strategy,naive,0.3,0.2584,0.8,150,300.0,400,400,20,all,same strategy (CV),3,0.9998,0.9975,0.9998
+strategy,naive,0.3,0.2584,0.8,150,300.0,400,400,full,structure + timing,naive only,3,0.9867,0.73,0.9865
+strategy,naive,0.3,0.2584,0.8,150,300.0,400,400,full,reuse,naive only,3,0.9803,0.7525,0.9774
+strategy,naive,0.3,0.2584,0.8,150,300.0,400,400,full,all,naive only,3,0.9976,0.9625,0.9975
+strategy,naive,0.3,0.2586,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.5813,0.0,0.561
+strategy,naive,0.3,0.2586,0.8,150,300.0,400,400,full,shape,same strategy (CV),4,0.8615,0.1425,0.8339
+strategy,naive,0.3,0.2586,0.8,150,300.0,400,400,full,branching,same strategy (CV),4,0.8508,0.1225,0.817
+strategy,naive,0.3,0.2586,0.8,150,300.0,400,400,full,timing,same strategy (CV),4,0.9617,0.58,0.9607
+strategy,naive,0.3,0.2586,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.9822,0.465,0.9694
+strategy,naive,0.3,0.2586,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.9858,0.805,0.9867
+strategy,naive,0.3,0.2586,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.9976,0.975,0.9979
+strategy,naive,0.3,0.2586,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),4,0.9884,0.81,0.9888
+strategy,naive,0.3,0.2586,0.8,150,300.0,400,400,20,reuse,same strategy (CV),4,1.0,1.0,1.0
+strategy,naive,0.3,0.2586,0.8,150,300.0,400,400,20,all,same strategy (CV),4,1.0,1.0,1.0
+strategy,naive,0.3,0.2586,0.8,150,300.0,400,400,full,structure + timing,naive only,4,0.9881,0.7775,0.9882
+strategy,naive,0.3,0.2586,0.8,150,300.0,400,400,full,reuse,naive only,4,0.9874,0.6225,0.9844
+strategy,naive,0.3,0.2586,0.8,150,300.0,400,400,full,all,naive only,4,0.9978,0.985,0.998
+strategy,random timing,0.1,0.0943,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.5394,0.005,0.5096
+strategy,random timing,0.1,0.0943,0.8,150,300.0,400,400,full,shape,same strategy (CV),0,0.6862,0.0875,0.669
+strategy,random timing,0.1,0.0943,0.8,150,300.0,400,400,full,branching,same strategy (CV),0,0.6589,0.015,0.6306
+strategy,random timing,0.1,0.0943,0.8,150,300.0,400,400,full,timing,same strategy (CV),0,0.9091,0.2775,0.9058
+strategy,random timing,0.1,0.0943,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.8423,0.1,0.8138
+strategy,random timing,0.1,0.0943,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.9202,0.4575,0.9258
+strategy,random timing,0.1,0.0943,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.9502,0.4875,0.9523
+strategy,random timing,0.1,0.0943,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),0,0.8961,0.39,0.8998
+strategy,random timing,0.1,0.0943,0.8,150,300.0,400,400,20,reuse,same strategy (CV),0,0.9721,0.415,0.9668
+strategy,random timing,0.1,0.0943,0.8,150,300.0,400,400,20,all,same strategy (CV),0,0.9804,0.69,0.9795
+strategy,random timing,0.1,0.0943,0.8,150,300.0,400,400,full,structure + timing,naive only,0,0.9181,0.3925,0.9205
+strategy,random timing,0.1,0.0943,0.8,150,300.0,400,400,full,reuse,naive only,0,0.8338,0.025,0.7956
+strategy,random timing,0.1,0.0943,0.8,150,300.0,400,400,full,all,naive only,0,0.9534,0.47,0.9534
+strategy,random timing,0.1,0.0937,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.5373,0.03,0.5468
+strategy,random timing,0.1,0.0937,0.8,150,300.0,400,400,full,shape,same strategy (CV),1,0.6415,0.04,0.6163
+strategy,random timing,0.1,0.0937,0.8,150,300.0,400,400,full,branching,same strategy (CV),1,0.6072,0.0175,0.5755
+strategy,random timing,0.1,0.0937,0.8,150,300.0,400,400,full,timing,same strategy (CV),1,0.8935,0.3175,0.8913
+strategy,random timing,0.1,0.0937,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.8268,0.0625,0.781
+strategy,random timing,0.1,0.0937,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.9093,0.33,0.9073
+strategy,random timing,0.1,0.0937,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.948,0.495,0.951
+strategy,random timing,0.1,0.0937,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),1,0.881,0.245,0.8767
+strategy,random timing,0.1,0.0937,0.8,150,300.0,400,400,20,reuse,same strategy (CV),1,0.9745,0.555,0.9723
+strategy,random timing,0.1,0.0937,0.8,150,300.0,400,400,20,all,same strategy (CV),1,0.9769,0.655,0.976
+strategy,random timing,0.1,0.0937,0.8,150,300.0,400,400,full,structure + timing,naive only,1,0.9047,0.29,0.9028
+strategy,random timing,0.1,0.0937,0.8,150,300.0,400,400,full,reuse,naive only,1,0.8537,0.105,0.8269
+strategy,random timing,0.1,0.0937,0.8,150,300.0,400,400,full,all,naive only,1,0.9421,0.465,0.9443
+strategy,random timing,0.1,0.0936,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.5934,0.005,0.5681
+strategy,random timing,0.1,0.0936,0.8,150,300.0,400,400,full,shape,same strategy (CV),2,0.6506,0.055,0.6448
+strategy,random timing,0.1,0.0936,0.8,150,300.0,400,400,full,branching,same strategy (CV),2,0.6209,0.0425,0.6078
+strategy,random timing,0.1,0.0936,0.8,150,300.0,400,400,full,timing,same strategy (CV),2,0.9009,0.235,0.8943
+strategy,random timing,0.1,0.0936,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.8352,0.14,0.8191
+strategy,random timing,0.1,0.0936,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.906,0.4175,0.9051
+strategy,random timing,0.1,0.0936,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.9382,0.5275,0.946
+strategy,random timing,0.1,0.0936,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),2,0.8777,0.415,0.8951
+strategy,random timing,0.1,0.0936,0.8,150,300.0,400,400,20,reuse,same strategy (CV),2,0.9853,0.6425,0.9796
+strategy,random timing,0.1,0.0936,0.8,150,300.0,400,400,20,all,same strategy (CV),2,0.9827,0.8125,0.9843
+strategy,random timing,0.1,0.0936,0.8,150,300.0,400,400,full,structure + timing,naive only,2,0.9073,0.365,0.9118
+strategy,random timing,0.1,0.0936,0.8,150,300.0,400,400,full,reuse,naive only,2,0.8576,0.045,0.8097
+strategy,random timing,0.1,0.0936,0.8,150,300.0,400,400,full,all,naive only,2,0.9429,0.525,0.9498
+strategy,random timing,0.1,0.0942,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.5253,0.0075,0.5088
+strategy,random timing,0.1,0.0942,0.8,150,300.0,400,400,full,shape,same strategy (CV),3,0.662,0.0275,0.6318
+strategy,random timing,0.1,0.0942,0.8,150,300.0,400,400,full,branching,same strategy (CV),3,0.6307,0.02,0.5928
+strategy,random timing,0.1,0.0942,0.8,150,300.0,400,400,full,timing,same strategy (CV),3,0.8992,0.3725,0.9068
+strategy,random timing,0.1,0.0942,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.8337,0.0525,0.7874
+strategy,random timing,0.1,0.0942,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.9054,0.3575,0.9124
+strategy,random timing,0.1,0.0942,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.9442,0.5,0.9464
+strategy,random timing,0.1,0.0942,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),3,0.8757,0.4,0.8916
+strategy,random timing,0.1,0.0942,0.8,150,300.0,400,400,20,reuse,same strategy (CV),3,0.971,0.58,0.968
+strategy,random timing,0.1,0.0942,0.8,150,300.0,400,400,20,all,same strategy (CV),3,0.9785,0.625,0.9783
+strategy,random timing,0.1,0.0942,0.8,150,300.0,400,400,full,structure + timing,naive only,3,0.9105,0.345,0.9163
+strategy,random timing,0.1,0.0942,0.8,150,300.0,400,400,full,reuse,naive only,3,0.8359,0.04,0.7873
+strategy,random timing,0.1,0.0942,0.8,150,300.0,400,400,full,all,naive only,3,0.9464,0.4425,0.9467
+strategy,random timing,0.3,0.258,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.6284,0.025,0.6042
+strategy,random timing,0.3,0.258,0.8,150,300.0,400,400,full,shape,same strategy (CV),0,0.8301,0.2075,0.821
+strategy,random timing,0.3,0.258,0.8,150,300.0,400,400,full,branching,same strategy (CV),0,0.8398,0.175,0.8244
+strategy,random timing,0.3,0.258,0.8,150,300.0,400,400,full,timing,same strategy (CV),0,0.9841,0.695,0.9845
+strategy,random timing,0.3,0.258,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.9855,0.6525,0.9798
+strategy,random timing,0.3,0.258,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.9904,0.8125,0.9909
+strategy,random timing,0.3,0.258,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.9982,0.9825,0.9985
+strategy,random timing,0.3,0.258,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),0,0.9863,0.785,0.9866
+strategy,random timing,0.3,0.258,0.8,150,300.0,400,400,20,reuse,same strategy (CV),0,0.9981,0.9975,0.9988
+strategy,random timing,0.3,0.258,0.8,150,300.0,400,400,20,all,same strategy (CV),0,0.9999,0.9975,0.9999
+strategy,random timing,0.3,0.258,0.8,150,300.0,400,400,full,structure + timing,naive only,0,0.9901,0.7925,0.9903
+strategy,random timing,0.3,0.258,0.8,150,300.0,400,400,full,reuse,naive only,0,0.9852,0.765,0.9746
+strategy,random timing,0.3,0.258,0.8,150,300.0,400,400,full,all,naive only,0,0.9987,0.9775,0.9988
+strategy,random timing,0.1,0.0947,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.4735,0.005,0.4684
+strategy,random timing,0.1,0.0947,0.8,150,300.0,400,400,full,shape,same strategy (CV),4,0.6315,0.005,0.5725
+strategy,random timing,0.1,0.0947,0.8,150,300.0,400,400,full,branching,same strategy (CV),4,0.6444,0.0375,0.6054
+strategy,random timing,0.1,0.0947,0.8,150,300.0,400,400,full,timing,same strategy (CV),4,0.8813,0.2325,0.8746
+strategy,random timing,0.1,0.0947,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.821,0.035,0.7679
+strategy,random timing,0.1,0.0947,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.8804,0.215,0.872
+strategy,random timing,0.1,0.0947,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.9279,0.3475,0.9224
+strategy,random timing,0.1,0.0947,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),4,0.8757,0.34,0.8835
+strategy,random timing,0.1,0.0947,0.8,150,300.0,400,400,20,reuse,same strategy (CV),4,0.9735,0.6175,0.9719
+strategy,random timing,0.1,0.0947,0.8,150,300.0,400,400,20,all,same strategy (CV),4,0.9777,0.6075,0.9763
+strategy,random timing,0.1,0.0947,0.8,150,300.0,400,400,full,structure + timing,naive only,4,0.8899,0.29,0.8856
+strategy,random timing,0.1,0.0947,0.8,150,300.0,400,400,full,reuse,naive only,4,0.8417,0.1325,0.8172
+strategy,random timing,0.1,0.0947,0.8,150,300.0,400,400,full,all,naive only,4,0.9314,0.33,0.9223
+strategy,random timing,0.3,0.2575,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.6356,0.0,0.5991
+strategy,random timing,0.3,0.2575,0.8,150,300.0,400,400,full,shape,same strategy (CV),1,0.8413,0.1525,0.8221
+strategy,random timing,0.3,0.2575,0.8,150,300.0,400,400,full,branching,same strategy (CV),1,0.8151,0.2,0.8142
+strategy,random timing,0.3,0.2575,0.8,150,300.0,400,400,full,timing,same strategy (CV),1,0.9832,0.8,0.9818
+strategy,random timing,0.3,0.2575,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.9834,0.76,0.9842
+strategy,random timing,0.3,0.2575,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.9922,0.8475,0.9922
+strategy,random timing,0.3,0.2575,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.9974,0.96,0.9974
+strategy,random timing,0.3,0.2575,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),1,0.9892,0.81,0.989
+strategy,random timing,0.3,0.2575,0.8,150,300.0,400,400,20,reuse,same strategy (CV),1,0.9987,0.9975,0.9988
+strategy,random timing,0.3,0.2575,0.8,150,300.0,400,400,20,all,same strategy (CV),1,1.0,1.0,1.0
+strategy,random timing,0.3,0.2575,0.8,150,300.0,400,400,full,structure + timing,naive only,1,0.9824,0.76,0.9825
+strategy,random timing,0.3,0.2575,0.8,150,300.0,400,400,full,reuse,naive only,1,0.9816,0.5625,0.9772
+strategy,random timing,0.3,0.2575,0.8,150,300.0,400,400,full,all,naive only,1,0.9977,0.9525,0.9976
+strategy,random timing,0.3,0.2561,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.6254,0.02,0.5952
+strategy,random timing,0.3,0.2561,0.8,150,300.0,400,400,full,shape,same strategy (CV),2,0.8537,0.175,0.8369
+strategy,random timing,0.3,0.2561,0.8,150,300.0,400,400,full,branching,same strategy (CV),2,0.8527,0.19,0.8444
+strategy,random timing,0.3,0.2561,0.8,150,300.0,400,400,full,timing,same strategy (CV),2,0.9878,0.6875,0.9873
+strategy,random timing,0.3,0.2561,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.9793,0.7475,0.9705
+strategy,random timing,0.3,0.2561,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.9916,0.805,0.991
+strategy,random timing,0.3,0.2561,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.9992,0.985,0.9993
+strategy,random timing,0.3,0.2561,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),2,0.9905,0.865,0.9915
+strategy,random timing,0.3,0.2561,0.8,150,300.0,400,400,20,reuse,same strategy (CV),2,0.9999,0.9975,0.9999
+strategy,random timing,0.3,0.2561,0.8,150,300.0,400,400,20,all,same strategy (CV),2,1.0,0.9975,1.0
+strategy,random timing,0.3,0.2561,0.8,150,300.0,400,400,full,structure + timing,naive only,2,0.9879,0.775,0.9876
+strategy,random timing,0.3,0.2561,0.8,150,300.0,400,400,full,reuse,naive only,2,0.9788,0.66,0.9789
+strategy,random timing,0.3,0.2561,0.8,150,300.0,400,400,full,all,naive only,2,0.9978,0.96,0.998
+strategy,random timing,0.3,0.2586,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.5813,0.0,0.561
+strategy,random timing,0.3,0.2586,0.8,150,300.0,400,400,full,shape,same strategy (CV),4,0.8615,0.1425,0.8339
+strategy,random timing,0.3,0.2586,0.8,150,300.0,400,400,full,branching,same strategy (CV),4,0.8508,0.1225,0.817
+strategy,random timing,0.3,0.2586,0.8,150,300.0,400,400,full,timing,same strategy (CV),4,0.9834,0.72,0.9837
+strategy,random timing,0.3,0.2586,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.9822,0.465,0.9694
+strategy,random timing,0.3,0.2586,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.9909,0.84,0.9913
+strategy,random timing,0.3,0.2586,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.998,0.9825,0.9983
+strategy,random timing,0.3,0.2586,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),4,0.992,0.8725,0.9925
+strategy,random timing,0.3,0.2586,0.8,150,300.0,400,400,20,reuse,same strategy (CV),4,1.0,1.0,1.0
+strategy,random timing,0.3,0.2586,0.8,150,300.0,400,400,20,all,same strategy (CV),4,1.0,1.0,1.0
+strategy,random timing,0.3,0.2586,0.8,150,300.0,400,400,full,structure + timing,naive only,4,0.989,0.7875,0.989
+strategy,random timing,0.3,0.2586,0.8,150,300.0,400,400,full,reuse,naive only,4,0.9874,0.6225,0.9844
+strategy,random timing,0.3,0.2586,0.8,150,300.0,400,400,full,all,naive only,4,0.9979,0.985,0.9981
+strategy,random timing,0.3,0.2584,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.6028,0.04,0.5877
+strategy,random timing,0.3,0.2584,0.8,150,300.0,400,400,full,shape,same strategy (CV),3,0.8178,0.1375,0.8072
+strategy,random timing,0.3,0.2584,0.8,150,300.0,400,400,full,branching,same strategy (CV),3,0.813,0.2175,0.8032
+strategy,random timing,0.3,0.2584,0.8,150,300.0,400,400,full,timing,same strategy (CV),3,0.9828,0.7175,0.9787
+strategy,random timing,0.3,0.2584,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.979,0.55,0.9765
+strategy,random timing,0.3,0.2584,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.9901,0.8225,0.9901
+strategy,random timing,0.3,0.2584,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.9979,0.9475,0.998
+strategy,random timing,0.3,0.2584,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),3,0.9869,0.8125,0.9889
+strategy,random timing,0.3,0.2584,0.8,150,300.0,400,400,20,reuse,same strategy (CV),3,0.9985,0.9975,0.9987
+strategy,random timing,0.3,0.2584,0.8,150,300.0,400,400,20,all,same strategy (CV),3,0.9998,0.9975,0.9998
+strategy,random timing,0.3,0.2584,0.8,150,300.0,400,400,full,structure + timing,naive only,3,0.9869,0.73,0.9867
+strategy,random timing,0.3,0.2584,0.8,150,300.0,400,400,full,reuse,naive only,3,0.9803,0.7525,0.9774
+strategy,random timing,0.3,0.2584,0.8,150,300.0,400,400,full,all,naive only,3,0.9977,0.97,0.9976
+strategy,organic timing,0.1,0.0943,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.5419,0.005,0.5378
+strategy,organic timing,0.1,0.0943,0.8,150,300.0,400,400,full,shape,same strategy (CV),1,0.6869,0.0425,0.6641
+strategy,organic timing,0.1,0.0943,0.8,150,300.0,400,400,full,branching,same strategy (CV),1,0.6347,0.0225,0.6045
+strategy,organic timing,0.1,0.0943,0.8,150,300.0,400,400,full,timing,same strategy (CV),1,0.5863,0.0,0.5411
+strategy,organic timing,0.1,0.0943,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.8611,0.14,0.84
+strategy,organic timing,0.1,0.0943,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.6944,0.025,0.656
+strategy,organic timing,0.1,0.0943,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.8873,0.3075,0.8888
+strategy,organic timing,0.1,0.0943,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),1,0.6855,0.04,0.6571
+strategy,organic timing,0.1,0.0943,0.8,150,300.0,400,400,20,reuse,same strategy (CV),1,0.9397,0.3075,0.9316
+strategy,organic timing,0.1,0.0943,0.8,150,300.0,400,400,20,all,same strategy (CV),1,0.9306,0.1925,0.914
+strategy,organic timing,0.1,0.0943,0.8,150,300.0,400,400,full,structure + timing,naive only,1,0.5421,0.0125,0.5364
+strategy,organic timing,0.1,0.0943,0.8,150,300.0,400,400,full,reuse,naive only,1,0.8502,0.0325,0.8067
+strategy,organic timing,0.1,0.0943,0.8,150,300.0,400,400,full,all,naive only,1,0.7402,0.045,0.7057
+strategy,organic timing,0.1,0.0948,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.5181,0.005,0.4954
+strategy,organic timing,0.1,0.0948,0.8,150,300.0,400,400,full,shape,same strategy (CV),0,0.7055,0.085,0.6931
+strategy,organic timing,0.1,0.0948,0.8,150,300.0,400,400,full,branching,same strategy (CV),0,0.677,0.025,0.6381
+strategy,organic timing,0.1,0.0948,0.8,150,300.0,400,400,full,timing,same strategy (CV),0,0.5831,0.0125,0.552
+strategy,organic timing,0.1,0.0948,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.8427,0.04,0.8019
+strategy,organic timing,0.1,0.0948,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.6906,0.06,0.6685
+strategy,organic timing,0.1,0.0948,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.8674,0.115,0.8485
+strategy,organic timing,0.1,0.0948,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),0,0.6661,0.0325,0.6442
+strategy,organic timing,0.1,0.0948,0.8,150,300.0,400,400,20,reuse,same strategy (CV),0,0.8984,0.385,0.9057
+strategy,organic timing,0.1,0.0948,0.8,150,300.0,400,400,20,all,same strategy (CV),0,0.9097,0.26,0.9013
+strategy,organic timing,0.1,0.0948,0.8,150,300.0,400,400,full,structure + timing,naive only,0,0.5672,0.0125,0.5471
+strategy,organic timing,0.1,0.0948,0.8,150,300.0,400,400,full,reuse,naive only,0,0.8392,0.1225,0.8131
+strategy,organic timing,0.1,0.0948,0.8,150,300.0,400,400,full,all,naive only,0,0.776,0.0225,0.7389
+strategy,organic timing,0.1,0.0939,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.57,0.015,0.5556
+strategy,organic timing,0.1,0.0939,0.8,150,300.0,400,400,full,shape,same strategy (CV),2,0.6708,0.045,0.6505
+strategy,organic timing,0.1,0.0939,0.8,150,300.0,400,400,full,branching,same strategy (CV),2,0.6169,0.01,0.5811
+strategy,organic timing,0.1,0.0939,0.8,150,300.0,400,400,full,timing,same strategy (CV),2,0.584,0.0125,0.5649
+strategy,organic timing,0.1,0.0939,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.833,0.1025,0.8013
+strategy,organic timing,0.1,0.0939,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.6698,0.0125,0.6415
+strategy,organic timing,0.1,0.0939,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.8682,0.175,0.8528
+strategy,organic timing,0.1,0.0939,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),2,0.6884,0.0475,0.6769
+strategy,organic timing,0.1,0.0939,0.8,150,300.0,400,400,20,reuse,same strategy (CV),2,0.9222,0.3325,0.9066
+strategy,organic timing,0.1,0.0939,0.8,150,300.0,400,400,20,all,same strategy (CV),2,0.933,0.43,0.9333
+strategy,organic timing,0.1,0.0939,0.8,150,300.0,400,400,full,structure + timing,naive only,2,0.5732,0.015,0.5572
+strategy,organic timing,0.1,0.0939,0.8,150,300.0,400,400,full,reuse,naive only,2,0.846,0.06,0.8065
+strategy,organic timing,0.1,0.0939,0.8,150,300.0,400,400,full,all,naive only,2,0.7493,0.125,0.7343
+strategy,organic timing,0.1,0.0937,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.5384,0.0025,0.5163
+strategy,organic timing,0.1,0.0937,0.8,150,300.0,400,400,full,shape,same strategy (CV),3,0.6376,0.0125,0.5939
+strategy,organic timing,0.1,0.0937,0.8,150,300.0,400,400,full,branching,same strategy (CV),3,0.6403,0.0075,0.6069
+strategy,organic timing,0.1,0.0937,0.8,150,300.0,400,400,full,timing,same strategy (CV),3,0.5751,0.0275,0.5704
+strategy,organic timing,0.1,0.0937,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.8106,0.025,0.7582
+strategy,organic timing,0.1,0.0937,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.6415,0.03,0.6129
+strategy,organic timing,0.1,0.0937,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.8696,0.295,0.8699
+strategy,organic timing,0.1,0.0937,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),3,0.6268,0.0425,0.6247
+strategy,organic timing,0.1,0.0937,0.8,150,300.0,400,400,20,reuse,same strategy (CV),3,0.9072,0.1125,0.8793
+strategy,organic timing,0.1,0.0937,0.8,150,300.0,400,400,20,all,same strategy (CV),3,0.9109,0.1825,0.8974
+strategy,organic timing,0.1,0.0937,0.8,150,300.0,400,400,full,structure + timing,naive only,3,0.5672,0.015,0.5509
+strategy,organic timing,0.1,0.0937,0.8,150,300.0,400,400,full,reuse,naive only,3,0.8189,0.0325,0.7712
+strategy,organic timing,0.1,0.0937,0.8,150,300.0,400,400,full,all,naive only,3,0.7522,0.04,0.7151
+strategy,organic timing,0.3,0.261,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.6221,0.0225,0.5989
+strategy,organic timing,0.3,0.261,0.8,150,300.0,400,400,full,shape,same strategy (CV),0,0.8662,0.3025,0.8636
+strategy,organic timing,0.3,0.261,0.8,150,300.0,400,400,full,branching,same strategy (CV),0,0.8517,0.19,0.8341
+strategy,organic timing,0.3,0.261,0.8,150,300.0,400,400,full,timing,same strategy (CV),0,0.7842,0.08,0.7591
+strategy,organic timing,0.3,0.261,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.985,0.7325,0.9841
+strategy,organic timing,0.3,0.261,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.8728,0.265,0.8672
+strategy,organic timing,0.3,0.261,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.992,0.8625,0.9917
+strategy,organic timing,0.3,0.261,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),0,0.8161,0.1375,0.8026
+strategy,organic timing,0.3,0.261,0.8,150,300.0,400,400,20,reuse,same strategy (CV),0,0.9853,0.8575,0.9849
+strategy,organic timing,0.3,0.261,0.8,150,300.0,400,400,20,all,same strategy (CV),0,0.9959,0.9,0.9947
+strategy,organic timing,0.3,0.261,0.8,150,300.0,400,400,full,structure + timing,naive only,0,0.784,0.12,0.7738
+strategy,organic timing,0.3,0.261,0.8,150,300.0,400,400,full,reuse,naive only,0,0.9864,0.72,0.9782
+strategy,organic timing,0.3,0.261,0.8,150,300.0,400,400,full,all,naive only,0,0.989,0.8175,0.988
+strategy,organic timing,0.1,0.0945,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.523,0.005,0.5016
+strategy,organic timing,0.1,0.0945,0.8,150,300.0,400,400,full,shape,same strategy (CV),4,0.6337,0.02,0.5966
+strategy,organic timing,0.1,0.0945,0.8,150,300.0,400,400,full,branching,same strategy (CV),4,0.6327,0.015,0.5872
+strategy,organic timing,0.1,0.0945,0.8,150,300.0,400,400,full,timing,same strategy (CV),4,0.5638,0.0125,0.5372
+strategy,organic timing,0.1,0.0945,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.845,0.0175,0.7966
+strategy,organic timing,0.1,0.0945,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.6544,0.015,0.6059
+strategy,organic timing,0.1,0.0945,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.8639,0.17,0.8449
+strategy,organic timing,0.1,0.0945,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),4,0.637,0.0075,0.5865
+strategy,organic timing,0.1,0.0945,0.8,150,300.0,400,400,20,reuse,same strategy (CV),4,0.9054,0.3675,0.8965
+strategy,organic timing,0.1,0.0945,0.8,150,300.0,400,400,20,all,same strategy (CV),4,0.9191,0.36,0.9123
+strategy,organic timing,0.1,0.0945,0.8,150,300.0,400,400,full,structure + timing,naive only,4,0.5341,0.015,0.5151
+strategy,organic timing,0.1,0.0945,0.8,150,300.0,400,400,full,reuse,naive only,4,0.8445,0.0975,0.8141
+strategy,organic timing,0.1,0.0945,0.8,150,300.0,400,400,full,all,naive only,4,0.7211,0.02,0.6709
+strategy,organic timing,0.3,0.257,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.6623,0.055,0.639
+strategy,organic timing,0.3,0.257,0.8,150,300.0,400,400,full,shape,same strategy (CV),2,0.8515,0.2425,0.8537
+strategy,organic timing,0.3,0.257,0.8,150,300.0,400,400,full,branching,same strategy (CV),2,0.8294,0.1775,0.8284
+strategy,organic timing,0.3,0.257,0.8,150,300.0,400,400,full,timing,same strategy (CV),2,0.7259,0.12,0.7318
+strategy,organic timing,0.3,0.257,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.9804,0.76,0.977
+strategy,organic timing,0.3,0.257,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.8517,0.215,0.8519
+strategy,organic timing,0.3,0.257,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.99,0.94,0.9919
+strategy,organic timing,0.3,0.257,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),2,0.8233,0.1775,0.8249
+strategy,organic timing,0.3,0.257,0.8,150,300.0,400,400,20,reuse,same strategy (CV),2,0.9827,0.8975,0.9853
+strategy,organic timing,0.3,0.257,0.8,150,300.0,400,400,20,all,same strategy (CV),2,0.9986,0.965,0.9987
+strategy,organic timing,0.3,0.257,0.8,150,300.0,400,400,full,structure + timing,naive only,2,0.7721,0.0825,0.7574
+strategy,organic timing,0.3,0.257,0.8,150,300.0,400,400,full,reuse,naive only,2,0.9811,0.6525,0.9816
+strategy,organic timing,0.3,0.257,0.8,150,300.0,400,400,full,all,naive only,2,0.9778,0.8175,0.9822
+strategy,organic timing,0.3,0.2591,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.6104,0.01,0.5847
+strategy,organic timing,0.3,0.2591,0.8,150,300.0,400,400,full,shape,same strategy (CV),1,0.8624,0.21,0.8433
+strategy,organic timing,0.3,0.2591,0.8,150,300.0,400,400,full,branching,same strategy (CV),1,0.8356,0.165,0.8221
+strategy,organic timing,0.3,0.2591,0.8,150,300.0,400,400,full,timing,same strategy (CV),1,0.7321,0.03,0.6917
+strategy,organic timing,0.3,0.2591,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.9849,0.72,0.9854
+strategy,organic timing,0.3,0.2591,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.8556,0.1325,0.8342
+strategy,organic timing,0.3,0.2591,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.9912,0.87,0.9889
+strategy,organic timing,0.3,0.2591,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),1,0.8102,0.125,0.7961
+strategy,organic timing,0.3,0.2591,0.8,150,300.0,400,400,20,reuse,same strategy (CV),1,0.9798,0.875,0.9841
+strategy,organic timing,0.3,0.2591,0.8,150,300.0,400,400,20,all,same strategy (CV),1,0.994,0.9375,0.9902
+strategy,organic timing,0.3,0.2591,0.8,150,300.0,400,400,full,structure + timing,naive only,1,0.7432,0.105,0.7339
+strategy,organic timing,0.3,0.2591,0.8,150,300.0,400,400,full,reuse,naive only,1,0.9879,0.8225,0.9845
+strategy,organic timing,0.3,0.2591,0.8,150,300.0,400,400,full,all,naive only,1,0.9807,0.74,0.9771
+strategy,organic timing,0.3,0.2577,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.6142,0.045,0.5996
+strategy,organic timing,0.3,0.2577,0.8,150,300.0,400,400,full,shape,same strategy (CV),3,0.8432,0.1625,0.8361
+strategy,organic timing,0.3,0.2577,0.8,150,300.0,400,400,full,branching,same strategy (CV),3,0.8173,0.1675,0.7998
+strategy,organic timing,0.3,0.2577,0.8,150,300.0,400,400,full,timing,same strategy (CV),3,0.7681,0.1,0.7536
+strategy,organic timing,0.3,0.2577,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.9786,0.595,0.9763
+strategy,organic timing,0.3,0.2577,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.8375,0.1575,0.8235
+strategy,organic timing,0.3,0.2577,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.9868,0.8225,0.9871
+strategy,organic timing,0.3,0.2577,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),3,0.7929,0.1325,0.7948
+strategy,organic timing,0.3,0.2577,0.8,150,300.0,400,400,20,reuse,same strategy (CV),3,0.9798,0.77,0.9773
+strategy,organic timing,0.3,0.2577,0.8,150,300.0,400,400,20,all,same strategy (CV),3,0.9955,0.8675,0.9954
+strategy,organic timing,0.3,0.2577,0.8,150,300.0,400,400,full,structure + timing,naive only,3,0.7143,0.075,0.7232
+strategy,organic timing,0.3,0.2577,0.8,150,300.0,400,400,full,reuse,naive only,3,0.977,0.4325,0.9694
+strategy,organic timing,0.3,0.2577,0.8,150,300.0,400,400,full,all,naive only,3,0.9685,0.43,0.9669
+strategy,organic timing,0.3,0.2622,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.5502,0.0125,0.5234
+strategy,organic timing,0.3,0.2622,0.8,150,300.0,400,400,full,shape,same strategy (CV),4,0.8539,0.13,0.8391
+strategy,organic timing,0.3,0.2622,0.8,150,300.0,400,400,full,branching,same strategy (CV),4,0.8478,0.08,0.8167
+strategy,organic timing,0.3,0.2622,0.8,150,300.0,400,400,full,timing,same strategy (CV),4,0.7551,0.0675,0.7262
+strategy,organic timing,0.3,0.2622,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.9886,0.8025,0.9886
+strategy,organic timing,0.3,0.2622,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.8554,0.1775,0.8392
+strategy,organic timing,0.3,0.2622,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.9905,0.9375,0.9932
+strategy,organic timing,0.3,0.2622,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),4,0.8018,0.1575,0.7996
+strategy,organic timing,0.3,0.2622,0.8,150,300.0,400,400,20,reuse,same strategy (CV),4,0.9857,0.91,0.9885
+strategy,organic timing,0.3,0.2622,0.8,150,300.0,400,400,20,all,same strategy (CV),4,0.9974,0.95,0.9973
+strategy,organic timing,0.3,0.2622,0.8,150,300.0,400,400,full,structure + timing,naive only,4,0.744,0.0625,0.7118
+strategy,organic timing,0.3,0.2622,0.8,150,300.0,400,400,full,reuse,naive only,4,0.9896,0.66,0.9887
+strategy,organic timing,0.3,0.2622,0.8,150,300.0,400,400,full,all,naive only,4,0.9851,0.825,0.986
+strategy,organic timing + structure,0.1,0.0938,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.5706,0.0175,0.5539
+strategy,organic timing + structure,0.1,0.0938,0.8,150,300.0,400,400,full,shape,same strategy (CV),1,0.5237,0.0125,0.5283
+strategy,organic timing + structure,0.1,0.0938,0.8,150,300.0,400,400,full,branching,same strategy (CV),1,0.6411,0.05,0.6451
+strategy,organic timing + structure,0.1,0.0938,0.8,150,300.0,400,400,full,timing,same strategy (CV),1,0.5406,0.01,0.5209
+strategy,organic timing + structure,0.1,0.0938,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.8278,0.0925,0.8056
+strategy,organic timing + structure,0.1,0.0938,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.652,0.0475,0.6413
+strategy,organic timing + structure,0.1,0.0938,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.8563,0.1775,0.8523
+strategy,organic timing + structure,0.1,0.0938,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),1,0.5334,0.005,0.5315
+strategy,organic timing + structure,0.1,0.0938,0.8,150,300.0,400,400,20,reuse,same strategy (CV),1,0.6342,0.0175,0.6242
+strategy,organic timing + structure,0.1,0.0938,0.8,150,300.0,400,400,20,all,same strategy (CV),1,0.6446,0.045,0.6193
+strategy,organic timing + structure,0.1,0.0938,0.8,150,300.0,400,400,full,structure + timing,naive only,1,0.4261,0.0025,0.4552
+strategy,organic timing + structure,0.1,0.0938,0.8,150,300.0,400,400,full,reuse,naive only,1,0.8427,0.0725,0.8127
+strategy,organic timing + structure,0.1,0.0938,0.8,150,300.0,400,400,full,all,naive only,1,0.6367,0.0325,0.6106
+strategy,organic timing + structure,0.1,0.0939,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.5665,0.0,0.556
+strategy,organic timing + structure,0.1,0.0939,0.8,150,300.0,400,400,full,shape,same strategy (CV),0,0.5676,0.03,0.569
+strategy,organic timing + structure,0.1,0.0939,0.8,150,300.0,400,400,full,branching,same strategy (CV),0,0.6461,0.115,0.6819
+strategy,organic timing + structure,0.1,0.0939,0.8,150,300.0,400,400,full,timing,same strategy (CV),0,0.5363,0.025,0.5399
+strategy,organic timing + structure,0.1,0.0939,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.8512,0.1875,0.8407
+strategy,organic timing + structure,0.1,0.0939,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.6795,0.165,0.7114
+strategy,organic timing + structure,0.1,0.0939,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.8605,0.28,0.8622
+strategy,organic timing + structure,0.1,0.0939,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),0,0.5547,0.0025,0.5327
+strategy,organic timing + structure,0.1,0.0939,0.8,150,300.0,400,400,20,reuse,same strategy (CV),0,0.5847,0.02,0.5664
+strategy,organic timing + structure,0.1,0.0939,0.8,150,300.0,400,400,20,all,same strategy (CV),0,0.624,0.02,0.5831
+strategy,organic timing + structure,0.1,0.0939,0.8,150,300.0,400,400,full,structure + timing,naive only,0,0.4606,0.015,0.4691
+strategy,organic timing + structure,0.1,0.0939,0.8,150,300.0,400,400,full,reuse,naive only,0,0.8344,0.1325,0.8134
+strategy,organic timing + structure,0.1,0.0939,0.8,150,300.0,400,400,full,all,naive only,0,0.6843,0.0125,0.6478
+strategy,organic timing + structure,0.1,0.093,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.5486,0.02,0.5378
+strategy,organic timing + structure,0.1,0.093,0.8,150,300.0,400,400,full,shape,same strategy (CV),2,0.5391,0.0225,0.5435
+strategy,organic timing + structure,0.1,0.093,0.8,150,300.0,400,400,full,branching,same strategy (CV),2,0.6455,0.03,0.6447
+strategy,organic timing + structure,0.1,0.093,0.8,150,300.0,400,400,full,timing,same strategy (CV),2,0.5318,0.0075,0.5213
+strategy,organic timing + structure,0.1,0.093,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.8391,0.145,0.8092
+strategy,organic timing + structure,0.1,0.093,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.6547,0.045,0.6543
+strategy,organic timing + structure,0.1,0.093,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.8612,0.185,0.8533
+strategy,organic timing + structure,0.1,0.093,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),2,0.5577,0.0,0.5397
+strategy,organic timing + structure,0.1,0.093,0.8,150,300.0,400,400,20,reuse,same strategy (CV),2,0.7346,0.0275,0.711
+strategy,organic timing + structure,0.1,0.093,0.8,150,300.0,400,400,20,all,same strategy (CV),2,0.732,0.0725,0.7155
+strategy,organic timing + structure,0.1,0.093,0.8,150,300.0,400,400,full,structure + timing,naive only,2,0.4706,0.0125,0.485
+strategy,organic timing + structure,0.1,0.093,0.8,150,300.0,400,400,full,reuse,naive only,2,0.8533,0.1325,0.8244
+strategy,organic timing + structure,0.1,0.093,0.8,150,300.0,400,400,full,all,naive only,2,0.6656,0.0575,0.6514
+strategy,organic timing + structure,0.1,0.0932,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.5263,0.0125,0.5337
+strategy,organic timing + structure,0.1,0.0932,0.8,150,300.0,400,400,full,shape,same strategy (CV),3,0.498,0.01,0.4904
+strategy,organic timing + structure,0.1,0.0932,0.8,150,300.0,400,400,full,branching,same strategy (CV),3,0.6324,0.05,0.6205
+strategy,organic timing + structure,0.1,0.0932,0.8,150,300.0,400,400,full,timing,same strategy (CV),3,0.5513,0.0075,0.5408
+strategy,organic timing + structure,0.1,0.0932,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.8272,0.1,0.7989
+strategy,organic timing + structure,0.1,0.0932,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.6529,0.045,0.6386
+strategy,organic timing + structure,0.1,0.0932,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.8569,0.215,0.8537
+strategy,organic timing + structure,0.1,0.0932,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),3,0.5335,0.0125,0.539
+strategy,organic timing + structure,0.1,0.0932,0.8,150,300.0,400,400,20,reuse,same strategy (CV),3,0.66,0.015,0.6182
+strategy,organic timing + structure,0.1,0.0932,0.8,150,300.0,400,400,20,all,same strategy (CV),3,0.664,0.0275,0.6566
+strategy,organic timing + structure,0.1,0.0932,0.8,150,300.0,400,400,full,structure + timing,naive only,3,0.4386,0.01,0.4662
+strategy,organic timing + structure,0.1,0.0932,0.8,150,300.0,400,400,full,reuse,naive only,3,0.8207,0.075,0.7815
+strategy,organic timing + structure,0.1,0.0932,0.8,150,300.0,400,400,full,all,naive only,3,0.6661,0.0225,0.6225
+strategy,organic timing + structure,0.1,0.094,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.5352,0.0025,0.5059
+strategy,organic timing + structure,0.1,0.094,0.8,150,300.0,400,400,full,shape,same strategy (CV),4,0.5519,0.01,0.5268
+strategy,organic timing + structure,0.1,0.094,0.8,150,300.0,400,400,full,branching,same strategy (CV),4,0.6305,0.06,0.6316
+strategy,organic timing + structure,0.1,0.094,0.8,150,300.0,400,400,full,timing,same strategy (CV),4,0.5289,0.005,0.5216
+strategy,organic timing + structure,0.1,0.094,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.8214,0.075,0.788
+strategy,organic timing + structure,0.1,0.094,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.661,0.0725,0.6535
+strategy,organic timing + structure,0.1,0.094,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.8389,0.1725,0.8192
+strategy,organic timing + structure,0.1,0.094,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),4,0.5451,0.005,0.5351
+strategy,organic timing + structure,0.1,0.094,0.8,150,300.0,400,400,20,reuse,same strategy (CV),4,0.6191,0.01,0.5918
+strategy,organic timing + structure,0.1,0.094,0.8,150,300.0,400,400,20,all,same strategy (CV),4,0.6731,0.05,0.6539
+strategy,organic timing + structure,0.1,0.094,0.8,150,300.0,400,400,full,structure + timing,naive only,4,0.4502,0.0025,0.4577
+strategy,organic timing + structure,0.1,0.094,0.8,150,300.0,400,400,full,reuse,naive only,4,0.8314,0.065,0.7961
+strategy,organic timing + structure,0.1,0.094,0.8,150,300.0,400,400,full,all,naive only,4,0.6458,0.01,0.5988
+strategy,organic timing + structure,0.3,0.2572,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.5728,0.0175,0.565
+strategy,organic timing + structure,0.3,0.2572,0.8,150,300.0,400,400,full,shape,same strategy (CV),0,0.7211,0.05,0.6889
+strategy,organic timing + structure,0.3,0.2572,0.8,150,300.0,400,400,full,branching,same strategy (CV),0,0.8704,0.43,0.8832
+strategy,organic timing + structure,0.3,0.2572,0.8,150,300.0,400,400,full,timing,same strategy (CV),0,0.6194,0.045,0.6131
+strategy,organic timing + structure,0.3,0.2572,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.9791,0.68,0.9749
+strategy,organic timing + structure,0.3,0.2572,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.8876,0.4625,0.9001
+strategy,organic timing + structure,0.3,0.2572,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.9944,0.8775,0.9938
+strategy,organic timing + structure,0.3,0.2572,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),0,0.7156,0.085,0.7166
+strategy,organic timing + structure,0.3,0.2572,0.8,150,300.0,400,400,20,reuse,same strategy (CV),0,0.8198,0.2175,0.8371
+strategy,organic timing + structure,0.3,0.2572,0.8,150,300.0,400,400,20,all,same strategy (CV),0,0.8635,0.2075,0.866
+strategy,organic timing + structure,0.3,0.2572,0.8,150,300.0,400,400,full,structure + timing,naive only,0,0.5802,0.0025,0.5379
+strategy,organic timing + structure,0.3,0.2572,0.8,150,300.0,400,400,full,reuse,naive only,0,0.983,0.765,0.9789
+strategy,organic timing + structure,0.3,0.2572,0.8,150,300.0,400,400,full,all,naive only,0,0.957,0.3875,0.9471
+strategy,organic timing + structure,0.3,0.2605,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.6711,0.0575,0.653
+strategy,organic timing + structure,0.3,0.2605,0.8,150,300.0,400,400,full,shape,same strategy (CV),1,0.6637,0.06,0.6396
+strategy,organic timing + structure,0.3,0.2605,0.8,150,300.0,400,400,full,branching,same strategy (CV),1,0.8783,0.3525,0.8864
+strategy,organic timing + structure,0.3,0.2605,0.8,150,300.0,400,400,full,timing,same strategy (CV),1,0.6357,0.035,0.6254
+strategy,organic timing + structure,0.3,0.2605,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.9851,0.745,0.9856
+strategy,organic timing + structure,0.3,0.2605,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.8825,0.3325,0.8857
+strategy,organic timing + structure,0.3,0.2605,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.9933,0.8625,0.9934
+strategy,organic timing + structure,0.3,0.2605,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),1,0.6519,0.03,0.6229
+strategy,organic timing + structure,0.3,0.2605,0.8,150,300.0,400,400,20,reuse,same strategy (CV),1,0.8141,0.3025,0.8336
+strategy,organic timing + structure,0.3,0.2605,0.8,150,300.0,400,400,20,all,same strategy (CV),1,0.8526,0.2325,0.8598
+strategy,organic timing + structure,0.3,0.2605,0.8,150,300.0,400,400,full,structure + timing,naive only,1,0.5378,0.0075,0.5022
+strategy,organic timing + structure,0.3,0.2605,0.8,150,300.0,400,400,full,reuse,naive only,1,0.9855,0.7725,0.984
+strategy,organic timing + structure,0.3,0.2605,0.8,150,300.0,400,400,full,all,naive only,1,0.9535,0.2125,0.9318
+strategy,organic timing + structure,0.3,0.2585,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.6596,0.0275,0.6256
+strategy,organic timing + structure,0.3,0.2585,0.8,150,300.0,400,400,full,shape,same strategy (CV),2,0.7237,0.0675,0.7028
+strategy,organic timing + structure,0.3,0.2585,0.8,150,300.0,400,400,full,branching,same strategy (CV),2,0.8762,0.1725,0.8762
+strategy,organic timing + structure,0.3,0.2585,0.8,150,300.0,400,400,full,timing,same strategy (CV),2,0.6541,0.0125,0.6385
+strategy,organic timing + structure,0.3,0.2585,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.9775,0.485,0.9638
+strategy,organic timing + structure,0.3,0.2585,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.9042,0.33,0.9084
+strategy,organic timing + structure,0.3,0.2585,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.9942,0.9075,0.9939
+strategy,organic timing + structure,0.3,0.2585,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),2,0.6969,0.0225,0.6481
+strategy,organic timing + structure,0.3,0.2585,0.8,150,300.0,400,400,20,reuse,same strategy (CV),2,0.8053,0.2875,0.828
+strategy,organic timing + structure,0.3,0.2585,0.8,150,300.0,400,400,20,all,same strategy (CV),2,0.8856,0.3025,0.8871
+strategy,organic timing + structure,0.3,0.2585,0.8,150,300.0,400,400,full,structure + timing,naive only,2,0.5319,0.0,0.4966
+strategy,organic timing + structure,0.3,0.2585,0.8,150,300.0,400,400,full,reuse,naive only,2,0.9823,0.56,0.9809
+strategy,organic timing + structure,0.3,0.2585,0.8,150,300.0,400,400,full,all,naive only,2,0.9515,0.185,0.9299
+strategy,organic timing + structure,0.3,0.26,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.5946,0.0525,0.5875
+strategy,organic timing + structure,0.3,0.26,0.8,150,300.0,400,400,full,shape,same strategy (CV),3,0.7004,0.0225,0.6517
+strategy,organic timing + structure,0.3,0.26,0.8,150,300.0,400,400,full,branching,same strategy (CV),3,0.8913,0.375,0.8977
+strategy,organic timing + structure,0.3,0.26,0.8,150,300.0,400,400,full,timing,same strategy (CV),3,0.6422,0.0325,0.6199
+strategy,organic timing + structure,0.3,0.26,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.9796,0.51,0.9708
+strategy,organic timing + structure,0.3,0.26,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.8988,0.3125,0.9002
+strategy,organic timing + structure,0.3,0.26,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.9954,0.885,0.9954
+strategy,organic timing + structure,0.3,0.26,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),3,0.7097,0.0325,0.6853
+strategy,organic timing + structure,0.3,0.26,0.8,150,300.0,400,400,20,reuse,same strategy (CV),3,0.7692,0.32,0.8127
+strategy,organic timing + structure,0.3,0.26,0.8,150,300.0,400,400,20,all,same strategy (CV),3,0.8536,0.2075,0.8601
+strategy,organic timing + structure,0.3,0.26,0.8,150,300.0,400,400,full,structure + timing,naive only,3,0.4363,0.0,0.4389
+strategy,organic timing + structure,0.3,0.26,0.8,150,300.0,400,400,full,reuse,naive only,3,0.9835,0.65,0.9783
+strategy,organic timing + structure,0.3,0.26,0.8,150,300.0,400,400,full,all,naive only,3,0.946,0.045,0.8957
+strategy,organic timing + structure,0.3,0.2558,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.5614,0.04,0.5603
+strategy,organic timing + structure,0.3,0.2558,0.8,150,300.0,400,400,full,shape,same strategy (CV),4,0.6737,0.0175,0.6396
+strategy,organic timing + structure,0.3,0.2558,0.8,150,300.0,400,400,full,branching,same strategy (CV),4,0.858,0.255,0.8552
+strategy,organic timing + structure,0.3,0.2558,0.8,150,300.0,400,400,full,timing,same strategy (CV),4,0.5935,0.0275,0.5959
+strategy,organic timing + structure,0.3,0.2558,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.9785,0.3125,0.9672
+strategy,organic timing + structure,0.3,0.2558,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.8796,0.275,0.8754
+strategy,organic timing + structure,0.3,0.2558,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.9957,0.9625,0.9964
+strategy,organic timing + structure,0.3,0.2558,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),4,0.7229,0.0675,0.6892
+strategy,organic timing + structure,0.3,0.2558,0.8,150,300.0,400,400,20,reuse,same strategy (CV),4,0.8037,0.3375,0.8446
+strategy,organic timing + structure,0.3,0.2558,0.8,150,300.0,400,400,20,all,same strategy (CV),4,0.8899,0.3875,0.8958
+strategy,organic timing + structure,0.3,0.2558,0.8,150,300.0,400,400,full,structure + timing,naive only,4,0.4708,0.0075,0.4645
+strategy,organic timing + structure,0.3,0.2558,0.8,150,300.0,400,400,full,reuse,naive only,4,0.9813,0.475,0.9774
+strategy,organic timing + structure,0.3,0.2558,0.8,150,300.0,400,400,full,all,naive only,4,0.9481,0.205,0.9279
+strategy,full mimic + rotation,0.1,0.095,0.8,5000,300.0,400,400,full,size only,same strategy (CV),0,0.5278,0.0075,0.5108
+strategy,full mimic + rotation,0.1,0.095,0.8,5000,300.0,400,400,full,shape,same strategy (CV),0,0.5415,0.015,0.5465
+strategy,full mimic + rotation,0.1,0.095,0.8,5000,300.0,400,400,full,branching,same strategy (CV),0,0.5857,0.12,0.626
+strategy,full mimic + rotation,0.1,0.095,0.8,5000,300.0,400,400,full,timing,same strategy (CV),0,0.4836,0.0025,0.4818
+strategy,full mimic + rotation,0.1,0.095,0.8,5000,300.0,400,400,full,reuse,same strategy (CV),0,0.5371,0.015,0.5353
+strategy,full mimic + rotation,0.1,0.095,0.8,5000,300.0,400,400,full,structure + timing,same strategy (CV),0,0.6362,0.0575,0.6435
+strategy,full mimic + rotation,0.1,0.095,0.8,5000,300.0,400,400,full,all,same strategy (CV),0,0.6592,0.0825,0.6603
+strategy,full mimic + rotation,0.1,0.095,0.8,5000,300.0,400,400,20,structure + timing,same strategy (CV),0,0.4737,0.0075,0.4867
+strategy,full mimic + rotation,0.1,0.095,0.8,5000,300.0,400,400,20,reuse,same strategy (CV),0,0.5178,0.0175,0.5279
+strategy,full mimic + rotation,0.1,0.095,0.8,5000,300.0,400,400,20,all,same strategy (CV),0,0.4973,0.0025,0.4996
+strategy,full mimic + rotation,0.1,0.095,0.8,5000,300.0,400,400,full,structure + timing,naive only,0,0.4877,0.0075,0.4896
+strategy,full mimic + rotation,0.1,0.095,0.8,5000,300.0,400,400,full,reuse,naive only,0,0.4513,0.0075,0.464
+strategy,full mimic + rotation,0.1,0.095,0.8,5000,300.0,400,400,full,all,naive only,0,0.4837,0.0,0.4809
+strategy,full mimic + rotation,0.1,0.0955,0.8,5000,300.0,400,400,full,size only,same strategy (CV),1,0.5681,0.015,0.5617
+strategy,full mimic + rotation,0.1,0.0955,0.8,5000,300.0,400,400,full,shape,same strategy (CV),1,0.5309,0.0475,0.5532
+strategy,full mimic + rotation,0.1,0.0955,0.8,5000,300.0,400,400,full,branching,same strategy (CV),1,0.5994,0.0225,0.5901
+strategy,full mimic + rotation,0.1,0.0955,0.8,5000,300.0,400,400,full,timing,same strategy (CV),1,0.5626,0.0025,0.5473
+strategy,full mimic + rotation,0.1,0.0955,0.8,5000,300.0,400,400,full,reuse,same strategy (CV),1,0.5403,0.0175,0.5442
+strategy,full mimic + rotation,0.1,0.0955,0.8,5000,300.0,400,400,full,structure + timing,same strategy (CV),1,0.6342,0.0225,0.622
+strategy,full mimic + rotation,0.1,0.0955,0.8,5000,300.0,400,400,full,all,same strategy (CV),1,0.6507,0.045,0.6465
+strategy,full mimic + rotation,0.1,0.0955,0.8,5000,300.0,400,400,20,structure + timing,same strategy (CV),1,0.5615,0.005,0.5425
+strategy,full mimic + rotation,0.1,0.0955,0.8,5000,300.0,400,400,20,reuse,same strategy (CV),1,0.4904,0.0025,0.4787
+strategy,full mimic + rotation,0.1,0.0955,0.8,5000,300.0,400,400,20,all,same strategy (CV),1,0.5453,0.005,0.5381
+strategy,full mimic + rotation,0.1,0.0955,0.8,5000,300.0,400,400,full,structure + timing,naive only,1,0.4384,0.0025,0.4718
+strategy,full mimic + rotation,0.1,0.0955,0.8,5000,300.0,400,400,full,reuse,naive only,1,0.4459,0.01,0.4601
+strategy,full mimic + rotation,0.1,0.0955,0.8,5000,300.0,400,400,full,all,naive only,1,0.421,0.01,0.4568
+strategy,full mimic + rotation,0.1,0.0937,0.8,5000,300.0,400,400,full,size only,same strategy (CV),2,0.5374,0.0175,0.5322
+strategy,full mimic + rotation,0.1,0.0937,0.8,5000,300.0,400,400,full,shape,same strategy (CV),2,0.569,0.0125,0.5616
+strategy,full mimic + rotation,0.1,0.0937,0.8,5000,300.0,400,400,full,branching,same strategy (CV),2,0.6519,0.015,0.6213
+strategy,full mimic + rotation,0.1,0.0937,0.8,5000,300.0,400,400,full,timing,same strategy (CV),2,0.5209,0.005,0.5316
+strategy,full mimic + rotation,0.1,0.0937,0.8,5000,300.0,400,400,full,reuse,same strategy (CV),2,0.5619,0.01,0.5601
+strategy,full mimic + rotation,0.1,0.0937,0.8,5000,300.0,400,400,full,structure + timing,same strategy (CV),2,0.6729,0.045,0.6678
+strategy,full mimic + rotation,0.1,0.0937,0.8,5000,300.0,400,400,full,all,same strategy (CV),2,0.6775,0.035,0.6698
+strategy,full mimic + rotation,0.1,0.0937,0.8,5000,300.0,400,400,20,structure + timing,same strategy (CV),2,0.5643,0.0075,0.5542
+strategy,full mimic + rotation,0.1,0.0937,0.8,5000,300.0,400,400,20,reuse,same strategy (CV),2,0.5332,0.015,0.5234
+strategy,full mimic + rotation,0.1,0.0937,0.8,5000,300.0,400,400,20,all,same strategy (CV),2,0.5598,0.0125,0.5504
+strategy,full mimic + rotation,0.1,0.0937,0.8,5000,300.0,400,400,full,structure + timing,naive only,2,0.4477,0.0075,0.4619
+strategy,full mimic + rotation,0.1,0.0937,0.8,5000,300.0,400,400,full,reuse,naive only,2,0.4738,0.005,0.4738
+strategy,full mimic + rotation,0.1,0.0937,0.8,5000,300.0,400,400,full,all,naive only,2,0.4337,0.01,0.4583
+strategy,full mimic + rotation,0.1,0.0938,0.8,5000,300.0,400,400,full,size only,same strategy (CV),3,0.5117,0.005,0.4953
+strategy,full mimic + rotation,0.1,0.0938,0.8,5000,300.0,400,400,full,shape,same strategy (CV),3,0.46,0.0025,0.4537
+strategy,full mimic + rotation,0.1,0.0938,0.8,5000,300.0,400,400,full,branching,same strategy (CV),3,0.6213,0.03,0.6348
+strategy,full mimic + rotation,0.1,0.0938,0.8,5000,300.0,400,400,full,timing,same strategy (CV),3,0.5262,0.0075,0.5093
+strategy,full mimic + rotation,0.1,0.0938,0.8,5000,300.0,400,400,full,reuse,same strategy (CV),3,0.5406,0.01,0.5357
+strategy,full mimic + rotation,0.1,0.0938,0.8,5000,300.0,400,400,full,structure + timing,same strategy (CV),3,0.6155,0.01,0.5975
+strategy,full mimic + rotation,0.1,0.0938,0.8,5000,300.0,400,400,full,all,same strategy (CV),3,0.6235,0.0125,0.6042
+strategy,full mimic + rotation,0.1,0.0938,0.8,5000,300.0,400,400,20,structure + timing,same strategy (CV),3,0.5575,0.03,0.5481
+strategy,full mimic + rotation,0.1,0.0938,0.8,5000,300.0,400,400,20,reuse,same strategy (CV),3,0.5303,0.01,0.5094
+strategy,full mimic + rotation,0.1,0.0938,0.8,5000,300.0,400,400,20,all,same strategy (CV),3,0.5598,0.0225,0.5507
+strategy,full mimic + rotation,0.1,0.0938,0.8,5000,300.0,400,400,full,structure + timing,naive only,3,0.4525,0.01,0.4861
+strategy,full mimic + rotation,0.1,0.0938,0.8,5000,300.0,400,400,full,reuse,naive only,3,0.4332,0.0025,0.4446
+strategy,full mimic + rotation,0.1,0.0938,0.8,5000,300.0,400,400,full,all,naive only,3,0.4139,0.0,0.4437
+strategy,full mimic + rotation,0.1,0.0949,0.8,5000,300.0,400,400,full,size only,same strategy (CV),4,0.4909,0.0075,0.4815
+strategy,full mimic + rotation,0.1,0.0949,0.8,5000,300.0,400,400,full,shape,same strategy (CV),4,0.5185,0.0175,0.5192
+strategy,full mimic + rotation,0.1,0.0949,0.8,5000,300.0,400,400,full,branching,same strategy (CV),4,0.5955,0.0125,0.5785
+strategy,full mimic + rotation,0.1,0.0949,0.8,5000,300.0,400,400,full,timing,same strategy (CV),4,0.5212,0.0125,0.5121
+strategy,full mimic + rotation,0.1,0.0949,0.8,5000,300.0,400,400,full,reuse,same strategy (CV),4,0.5194,0.005,0.508
+strategy,full mimic + rotation,0.1,0.0949,0.8,5000,300.0,400,400,full,structure + timing,same strategy (CV),4,0.6482,0.03,0.6153
+strategy,full mimic + rotation,0.1,0.0949,0.8,5000,300.0,400,400,full,all,same strategy (CV),4,0.6531,0.045,0.6182
+strategy,full mimic + rotation,0.1,0.0949,0.8,5000,300.0,400,400,20,structure + timing,same strategy (CV),4,0.54,0.005,0.5219
+strategy,full mimic + rotation,0.1,0.0949,0.8,5000,300.0,400,400,20,reuse,same strategy (CV),4,0.4867,0.005,0.495
+strategy,full mimic + rotation,0.1,0.0949,0.8,5000,300.0,400,400,20,all,same strategy (CV),4,0.5265,0.01,0.5123
+strategy,full mimic + rotation,0.1,0.0949,0.8,5000,300.0,400,400,full,structure + timing,naive only,4,0.4497,0.005,0.4575
+strategy,full mimic + rotation,0.1,0.0949,0.8,5000,300.0,400,400,full,reuse,naive only,4,0.467,0.025,0.4842
+strategy,full mimic + rotation,0.1,0.0949,0.8,5000,300.0,400,400,full,all,naive only,4,0.4313,0.005,0.4505
+strategy,full mimic + rotation,0.3,0.2575,0.8,5000,300.0,400,400,full,size only,same strategy (CV),0,0.6533,0.035,0.6317
+strategy,full mimic + rotation,0.3,0.2575,0.8,5000,300.0,400,400,full,shape,same strategy (CV),0,0.744,0.045,0.7193
+strategy,full mimic + rotation,0.3,0.2575,0.8,5000,300.0,400,400,full,branching,same strategy (CV),0,0.8698,0.4125,0.883
+strategy,full mimic + rotation,0.3,0.2575,0.8,5000,300.0,400,400,full,timing,same strategy (CV),0,0.6136,0.0375,0.6175
+strategy,full mimic + rotation,0.3,0.2575,0.8,5000,300.0,400,400,full,reuse,same strategy (CV),0,0.7491,0.1875,0.7674
+strategy,full mimic + rotation,0.3,0.2575,0.8,5000,300.0,400,400,full,structure + timing,same strategy (CV),0,0.8978,0.4325,0.9049
+strategy,full mimic + rotation,0.3,0.2575,0.8,5000,300.0,400,400,full,all,same strategy (CV),0,0.9101,0.5725,0.9174
+strategy,full mimic + rotation,0.3,0.2575,0.8,5000,300.0,400,400,20,structure + timing,same strategy (CV),0,0.6946,0.0375,0.6676
+strategy,full mimic + rotation,0.3,0.2575,0.8,5000,300.0,400,400,20,reuse,same strategy (CV),0,0.567,0.0175,0.5386
+strategy,full mimic + rotation,0.3,0.2575,0.8,5000,300.0,400,400,20,all,same strategy (CV),0,0.7057,0.04,0.6801
+strategy,full mimic + rotation,0.3,0.2575,0.8,5000,300.0,400,400,full,structure + timing,naive only,0,0.5632,0.005,0.5174
+strategy,full mimic + rotation,0.3,0.2575,0.8,5000,300.0,400,400,full,reuse,naive only,0,0.3789,0.0025,0.4137
+strategy,full mimic + rotation,0.3,0.2575,0.8,5000,300.0,400,400,full,all,naive only,0,0.4948,0.0025,0.4796
+strategy,full mimic + rotation,0.3,0.261,0.8,5000,300.0,400,400,full,size only,same strategy (CV),1,0.6225,0.0225,0.6168
+strategy,full mimic + rotation,0.3,0.261,0.8,5000,300.0,400,400,full,shape,same strategy (CV),1,0.6673,0.075,0.6439
+strategy,full mimic + rotation,0.3,0.261,0.8,5000,300.0,400,400,full,branching,same strategy (CV),1,0.8558,0.275,0.8669
+strategy,full mimic + rotation,0.3,0.261,0.8,5000,300.0,400,400,full,timing,same strategy (CV),1,0.62,0.0125,0.6026
+strategy,full mimic + rotation,0.3,0.261,0.8,5000,300.0,400,400,full,reuse,same strategy (CV),1,0.7093,0.105,0.7114
+strategy,full mimic + rotation,0.3,0.261,0.8,5000,300.0,400,400,full,structure + timing,same strategy (CV),1,0.882,0.3625,0.8867
+strategy,full mimic + rotation,0.3,0.261,0.8,5000,300.0,400,400,full,all,same strategy (CV),1,0.9007,0.405,0.9045
+strategy,full mimic + rotation,0.3,0.261,0.8,5000,300.0,400,400,20,structure + timing,same strategy (CV),1,0.6785,0.0925,0.6613
+strategy,full mimic + rotation,0.3,0.261,0.8,5000,300.0,400,400,20,reuse,same strategy (CV),1,0.5863,0.0025,0.5571
+strategy,full mimic + rotation,0.3,0.261,0.8,5000,300.0,400,400,20,all,same strategy (CV),1,0.685,0.05,0.6723
+strategy,full mimic + rotation,0.3,0.261,0.8,5000,300.0,400,400,full,structure + timing,naive only,1,0.5378,0.01,0.509
+strategy,full mimic + rotation,0.3,0.261,0.8,5000,300.0,400,400,full,reuse,naive only,1,0.3809,0.005,0.4167
+strategy,full mimic + rotation,0.3,0.261,0.8,5000,300.0,400,400,full,all,naive only,1,0.5275,0.0025,0.5175
+strategy,full mimic + rotation,0.3,0.2571,0.8,5000,300.0,400,400,full,size only,same strategy (CV),2,0.6656,0.055,0.6553
+strategy,full mimic + rotation,0.3,0.2571,0.8,5000,300.0,400,400,full,shape,same strategy (CV),2,0.7505,0.065,0.7255
+strategy,full mimic + rotation,0.3,0.2571,0.8,5000,300.0,400,400,full,branching,same strategy (CV),2,0.9012,0.2775,0.9039
+strategy,full mimic + rotation,0.3,0.2571,0.8,5000,300.0,400,400,full,timing,same strategy (CV),2,0.6697,0.045,0.6466
+strategy,full mimic + rotation,0.3,0.2571,0.8,5000,300.0,400,400,full,reuse,same strategy (CV),2,0.728,0.105,0.7288
+strategy,full mimic + rotation,0.3,0.2571,0.8,5000,300.0,400,400,full,structure + timing,same strategy (CV),2,0.9113,0.345,0.9162
+strategy,full mimic + rotation,0.3,0.2571,0.8,5000,300.0,400,400,full,all,same strategy (CV),2,0.9271,0.5325,0.9312
+strategy,full mimic + rotation,0.3,0.2571,0.8,5000,300.0,400,400,20,structure + timing,same strategy (CV),2,0.7324,0.0325,0.6803
+strategy,full mimic + rotation,0.3,0.2571,0.8,5000,300.0,400,400,20,reuse,same strategy (CV),2,0.5901,0.03,0.585
+strategy,full mimic + rotation,0.3,0.2571,0.8,5000,300.0,400,400,20,all,same strategy (CV),2,0.7391,0.0375,0.697
+strategy,full mimic + rotation,0.3,0.2571,0.8,5000,300.0,400,400,full,structure + timing,naive only,2,0.5227,0.0025,0.4932
+strategy,full mimic + rotation,0.3,0.2571,0.8,5000,300.0,400,400,full,reuse,naive only,2,0.3709,0.0,0.4103
+strategy,full mimic + rotation,0.3,0.2571,0.8,5000,300.0,400,400,full,all,naive only,2,0.5387,0.0,0.5059
+strategy,full mimic + rotation,0.3,0.2565,0.8,5000,300.0,400,400,full,size only,same strategy (CV),3,0.5704,0.0325,0.5512
+strategy,full mimic + rotation,0.3,0.2565,0.8,5000,300.0,400,400,full,shape,same strategy (CV),3,0.6808,0.0175,0.623
+strategy,full mimic + rotation,0.3,0.2565,0.8,5000,300.0,400,400,full,branching,same strategy (CV),3,0.8812,0.2475,0.8707
+strategy,full mimic + rotation,0.3,0.2565,0.8,5000,300.0,400,400,full,timing,same strategy (CV),3,0.6441,0.0375,0.6337
+strategy,full mimic + rotation,0.3,0.2565,0.8,5000,300.0,400,400,full,reuse,same strategy (CV),3,0.7061,0.0625,0.7007
+strategy,full mimic + rotation,0.3,0.2565,0.8,5000,300.0,400,400,full,structure + timing,same strategy (CV),3,0.9001,0.2975,0.8953
+strategy,full mimic + rotation,0.3,0.2565,0.8,5000,300.0,400,400,full,all,same strategy (CV),3,0.9104,0.2625,0.9059
+strategy,full mimic + rotation,0.3,0.2565,0.8,5000,300.0,400,400,20,structure + timing,same strategy (CV),3,0.7354,0.0375,0.686
+strategy,full mimic + rotation,0.3,0.2565,0.8,5000,300.0,400,400,20,reuse,same strategy (CV),3,0.6061,0.035,0.5782
+strategy,full mimic + rotation,0.3,0.2565,0.8,5000,300.0,400,400,20,all,same strategy (CV),3,0.7392,0.0275,0.6929
+strategy,full mimic + rotation,0.3,0.2565,0.8,5000,300.0,400,400,full,structure + timing,naive only,3,0.4442,0.0025,0.4557
+strategy,full mimic + rotation,0.3,0.2565,0.8,5000,300.0,400,400,full,reuse,naive only,3,0.3647,0.0,0.4082
+strategy,full mimic + rotation,0.3,0.2565,0.8,5000,300.0,400,400,full,all,naive only,3,0.4429,0.0,0.4434
+strategy,full mimic + rotation,0.3,0.2619,0.8,5000,300.0,400,400,full,size only,same strategy (CV),4,0.5862,0.0225,0.5452
+strategy,full mimic + rotation,0.3,0.2619,0.8,5000,300.0,400,400,full,shape,same strategy (CV),4,0.6613,0.045,0.6334
+strategy,full mimic + rotation,0.3,0.2619,0.8,5000,300.0,400,400,full,branching,same strategy (CV),4,0.8692,0.215,0.8678
+strategy,full mimic + rotation,0.3,0.2619,0.8,5000,300.0,400,400,full,timing,same strategy (CV),4,0.64,0.02,0.6272
+strategy,full mimic + rotation,0.3,0.2619,0.8,5000,300.0,400,400,full,reuse,same strategy (CV),4,0.7209,0.075,0.702
+strategy,full mimic + rotation,0.3,0.2619,0.8,5000,300.0,400,400,full,structure + timing,same strategy (CV),4,0.8865,0.28,0.8859
+strategy,full mimic + rotation,0.3,0.2619,0.8,5000,300.0,400,400,full,all,same strategy (CV),4,0.912,0.4375,0.9185
+strategy,full mimic + rotation,0.3,0.2619,0.8,5000,300.0,400,400,20,structure + timing,same strategy (CV),4,0.701,0.035,0.6678
+strategy,full mimic + rotation,0.3,0.2619,0.8,5000,300.0,400,400,20,reuse,same strategy (CV),4,0.5598,0.01,0.5328
+strategy,full mimic + rotation,0.3,0.2619,0.8,5000,300.0,400,400,20,all,same strategy (CV),4,0.7358,0.035,0.6997
+strategy,full mimic + rotation,0.3,0.2619,0.8,5000,300.0,400,400,full,structure + timing,naive only,4,0.4764,0.0075,0.4718
+strategy,full mimic + rotation,0.3,0.2619,0.8,5000,300.0,400,400,full,reuse,naive only,4,0.3411,0.0,0.398
+strategy,full mimic + rotation,0.3,0.2619,0.8,5000,300.0,400,400,full,all,naive only,4,0.4566,0.0,0.459
+strategy,control: embedded accounts,0.1,0.0989,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.4951,0.005,0.4908
+strategy,control: embedded accounts,0.1,0.0989,0.8,150,300.0,400,400,full,shape,same strategy (CV),0,0.5217,0.035,0.5345
+strategy,control: embedded accounts,0.1,0.0989,0.8,150,300.0,400,400,full,branching,same strategy (CV),0,0.4937,0.0125,0.5018
+strategy,control: embedded accounts,0.1,0.0989,0.8,150,300.0,400,400,full,timing,same strategy (CV),0,0.5018,0.01,0.4989
+strategy,control: embedded accounts,0.1,0.0989,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.8495,0.0575,0.8064
+strategy,control: embedded accounts,0.1,0.0989,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.5064,0.0,0.4949
+strategy,control: embedded accounts,0.1,0.0989,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.8538,0.15,0.8401
+strategy,control: embedded accounts,0.1,0.0989,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),0,0.5077,0.015,0.5167
+strategy,control: embedded accounts,0.1,0.0989,0.8,150,300.0,400,400,20,reuse,same strategy (CV),0,0.7163,0.0825,0.7265
+strategy,control: embedded accounts,0.1,0.0989,0.8,150,300.0,400,400,20,all,same strategy (CV),0,0.7479,0.025,0.712
+strategy,control: embedded accounts,0.1,0.0989,0.8,150,300.0,400,400,full,structure + timing,naive only,0,0.5332,0.015,0.5296
+strategy,control: embedded accounts,0.1,0.0989,0.8,150,300.0,400,400,full,reuse,naive only,0,0.8439,0.095,0.8103
+strategy,control: embedded accounts,0.1,0.0989,0.8,150,300.0,400,400,full,all,naive only,0,0.7386,0.0475,0.7116
+strategy,control: embedded accounts,0.1,0.0995,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.5325,0.0,0.5269
+strategy,control: embedded accounts,0.1,0.0995,0.8,150,300.0,400,400,full,shape,same strategy (CV),1,0.5065,0.015,0.5091
+strategy,control: embedded accounts,0.1,0.0995,0.8,150,300.0,400,400,full,branching,same strategy (CV),1,0.4624,0.0025,0.4665
+strategy,control: embedded accounts,0.1,0.0995,0.8,150,300.0,400,400,full,timing,same strategy (CV),1,0.4966,0.025,0.5026
+strategy,control: embedded accounts,0.1,0.0995,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.8234,0.1,0.785
+strategy,control: embedded accounts,0.1,0.0995,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.541,0.015,0.535
+strategy,control: embedded accounts,0.1,0.0995,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.843,0.15,0.8263
+strategy,control: embedded accounts,0.1,0.0995,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),1,0.5132,0.02,0.5164
+strategy,control: embedded accounts,0.1,0.0995,0.8,150,300.0,400,400,20,reuse,same strategy (CV),1,0.7406,0.03,0.7057
+strategy,control: embedded accounts,0.1,0.0995,0.8,150,300.0,400,400,20,all,same strategy (CV),1,0.7557,0.0225,0.7173
+strategy,control: embedded accounts,0.1,0.0995,0.8,150,300.0,400,400,full,structure + timing,naive only,1,0.4795,0.005,0.4894
+strategy,control: embedded accounts,0.1,0.0995,0.8,150,300.0,400,400,full,reuse,naive only,1,0.8416,0.1275,0.8199
+strategy,control: embedded accounts,0.1,0.0995,0.8,150,300.0,400,400,full,all,naive only,1,0.6666,0.025,0.6476
+strategy,control: embedded accounts,0.1,0.0986,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.5625,0.015,0.5599
+strategy,control: embedded accounts,0.1,0.0986,0.8,150,300.0,400,400,full,shape,same strategy (CV),2,0.5024,0.005,0.5043
+strategy,control: embedded accounts,0.1,0.0986,0.8,150,300.0,400,400,full,branching,same strategy (CV),2,0.4969,0.0025,0.504
+strategy,control: embedded accounts,0.1,0.0986,0.8,150,300.0,400,400,full,timing,same strategy (CV),2,0.4995,0.0025,0.4971
+strategy,control: embedded accounts,0.1,0.0986,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.8414,0.09,0.8057
+strategy,control: embedded accounts,0.1,0.0986,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.4893,0.005,0.4943
+strategy,control: embedded accounts,0.1,0.0986,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.8494,0.115,0.8212
+strategy,control: embedded accounts,0.1,0.0986,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),2,0.4742,0.0125,0.4933
+strategy,control: embedded accounts,0.1,0.0986,0.8,150,300.0,400,400,20,reuse,same strategy (CV),2,0.7595,0.075,0.7516
+strategy,control: embedded accounts,0.1,0.0986,0.8,150,300.0,400,400,20,all,same strategy (CV),2,0.7706,0.0975,0.7499
+strategy,control: embedded accounts,0.1,0.0986,0.8,150,300.0,400,400,full,structure + timing,naive only,2,0.4674,0.0075,0.4767
+strategy,control: embedded accounts,0.1,0.0986,0.8,150,300.0,400,400,full,reuse,naive only,2,0.8642,0.135,0.8343
+strategy,control: embedded accounts,0.1,0.0986,0.8,150,300.0,400,400,full,all,naive only,2,0.6785,0.06,0.6631
+strategy,control: embedded accounts,0.1,0.0993,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.4906,0.005,0.4889
+strategy,control: embedded accounts,0.1,0.0993,0.8,150,300.0,400,400,full,shape,same strategy (CV),3,0.4887,0.015,0.4919
+strategy,control: embedded accounts,0.1,0.0993,0.8,150,300.0,400,400,full,branching,same strategy (CV),3,0.4809,0.005,0.4888
+strategy,control: embedded accounts,0.1,0.0993,0.8,150,300.0,400,400,full,timing,same strategy (CV),3,0.519,0.0025,0.5104
+strategy,control: embedded accounts,0.1,0.0993,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.8154,0.06,0.7768
+strategy,control: embedded accounts,0.1,0.0993,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.5014,0.01,0.5054
+strategy,control: embedded accounts,0.1,0.0993,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.8309,0.1025,0.8061
+strategy,control: embedded accounts,0.1,0.0993,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),3,0.4824,0.0075,0.4828
+strategy,control: embedded accounts,0.1,0.0993,0.8,150,300.0,400,400,20,reuse,same strategy (CV),3,0.736,0.045,0.7204
+strategy,control: embedded accounts,0.1,0.0993,0.8,150,300.0,400,400,20,all,same strategy (CV),3,0.7272,0.04,0.7092
+strategy,control: embedded accounts,0.1,0.0993,0.8,150,300.0,400,400,full,structure + timing,naive only,3,0.4831,0.01,0.5035
+strategy,control: embedded accounts,0.1,0.0993,0.8,150,300.0,400,400,full,reuse,naive only,3,0.8191,0.0725,0.7831
+strategy,control: embedded accounts,0.1,0.0993,0.8,150,300.0,400,400,full,all,naive only,3,0.6924,0.0225,0.6682
+strategy,control: embedded accounts,0.1,0.1003,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.49,0.0075,0.4908
+strategy,control: embedded accounts,0.1,0.1003,0.8,150,300.0,400,400,full,shape,same strategy (CV),4,0.4545,0.0025,0.4602
+strategy,control: embedded accounts,0.1,0.1003,0.8,150,300.0,400,400,full,branching,same strategy (CV),4,0.4672,0.015,0.4814
+strategy,control: embedded accounts,0.1,0.1003,0.8,150,300.0,400,400,full,timing,same strategy (CV),4,0.5017,0.0225,0.5237
+strategy,control: embedded accounts,0.1,0.1003,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.8542,0.185,0.8369
+strategy,control: embedded accounts,0.1,0.1003,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.4587,0.0025,0.4683
+strategy,control: embedded accounts,0.1,0.1003,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.8382,0.07,0.7931
+strategy,control: embedded accounts,0.1,0.1003,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),4,0.4526,0.0225,0.4733
+strategy,control: embedded accounts,0.1,0.1003,0.8,150,300.0,400,400,20,reuse,same strategy (CV),4,0.7521,0.06,0.7373
+strategy,control: embedded accounts,0.1,0.1003,0.8,150,300.0,400,400,20,all,same strategy (CV),4,0.7445,0.0725,0.725
+strategy,control: embedded accounts,0.1,0.1003,0.8,150,300.0,400,400,full,structure + timing,naive only,4,0.4742,0.005,0.4725
+strategy,control: embedded accounts,0.1,0.1003,0.8,150,300.0,400,400,full,reuse,naive only,4,0.8514,0.0925,0.82
+strategy,control: embedded accounts,0.1,0.1003,0.8,150,300.0,400,400,full,all,naive only,4,0.6707,0.02,0.6309
+strategy,control: embedded accounts,0.3,0.2991,0.8,150,300.0,400,400,full,size only,same strategy (CV),0,0.5014,0.015,0.5057
+strategy,control: embedded accounts,0.3,0.2991,0.8,150,300.0,400,400,full,shape,same strategy (CV),0,0.5772,0.02,0.5618
+strategy,control: embedded accounts,0.3,0.2991,0.8,150,300.0,400,400,full,branching,same strategy (CV),0,0.5233,0.0125,0.5202
+strategy,control: embedded accounts,0.3,0.2991,0.8,150,300.0,400,400,full,timing,same strategy (CV),0,0.5331,0.005,0.5241
+strategy,control: embedded accounts,0.3,0.2991,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.9898,0.865,0.9897
+strategy,control: embedded accounts,0.3,0.2991,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),0,0.5538,0.005,0.544
+strategy,control: embedded accounts,0.3,0.2991,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.9903,0.8275,0.9854
+strategy,control: embedded accounts,0.3,0.2991,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),0,0.5154,0.0275,0.5255
+strategy,control: embedded accounts,0.3,0.2991,0.8,150,300.0,400,400,20,reuse,same strategy (CV),0,0.9158,0.605,0.931
+strategy,control: embedded accounts,0.3,0.2991,0.8,150,300.0,400,400,20,all,same strategy (CV),0,0.9322,0.355,0.9307
+strategy,control: embedded accounts,0.3,0.2991,0.8,150,300.0,400,400,full,structure + timing,naive only,0,0.5612,0.0175,0.5474
+strategy,control: embedded accounts,0.3,0.2991,0.8,150,300.0,400,400,full,reuse,naive only,0,0.9921,0.8475,0.9918
+strategy,control: embedded accounts,0.3,0.2991,0.8,150,300.0,400,400,full,all,naive only,0,0.9726,0.5425,0.9676
+strategy,control: embedded accounts,0.3,0.2997,0.8,150,300.0,400,400,full,size only,same strategy (CV),1,0.5506,0.0075,0.5287
+strategy,control: embedded accounts,0.3,0.2997,0.8,150,300.0,400,400,full,shape,same strategy (CV),1,0.5687,0.015,0.5384
+strategy,control: embedded accounts,0.3,0.2997,0.8,150,300.0,400,400,full,branching,same strategy (CV),1,0.5333,0.01,0.5277
+strategy,control: embedded accounts,0.3,0.2997,0.8,150,300.0,400,400,full,timing,same strategy (CV),1,0.5343,0.0125,0.5172
+strategy,control: embedded accounts,0.3,0.2997,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.9909,0.8925,0.9844
+strategy,control: embedded accounts,0.3,0.2997,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),1,0.5617,0.0025,0.5287
+strategy,control: embedded accounts,0.3,0.2997,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.9948,0.8075,0.9944
+strategy,control: embedded accounts,0.3,0.2997,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),1,0.5458,0.0125,0.5403
+strategy,control: embedded accounts,0.3,0.2997,0.8,150,300.0,400,400,20,reuse,same strategy (CV),1,0.916,0.5325,0.9289
+strategy,control: embedded accounts,0.3,0.2997,0.8,150,300.0,400,400,20,all,same strategy (CV),1,0.9237,0.4625,0.9315
+strategy,control: embedded accounts,0.3,0.2997,0.8,150,300.0,400,400,full,structure + timing,naive only,1,0.4827,0.0225,0.4941
+strategy,control: embedded accounts,0.3,0.2997,0.8,150,300.0,400,400,full,reuse,naive only,1,0.9912,0.8675,0.9845
+strategy,control: embedded accounts,0.3,0.2997,0.8,150,300.0,400,400,full,all,naive only,1,0.9608,0.41,0.9487
+strategy,control: embedded accounts,0.3,0.3,0.8,150,300.0,400,400,full,size only,same strategy (CV),2,0.4998,0.02,0.5248
+strategy,control: embedded accounts,0.3,0.3,0.8,150,300.0,400,400,full,shape,same strategy (CV),2,0.4779,0.0075,0.4804
+strategy,control: embedded accounts,0.3,0.3,0.8,150,300.0,400,400,full,branching,same strategy (CV),2,0.5014,0.0075,0.4969
+strategy,control: embedded accounts,0.3,0.3,0.8,150,300.0,400,400,full,timing,same strategy (CV),2,0.5306,0.0025,0.5205
+strategy,control: embedded accounts,0.3,0.3,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.9931,0.885,0.9931
+strategy,control: embedded accounts,0.3,0.3,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),2,0.5017,0.0025,0.5034
+strategy,control: embedded accounts,0.3,0.3,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.9935,0.73,0.9928
+strategy,control: embedded accounts,0.3,0.3,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),2,0.4983,0.015,0.51
+strategy,control: embedded accounts,0.3,0.3,0.8,150,300.0,400,400,20,reuse,same strategy (CV),2,0.9329,0.3875,0.9371
+strategy,control: embedded accounts,0.3,0.3,0.8,150,300.0,400,400,20,all,same strategy (CV),2,0.9436,0.615,0.9512
+strategy,control: embedded accounts,0.3,0.3,0.8,150,300.0,400,400,full,structure + timing,naive only,2,0.5248,0.005,0.5097
+strategy,control: embedded accounts,0.3,0.3,0.8,150,300.0,400,400,full,reuse,naive only,2,0.9898,0.8425,0.9883
+strategy,control: embedded accounts,0.3,0.3,0.8,150,300.0,400,400,full,all,naive only,2,0.9761,0.59,0.9731
+strategy,control: embedded accounts,0.3,0.2983,0.8,150,300.0,400,400,full,size only,same strategy (CV),3,0.49,0.015,0.4837
+strategy,control: embedded accounts,0.3,0.2983,0.8,150,300.0,400,400,full,shape,same strategy (CV),3,0.5281,0.0175,0.5291
+strategy,control: embedded accounts,0.3,0.2983,0.8,150,300.0,400,400,full,branching,same strategy (CV),3,0.5015,0.005,0.4982
+strategy,control: embedded accounts,0.3,0.2983,0.8,150,300.0,400,400,full,timing,same strategy (CV),3,0.547,0.0075,0.5298
+strategy,control: embedded accounts,0.3,0.2983,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.9846,0.62,0.9775
+strategy,control: embedded accounts,0.3,0.2983,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),3,0.495,0.0075,0.4994
+strategy,control: embedded accounts,0.3,0.2983,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.9895,0.745,0.9866
+strategy,control: embedded accounts,0.3,0.2983,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),3,0.5083,0.0125,0.5044
+strategy,control: embedded accounts,0.3,0.2983,0.8,150,300.0,400,400,20,reuse,same strategy (CV),3,0.9159,0.535,0.93
+strategy,control: embedded accounts,0.3,0.2983,0.8,150,300.0,400,400,20,all,same strategy (CV),3,0.9189,0.4975,0.9227
+strategy,control: embedded accounts,0.3,0.2983,0.8,150,300.0,400,400,full,structure + timing,naive only,3,0.4797,0.015,0.5034
+strategy,control: embedded accounts,0.3,0.2983,0.8,150,300.0,400,400,full,reuse,naive only,3,0.9871,0.5725,0.9804
+strategy,control: embedded accounts,0.3,0.2983,0.8,150,300.0,400,400,full,all,naive only,3,0.9687,0.435,0.9585
+strategy,control: embedded accounts,0.3,0.2998,0.8,150,300.0,400,400,full,size only,same strategy (CV),4,0.3817,0.0075,0.4234
+strategy,control: embedded accounts,0.3,0.2998,0.8,150,300.0,400,400,full,shape,same strategy (CV),4,0.4905,0.0075,0.5042
+strategy,control: embedded accounts,0.3,0.2998,0.8,150,300.0,400,400,full,branching,same strategy (CV),4,0.4897,0.0,0.4895
+strategy,control: embedded accounts,0.3,0.2998,0.8,150,300.0,400,400,full,timing,same strategy (CV),4,0.4594,0.01,0.4801
+strategy,control: embedded accounts,0.3,0.2998,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.9856,0.3425,0.9712
+strategy,control: embedded accounts,0.3,0.2998,0.8,150,300.0,400,400,full,structure + timing,same strategy (CV),4,0.4712,0.015,0.477
+strategy,control: embedded accounts,0.3,0.2998,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.9915,0.79,0.988
+strategy,control: embedded accounts,0.3,0.2998,0.8,150,300.0,400,400,20,structure + timing,same strategy (CV),4,0.5187,0.0175,0.5252
+strategy,control: embedded accounts,0.3,0.2998,0.8,150,300.0,400,400,20,reuse,same strategy (CV),4,0.933,0.7,0.9515
+strategy,control: embedded accounts,0.3,0.2998,0.8,150,300.0,400,400,20,all,same strategy (CV),4,0.94,0.705,0.9401
+strategy,control: embedded accounts,0.3,0.2998,0.8,150,300.0,400,400,full,structure + timing,naive only,4,0.483,0.0125,0.4897
+strategy,control: embedded accounts,0.3,0.2998,0.8,150,300.0,400,400,full,reuse,naive only,4,0.991,0.875,0.9881
+strategy,control: embedded accounts,0.3,0.2998,0.8,150,300.0,400,400,full,all,naive only,4,0.9678,0.3525,0.9538
+pool,full mimic + rotation,0.2,0.1804,0.8,50,300.0,400,400,full,reuse,same strategy (CV),0,0.9643,0.3775,0.9556
+pool,full mimic + rotation,0.2,0.1804,0.8,50,300.0,400,400,full,all,same strategy (CV),0,0.9779,0.7475,0.9792
+pool,full mimic + rotation,0.2,0.1796,0.8,50,300.0,400,400,full,reuse,same strategy (CV),1,0.9719,0.5875,0.9678
+pool,full mimic + rotation,0.2,0.1796,0.8,50,300.0,400,400,full,all,same strategy (CV),1,0.9741,0.64,0.9768
+pool,full mimic + rotation,0.2,0.18,0.8,50,300.0,400,400,full,reuse,same strategy (CV),2,0.963,0.5,0.9582
+pool,full mimic + rotation,0.2,0.18,0.8,50,300.0,400,400,full,all,same strategy (CV),2,0.9694,0.565,0.9698
+pool,full mimic + rotation,0.2,0.1793,0.8,50,300.0,400,400,full,reuse,same strategy (CV),3,0.9492,0.2475,0.9287
+pool,full mimic + rotation,0.2,0.1793,0.8,50,300.0,400,400,full,all,same strategy (CV),3,0.9738,0.6075,0.9743
+pool,full mimic + rotation,0.2,0.1826,0.8,50,300.0,400,400,full,reuse,same strategy (CV),4,0.9751,0.6075,0.9675
+pool,full mimic + rotation,0.2,0.1826,0.8,50,300.0,400,400,full,all,same strategy (CV),4,0.9743,0.6525,0.9765
+pool,full mimic + rotation,0.2,0.1836,0.8,150,300.0,400,400,full,reuse,same strategy (CV),0,0.7145,0.025,0.6966
+pool,full mimic + rotation,0.2,0.1836,0.8,150,300.0,400,400,full,all,same strategy (CV),0,0.8418,0.285,0.8511
+pool,full mimic + rotation,0.2,0.1823,0.8,150,300.0,400,400,full,reuse,same strategy (CV),1,0.7504,0.115,0.7659
+pool,full mimic + rotation,0.2,0.1823,0.8,150,300.0,400,400,full,all,same strategy (CV),1,0.8532,0.31,0.8636
+pool,full mimic + rotation,0.2,0.1796,0.8,150,300.0,400,400,full,reuse,same strategy (CV),2,0.7493,0.0775,0.7383
+pool,full mimic + rotation,0.2,0.1796,0.8,150,300.0,400,400,full,all,same strategy (CV),2,0.89,0.3625,0.8941
+pool,full mimic + rotation,0.2,0.1803,0.8,150,300.0,400,400,full,reuse,same strategy (CV),3,0.7464,0.085,0.7374
+pool,full mimic + rotation,0.2,0.1803,0.8,150,300.0,400,400,full,all,same strategy (CV),3,0.856,0.1875,0.8568
+pool,full mimic + rotation,0.2,0.1851,0.8,150,300.0,400,400,full,reuse,same strategy (CV),4,0.7203,0.155,0.7367
+pool,full mimic + rotation,0.2,0.1851,0.8,150,300.0,400,400,full,all,same strategy (CV),4,0.8082,0.19,0.8072
+pool,full mimic + rotation,0.2,0.1817,0.8,500,300.0,400,400,full,reuse,same strategy (CV),0,0.6776,0.0525,0.6869
+pool,full mimic + rotation,0.2,0.1817,0.8,500,300.0,400,400,full,all,same strategy (CV),0,0.8559,0.3475,0.8641
+pool,full mimic + rotation,0.2,0.1808,0.8,500,300.0,400,400,full,reuse,same strategy (CV),1,0.6484,0.0575,0.6444
+pool,full mimic + rotation,0.2,0.1808,0.8,500,300.0,400,400,full,all,same strategy (CV),1,0.7999,0.2025,0.806
+pool,full mimic + rotation,0.2,0.1838,0.8,500,300.0,400,400,full,reuse,same strategy (CV),2,0.6832,0.05,0.6728
+pool,full mimic + rotation,0.2,0.1838,0.8,500,300.0,400,400,full,all,same strategy (CV),2,0.8343,0.1925,0.8295
+pool,full mimic + rotation,0.2,0.182,0.8,500,300.0,400,400,full,reuse,same strategy (CV),3,0.6372,0.0325,0.6208
+pool,full mimic + rotation,0.2,0.182,0.8,500,300.0,400,400,full,all,same strategy (CV),3,0.7986,0.1175,0.7956
+pool,full mimic + rotation,0.2,0.1818,0.8,500,300.0,400,400,full,reuse,same strategy (CV),4,0.6494,0.0475,0.6263
+pool,full mimic + rotation,0.2,0.1818,0.8,500,300.0,400,400,full,all,same strategy (CV),4,0.8086,0.1875,0.8105
+pool,full mimic + rotation,0.2,0.1812,0.8,2000,300.0,400,400,full,reuse,same strategy (CV),0,0.6748,0.1,0.6877
+pool,full mimic + rotation,0.2,0.1812,0.8,2000,300.0,400,400,full,all,same strategy (CV),0,0.8279,0.2175,0.8342
+pool,full mimic + rotation,0.2,0.1799,0.8,2000,300.0,400,400,full,reuse,same strategy (CV),1,0.6342,0.0375,0.6184
+pool,full mimic + rotation,0.2,0.1799,0.8,2000,300.0,400,400,full,all,same strategy (CV),1,0.7972,0.1925,0.8033
+pool,full mimic + rotation,0.2,0.1827,0.8,2000,300.0,400,400,full,reuse,same strategy (CV),2,0.6615,0.0475,0.6518
+pool,full mimic + rotation,0.2,0.1827,0.8,2000,300.0,400,400,full,all,same strategy (CV),2,0.8455,0.1625,0.843
+pool,full mimic + rotation,0.2,0.1798,0.8,2000,300.0,400,400,full,reuse,same strategy (CV),3,0.67,0.015,0.6429
+pool,full mimic + rotation,0.2,0.1798,0.8,2000,300.0,400,400,full,all,same strategy (CV),3,0.8296,0.14,0.8229
+pool,full mimic + rotation,0.2,0.1806,0.8,2000,300.0,400,400,full,reuse,same strategy (CV),4,0.6122,0.04,0.5913
+pool,full mimic + rotation,0.2,0.1806,0.8,2000,300.0,400,400,full,all,same strategy (CV),4,0.804,0.205,0.8049
+pool,full mimic + rotation,0.2,0.1796,0.8,10000,300.0,400,400,full,reuse,same strategy (CV),1,0.632,0.0825,0.6438
+pool,full mimic + rotation,0.2,0.1796,0.8,10000,300.0,400,400,full,all,same strategy (CV),1,0.8082,0.225,0.8136
+pool,full mimic + rotation,0.2,0.18,0.8,10000,300.0,400,400,full,reuse,same strategy (CV),0,0.6561,0.095,0.6689
+pool,full mimic + rotation,0.2,0.18,0.8,10000,300.0,400,400,full,all,same strategy (CV),0,0.8451,0.32,0.8515
+pool,full mimic + rotation,0.2,0.1808,0.8,10000,300.0,400,400,full,reuse,same strategy (CV),2,0.6149,0.09,0.643
+pool,full mimic + rotation,0.2,0.1808,0.8,10000,300.0,400,400,full,all,same strategy (CV),2,0.8205,0.1125,0.8159
+pool,full mimic + rotation,0.2,0.179,0.8,10000,300.0,400,400,full,reuse,same strategy (CV),3,0.6504,0.0575,0.6482
+pool,full mimic + rotation,0.2,0.179,0.8,10000,300.0,400,400,full,all,same strategy (CV),3,0.8431,0.18,0.8372
+pool,full mimic + rotation,0.2,0.1822,0.8,10000,300.0,400,400,full,reuse,same strategy (CV),4,0.6665,0.0625,0.6628
+pool,full mimic + rotation,0.2,0.1822,0.8,10000,300.0,400,400,full,all,same strategy (CV),4,0.8218,0.1625,0.818
+start delay,naive,0.2,0.1788,0.8,150,300,400,400,full,structure + timing,same strategy (CV),0,0.964,0.5525,0.9642
+start delay,naive,0.2,0.1788,0.8,150,300,400,400,full,reuse,same strategy (CV),0,0.9596,0.2975,0.952
+start delay,naive,0.2,0.1788,0.8,150,300,400,400,full,all,same strategy (CV),0,0.9902,0.8425,0.9908
+start delay,naive,0.2,0.1788,0.8,150,300,400,400,20,structure + timing,same strategy (CV),0,0.963,0.66,0.9652
+start delay,naive,0.2,0.1788,0.8,150,300,400,400,20,reuse,same strategy (CV),0,0.9979,0.9875,0.9979
+start delay,naive,0.2,0.1788,0.8,150,300,400,400,20,all,same strategy (CV),0,0.9984,0.98,0.9983
+start delay,naive,0.2,0.1818,0.8,150,300,400,400,full,structure + timing,same strategy (CV),1,0.9683,0.505,0.9649
+start delay,naive,0.2,0.1818,0.8,150,300,400,400,full,reuse,same strategy (CV),1,0.9609,0.4625,0.9591
+start delay,naive,0.2,0.1818,0.8,150,300,400,400,full,all,same strategy (CV),1,0.9895,0.8425,0.9901
+start delay,naive,0.2,0.1818,0.8,150,300,400,400,20,structure + timing,same strategy (CV),1,0.9663,0.655,0.9681
+start delay,naive,0.2,0.1818,0.8,150,300,400,400,20,reuse,same strategy (CV),1,0.9977,0.95,0.9976
+start delay,naive,0.2,0.1818,0.8,150,300,400,400,20,all,same strategy (CV),1,0.9978,0.9525,0.9981
+start delay,naive,0.2,0.1794,0.8,150,300,400,400,full,structure + timing,same strategy (CV),2,0.9638,0.6275,0.9577
+start delay,naive,0.2,0.1794,0.8,150,300,400,400,full,reuse,same strategy (CV),2,0.9563,0.22,0.9427
+start delay,naive,0.2,0.1794,0.8,150,300,400,400,full,all,same strategy (CV),2,0.9905,0.8675,0.9908
+start delay,naive,0.2,0.1794,0.8,150,300,400,400,20,structure + timing,same strategy (CV),2,0.957,0.6,0.9604
+start delay,naive,0.2,0.1794,0.8,150,300,400,400,20,reuse,same strategy (CV),2,0.9992,0.9925,0.9991
+start delay,naive,0.2,0.1794,0.8,150,300,400,400,20,all,same strategy (CV),2,0.9993,0.9925,0.9994
+start delay,naive,0.2,0.1799,0.8,150,300,400,400,full,structure + timing,same strategy (CV),3,0.9642,0.6025,0.9661
+start delay,naive,0.2,0.1799,0.8,150,300,400,400,full,reuse,same strategy (CV),3,0.9312,0.1275,0.9006
+start delay,naive,0.2,0.1799,0.8,150,300,400,400,full,all,same strategy (CV),3,0.9864,0.815,0.9875
+start delay,naive,0.2,0.1799,0.8,150,300,400,400,20,structure + timing,same strategy (CV),3,0.9614,0.6325,0.9648
+start delay,naive,0.2,0.1799,0.8,150,300,400,400,20,reuse,same strategy (CV),3,0.9958,0.9725,0.9955
+start delay,naive,0.2,0.1799,0.8,150,300,400,400,20,all,same strategy (CV),3,0.997,0.9775,0.9979
+start delay,naive,0.2,0.1814,0.8,150,300,400,400,full,structure + timing,same strategy (CV),4,0.9602,0.4275,0.9546
+start delay,naive,0.2,0.1814,0.8,150,300,400,400,full,reuse,same strategy (CV),4,0.9498,0.26,0.9321
+start delay,naive,0.2,0.1814,0.8,150,300,400,400,full,all,same strategy (CV),4,0.9859,0.745,0.9818
+start delay,naive,0.2,0.1814,0.8,150,300,400,400,20,structure + timing,same strategy (CV),4,0.9572,0.5625,0.9587
+start delay,naive,0.2,0.1814,0.8,150,300,400,400,20,reuse,same strategy (CV),4,0.9982,0.9425,0.9981
+start delay,naive,0.2,0.1814,0.8,150,300,400,400,20,all,same strategy (CV),4,0.999,0.985,0.999
+start delay,naive,0.2,0.1788,0.8,150,3600,400,400,full,structure + timing,same strategy (CV),0,0.9186,0.485,0.9275
+start delay,naive,0.2,0.1788,0.8,150,3600,400,400,full,reuse,same strategy (CV),0,0.9596,0.2975,0.952
+start delay,naive,0.2,0.1788,0.8,150,3600,400,400,full,all,same strategy (CV),0,0.9822,0.765,0.9846
+start delay,naive,0.2,0.1788,0.8,150,3600,400,400,20,structure + timing,same strategy (CV),0,0.8343,0.335,0.8482
+start delay,naive,0.2,0.1788,0.8,150,3600,400,400,20,reuse,same strategy (CV),0,0.849,0.4875,0.8885
+start delay,naive,0.2,0.1788,0.8,150,3600,400,400,20,all,same strategy (CV),0,0.9196,0.6025,0.9283
+start delay,naive,0.2,0.1818,0.8,150,3600,400,400,full,structure + timing,same strategy (CV),1,0.9146,0.49,0.9263
+start delay,naive,0.2,0.1818,0.8,150,3600,400,400,full,reuse,same strategy (CV),1,0.9609,0.4625,0.9591
+start delay,naive,0.2,0.1818,0.8,150,3600,400,400,full,all,same strategy (CV),1,0.9801,0.6025,0.9803
+start delay,naive,0.2,0.1818,0.8,150,3600,400,400,20,structure + timing,same strategy (CV),1,0.8274,0.3075,0.8507
+start delay,naive,0.2,0.1818,0.8,150,3600,400,400,20,reuse,same strategy (CV),1,0.8966,0.64,0.9216
+start delay,naive,0.2,0.1818,0.8,150,3600,400,400,20,all,same strategy (CV),1,0.9233,0.665,0.9345
+start delay,naive,0.2,0.1794,0.8,150,3600,400,400,full,structure + timing,same strategy (CV),2,0.9004,0.36,0.9035
+start delay,naive,0.2,0.1794,0.8,150,3600,400,400,full,reuse,same strategy (CV),2,0.9563,0.22,0.9427
+start delay,naive,0.2,0.1794,0.8,150,3600,400,400,full,all,same strategy (CV),2,0.9825,0.685,0.982
+start delay,naive,0.2,0.1794,0.8,150,3600,400,400,20,structure + timing,same strategy (CV),2,0.8174,0.255,0.8217
+start delay,naive,0.2,0.1794,0.8,150,3600,400,400,20,reuse,same strategy (CV),2,0.8841,0.6675,0.9147
+start delay,naive,0.2,0.1794,0.8,150,3600,400,400,20,all,same strategy (CV),2,0.9328,0.6575,0.9421
+start delay,naive,0.2,0.1799,0.8,150,3600,400,400,full,structure + timing,same strategy (CV),3,0.9026,0.43,0.9096
+start delay,naive,0.2,0.1799,0.8,150,3600,400,400,full,reuse,same strategy (CV),3,0.9312,0.1275,0.9006
+start delay,naive,0.2,0.1799,0.8,150,3600,400,400,full,all,same strategy (CV),3,0.9739,0.745,0.9767
+start delay,naive,0.2,0.1799,0.8,150,3600,400,400,20,structure + timing,same strategy (CV),3,0.8224,0.32,0.8366
+start delay,naive,0.2,0.1799,0.8,150,3600,400,400,20,reuse,same strategy (CV),3,0.8552,0.465,0.8898
+start delay,naive,0.2,0.1799,0.8,150,3600,400,400,20,all,same strategy (CV),3,0.9265,0.56,0.9356
+start delay,naive,0.2,0.1814,0.8,150,3600,400,400,full,structure + timing,same strategy (CV),4,0.9068,0.405,0.9136
+start delay,naive,0.2,0.1814,0.8,150,3600,400,400,full,reuse,same strategy (CV),4,0.9498,0.26,0.9321
+start delay,naive,0.2,0.1814,0.8,150,3600,400,400,full,all,same strategy (CV),4,0.9792,0.715,0.9788
+start delay,naive,0.2,0.1814,0.8,150,3600,400,400,20,structure + timing,same strategy (CV),4,0.8253,0.27,0.8405
+start delay,naive,0.2,0.1814,0.8,150,3600,400,400,20,reuse,same strategy (CV),4,0.8593,0.585,0.8988
+start delay,naive,0.2,0.1814,0.8,150,3600,400,400,20,all,same strategy (CV),4,0.9249,0.6475,0.9354
+start delay,naive,0.2,0.1788,0.8,150,21600,400,400,full,structure + timing,same strategy (CV),0,0.9805,0.7825,0.9828
+start delay,naive,0.2,0.1788,0.8,150,21600,400,400,full,reuse,same strategy (CV),0,0.9596,0.2975,0.952
+start delay,naive,0.2,0.1788,0.8,150,21600,400,400,full,all,same strategy (CV),0,0.9942,0.91,0.9947
+start delay,naive,0.2,0.1788,0.8,150,21600,400,400,20,structure + timing,same strategy (CV),0,0.6708,0.135,0.6945
+start delay,naive,0.2,0.1788,0.8,150,21600,400,400,20,reuse,same strategy (CV),0,0.6637,0.1075,0.6882
+start delay,naive,0.2,0.1788,0.8,150,21600,400,400,20,all,same strategy (CV),0,0.6962,0.1875,0.7265
+start delay,naive,0.2,0.1818,0.8,150,21600,400,400,full,structure + timing,same strategy (CV),1,0.9823,0.76,0.9843
+start delay,naive,0.2,0.1818,0.8,150,21600,400,400,full,reuse,same strategy (CV),1,0.9609,0.4625,0.9591
+start delay,naive,0.2,0.1818,0.8,150,21600,400,400,full,all,same strategy (CV),1,0.9954,0.935,0.9958
+start delay,naive,0.2,0.1818,0.8,150,21600,400,400,20,structure + timing,same strategy (CV),1,0.6759,0.1575,0.7073
+start delay,naive,0.2,0.1818,0.8,150,21600,400,400,20,reuse,same strategy (CV),1,0.6985,0.14,0.7315
+start delay,naive,0.2,0.1818,0.8,150,21600,400,400,20,all,same strategy (CV),1,0.7039,0.275,0.7443
+start delay,naive,0.2,0.1794,0.8,150,21600,400,400,full,structure + timing,same strategy (CV),2,0.9802,0.755,0.9797
+start delay,naive,0.2,0.1794,0.8,150,21600,400,400,full,reuse,same strategy (CV),2,0.9563,0.22,0.9427
+start delay,naive,0.2,0.1794,0.8,150,21600,400,400,full,all,same strategy (CV),2,0.9952,0.9,0.9951
+start delay,naive,0.2,0.1794,0.8,150,21600,400,400,20,structure + timing,same strategy (CV),2,0.6762,0.1225,0.6922
+start delay,naive,0.2,0.1794,0.8,150,21600,400,400,20,reuse,same strategy (CV),2,0.705,0.1375,0.7065
+start delay,naive,0.2,0.1794,0.8,150,21600,400,400,20,all,same strategy (CV),2,0.7409,0.24,0.7648
+start delay,naive,0.2,0.1799,0.8,150,21600,400,400,full,structure + timing,same strategy (CV),3,0.9782,0.76,0.9804
+start delay,naive,0.2,0.1799,0.8,150,21600,400,400,full,reuse,same strategy (CV),3,0.9312,0.1275,0.9006
+start delay,naive,0.2,0.1799,0.8,150,21600,400,400,full,all,same strategy (CV),3,0.9918,0.89,0.9927
+start delay,naive,0.2,0.1799,0.8,150,21600,400,400,20,structure + timing,same strategy (CV),3,0.6467,0.13,0.6698
+start delay,naive,0.2,0.1799,0.8,150,21600,400,400,20,reuse,same strategy (CV),3,0.6171,0.05,0.6262
+start delay,naive,0.2,0.1799,0.8,150,21600,400,400,20,all,same strategy (CV),3,0.6954,0.1625,0.7212
+base rate,naive,0.1,0.094,0.8,150,300.0,200,200,full,structure + timing,same strategy (CV),0,0.9239,0.39,0.926
+base rate,naive,0.1,0.094,0.8,150,300.0,200,200,full,reuse,same strategy (CV),0,0.8432,0.15,0.8153
+base rate,naive,0.1,0.094,0.8,150,300.0,200,200,full,all,same strategy (CV),0,0.9542,0.47,0.9523
+start delay,naive,0.2,0.1814,0.8,150,21600,400,400,full,structure + timing,same strategy (CV),4,0.976,0.81,0.9784
+start delay,naive,0.2,0.1814,0.8,150,21600,400,400,full,reuse,same strategy (CV),4,0.9498,0.26,0.9321
+start delay,naive,0.2,0.1814,0.8,150,21600,400,400,full,all,same strategy (CV),4,0.9921,0.8825,0.9926
+start delay,naive,0.2,0.1814,0.8,150,21600,400,400,20,structure + timing,same strategy (CV),4,0.6894,0.13,0.7029
+start delay,naive,0.2,0.1814,0.8,150,21600,400,400,20,reuse,same strategy (CV),4,0.6675,0.1075,0.7198
+start delay,naive,0.2,0.1814,0.8,150,21600,400,400,20,all,same strategy (CV),4,0.7246,0.2575,0.7554
+base rate,naive,0.1,0.0956,0.8,150,300.0,200,200,full,structure + timing,same strategy (CV),1,0.8955,0.18,0.8854
+base rate,naive,0.1,0.0956,0.8,150,300.0,200,200,full,reuse,same strategy (CV),1,0.874,0.08,0.8471
+base rate,naive,0.1,0.0956,0.8,150,300.0,200,200,full,all,same strategy (CV),1,0.9431,0.46,0.9357
+base rate,organic timing + structure,0.1,0.0943,0.8,150,300.0,200,200,full,structure + timing,same strategy (CV),0,0.6518,0.03,0.6548
+base rate,organic timing + structure,0.1,0.0943,0.8,150,300.0,200,200,full,reuse,same strategy (CV),0,0.8489,0.07,0.8334
+base rate,organic timing + structure,0.1,0.0943,0.8,150,300.0,200,200,full,all,same strategy (CV),0,0.8491,0.215,0.8455
+base rate,naive,0.1,0.0942,0.8,150,300.0,200,200,full,structure + timing,same strategy (CV),2,0.8848,0.38,0.8829
+base rate,naive,0.1,0.0942,0.8,150,300.0,200,200,full,reuse,same strategy (CV),2,0.8555,0.065,0.8095
+base rate,naive,0.1,0.0942,0.8,150,300.0,200,200,full,all,same strategy (CV),2,0.9244,0.475,0.9222
+base rate,organic timing + structure,0.1,0.0935,0.8,150,300.0,200,200,full,structure + timing,same strategy (CV),1,0.6198,0.02,0.5979
+base rate,organic timing + structure,0.1,0.0935,0.8,150,300.0,200,200,full,reuse,same strategy (CV),1,0.8559,0.18,0.8491
+base rate,organic timing + structure,0.1,0.0935,0.8,150,300.0,200,200,full,all,same strategy (CV),1,0.8629,0.125,0.8363
+base rate,organic timing + structure,0.1,0.096,0.8,150,300.0,200,200,full,structure + timing,same strategy (CV),2,0.6527,0.025,0.6269
+base rate,organic timing + structure,0.1,0.096,0.8,150,300.0,200,200,full,reuse,same strategy (CV),2,0.8462,0.12,0.8008
+base rate,organic timing + structure,0.1,0.096,0.8,150,300.0,200,200,full,all,same strategy (CV),2,0.8497,0.15,0.8326

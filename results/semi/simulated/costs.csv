@@ -1,0 +1,71 @@
+dataset,strategy,pi,seed,amp_t90_min,amp_first_hour_share,accounts_per_campaign,cascades_per_account,first_hour_reshares_amplified,first_hour_reshares_organic
+simulated,naive,0.3,0,11.0,1.0,124.9,8.65,61.3,14.8
+simulated,naive,0.1,0,7.0,1.0,33.9,8.35,27.2,14.8
+simulated,random timing,0.3,0,11.2,1.0,124.9,8.65,61.3,14.8
+simulated,random timing,0.1,0,6.9,1.0,33.9,8.35,27.2,14.8
+simulated,organic timing,0.1,0,112.0,0.679,33.9,8.35,21.4,14.8
+simulated,organic timing,0.3,0,169.3,0.634,124.9,8.65,41.1,14.8
+simulated,organic timing + structure,0.1,0,453.8,0.172,33.9,8.35,15.2,14.8
+simulated,organic timing + structure,0.3,0,516.9,0.156,124.9,8.65,18.3,14.8
+simulated,full mimic + rotation,0.1,0,470.1,0.161,273.6,1.03,15.2,14.8
+simulated,full mimic + rotation,0.3,0,515.0,0.148,985.8,1.1,18.0,14.8
+simulated,control: embedded accounts,0.3,0,412.0,0.312,91.7,8.29,14.1,14.8
+simulated,control: embedded accounts,0.1,0,332.9,0.28,30.5,8.31,14.1,14.8
+simulated,empirical mimic + rotation,0.1,0,365.8,0.28,275.0,1.03,16.3,14.8
+simulated,empirical mimic + rotation,0.3,0,412.4,0.297,976.8,1.11,22.8,14.8
+simulated,naive,0.3,1,11.5,0.998,133.3,8.94,65.3,14.4
+simulated,naive,0.1,1,7.1,1.0,41.1,7.66,29.1,14.4
+simulated,random timing,0.3,1,11.4,0.998,133.3,8.94,65.3,14.4
+simulated,random timing,0.1,1,7.0,1.0,41.1,7.66,29.1,14.4
+simulated,organic timing,0.3,1,175.9,0.62,133.3,8.94,44.3,14.4
+simulated,organic timing,0.1,1,129.6,0.653,41.1,7.66,22.9,14.4
+simulated,organic timing + structure,0.1,1,454.1,0.169,41.1,7.66,15.8,14.4
+simulated,organic timing + structure,0.3,1,521.3,0.148,133.3,8.94,18.7,14.4
+simulated,full mimic + rotation,0.3,1,531.4,0.148,1082.5,1.12,18.7,14.4
+simulated,control: embedded accounts,0.3,1,413.0,0.306,105.8,8.0,14.7,14.4
+simulated,control: embedded accounts,0.1,1,356.6,0.316,37.0,7.65,14.7,14.4
+simulated,full mimic + rotation,0.1,1,451.3,0.16,304.8,1.03,15.9,14.4
+simulated,empirical mimic + rotation,0.1,1,370.2,0.295,305.6,1.03,17.1,14.4
+simulated,empirical mimic + rotation,0.3,1,414.4,0.302,1085.4,1.12,24.2,14.4
+simulated,naive,0.3,2,10.6,0.998,127.7,8.69,61.2,14.7
+simulated,naive,0.1,2,6.7,1.0,37.8,7.78,27.5,14.7
+simulated,random timing,0.1,2,6.6,1.0,37.8,7.78,27.5,14.7
+simulated,random timing,0.3,2,10.7,0.997,127.7,8.69,61.1,14.7
+simulated,organic timing,0.3,2,163.3,0.636,127.7,8.69,42.0,14.7
+simulated,organic timing,0.1,2,117.4,0.66,37.8,7.78,21.4,14.7
+simulated,organic timing + structure,0.3,2,523.9,0.159,127.7,8.69,17.9,14.7
+simulated,organic timing + structure,0.1,2,450.4,0.173,37.8,7.78,14.9,14.7
+simulated,full mimic + rotation,0.3,2,524.9,0.161,1020.5,1.11,17.8,14.7
+simulated,full mimic + rotation,0.1,2,396.3,0.181,285.7,1.03,14.9,14.7
+simulated,control: embedded accounts,0.1,2,303.0,0.328,34.1,7.75,13.7,14.7
+simulated,control: embedded accounts,0.3,2,398.3,0.313,99.0,7.98,13.7,14.7
+simulated,empirical mimic + rotation,0.1,2,320.5,0.297,287.1,1.02,16.1,14.7
+simulated,empirical mimic + rotation,0.3,2,390.6,0.312,1019.9,1.11,22.6,14.7
+simulated,naive,0.1,3,6.9,1.0,32.9,8.86,27.0,14.4
+simulated,naive,0.3,3,10.9,0.999,118.6,9.42,61.9,14.4
+simulated,random timing,0.1,3,6.8,1.0,32.9,8.86,27.0,14.4
+simulated,random timing,0.3,3,11.1,0.999,118.6,9.42,61.9,14.4
+simulated,organic timing,0.3,3,184.7,0.616,118.6,9.42,40.9,14.4
+simulated,organic timing,0.1,3,120.6,0.665,32.9,8.86,21.0,14.4
+simulated,organic timing + structure,0.3,3,544.1,0.149,118.6,9.42,17.3,14.4
+simulated,organic timing + structure,0.1,3,441.1,0.158,32.9,8.86,14.7,14.4
+simulated,full mimic + rotation,0.1,3,458.1,0.149,282.6,1.03,14.6,14.4
+simulated,full mimic + rotation,0.3,3,541.2,0.144,1012.7,1.11,17.4,14.4
+simulated,control: embedded accounts,0.1,3,338.9,0.3,29.8,8.82,13.5,14.4
+simulated,control: embedded accounts,0.3,3,402.9,0.285,87.9,8.95,13.5,14.4
+simulated,empirical mimic + rotation,0.1,3,352.5,0.294,284.0,1.03,15.7,14.4
+simulated,empirical mimic + rotation,0.3,3,430.9,0.304,1010.1,1.11,22.4,14.4
+simulated,naive,0.1,4,6.7,1.0,30.4,10.22,28.8,14.2
+simulated,naive,0.3,4,11.5,1.0,111.9,10.68,66.6,14.2
+simulated,random timing,0.1,4,6.9,1.0,30.4,10.22,28.8,14.2
+simulated,random timing,0.3,4,11.1,1.0,111.9,10.68,66.7,14.2
+simulated,organic timing,0.1,4,132.0,0.646,30.4,10.22,22.4,14.2
+simulated,organic timing,0.3,4,168.8,0.624,111.9,10.68,43.4,14.2
+simulated,organic timing + structure,0.3,4,582.3,0.14,111.9,10.68,18.1,14.2
+simulated,organic timing + structure,0.1,4,510.3,0.153,30.4,10.22,15.2,14.2
+simulated,full mimic + rotation,0.1,4,481.0,0.14,300.9,1.03,15.3,14.2
+simulated,full mimic + rotation,0.3,4,554.4,0.14,1073.0,1.12,18.3,14.2
+simulated,control: embedded accounts,0.1,4,374.0,0.273,27.3,10.26,14.2,14.2
+simulated,control: embedded accounts,0.3,4,460.6,0.273,81.8,10.28,14.2,14.2
+simulated,empirical mimic + rotation,0.1,4,442.2,0.286,301.6,1.03,16.4,14.2
+simulated,empirical mimic + rotation,0.3,4,434.7,0.289,1072.8,1.12,23.8,14.2

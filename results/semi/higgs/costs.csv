@@ -1,0 +1,71 @@
+dataset,strategy,pi,seed,amp_t90_min,amp_first_hour_share,accounts_per_campaign,cascades_per_account,first_hour_reshares_amplified,first_hour_reshares_organic
+higgs,naive,0.1,0,6.5,0.999,102.0,3.32,27.4,20.2
+higgs,naive,0.3,0,9.1,0.982,135.9,7.24,44.8,20.2
+higgs,random timing,0.1,0,6.5,0.999,102.0,3.32,27.5,20.2
+higgs,random timing,0.3,0,9.1,0.981,135.9,7.24,44.8,20.2
+higgs,organic timing,0.3,0,1038.9,0.344,135.9,7.24,26.5,20.2
+higgs,organic timing,0.1,0,513.4,0.383,102.0,3.32,21.0,20.2
+higgs,organic timing + structure,0.1,0,1139.1,0.182,102.0,3.32,18.9,20.2
+higgs,organic timing + structure,0.3,0,1621.0,0.162,135.9,7.24,21.0,20.2
+higgs,full mimic + rotation,0.3,0,1605.7,0.166,1198.9,1.13,21.4,20.2
+higgs,full mimic + rotation,0.1,0,1202.1,0.176,340.3,1.03,19.0,20.2
+higgs,control: embedded accounts,0.1,0,525.4,0.365,97.5,3.19,18.2,20.2
+higgs,control: embedded accounts,0.3,0,934.6,0.366,131.1,5.75,18.2,20.2
+higgs,empirical mimic + rotation,0.1,0,508.3,0.357,341.4,1.03,20.2,20.2
+higgs,empirical mimic + rotation,0.3,0,1024.6,0.342,1193.2,1.14,25.9,20.2
+higgs,naive,0.3,1,8.9,0.988,137.9,6.2,43.5,16.2
+higgs,naive,0.1,1,6.2,0.999,75.1,3.61,27.6,16.2
+higgs,random timing,0.1,1,6.2,0.999,75.1,3.61,27.6,16.2
+higgs,random timing,0.3,1,8.8,0.988,137.9,6.2,43.5,16.2
+higgs,organic timing,0.3,1,793.0,0.373,137.9,6.2,29.1,16.2
+higgs,organic timing + structure,0.3,1,1480.2,0.19,137.9,6.2,23.9,16.2
+higgs,organic timing,0.1,1,413.9,0.404,75.1,3.61,22.8,16.2
+higgs,organic timing + structure,0.1,1,1005.3,0.203,75.1,3.61,21.4,16.2
+higgs,full mimic + rotation,0.3,1,1443.8,0.186,983.6,1.11,23.8,16.2
+higgs,full mimic + rotation,0.1,1,963.5,0.175,271.8,1.03,21.4,16.2
+higgs,control: embedded accounts,0.3,1,662.8,0.414,121.3,5.29,20.5,16.2
+higgs,control: embedded accounts,0.1,1,445.5,0.396,71.9,3.49,20.5,16.2
+higgs,empirical mimic + rotation,0.3,1,781.8,0.364,980.0,1.11,29.1,16.2
+higgs,empirical mimic + rotation,0.1,1,447.8,0.411,271.0,1.04,22.7,16.2
+higgs,naive,0.3,2,8.8,0.991,149.2,6.07,42.4,20.1
+higgs,naive,0.1,2,6.1,1.0,71.3,3.81,25.7,20.1
+higgs,random timing,0.1,2,6.2,1.0,71.3,3.81,25.7,20.1
+higgs,random timing,0.3,2,8.7,0.992,149.2,6.07,42.5,20.1
+higgs,organic timing + structure,0.3,2,1402.2,0.184,149.2,6.07,20.6,20.1
+higgs,organic timing + structure,0.1,2,1121.0,0.179,71.3,3.81,18.5,20.1
+higgs,organic timing,0.1,2,419.8,0.355,71.3,3.81,20.0,20.1
+higgs,organic timing,0.3,2,846.3,0.339,149.2,6.07,24.7,20.1
+higgs,full mimic + rotation,0.1,2,1053.4,0.197,264.8,1.03,18.4,20.1
+higgs,full mimic + rotation,0.3,2,1531.4,0.167,963.8,1.1,20.8,20.1
+higgs,control: embedded accounts,0.1,2,428.1,0.417,65.4,3.75,17.7,20.1
+higgs,control: embedded accounts,0.3,2,749.7,0.385,140.0,4.84,17.7,20.1
+higgs,empirical mimic + rotation,0.1,2,528.9,0.358,265.6,1.03,20.0,20.1
+higgs,empirical mimic + rotation,0.3,2,808.7,0.35,960.4,1.1,25.0,20.1
+higgs,naive,0.1,3,6.0,0.998,80.2,3.73,28.1,17.7
+higgs,naive,0.3,3,9.0,0.984,122.9,7.28,44.5,17.7
+higgs,random timing,0.1,3,6.0,0.998,80.2,3.73,28.1,17.7
+higgs,random timing,0.3,3,8.9,0.984,122.9,7.28,44.5,17.7
+higgs,organic timing + structure,0.3,3,1611.4,0.193,122.9,7.28,23.9,17.7
+higgs,organic timing,0.3,3,809.0,0.365,122.9,7.28,29.2,17.7
+higgs,organic timing + structure,0.1,3,935.5,0.206,80.2,3.73,21.4,17.7
+higgs,organic timing,0.1,3,456.7,0.363,80.2,3.73,22.6,17.7
+higgs,full mimic + rotation,0.1,3,1021.8,0.195,302.7,1.03,21.3,17.7
+higgs,full mimic + rotation,0.3,3,1351.4,0.19,1056.9,1.15,23.8,17.7
+higgs,control: embedded accounts,0.1,3,333.0,0.39,76.6,3.59,20.4,17.7
+higgs,control: embedded accounts,0.3,3,766.6,0.398,113.1,5.99,20.4,17.7
+higgs,empirical mimic + rotation,0.3,3,798.7,0.366,1057.6,1.15,29.2,17.7
+higgs,empirical mimic + rotation,0.1,3,511.0,0.372,304.0,1.03,22.7,17.7
+higgs,naive,0.1,4,6.0,0.998,80.3,3.65,27.4,18.2
+higgs,naive,0.3,4,9.1,0.985,134.4,6.67,43.8,18.2
+higgs,random timing,0.3,4,9.0,0.985,134.4,6.67,43.9,18.2
+higgs,random timing,0.1,4,6.0,0.998,80.3,3.65,27.4,18.2
+higgs,organic timing + structure,0.3,4,1314.2,0.167,134.4,6.67,22.0,18.2
+higgs,organic timing,0.3,4,695.3,0.348,134.4,6.67,28.1,18.2
+higgs,organic timing + structure,0.1,4,890.8,0.177,80.3,3.65,19.7,18.2
+higgs,organic timing,0.1,4,403.2,0.385,80.3,3.65,21.3,18.2
+higgs,full mimic + rotation,0.3,4,1253.9,0.171,1055.6,1.11,22.0,18.2
+higgs,full mimic + rotation,0.1,4,799.8,0.193,293.6,1.04,19.8,18.2
+higgs,control: embedded accounts,0.3,4,619.4,0.396,125.2,5.48,18.9,18.2
+higgs,control: embedded accounts,0.1,4,359.4,0.396,76.8,3.49,18.9,18.2
+higgs,empirical mimic + rotation,0.3,4,728.7,0.364,1050.4,1.12,27.2,18.2
+higgs,empirical mimic + rotation,0.1,4,519.4,0.348,296.4,1.03,21.2,18.2

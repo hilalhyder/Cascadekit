@@ -1,0 +1,1136 @@
+dataset,exp,strategy,pi,pi_realized,n_org,n_amp,view,features,trained_on,seed,auroc,tpr_at_1pct_fpr,auprc
+higgs_w72,strategy,random timing,0.3,0.2799,400,400,full,size only,same strategy (CV),0,0.6365,0.0025,0.5615
+higgs_w72,strategy,random timing,0.3,0.2799,400,400,full,shape,same strategy (CV),0,0.7643,0.0225,0.694
+higgs_w72,strategy,random timing,0.3,0.2799,400,400,full,branching,same strategy (CV),0,0.7318,0.0025,0.6324
+higgs_w72,strategy,random timing,0.3,0.2799,400,400,full,timing,same strategy (CV),0,0.8986,0.2575,0.8981
+higgs_w72,strategy,random timing,0.3,0.2799,400,400,full,reuse,same strategy (CV),0,0.9984,0.9775,0.9984
+higgs_w72,strategy,random timing,0.3,0.2799,400,400,full,structure + timing,same strategy (CV),0,0.9303,0.2875,0.9231
+higgs_w72,strategy,random timing,0.3,0.2799,400,400,full,all,same strategy (CV),0,0.999,0.97,0.999
+higgs_w72,strategy,random timing,0.3,0.2799,400,400,20,structure + timing,same strategy (CV),0,0.9275,0.4875,0.9283
+higgs_w72,strategy,random timing,0.3,0.2799,400,400,20,reuse,same strategy (CV),0,0.9675,0.91,0.9784
+higgs_w72,strategy,random timing,0.3,0.2799,400,400,20,all,same strategy (CV),0,0.9948,0.9025,0.9949
+higgs_w72,strategy,random timing,0.3,0.2799,400,400,full,structure + timing,naive only,0,0.908,0.1425,0.8854
+higgs_w72,strategy,random timing,0.3,0.2799,400,400,full,reuse,naive only,0,0.9988,0.9725,0.9988
+higgs_w72,strategy,random timing,0.3,0.2799,400,400,full,all,naive only,0,0.9992,0.975,0.9992
+higgs_w72,strategy,organic timing + structure,0.3,0.2793,400,400,full,size only,same strategy (CV),0,0.6382,0.0025,0.5592
+higgs_w72,strategy,organic timing + structure,0.3,0.2793,400,400,full,shape,same strategy (CV),0,0.9753,0.41,0.9696
+higgs_w72,strategy,organic timing + structure,0.3,0.2793,400,400,full,branching,same strategy (CV),0,0.9943,0.925,0.9916
+higgs_w72,strategy,organic timing + structure,0.3,0.2793,400,400,full,timing,same strategy (CV),0,0.8598,0.2125,0.8443
+higgs_w72,strategy,organic timing + structure,0.3,0.2793,400,400,full,reuse,same strategy (CV),0,0.9986,0.985,0.9985
+higgs_w72,strategy,organic timing + structure,0.3,0.2793,400,400,full,structure + timing,same strategy (CV),0,0.9958,0.9475,0.9941
+higgs_w72,strategy,organic timing + structure,0.3,0.2793,400,400,full,all,same strategy (CV),0,0.9999,0.9975,0.9999
+higgs_w72,strategy,organic timing + structure,0.3,0.2793,400,400,20,structure + timing,same strategy (CV),0,0.9221,0.4675,0.9289
+higgs_w72,strategy,organic timing + structure,0.3,0.2793,400,400,20,reuse,same strategy (CV),0,0.8495,0.5075,0.8908
+higgs_w72,strategy,organic timing + structure,0.3,0.2793,400,400,20,all,same strategy (CV),0,0.9334,0.605,0.9428
+higgs_w72,strategy,organic timing + structure,0.3,0.2793,400,400,full,structure + timing,naive only,0,0.7959,0.0775,0.7799
+higgs_w72,strategy,organic timing + structure,0.3,0.2793,400,400,full,reuse,naive only,0,0.9987,0.985,0.9987
+higgs_w72,strategy,organic timing + structure,0.3,0.2793,400,400,full,all,naive only,0,0.9951,0.8,0.994
+higgs_w72,strategy,naive,0.3,0.2799,400,400,full,size only,same strategy (CV),0,0.6365,0.0025,0.5615
+higgs_w72,strategy,naive,0.3,0.2799,400,400,full,shape,same strategy (CV),0,0.7643,0.0225,0.694
+higgs_w72,strategy,naive,0.3,0.2799,400,400,full,branching,same strategy (CV),0,0.7318,0.0025,0.6324
+higgs_w72,strategy,naive,0.3,0.2799,400,400,full,timing,same strategy (CV),0,0.8788,0.1675,0.8619
+higgs_w72,strategy,naive,0.3,0.2799,400,400,full,reuse,same strategy (CV),0,0.9984,0.9775,0.9984
+higgs_w72,strategy,naive,0.3,0.2799,400,400,full,structure + timing,same strategy (CV),0,0.9185,0.2275,0.907
+higgs_w72,strategy,naive,0.3,0.2799,400,400,full,all,same strategy (CV),0,0.999,0.975,0.999
+higgs_w72,strategy,naive,0.3,0.2799,400,400,20,structure + timing,same strategy (CV),0,0.9227,0.54,0.9286
+higgs_w72,strategy,naive,0.3,0.2799,400,400,20,reuse,same strategy (CV),0,0.9658,0.9075,0.9776
+higgs_w72,strategy,naive,0.3,0.2799,400,400,20,all,same strategy (CV),0,0.9944,0.91,0.9945
+higgs_w72,strategy,naive,0.3,0.2799,400,400,full,structure + timing,naive only,0,0.926,0.31,0.919
+higgs_w72,strategy,naive,0.3,0.2799,400,400,full,reuse,naive only,0,0.9988,0.9725,0.9988
+higgs_w72,strategy,naive,0.3,0.2799,400,400,full,all,naive only,0,0.9992,0.975,0.9992
+higgs_w72,strategy,organic timing + structure,0.1,0.0948,400,400,full,size only,same strategy (CV),0,0.5546,0.0075,0.5312
+higgs_w72,strategy,organic timing + structure,0.1,0.0948,400,400,full,shape,same strategy (CV),0,0.8712,0.0625,0.8273
+higgs_w72,strategy,organic timing + structure,0.1,0.0948,400,400,full,branching,same strategy (CV),0,0.9303,0.15,0.9026
+higgs_w72,strategy,organic timing + structure,0.1,0.0948,400,400,full,timing,same strategy (CV),0,0.7647,0.03,0.7138
+higgs_w72,strategy,organic timing + structure,0.1,0.0948,400,400,full,reuse,same strategy (CV),0,0.9358,0.32,0.9228
+higgs_w72,strategy,organic timing + structure,0.1,0.0948,400,400,full,structure + timing,same strategy (CV),0,0.9422,0.3675,0.9338
+higgs_w72,strategy,organic timing + structure,0.1,0.0948,400,400,full,all,same strategy (CV),0,0.9639,0.5125,0.9582
+higgs_w72,strategy,organic timing + structure,0.1,0.0948,400,400,20,structure + timing,same strategy (CV),0,0.7906,0.085,0.7644
+higgs_w72,strategy,organic timing + structure,0.1,0.0948,400,400,20,reuse,same strategy (CV),0,0.7941,0.285,0.8229
+higgs_w72,strategy,organic timing + structure,0.1,0.0948,400,400,20,all,same strategy (CV),0,0.8524,0.2725,0.8585
+higgs_w72,strategy,organic timing + structure,0.1,0.0948,400,400,full,structure + timing,naive only,0,0.6168,0.03,0.6059
+higgs_w72,strategy,organic timing + structure,0.1,0.0948,400,400,full,reuse,naive only,0,0.9393,0.355,0.9316
+higgs_w72,strategy,organic timing + structure,0.1,0.0948,400,400,full,all,naive only,0,0.8765,0.145,0.843
+higgs_w72,strategy,organic timing,0.3,0.2765,400,400,full,size only,same strategy (CV),0,0.6301,0.0025,0.5504
+higgs_w72,strategy,organic timing,0.3,0.2765,400,400,full,shape,same strategy (CV),0,0.7883,0.035,0.7269
+higgs_w72,strategy,organic timing,0.3,0.2765,400,400,full,branching,same strategy (CV),0,0.7733,0.0375,0.7158
+higgs_w72,strategy,organic timing,0.3,0.2765,400,400,full,timing,same strategy (CV),0,0.7711,0.0775,0.7539
+higgs_w72,strategy,organic timing,0.3,0.2765,400,400,full,reuse,same strategy (CV),0,0.9985,0.9625,0.9985
+higgs_w72,strategy,organic timing,0.3,0.2765,400,400,full,structure + timing,same strategy (CV),0,0.8474,0.095,0.8086
+higgs_w72,strategy,organic timing,0.3,0.2765,400,400,full,all,same strategy (CV),0,0.9986,0.965,0.9986
+higgs_w72,strategy,organic timing,0.3,0.2765,400,400,20,structure + timing,same strategy (CV),0,0.7692,0.0175,0.6931
+higgs_w72,strategy,organic timing,0.3,0.2765,400,400,20,reuse,same strategy (CV),0,0.9732,0.77,0.9755
+higgs_w72,strategy,organic timing,0.3,0.2765,400,400,20,all,same strategy (CV),0,0.9807,0.7925,0.9827
+higgs_w72,strategy,organic timing,0.3,0.2765,400,400,full,structure + timing,naive only,0,0.7313,0.03,0.6904
+higgs_w72,strategy,organic timing,0.3,0.2765,400,400,full,reuse,naive only,0,0.9976,0.965,0.9978
+higgs_w72,strategy,organic timing,0.3,0.2765,400,400,full,all,naive only,0,0.9961,0.9325,0.9954
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,size only,same strategy (CV),0,0.5627,0.0025,0.5234
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,shape,same strategy (CV),0,0.5501,0.0025,0.5066
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,branching,same strategy (CV),0,0.5326,0.0,0.4972
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,timing,same strategy (CV),0,0.7611,0.0625,0.724
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,reuse,same strategy (CV),0,0.9364,0.2925,0.9188
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,structure + timing,same strategy (CV),0,0.7673,0.04,0.7158
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,all,same strategy (CV),0,0.9498,0.2925,0.9387
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,20,structure + timing,same strategy (CV),0,0.7776,0.09,0.7549
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,20,reuse,same strategy (CV),0,0.961,0.6925,0.9686
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,20,all,same strategy (CV),0,0.9691,0.5525,0.9687
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,structure + timing,naive only,0,0.8041,0.1475,0.7761
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,reuse,naive only,0,0.9373,0.275,0.9239
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,all,naive only,0,0.9527,0.36,0.9408
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,size only,same strategy (CV),0,0.5627,0.0025,0.5234
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,shape,same strategy (CV),0,0.5501,0.0025,0.5066
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,branching,same strategy (CV),0,0.5326,0.0,0.4972
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,timing,same strategy (CV),0,0.7498,0.0625,0.7024
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,reuse,same strategy (CV),0,0.9364,0.2925,0.9188
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,structure + timing,same strategy (CV),0,0.7619,0.0375,0.7003
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,all,same strategy (CV),0,0.9482,0.2875,0.9347
+higgs_w72,strategy,naive,0.1,0.0954,400,400,20,structure + timing,same strategy (CV),0,0.7681,0.1075,0.7507
+higgs_w72,strategy,naive,0.1,0.0954,400,400,20,reuse,same strategy (CV),0,0.9595,0.6625,0.9663
+higgs_w72,strategy,naive,0.1,0.0954,400,400,20,all,same strategy (CV),0,0.9678,0.525,0.9666
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,structure + timing,naive only,0,0.8031,0.145,0.7751
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,reuse,naive only,0,0.9373,0.275,0.9239
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,all,naive only,0,0.9526,0.3625,0.9405
+higgs_w72,strategy,organic timing,0.1,0.0947,400,400,full,size only,same strategy (CV),0,0.5418,0.0075,0.5146
+higgs_w72,strategy,organic timing,0.1,0.0947,400,400,full,shape,same strategy (CV),0,0.5574,0.0025,0.5157
+higgs_w72,strategy,organic timing,0.1,0.0947,400,400,full,branching,same strategy (CV),0,0.5523,0.0025,0.5116
+higgs_w72,strategy,organic timing,0.1,0.0947,400,400,full,timing,same strategy (CV),0,0.5787,0.0325,0.5672
+higgs_w72,strategy,organic timing,0.1,0.0947,400,400,full,reuse,same strategy (CV),0,0.9351,0.275,0.9221
+higgs_w72,strategy,organic timing,0.1,0.0947,400,400,full,structure + timing,same strategy (CV),0,0.6279,0.08,0.6098
+higgs_w72,strategy,organic timing,0.1,0.0947,400,400,full,all,same strategy (CV),0,0.9336,0.2575,0.9197
+higgs_w72,strategy,organic timing,0.1,0.0947,400,400,20,structure + timing,same strategy (CV),0,0.5678,0.01,0.5459
+higgs_w72,strategy,organic timing,0.1,0.0947,400,400,20,reuse,same strategy (CV),0,0.895,0.53,0.9152
+higgs_w72,strategy,organic timing,0.1,0.0947,400,400,20,all,same strategy (CV),0,0.8855,0.2525,0.8748
+higgs_w72,strategy,organic timing,0.1,0.0947,400,400,full,structure + timing,naive only,0,0.591,0.055,0.5896
+higgs_w72,strategy,organic timing,0.1,0.0947,400,400,full,reuse,naive only,0,0.9401,0.2925,0.9285
+higgs_w72,strategy,organic timing,0.1,0.0947,400,400,full,all,naive only,0,0.8981,0.24,0.8781
+higgs_w72,share,naive,0.02,0.0463,400,400,full,structure + timing,same strategy (CV),0,0.6001,0.015,0.5743
+higgs_w72,share,naive,0.02,0.0463,400,400,full,reuse,same strategy (CV),0,0.8043,0.2425,0.8087
+higgs_w72,share,naive,0.02,0.0463,400,400,full,all,same strategy (CV),0,0.7939,0.2275,0.7904
+higgs_w72,share,naive,0.05,0.0587,400,400,full,structure + timing,same strategy (CV),0,0.6267,0.0275,0.5935
+higgs_w72,share,naive,0.05,0.0587,400,400,full,reuse,same strategy (CV),0,0.8467,0.295,0.8444
+higgs_w72,share,naive,0.05,0.0587,400,400,full,all,same strategy (CV),0,0.8449,0.245,0.8368
+higgs_w72,share,naive,0.1,0.0954,400,400,full,structure + timing,same strategy (CV),0,0.7619,0.0375,0.7003
+higgs_w72,share,naive,0.1,0.0954,400,400,full,reuse,same strategy (CV),0,0.9364,0.2925,0.9188
+higgs_w72,share,naive,0.1,0.0954,400,400,full,all,same strategy (CV),0,0.9482,0.2875,0.9347
+higgs_w72,share,naive,0.2,0.1901,400,400,full,structure + timing,same strategy (CV),0,0.8524,0.0675,0.8163
+higgs_w72,share,naive,0.2,0.1901,400,400,full,reuse,same strategy (CV),0,0.9947,0.875,0.9937
+higgs_w72,share,naive,0.2,0.1901,400,400,full,all,same strategy (CV),0,0.9964,0.9125,0.9961
+higgs_w72,strategy,full mimic + rotation,0.3,0.2828,400,400,full,size only,same strategy (CV),0,0.6447,0.0025,0.5675
+higgs_w72,strategy,full mimic + rotation,0.3,0.2828,400,400,full,shape,same strategy (CV),0,0.9734,0.45,0.9669
+higgs_w72,strategy,full mimic + rotation,0.3,0.2828,400,400,full,branching,same strategy (CV),0,0.9931,0.8925,0.9912
+higgs_w72,strategy,full mimic + rotation,0.3,0.2828,400,400,full,timing,same strategy (CV),0,0.8631,0.2225,0.8506
+higgs_w72,strategy,full mimic + rotation,0.3,0.2828,400,400,full,reuse,same strategy (CV),0,0.6067,0.02,0.5769
+higgs_w72,strategy,full mimic + rotation,0.3,0.2828,400,400,full,structure + timing,same strategy (CV),0,0.9937,0.93,0.991
+higgs_w72,strategy,full mimic + rotation,0.3,0.2828,400,400,full,all,same strategy (CV),0,0.9946,0.935,0.9943
+higgs_w72,strategy,full mimic + rotation,0.3,0.2828,400,400,20,structure + timing,same strategy (CV),0,0.9098,0.38,0.9152
+higgs_w72,strategy,full mimic + rotation,0.3,0.2828,400,400,20,reuse,same strategy (CV),0,0.5102,0.0075,0.5137
+higgs_w72,strategy,full mimic + rotation,0.3,0.2828,400,400,20,all,same strategy (CV),0,0.9098,0.335,0.9152
+higgs_w72,strategy,full mimic + rotation,0.3,0.2828,400,400,full,structure + timing,naive only,0,0.7922,0.0725,0.7717
+higgs_w72,strategy,full mimic + rotation,0.3,0.2828,400,400,full,reuse,naive only,0,0.4925,0.0,0.4835
+higgs_w72,strategy,full mimic + rotation,0.3,0.2828,400,400,full,all,naive only,0,0.7818,0.0,0.6817
+higgs_w72,strategy,full mimic + rotation,0.1,0.0946,400,400,full,size only,same strategy (CV),0,0.5164,0.0,0.487
+higgs_w72,strategy,full mimic + rotation,0.1,0.0946,400,400,full,shape,same strategy (CV),0,0.8438,0.025,0.7671
+higgs_w72,strategy,full mimic + rotation,0.1,0.0946,400,400,full,branching,same strategy (CV),0,0.9158,0.1,0.8779
+higgs_w72,strategy,full mimic + rotation,0.1,0.0946,400,400,full,timing,same strategy (CV),0,0.7387,0.03,0.6949
+higgs_w72,strategy,full mimic + rotation,0.1,0.0946,400,400,full,reuse,same strategy (CV),0,0.5013,0.035,0.5314
+higgs_w72,strategy,full mimic + rotation,0.1,0.0946,400,400,full,structure + timing,same strategy (CV),0,0.9245,0.2225,0.9061
+higgs_w72,strategy,full mimic + rotation,0.1,0.0946,400,400,full,all,same strategy (CV),0,0.9279,0.24,0.9132
+higgs_w72,strategy,full mimic + rotation,0.1,0.0946,400,400,20,structure + timing,same strategy (CV),0,0.7682,0.0425,0.752
+higgs_w72,strategy,full mimic + rotation,0.1,0.0946,400,400,20,reuse,same strategy (CV),0,0.4925,0.035,0.5251
+higgs_w72,strategy,full mimic + rotation,0.1,0.0946,400,400,20,all,same strategy (CV),0,0.7724,0.0575,0.7533
+higgs_w72,strategy,full mimic + rotation,0.1,0.0946,400,400,full,structure + timing,naive only,0,0.61,0.04,0.5993
+higgs_w72,strategy,full mimic + rotation,0.1,0.0946,400,400,full,reuse,naive only,0,0.5117,0.0125,0.5016
+higgs_w72,strategy,full mimic + rotation,0.1,0.0946,400,400,full,all,naive only,0,0.5639,0.0025,0.5112
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,size only,same strategy (CV),0,0.4964,0.0125,0.4902
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,shape,same strategy (CV),0,0.4577,0.0075,0.4684
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,branching,same strategy (CV),0,0.4408,0.0075,0.461
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,timing,same strategy (CV),0,0.4668,0.02,0.4869
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,reuse,same strategy (CV),0,0.9997,0.9875,0.9997
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,structure + timing,same strategy (CV),0,0.4436,0.0025,0.4675
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,all,same strategy (CV),0,0.9976,0.93,0.9972
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,20,structure + timing,same strategy (CV),0,0.4926,0.0125,0.5006
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,20,reuse,same strategy (CV),0,0.9792,0.8625,0.984
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,20,all,same strategy (CV),0,0.9816,0.6925,0.9823
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,structure + timing,naive only,0,0.4816,0.0075,0.4797
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,reuse,naive only,0,0.9992,1.0,0.9992
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,all,naive only,0,0.9942,0.875,0.9915
+higgs_w72,strategy,control: embedded accounts,0.1,0.0984,400,400,full,size only,same strategy (CV),0,0.4994,0.01,0.4948
+higgs_w72,strategy,control: embedded accounts,0.1,0.0984,400,400,full,shape,same strategy (CV),0,0.4786,0.015,0.4849
+higgs_w72,strategy,control: embedded accounts,0.1,0.0984,400,400,full,branching,same strategy (CV),0,0.4682,0.015,0.4786
+higgs_w72,strategy,control: embedded accounts,0.1,0.0984,400,400,full,timing,same strategy (CV),0,0.4711,0.005,0.4968
+higgs_w72,strategy,control: embedded accounts,0.1,0.0984,400,400,full,reuse,same strategy (CV),0,0.9523,0.2675,0.9384
+higgs_w72,strategy,control: embedded accounts,0.1,0.0984,400,400,full,structure + timing,same strategy (CV),0,0.472,0.0125,0.4959
+higgs_w72,strategy,control: embedded accounts,0.1,0.0984,400,400,full,all,same strategy (CV),0,0.9306,0.395,0.9203
+higgs_w72,strategy,control: embedded accounts,0.1,0.0984,400,400,20,structure + timing,same strategy (CV),0,0.518,0.02,0.5371
+higgs_w72,strategy,control: embedded accounts,0.1,0.0984,400,400,20,reuse,same strategy (CV),0,0.9153,0.515,0.9277
+higgs_w72,strategy,control: embedded accounts,0.1,0.0984,400,400,20,all,same strategy (CV),0,0.8959,0.3,0.888
+higgs_w72,strategy,control: embedded accounts,0.1,0.0984,400,400,full,structure + timing,naive only,0,0.5164,0.02,0.5161
+higgs_w72,strategy,control: embedded accounts,0.1,0.0984,400,400,full,reuse,naive only,0,0.9434,0.2975,0.9332
+higgs_w72,strategy,control: embedded accounts,0.1,0.0984,400,400,full,all,naive only,0,0.8841,0.2225,0.8606
+higgs_w72,share,naive,0.4,0.3656,400,400,full,structure + timing,same strategy (CV),0,0.9753,0.61,0.9757
+higgs_w72,share,naive,0.4,0.3656,400,400,full,reuse,same strategy (CV),0,0.9998,1.0,0.9998
+higgs_w72,share,naive,0.4,0.3656,400,400,full,all,same strategy (CV),0,0.9998,1.0,0.9998
+higgs_w72,share,full mimic + rotation,0.02,0.0462,400,400,full,structure + timing,same strategy (CV),0,0.7891,0.0375,0.7265
+higgs_w72,share,full mimic + rotation,0.02,0.0462,400,400,full,reuse,same strategy (CV),0,0.4804,0.0025,0.4796
+higgs_w72,share,full mimic + rotation,0.02,0.0462,400,400,full,all,same strategy (CV),0,0.788,0.0725,0.7465
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2802,400,400,full,size only,same strategy (CV),0,0.6448,0.005,0.5688
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2802,400,400,full,shape,same strategy (CV),0,0.6616,0.0125,0.6
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2802,400,400,full,branching,same strategy (CV),0,0.7074,0.0175,0.6491
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2802,400,400,full,timing,same strategy (CV),0,0.682,0.0725,0.6562
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2802,400,400,full,reuse,same strategy (CV),0,0.5947,0.0075,0.5703
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2802,400,400,full,structure + timing,same strategy (CV),0,0.7992,0.0475,0.754
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2802,400,400,full,all,same strategy (CV),0,0.7992,0.03,0.7448
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2802,400,400,20,structure + timing,same strategy (CV),0,0.8164,0.09,0.7765
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2802,400,400,20,reuse,same strategy (CV),0,0.5424,0.03,0.5439
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2802,400,400,20,all,same strategy (CV),0,0.8035,0.0775,0.7668
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2802,400,400,full,structure + timing,naive only,0,0.637,0.0325,0.6089
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2802,400,400,full,reuse,naive only,0,0.4801,0.0,0.4822
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2802,400,400,full,all,naive only,0,0.5537,0.0,0.5353
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0956,400,400,full,size only,same strategy (CV),0,0.5397,0.02,0.5174
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0956,400,400,full,shape,same strategy (CV),0,0.516,0.005,0.4908
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0956,400,400,full,branching,same strategy (CV),0,0.5412,0.0025,0.5093
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0956,400,400,full,timing,same strategy (CV),0,0.5656,0.0175,0.5388
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0956,400,400,full,reuse,same strategy (CV),0,0.5161,0.005,0.5076
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0956,400,400,full,structure + timing,same strategy (CV),0,0.5659,0.015,0.5302
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0956,400,400,full,all,same strategy (CV),0,0.5635,0.0025,0.5205
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0956,400,400,20,structure + timing,same strategy (CV),0,0.5322,0.0,0.5146
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0956,400,400,20,reuse,same strategy (CV),0,0.4947,0.03,0.525
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0956,400,400,20,all,same strategy (CV),0,0.5141,0.005,0.493
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0956,400,400,full,structure + timing,naive only,0,0.568,0.045,0.5659
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0956,400,400,full,reuse,naive only,0,0.5111,0.005,0.5029
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0956,400,400,full,all,naive only,0,0.5102,0.0125,0.5037
+higgs_w72,share,full mimic + rotation,0.1,0.0946,400,400,full,structure + timing,same strategy (CV),0,0.9245,0.2225,0.9061
+higgs_w72,share,full mimic + rotation,0.1,0.0946,400,400,full,reuse,same strategy (CV),0,0.5013,0.035,0.5314
+higgs_w72,share,full mimic + rotation,0.1,0.0946,400,400,full,all,same strategy (CV),0,0.9279,0.24,0.9132
+higgs_w72,share,full mimic + rotation,0.05,0.059,400,400,full,structure + timing,same strategy (CV),0,0.8558,0.0675,0.8129
+higgs_w72,share,full mimic + rotation,0.05,0.059,400,400,full,reuse,same strategy (CV),0,0.4396,0.0,0.4448
+higgs_w72,share,full mimic + rotation,0.05,0.059,400,400,full,all,same strategy (CV),0,0.8591,0.0925,0.8299
+higgs_w72,share,full mimic + rotation,0.2,0.1899,400,400,full,structure + timing,same strategy (CV),0,0.9842,0.765,0.9823
+higgs_w72,share,full mimic + rotation,0.2,0.1899,400,400,full,reuse,same strategy (CV),0,0.5396,0.0125,0.5294
+higgs_w72,share,full mimic + rotation,0.2,0.1899,400,400,full,all,same strategy (CV),0,0.9847,0.8125,0.9827
+higgs_w72,share,full mimic + rotation,0.4,0.3667,400,400,full,structure + timing,same strategy (CV),0,0.9993,0.9875,0.9992
+higgs_w72,share,full mimic + rotation,0.4,0.3667,400,400,full,reuse,same strategy (CV),0,0.6561,0.0275,0.6359
+higgs_w72,share,full mimic + rotation,0.4,0.3667,400,400,full,all,same strategy (CV),0,0.9991,0.99,0.9991
+higgs_w72,share,empirical mimic + rotation,0.02,0.0462,400,400,full,structure + timing,same strategy (CV),0,0.5096,0.0025,0.496
+higgs_w72,share,empirical mimic + rotation,0.02,0.0462,400,400,full,reuse,same strategy (CV),0,0.5113,0.0,0.4974
+higgs_w72,share,empirical mimic + rotation,0.02,0.0462,400,400,full,all,same strategy (CV),0,0.5336,0.0075,0.5175
+higgs_w72,share,empirical mimic + rotation,0.05,0.0587,400,400,full,structure + timing,same strategy (CV),0,0.5478,0.0075,0.5191
+higgs_w72,share,empirical mimic + rotation,0.05,0.0587,400,400,full,reuse,same strategy (CV),0,0.4887,0.0025,0.475
+higgs_w72,share,empirical mimic + rotation,0.05,0.0587,400,400,full,all,same strategy (CV),0,0.5592,0.005,0.5327
+higgs_w72,share,empirical mimic + rotation,0.1,0.0956,400,400,full,structure + timing,same strategy (CV),0,0.5659,0.015,0.5302
+higgs_w72,share,empirical mimic + rotation,0.1,0.0956,400,400,full,reuse,same strategy (CV),0,0.5161,0.005,0.5076
+higgs_w72,share,empirical mimic + rotation,0.1,0.0956,400,400,full,all,same strategy (CV),0,0.5635,0.0025,0.5205
+higgs_w72,share,empirical mimic + rotation,0.2,0.1894,400,400,full,structure + timing,same strategy (CV),0,0.6571,0.015,0.6036
+higgs_w72,share,empirical mimic + rotation,0.2,0.1894,400,400,full,reuse,same strategy (CV),0,0.535,0.0125,0.5362
+higgs_w72,share,empirical mimic + rotation,0.2,0.1894,400,400,full,all,same strategy (CV),0,0.6698,0.0125,0.6193
+higgs_w72,share,empirical mimic + rotation,0.4,0.3671,400,400,full,structure + timing,same strategy (CV),0,0.9288,0.185,0.9018
+higgs_w72,share,empirical mimic + rotation,0.4,0.3671,400,400,full,reuse,same strategy (CV),0,0.6729,0.01,0.6187
+higgs_w72,share,empirical mimic + rotation,0.4,0.3671,400,400,full,all,same strategy (CV),0,0.931,0.1775,0.9155
+higgs_w72,strategy,naive,0.3,0.2785,400,400,full,size only,same strategy (CV),1,0.629,0.0075,0.5529
+higgs_w72,strategy,naive,0.3,0.2785,400,400,full,shape,same strategy (CV),1,0.8186,0.09,0.7892
+higgs_w72,strategy,naive,0.3,0.2785,400,400,full,branching,same strategy (CV),1,0.7984,0.07,0.7691
+higgs_w72,strategy,naive,0.3,0.2785,400,400,full,timing,same strategy (CV),1,0.8969,0.2775,0.8939
+higgs_w72,strategy,naive,0.3,0.2785,400,400,full,reuse,same strategy (CV),1,0.9989,0.9925,0.999
+higgs_w72,strategy,naive,0.3,0.2785,400,400,full,structure + timing,same strategy (CV),1,0.9403,0.465,0.9422
+higgs_w72,strategy,naive,0.3,0.2785,400,400,full,all,same strategy (CV),1,0.9996,0.9925,0.9996
+higgs_w72,strategy,naive,0.3,0.2785,400,400,20,structure + timing,same strategy (CV),1,0.9337,0.6275,0.9413
+higgs_w72,strategy,naive,0.3,0.2785,400,400,20,reuse,same strategy (CV),1,0.9797,0.9525,0.9863
+higgs_w72,strategy,naive,0.3,0.2785,400,400,20,all,same strategy (CV),1,0.9969,0.9425,0.9971
+higgs_w72,strategy,naive,0.3,0.2785,400,400,full,structure + timing,naive only,1,0.9549,0.4375,0.9524
+higgs_w72,strategy,naive,0.3,0.2785,400,400,full,reuse,naive only,1,0.9993,0.9975,0.9994
+higgs_w72,strategy,naive,0.3,0.2785,400,400,full,all,naive only,1,0.9999,0.995,0.9999
+higgs_w72,strategy,naive,0.1,0.0947,400,400,full,size only,same strategy (CV),1,0.5656,0.0025,0.5172
+higgs_w72,strategy,naive,0.1,0.0947,400,400,full,shape,same strategy (CV),1,0.5967,0.025,0.5693
+higgs_w72,strategy,naive,0.1,0.0947,400,400,full,branching,same strategy (CV),1,0.6198,0.005,0.5803
+higgs_w72,strategy,naive,0.1,0.0947,400,400,full,timing,same strategy (CV),1,0.7403,0.0075,0.6748
+higgs_w72,strategy,naive,0.1,0.0947,400,400,full,reuse,same strategy (CV),1,0.9568,0.52,0.9547
+higgs_w72,strategy,naive,0.1,0.0947,400,400,full,structure + timing,same strategy (CV),1,0.7602,0.02,0.7086
+higgs_w72,strategy,naive,0.1,0.0947,400,400,full,all,same strategy (CV),1,0.9564,0.4075,0.9494
+higgs_w72,strategy,naive,0.1,0.0947,400,400,20,structure + timing,same strategy (CV),1,0.7565,0.15,0.7628
+higgs_w72,strategy,naive,0.1,0.0947,400,400,20,reuse,same strategy (CV),1,0.9663,0.6875,0.9731
+higgs_w72,strategy,naive,0.1,0.0947,400,400,20,all,same strategy (CV),1,0.9735,0.6525,0.9726
+higgs_w72,strategy,naive,0.1,0.0947,400,400,full,structure + timing,naive only,1,0.7891,0.09,0.7623
+higgs_w72,strategy,naive,0.1,0.0947,400,400,full,reuse,naive only,1,0.9559,0.535,0.9548
+higgs_w72,strategy,naive,0.1,0.0947,400,400,full,all,naive only,1,0.9688,0.4825,0.9639
+higgs_w72,strategy,random timing,0.3,0.2785,400,400,full,size only,same strategy (CV),1,0.629,0.0075,0.5529
+higgs_w72,strategy,random timing,0.3,0.2785,400,400,full,shape,same strategy (CV),1,0.8186,0.09,0.7892
+higgs_w72,strategy,random timing,0.3,0.2785,400,400,full,branching,same strategy (CV),1,0.7984,0.07,0.7691
+higgs_w72,strategy,random timing,0.3,0.2785,400,400,full,timing,same strategy (CV),1,0.9232,0.4025,0.9261
+higgs_w72,strategy,random timing,0.3,0.2785,400,400,full,reuse,same strategy (CV),1,0.9989,0.9925,0.999
+higgs_w72,strategy,random timing,0.3,0.2785,400,400,full,structure + timing,same strategy (CV),1,0.9484,0.535,0.9503
+higgs_w72,strategy,random timing,0.3,0.2785,400,400,full,all,same strategy (CV),1,0.9996,0.9925,0.9996
+higgs_w72,strategy,random timing,0.3,0.2785,400,400,20,structure + timing,same strategy (CV),1,0.9334,0.5875,0.9392
+higgs_w72,strategy,random timing,0.3,0.2785,400,400,20,reuse,same strategy (CV),1,0.977,0.935,0.9844
+higgs_w72,strategy,random timing,0.3,0.2785,400,400,20,all,same strategy (CV),1,0.9967,0.9375,0.9968
+higgs_w72,strategy,random timing,0.3,0.2785,400,400,full,structure + timing,naive only,1,0.9379,0.2025,0.9239
+higgs_w72,strategy,random timing,0.3,0.2785,400,400,full,reuse,naive only,1,0.9993,0.9975,0.9994
+higgs_w72,strategy,random timing,0.3,0.2785,400,400,full,all,naive only,1,0.9999,0.995,0.9999
+higgs_w72,strategy,random timing,0.1,0.0947,400,400,full,size only,same strategy (CV),1,0.5656,0.0025,0.5172
+higgs_w72,strategy,random timing,0.1,0.0947,400,400,full,shape,same strategy (CV),1,0.5967,0.025,0.5693
+higgs_w72,strategy,random timing,0.1,0.0947,400,400,full,branching,same strategy (CV),1,0.6198,0.005,0.5803
+higgs_w72,strategy,random timing,0.1,0.0947,400,400,full,timing,same strategy (CV),1,0.7484,0.0325,0.6985
+higgs_w72,strategy,random timing,0.1,0.0947,400,400,full,reuse,same strategy (CV),1,0.9568,0.52,0.9547
+higgs_w72,strategy,random timing,0.1,0.0947,400,400,full,structure + timing,same strategy (CV),1,0.7686,0.04,0.7264
+higgs_w72,strategy,random timing,0.1,0.0947,400,400,full,all,same strategy (CV),1,0.958,0.405,0.9503
+higgs_w72,strategy,random timing,0.1,0.0947,400,400,20,structure + timing,same strategy (CV),1,0.7575,0.16,0.7552
+higgs_w72,strategy,random timing,0.1,0.0947,400,400,20,reuse,same strategy (CV),1,0.9667,0.74,0.9736
+higgs_w72,strategy,random timing,0.1,0.0947,400,400,20,all,same strategy (CV),1,0.9743,0.6075,0.9736
+higgs_w72,strategy,random timing,0.1,0.0947,400,400,full,structure + timing,naive only,1,0.7907,0.085,0.7638
+higgs_w72,strategy,random timing,0.1,0.0947,400,400,full,reuse,naive only,1,0.9559,0.535,0.9548
+higgs_w72,strategy,random timing,0.1,0.0947,400,400,full,all,naive only,1,0.9691,0.4825,0.9643
+higgs_w72,strategy,organic timing,0.3,0.2792,400,400,full,size only,same strategy (CV),1,0.6454,0.015,0.5761
+higgs_w72,strategy,organic timing,0.3,0.2792,400,400,full,shape,same strategy (CV),1,0.7977,0.07,0.7548
+higgs_w72,strategy,organic timing,0.3,0.2792,400,400,full,branching,same strategy (CV),1,0.806,0.05,0.7667
+higgs_w72,strategy,organic timing,0.3,0.2792,400,400,full,timing,same strategy (CV),1,0.7926,0.06,0.7764
+higgs_w72,strategy,organic timing,0.3,0.2792,400,400,full,reuse,same strategy (CV),1,0.9996,0.985,0.9996
+higgs_w72,strategy,organic timing,0.3,0.2792,400,400,full,structure + timing,same strategy (CV),1,0.8753,0.2,0.8591
+higgs_w72,strategy,organic timing,0.3,0.2792,400,400,full,all,same strategy (CV),1,0.9997,0.985,0.9997
+higgs_w72,strategy,organic timing,0.3,0.2792,400,400,20,structure + timing,same strategy (CV),1,0.7992,0.03,0.7528
+higgs_w72,strategy,organic timing,0.3,0.2792,400,400,20,reuse,same strategy (CV),1,0.9792,0.8575,0.9841
+higgs_w72,strategy,organic timing,0.3,0.2792,400,400,20,all,same strategy (CV),1,0.9859,0.865,0.9882
+higgs_w72,strategy,organic timing,0.3,0.2792,400,400,full,structure + timing,naive only,1,0.7899,0.05,0.7644
+higgs_w72,strategy,organic timing,0.3,0.2792,400,400,full,reuse,naive only,1,0.9995,0.9925,0.9995
+higgs_w72,strategy,organic timing,0.3,0.2792,400,400,full,all,naive only,1,0.9989,0.99,0.9988
+higgs_w72,strategy,organic timing,0.1,0.0937,400,400,full,size only,same strategy (CV),1,0.5682,0.0075,0.5227
+higgs_w72,strategy,organic timing,0.1,0.0937,400,400,full,shape,same strategy (CV),1,0.5999,0.0375,0.5862
+higgs_w72,strategy,organic timing,0.1,0.0937,400,400,full,branching,same strategy (CV),1,0.6117,0.03,0.5824
+higgs_w72,strategy,organic timing,0.1,0.0937,400,400,full,timing,same strategy (CV),1,0.6176,0.0525,0.6043
+higgs_w72,strategy,organic timing,0.1,0.0937,400,400,full,reuse,same strategy (CV),1,0.95,0.4875,0.9485
+higgs_w72,strategy,organic timing,0.1,0.0937,400,400,full,structure + timing,same strategy (CV),1,0.64,0.0375,0.6156
+higgs_w72,strategy,organic timing,0.1,0.0937,400,400,full,all,same strategy (CV),1,0.9369,0.3525,0.9278
+higgs_w72,strategy,organic timing,0.1,0.0937,400,400,20,structure + timing,same strategy (CV),1,0.579,0.0275,0.5662
+higgs_w72,strategy,organic timing,0.1,0.0937,400,400,20,reuse,same strategy (CV),1,0.9316,0.4825,0.9379
+higgs_w72,strategy,organic timing,0.1,0.0937,400,400,20,all,same strategy (CV),1,0.9281,0.3375,0.924
+higgs_w72,strategy,organic timing,0.1,0.0937,400,400,full,structure + timing,naive only,1,0.5917,0.0225,0.5842
+higgs_w72,strategy,organic timing,0.1,0.0937,400,400,full,reuse,naive only,1,0.9524,0.5125,0.9506
+higgs_w72,strategy,organic timing,0.1,0.0937,400,400,full,all,naive only,1,0.9035,0.3275,0.8959
+higgs_w72,strategy,organic timing + structure,0.1,0.0933,400,400,full,size only,same strategy (CV),1,0.5626,0.025,0.5378
+higgs_w72,strategy,organic timing + structure,0.1,0.0933,400,400,full,shape,same strategy (CV),1,0.8564,0.1125,0.8171
+higgs_w72,strategy,organic timing + structure,0.1,0.0933,400,400,full,branching,same strategy (CV),1,0.9347,0.0625,0.901
+higgs_w72,strategy,organic timing + structure,0.1,0.0933,400,400,full,timing,same strategy (CV),1,0.7951,0.03,0.7385
+higgs_w72,strategy,organic timing + structure,0.1,0.0933,400,400,full,reuse,same strategy (CV),1,0.9543,0.4775,0.9521
+higgs_w72,strategy,organic timing + structure,0.1,0.0933,400,400,full,structure + timing,same strategy (CV),1,0.9537,0.6075,0.9562
+higgs_w72,strategy,organic timing + structure,0.1,0.0933,400,400,full,all,same strategy (CV),1,0.9748,0.67,0.9754
+higgs_w72,strategy,organic timing + structure,0.1,0.0933,400,400,20,structure + timing,same strategy (CV),1,0.7991,0.2575,0.8144
+higgs_w72,strategy,organic timing + structure,0.1,0.0933,400,400,20,reuse,same strategy (CV),1,0.8289,0.3525,0.8538
+higgs_w72,strategy,organic timing + structure,0.1,0.0933,400,400,20,all,same strategy (CV),1,0.8729,0.3425,0.8838
+higgs_w72,strategy,organic timing + structure,0.1,0.0933,400,400,full,structure + timing,naive only,1,0.6117,0.02,0.5874
+higgs_w72,strategy,organic timing + structure,0.1,0.0933,400,400,full,reuse,naive only,1,0.953,0.5375,0.9515
+higgs_w72,strategy,organic timing + structure,0.1,0.0933,400,400,full,all,naive only,1,0.8825,0.1375,0.854
+higgs_w72,strategy,organic timing + structure,0.3,0.2836,400,400,full,size only,same strategy (CV),1,0.6613,0.01,0.5938
+higgs_w72,strategy,organic timing + structure,0.3,0.2836,400,400,full,shape,same strategy (CV),1,0.975,0.3975,0.9668
+higgs_w72,strategy,organic timing + structure,0.3,0.2836,400,400,full,branching,same strategy (CV),1,0.9959,0.88,0.9959
+higgs_w72,strategy,organic timing + structure,0.3,0.2836,400,400,full,timing,same strategy (CV),1,0.8846,0.2075,0.8757
+higgs_w72,strategy,organic timing + structure,0.3,0.2836,400,400,full,reuse,same strategy (CV),1,0.9998,0.995,0.9998
+higgs_w72,strategy,organic timing + structure,0.3,0.2836,400,400,full,structure + timing,same strategy (CV),1,0.9969,0.925,0.9969
+higgs_w72,strategy,organic timing + structure,0.3,0.2836,400,400,full,all,same strategy (CV),1,0.9999,0.9975,0.9999
+higgs_w72,strategy,organic timing + structure,0.3,0.2836,400,400,20,structure + timing,same strategy (CV),1,0.9166,0.575,0.9311
+higgs_w72,strategy,organic timing + structure,0.3,0.2836,400,400,20,reuse,same strategy (CV),1,0.881,0.615,0.9115
+higgs_w72,strategy,organic timing + structure,0.3,0.2836,400,400,20,all,same strategy (CV),1,0.9361,0.67,0.9492
+higgs_w72,strategy,organic timing + structure,0.3,0.2836,400,400,full,structure + timing,naive only,1,0.8316,0.0875,0.8144
+higgs_w72,strategy,organic timing + structure,0.3,0.2836,400,400,full,reuse,naive only,1,0.9999,1.0,0.9999
+higgs_w72,strategy,organic timing + structure,0.3,0.2836,400,400,full,all,naive only,1,0.9995,0.995,0.9995
+higgs_w72,share,naive,0.02,0.0488,400,400,full,structure + timing,same strategy (CV),1,0.5943,0.015,0.5794
+higgs_w72,share,naive,0.02,0.0488,400,400,full,reuse,same strategy (CV),1,0.8362,0.3275,0.8485
+higgs_w72,share,naive,0.02,0.0488,400,400,full,all,same strategy (CV),1,0.8025,0.2525,0.8078
+higgs_w72,share,naive,0.05,0.0606,400,400,full,structure + timing,same strategy (CV),1,0.6221,0.045,0.5989
+higgs_w72,share,naive,0.05,0.0606,400,400,full,reuse,same strategy (CV),1,0.8764,0.2775,0.8718
+higgs_w72,share,naive,0.05,0.0606,400,400,full,all,same strategy (CV),1,0.8665,0.235,0.8555
+higgs_w72,share,naive,0.1,0.0947,400,400,full,structure + timing,same strategy (CV),1,0.7602,0.02,0.7086
+higgs_w72,share,naive,0.1,0.0947,400,400,full,reuse,same strategy (CV),1,0.9568,0.52,0.9547
+higgs_w72,share,naive,0.1,0.0947,400,400,full,all,same strategy (CV),1,0.9564,0.4075,0.9494
+higgs_w72,share,naive,0.2,0.189,400,400,full,structure + timing,same strategy (CV),1,0.856,0.0725,0.8224
+higgs_w72,share,naive,0.2,0.189,400,400,full,reuse,same strategy (CV),1,0.996,0.9325,0.9961
+higgs_w72,share,naive,0.2,0.189,400,400,full,all,same strategy (CV),1,0.9955,0.9,0.9952
+higgs_w72,strategy,full mimic + rotation,0.3,0.279,400,400,full,size only,same strategy (CV),1,0.6413,0.005,0.5652
+higgs_w72,strategy,full mimic + rotation,0.3,0.279,400,400,full,shape,same strategy (CV),1,0.9763,0.455,0.9612
+higgs_w72,strategy,full mimic + rotation,0.3,0.279,400,400,full,branching,same strategy (CV),1,0.9956,0.92,0.9958
+higgs_w72,strategy,full mimic + rotation,0.3,0.279,400,400,full,timing,same strategy (CV),1,0.8897,0.15,0.8747
+higgs_w72,strategy,full mimic + rotation,0.3,0.279,400,400,full,reuse,same strategy (CV),1,0.6078,0.0175,0.5752
+higgs_w72,strategy,full mimic + rotation,0.3,0.279,400,400,full,structure + timing,same strategy (CV),1,0.9954,0.9375,0.9959
+higgs_w72,strategy,full mimic + rotation,0.3,0.279,400,400,full,all,same strategy (CV),1,0.9968,0.9475,0.9969
+higgs_w72,strategy,full mimic + rotation,0.3,0.279,400,400,20,structure + timing,same strategy (CV),1,0.925,0.6075,0.9355
+higgs_w72,strategy,full mimic + rotation,0.3,0.279,400,400,20,reuse,same strategy (CV),1,0.5481,0.055,0.5788
+higgs_w72,strategy,full mimic + rotation,0.3,0.279,400,400,20,all,same strategy (CV),1,0.9274,0.6,0.9388
+higgs_w72,strategy,full mimic + rotation,0.3,0.279,400,400,full,structure + timing,naive only,1,0.8315,0.085,0.8097
+higgs_w72,strategy,full mimic + rotation,0.3,0.279,400,400,full,reuse,naive only,1,0.4717,0.0025,0.4738
+higgs_w72,strategy,full mimic + rotation,0.3,0.279,400,400,full,all,naive only,1,0.8324,0.045,0.7307
+higgs_w72,strategy,full mimic + rotation,0.1,0.0939,400,400,full,size only,same strategy (CV),1,0.559,0.0025,0.5151
+higgs_w72,strategy,full mimic + rotation,0.1,0.0939,400,400,full,shape,same strategy (CV),1,0.855,0.115,0.8287
+higgs_w72,strategy,full mimic + rotation,0.1,0.0939,400,400,full,branching,same strategy (CV),1,0.9307,0.265,0.9168
+higgs_w72,strategy,full mimic + rotation,0.1,0.0939,400,400,full,timing,same strategy (CV),1,0.798,0.0475,0.746
+higgs_w72,strategy,full mimic + rotation,0.1,0.0939,400,400,full,reuse,same strategy (CV),1,0.5284,0.0325,0.5404
+higgs_w72,strategy,full mimic + rotation,0.1,0.0939,400,400,full,structure + timing,same strategy (CV),1,0.9459,0.5375,0.9479
+higgs_w72,strategy,full mimic + rotation,0.1,0.0939,400,400,full,all,same strategy (CV),1,0.947,0.42,0.948
+higgs_w72,strategy,full mimic + rotation,0.1,0.0939,400,400,20,structure + timing,same strategy (CV),1,0.7899,0.2775,0.81
+higgs_w72,strategy,full mimic + rotation,0.1,0.0939,400,400,20,reuse,same strategy (CV),1,0.5191,0.0075,0.5042
+higgs_w72,strategy,full mimic + rotation,0.1,0.0939,400,400,20,all,same strategy (CV),1,0.7946,0.2225,0.8097
+higgs_w72,strategy,full mimic + rotation,0.1,0.0939,400,400,full,structure + timing,naive only,1,0.615,0.015,0.5852
+higgs_w72,strategy,full mimic + rotation,0.1,0.0939,400,400,full,reuse,naive only,1,0.4686,0.0025,0.4711
+higgs_w72,strategy,full mimic + rotation,0.1,0.0939,400,400,full,all,naive only,1,0.5447,0.005,0.5004
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,size only,same strategy (CV),1,0.503,0.0075,0.4892
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,shape,same strategy (CV),1,0.5207,0.0125,0.5041
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,branching,same strategy (CV),1,0.5369,0.0025,0.5122
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,timing,same strategy (CV),1,0.4636,0.0075,0.4783
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,reuse,same strategy (CV),1,1.0,1.0,1.0
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,structure + timing,same strategy (CV),1,0.4737,0.0125,0.4773
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,all,same strategy (CV),1,1.0,1.0,1.0
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,20,structure + timing,same strategy (CV),1,0.4827,0.01,0.4899
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,20,reuse,same strategy (CV),1,0.9837,0.92,0.9888
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,20,all,same strategy (CV),1,0.9867,0.895,0.9879
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,structure + timing,naive only,1,0.4732,0.0025,0.4906
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,reuse,naive only,1,0.9992,1.0,0.9991
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,all,naive only,1,0.9965,0.9,0.9959
+higgs_w72,strategy,control: embedded accounts,0.1,0.0971,400,400,full,size only,same strategy (CV),1,0.5139,0.005,0.4923
+higgs_w72,strategy,control: embedded accounts,0.1,0.0971,400,400,full,shape,same strategy (CV),1,0.5031,0.0,0.4821
+higgs_w72,strategy,control: embedded accounts,0.1,0.0971,400,400,full,branching,same strategy (CV),1,0.5166,0.0,0.4977
+higgs_w72,strategy,control: embedded accounts,0.1,0.0971,400,400,full,timing,same strategy (CV),1,0.4767,0.0275,0.4907
+higgs_w72,strategy,control: embedded accounts,0.1,0.0971,400,400,full,reuse,same strategy (CV),1,0.9621,0.4425,0.9577
+higgs_w72,strategy,control: embedded accounts,0.1,0.0971,400,400,full,structure + timing,same strategy (CV),1,0.4584,0.01,0.4777
+higgs_w72,strategy,control: embedded accounts,0.1,0.0971,400,400,full,all,same strategy (CV),1,0.9445,0.3325,0.936
+higgs_w72,strategy,control: embedded accounts,0.1,0.0971,400,400,20,structure + timing,same strategy (CV),1,0.4963,0.0225,0.5178
+higgs_w72,strategy,control: embedded accounts,0.1,0.0971,400,400,20,reuse,same strategy (CV),1,0.9302,0.4325,0.9375
+higgs_w72,strategy,control: embedded accounts,0.1,0.0971,400,400,20,all,same strategy (CV),1,0.9222,0.36,0.9186
+higgs_w72,strategy,control: embedded accounts,0.1,0.0971,400,400,full,structure + timing,naive only,1,0.4865,0.0175,0.5078
+higgs_w72,strategy,control: embedded accounts,0.1,0.0971,400,400,full,reuse,naive only,1,0.9599,0.5275,0.9568
+higgs_w72,strategy,control: embedded accounts,0.1,0.0971,400,400,full,all,naive only,1,0.8839,0.1975,0.8702
+higgs_w72,share,naive,0.4,0.3673,400,400,full,structure + timing,same strategy (CV),1,0.9851,0.7625,0.9859
+higgs_w72,share,naive,0.4,0.3673,400,400,full,reuse,same strategy (CV),1,0.9999,0.9975,1.0
+higgs_w72,share,naive,0.4,0.3673,400,400,full,all,same strategy (CV),1,1.0,1.0,1.0
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0939,400,400,full,size only,same strategy (CV),1,0.553,0.0025,0.5056
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0939,400,400,full,shape,same strategy (CV),1,0.5332,0.0325,0.5359
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0939,400,400,full,branching,same strategy (CV),1,0.5409,0.0225,0.533
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0939,400,400,full,timing,same strategy (CV),1,0.6078,0.0475,0.5952
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0939,400,400,full,reuse,same strategy (CV),1,0.5408,0.02,0.5319
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0939,400,400,full,structure + timing,same strategy (CV),1,0.5933,0.0225,0.5765
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0939,400,400,full,all,same strategy (CV),1,0.5903,0.0225,0.5692
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0939,400,400,20,structure + timing,same strategy (CV),1,0.5627,0.01,0.539
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0939,400,400,20,reuse,same strategy (CV),1,0.4989,0.0225,0.509
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0939,400,400,20,all,same strategy (CV),1,0.5652,0.02,0.5513
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0939,400,400,full,structure + timing,naive only,1,0.5788,0.02,0.5793
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0939,400,400,full,reuse,naive only,1,0.4849,0.0,0.48
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0939,400,400,full,all,naive only,1,0.5121,0.005,0.5001
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2809,400,400,full,size only,same strategy (CV),1,0.6698,0.0025,0.5877
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2809,400,400,full,shape,same strategy (CV),1,0.7025,0.03,0.6486
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2809,400,400,full,branching,same strategy (CV),1,0.7455,0.0475,0.7123
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2809,400,400,full,timing,same strategy (CV),1,0.6556,0.02,0.611
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2809,400,400,full,reuse,same strategy (CV),1,0.6001,0.0125,0.5834
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2809,400,400,full,structure + timing,same strategy (CV),1,0.8118,0.0625,0.7764
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2809,400,400,full,all,same strategy (CV),1,0.7934,0.05,0.746
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2809,400,400,20,structure + timing,same strategy (CV),1,0.7943,0.005,0.7252
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2809,400,400,20,reuse,same strategy (CV),1,0.5479,0.0525,0.5754
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2809,400,400,20,all,same strategy (CV),1,0.7867,0.015,0.713
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2809,400,400,full,structure + timing,naive only,1,0.7035,0.0275,0.6775
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2809,400,400,full,reuse,naive only,1,0.4715,0.0025,0.4765
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2809,400,400,full,all,naive only,1,0.5937,0.01,0.5585
+higgs_w72,share,full mimic + rotation,0.02,0.0486,400,400,full,structure + timing,same strategy (CV),1,0.8379,0.2575,0.8359
+higgs_w72,share,full mimic + rotation,0.02,0.0486,400,400,full,reuse,same strategy (CV),1,0.4941,0.02,0.4998
+higgs_w72,share,full mimic + rotation,0.02,0.0486,400,400,full,all,same strategy (CV),1,0.8307,0.2025,0.827
+higgs_w72,share,full mimic + rotation,0.1,0.0939,400,400,full,structure + timing,same strategy (CV),1,0.9459,0.5375,0.9479
+higgs_w72,share,full mimic + rotation,0.1,0.0939,400,400,full,reuse,same strategy (CV),1,0.5284,0.0325,0.5404
+higgs_w72,share,full mimic + rotation,0.1,0.0939,400,400,full,all,same strategy (CV),1,0.947,0.42,0.948
+higgs_w72,share,full mimic + rotation,0.05,0.0602,400,400,full,structure + timing,same strategy (CV),1,0.9056,0.325,0.901
+higgs_w72,share,full mimic + rotation,0.05,0.0602,400,400,full,reuse,same strategy (CV),1,0.5144,0.005,0.4953
+higgs_w72,share,full mimic + rotation,0.05,0.0602,400,400,full,all,same strategy (CV),1,0.9063,0.2825,0.9019
+higgs_w72,share,full mimic + rotation,0.2,0.1913,400,400,full,structure + timing,same strategy (CV),1,0.9863,0.7625,0.986
+higgs_w72,share,full mimic + rotation,0.2,0.1913,400,400,full,reuse,same strategy (CV),1,0.5287,0.0175,0.5302
+higgs_w72,share,full mimic + rotation,0.2,0.1913,400,400,full,all,same strategy (CV),1,0.9864,0.7675,0.986
+higgs_w72,share,full mimic + rotation,0.4,0.367,400,400,full,structure + timing,same strategy (CV),1,0.9994,0.9875,0.9994
+higgs_w72,share,full mimic + rotation,0.4,0.367,400,400,full,reuse,same strategy (CV),1,0.688,0.0275,0.6567
+higgs_w72,share,full mimic + rotation,0.4,0.367,400,400,full,all,same strategy (CV),1,0.9995,0.9825,0.9995
+higgs_w72,share,empirical mimic + rotation,0.02,0.0487,400,400,full,structure + timing,same strategy (CV),1,0.5376,0.02,0.5305
+higgs_w72,share,empirical mimic + rotation,0.02,0.0487,400,400,full,reuse,same strategy (CV),1,0.5041,0.0175,0.5055
+higgs_w72,share,empirical mimic + rotation,0.02,0.0487,400,400,full,all,same strategy (CV),1,0.5164,0.0375,0.5223
+higgs_w72,share,empirical mimic + rotation,0.05,0.0604,400,400,full,structure + timing,same strategy (CV),1,0.5866,0.0275,0.5681
+higgs_w72,share,empirical mimic + rotation,0.05,0.0604,400,400,full,reuse,same strategy (CV),1,0.52,0.0375,0.5238
+higgs_w72,share,empirical mimic + rotation,0.05,0.0604,400,400,full,all,same strategy (CV),1,0.5647,0.0275,0.5569
+higgs_w72,share,empirical mimic + rotation,0.2,0.1896,400,400,full,structure + timing,same strategy (CV),1,0.6883,0.0575,0.6676
+higgs_w72,share,empirical mimic + rotation,0.2,0.1896,400,400,full,reuse,same strategy (CV),1,0.5264,0.025,0.5227
+higgs_w72,share,empirical mimic + rotation,0.2,0.1896,400,400,full,all,same strategy (CV),1,0.6679,0.05,0.6508
+higgs_w72,share,empirical mimic + rotation,0.1,0.0939,400,400,full,structure + timing,same strategy (CV),1,0.5933,0.0225,0.5765
+higgs_w72,share,empirical mimic + rotation,0.1,0.0939,400,400,full,reuse,same strategy (CV),1,0.5408,0.02,0.5319
+higgs_w72,share,empirical mimic + rotation,0.1,0.0939,400,400,full,all,same strategy (CV),1,0.5903,0.0225,0.5692
+higgs_w72,share,empirical mimic + rotation,0.4,0.3671,400,400,full,structure + timing,same strategy (CV),1,0.9465,0.255,0.926
+higgs_w72,share,empirical mimic + rotation,0.4,0.3671,400,400,full,reuse,same strategy (CV),1,0.6852,0.085,0.6829
+higgs_w72,share,empirical mimic + rotation,0.4,0.3671,400,400,full,all,same strategy (CV),1,0.9446,0.21,0.9183
+higgs_w72,strategy,naive,0.3,0.2807,400,400,full,size only,same strategy (CV),2,0.6756,0.025,0.6211
+higgs_w72,strategy,naive,0.3,0.2807,400,400,full,shape,same strategy (CV),2,0.8205,0.025,0.7648
+higgs_w72,strategy,naive,0.3,0.2807,400,400,full,branching,same strategy (CV),2,0.8209,0.0175,0.7639
+higgs_w72,strategy,naive,0.3,0.2807,400,400,full,timing,same strategy (CV),2,0.8936,0.2075,0.8861
+higgs_w72,strategy,naive,0.3,0.2807,400,400,full,reuse,same strategy (CV),2,0.9991,0.9825,0.9991
+higgs_w72,strategy,naive,0.3,0.2807,400,400,full,structure + timing,same strategy (CV),2,0.9277,0.4175,0.929
+higgs_w72,strategy,naive,0.3,0.2807,400,400,full,all,same strategy (CV),2,0.9995,0.9875,0.9994
+higgs_w72,strategy,naive,0.3,0.2807,400,400,20,structure + timing,same strategy (CV),2,0.9291,0.5475,0.9356
+higgs_w72,strategy,naive,0.3,0.2807,400,400,20,reuse,same strategy (CV),2,0.9786,0.9575,0.986
+higgs_w72,strategy,naive,0.3,0.2807,400,400,20,all,same strategy (CV),2,0.9968,0.96,0.9971
+higgs_w72,strategy,naive,0.3,0.2807,400,400,full,structure + timing,naive only,2,0.9356,0.47,0.9364
+higgs_w72,strategy,naive,0.3,0.2807,400,400,full,reuse,naive only,2,0.9995,0.99,0.9995
+higgs_w72,strategy,naive,0.3,0.2807,400,400,full,all,naive only,2,0.9999,1.0,0.9999
+higgs_w72,strategy,naive,0.1,0.0953,400,400,full,size only,same strategy (CV),2,0.5376,0.01,0.5082
+higgs_w72,strategy,naive,0.1,0.0953,400,400,full,shape,same strategy (CV),2,0.5712,0.0075,0.5467
+higgs_w72,strategy,naive,0.1,0.0953,400,400,full,branching,same strategy (CV),2,0.5767,0.0175,0.553
+higgs_w72,strategy,naive,0.1,0.0953,400,400,full,timing,same strategy (CV),2,0.7456,0.015,0.6773
+higgs_w72,strategy,naive,0.1,0.0953,400,400,full,reuse,same strategy (CV),2,0.9477,0.4475,0.9438
+higgs_w72,strategy,naive,0.1,0.0953,400,400,full,structure + timing,same strategy (CV),2,0.7611,0.0075,0.6937
+higgs_w72,strategy,naive,0.1,0.0953,400,400,full,all,same strategy (CV),2,0.9541,0.4075,0.945
+higgs_w72,strategy,naive,0.1,0.0953,400,400,20,structure + timing,same strategy (CV),2,0.7476,0.14,0.7468
+higgs_w72,strategy,naive,0.1,0.0953,400,400,20,reuse,same strategy (CV),2,0.9728,0.75,0.9777
+higgs_w72,strategy,naive,0.1,0.0953,400,400,20,all,same strategy (CV),2,0.9678,0.525,0.9668
+higgs_w72,strategy,naive,0.1,0.0953,400,400,full,structure + timing,naive only,2,0.7786,0.0525,0.7353
+higgs_w72,strategy,naive,0.1,0.0953,400,400,full,reuse,naive only,2,0.9577,0.595,0.9562
+higgs_w72,strategy,naive,0.1,0.0953,400,400,full,all,naive only,2,0.9655,0.45,0.9602
+higgs_w72,strategy,random timing,0.1,0.0953,400,400,full,size only,same strategy (CV),2,0.5376,0.01,0.5082
+higgs_w72,strategy,random timing,0.1,0.0953,400,400,full,shape,same strategy (CV),2,0.5712,0.0075,0.5467
+higgs_w72,strategy,random timing,0.1,0.0953,400,400,full,branching,same strategy (CV),2,0.5767,0.0175,0.553
+higgs_w72,strategy,random timing,0.1,0.0953,400,400,full,timing,same strategy (CV),2,0.7462,0.0325,0.6929
+higgs_w72,strategy,random timing,0.1,0.0953,400,400,full,reuse,same strategy (CV),2,0.9477,0.4475,0.9438
+higgs_w72,strategy,random timing,0.1,0.0953,400,400,full,structure + timing,same strategy (CV),2,0.7677,0.0075,0.7065
+higgs_w72,strategy,random timing,0.1,0.0953,400,400,full,all,same strategy (CV),2,0.9547,0.36,0.946
+higgs_w72,strategy,random timing,0.1,0.0953,400,400,20,structure + timing,same strategy (CV),2,0.7552,0.155,0.749
+higgs_w72,strategy,random timing,0.1,0.0953,400,400,20,reuse,same strategy (CV),2,0.9731,0.7475,0.9781
+higgs_w72,strategy,random timing,0.1,0.0953,400,400,20,all,same strategy (CV),2,0.9681,0.5725,0.9672
+higgs_w72,strategy,random timing,0.1,0.0953,400,400,full,structure + timing,naive only,2,0.7787,0.065,0.7399
+higgs_w72,strategy,random timing,0.1,0.0953,400,400,full,reuse,naive only,2,0.9577,0.595,0.9562
+higgs_w72,strategy,random timing,0.1,0.0953,400,400,full,all,naive only,2,0.9657,0.455,0.9606
+higgs_w72,strategy,random timing,0.3,0.2807,400,400,full,size only,same strategy (CV),2,0.6756,0.025,0.6211
+higgs_w72,strategy,random timing,0.3,0.2807,400,400,full,shape,same strategy (CV),2,0.8205,0.025,0.7648
+higgs_w72,strategy,random timing,0.3,0.2807,400,400,full,branching,same strategy (CV),2,0.8209,0.0175,0.7639
+higgs_w72,strategy,random timing,0.3,0.2807,400,400,full,timing,same strategy (CV),2,0.9021,0.2475,0.8939
+higgs_w72,strategy,random timing,0.3,0.2807,400,400,full,reuse,same strategy (CV),2,0.9991,0.9825,0.9991
+higgs_w72,strategy,random timing,0.3,0.2807,400,400,full,structure + timing,same strategy (CV),2,0.9371,0.3825,0.9363
+higgs_w72,strategy,random timing,0.3,0.2807,400,400,full,all,same strategy (CV),2,0.9994,0.9875,0.9994
+higgs_w72,strategy,random timing,0.3,0.2807,400,400,20,structure + timing,same strategy (CV),2,0.9312,0.4875,0.9335
+higgs_w72,strategy,random timing,0.3,0.2807,400,400,20,reuse,same strategy (CV),2,0.9815,0.955,0.9873
+higgs_w72,strategy,random timing,0.3,0.2807,400,400,20,all,same strategy (CV),2,0.9967,0.955,0.9969
+higgs_w72,strategy,random timing,0.3,0.2807,400,400,full,structure + timing,naive only,2,0.9202,0.27,0.9103
+higgs_w72,strategy,random timing,0.3,0.2807,400,400,full,reuse,naive only,2,0.9995,0.99,0.9995
+higgs_w72,strategy,random timing,0.3,0.2807,400,400,full,all,naive only,2,0.9999,1.0,0.9999
+higgs_w72,strategy,organic timing,0.3,0.2819,400,400,full,size only,same strategy (CV),2,0.7106,0.02,0.6455
+higgs_w72,strategy,organic timing,0.3,0.2819,400,400,full,shape,same strategy (CV),2,0.7954,0.06,0.7556
+higgs_w72,strategy,organic timing,0.3,0.2819,400,400,full,branching,same strategy (CV),2,0.8077,0.06,0.7627
+higgs_w72,strategy,organic timing,0.3,0.2819,400,400,full,timing,same strategy (CV),2,0.8038,0.0625,0.7793
+higgs_w72,strategy,organic timing,0.3,0.2819,400,400,full,reuse,same strategy (CV),2,0.9975,0.9825,0.9979
+higgs_w72,strategy,organic timing,0.3,0.2819,400,400,full,structure + timing,same strategy (CV),2,0.8809,0.1725,0.8674
+higgs_w72,strategy,organic timing,0.3,0.2819,400,400,full,all,same strategy (CV),2,0.9996,0.9875,0.9996
+higgs_w72,strategy,organic timing,0.3,0.2819,400,400,20,structure + timing,same strategy (CV),2,0.7915,0.07,0.7576
+higgs_w72,strategy,organic timing,0.3,0.2819,400,400,20,reuse,same strategy (CV),2,0.9769,0.8425,0.9836
+higgs_w72,strategy,organic timing,0.3,0.2819,400,400,20,all,same strategy (CV),2,0.9852,0.8375,0.9867
+higgs_w72,strategy,organic timing,0.3,0.2819,400,400,full,structure + timing,naive only,2,0.7913,0.0875,0.7639
+higgs_w72,strategy,organic timing,0.3,0.2819,400,400,full,reuse,naive only,2,0.9991,0.9825,0.9991
+higgs_w72,strategy,organic timing,0.3,0.2819,400,400,full,all,naive only,2,0.9992,1.0,0.999
+higgs_w72,strategy,organic timing + structure,0.3,0.2814,400,400,full,size only,same strategy (CV),2,0.675,0.01,0.617
+higgs_w72,strategy,organic timing + structure,0.3,0.2814,400,400,full,shape,same strategy (CV),2,0.9736,0.4975,0.9643
+higgs_w72,strategy,organic timing + structure,0.3,0.2814,400,400,full,branching,same strategy (CV),2,0.9958,0.915,0.996
+higgs_w72,strategy,organic timing + structure,0.3,0.2814,400,400,full,timing,same strategy (CV),2,0.9019,0.22,0.8925
+higgs_w72,strategy,organic timing + structure,0.3,0.2814,400,400,full,reuse,same strategy (CV),2,0.9989,0.99,0.999
+higgs_w72,strategy,organic timing + structure,0.3,0.2814,400,400,full,structure + timing,same strategy (CV),2,0.9966,0.9375,0.9966
+higgs_w72,strategy,organic timing + structure,0.3,0.2814,400,400,full,all,same strategy (CV),2,0.9997,1.0,0.9997
+higgs_w72,strategy,organic timing + structure,0.3,0.2814,400,400,20,structure + timing,same strategy (CV),2,0.919,0.5325,0.9309
+higgs_w72,strategy,organic timing + structure,0.3,0.2814,400,400,20,reuse,same strategy (CV),2,0.8636,0.6075,0.902
+higgs_w72,strategy,organic timing + structure,0.3,0.2814,400,400,20,all,same strategy (CV),2,0.9323,0.5825,0.9428
+higgs_w72,strategy,organic timing + structure,0.3,0.2814,400,400,full,structure + timing,naive only,2,0.8347,0.13,0.814
+higgs_w72,strategy,organic timing + structure,0.3,0.2814,400,400,full,reuse,naive only,2,0.9996,0.9925,0.9996
+higgs_w72,strategy,organic timing + structure,0.3,0.2814,400,400,full,all,naive only,2,0.9992,0.9975,0.9991
+higgs_w72,strategy,organic timing + structure,0.1,0.0941,400,400,full,size only,same strategy (CV),2,0.5625,0.01,0.5305
+higgs_w72,strategy,organic timing + structure,0.1,0.0941,400,400,full,shape,same strategy (CV),2,0.8676,0.1325,0.8305
+higgs_w72,strategy,organic timing + structure,0.1,0.0941,400,400,full,branching,same strategy (CV),2,0.9335,0.2325,0.9079
+higgs_w72,strategy,organic timing + structure,0.1,0.0941,400,400,full,timing,same strategy (CV),2,0.8133,0.065,0.7756
+higgs_w72,strategy,organic timing + structure,0.1,0.0941,400,400,full,reuse,same strategy (CV),2,0.9499,0.545,0.9486
+higgs_w72,strategy,organic timing + structure,0.1,0.0941,400,400,full,structure + timing,same strategy (CV),2,0.9385,0.265,0.9179
+higgs_w72,strategy,organic timing + structure,0.1,0.0941,400,400,full,all,same strategy (CV),2,0.9637,0.335,0.9537
+higgs_w72,strategy,organic timing + structure,0.1,0.0941,400,400,20,structure + timing,same strategy (CV),2,0.7808,0.095,0.773
+higgs_w72,strategy,organic timing + structure,0.1,0.0941,400,400,20,reuse,same strategy (CV),2,0.8014,0.2675,0.8351
+higgs_w72,strategy,organic timing + structure,0.1,0.0941,400,400,20,all,same strategy (CV),2,0.8496,0.29,0.8672
+higgs_w72,strategy,organic timing + structure,0.1,0.0941,400,400,full,structure + timing,naive only,2,0.5998,0.02,0.5863
+higgs_w72,strategy,organic timing + structure,0.1,0.0941,400,400,full,reuse,naive only,2,0.9551,0.49,0.9505
+higgs_w72,strategy,organic timing + structure,0.1,0.0941,400,400,full,all,naive only,2,0.8893,0.2025,0.873
+higgs_w72,strategy,organic timing,0.1,0.0949,400,400,full,size only,same strategy (CV),2,0.555,0.0125,0.5202
+higgs_w72,strategy,organic timing,0.1,0.0949,400,400,full,shape,same strategy (CV),2,0.5641,0.025,0.555
+higgs_w72,strategy,organic timing,0.1,0.0949,400,400,full,branching,same strategy (CV),2,0.5669,0.03,0.5627
+higgs_w72,strategy,organic timing,0.1,0.0949,400,400,full,timing,same strategy (CV),2,0.613,0.0325,0.6016
+higgs_w72,strategy,organic timing,0.1,0.0949,400,400,full,reuse,same strategy (CV),2,0.9468,0.38,0.9387
+higgs_w72,strategy,organic timing,0.1,0.0949,400,400,full,structure + timing,same strategy (CV),2,0.6084,0.025,0.5966
+higgs_w72,strategy,organic timing,0.1,0.0949,400,400,full,all,same strategy (CV),2,0.9348,0.36,0.9281
+higgs_w72,strategy,organic timing,0.1,0.0949,400,400,20,structure + timing,same strategy (CV),2,0.5314,0.01,0.5288
+higgs_w72,strategy,organic timing,0.1,0.0949,400,400,20,reuse,same strategy (CV),2,0.9224,0.4675,0.928
+higgs_w72,strategy,organic timing,0.1,0.0949,400,400,20,all,same strategy (CV),2,0.9211,0.2,0.912
+higgs_w72,strategy,organic timing,0.1,0.0949,400,400,full,structure + timing,naive only,2,0.5816,0.015,0.5603
+higgs_w72,strategy,organic timing,0.1,0.0949,400,400,full,reuse,naive only,2,0.9519,0.505,0.9455
+higgs_w72,strategy,organic timing,0.1,0.0949,400,400,full,all,naive only,2,0.8967,0.26,0.8858
+higgs_w72,share,naive,0.02,0.0475,400,400,full,structure + timing,same strategy (CV),2,0.6268,0.0275,0.5953
+higgs_w72,share,naive,0.02,0.0475,400,400,full,reuse,same strategy (CV),2,0.8196,0.2775,0.8314
+higgs_w72,share,naive,0.02,0.0475,400,400,full,all,same strategy (CV),2,0.8053,0.265,0.8087
+higgs_w72,share,naive,0.05,0.0599,400,400,full,structure + timing,same strategy (CV),2,0.6716,0.02,0.6316
+higgs_w72,share,naive,0.05,0.0599,400,400,full,reuse,same strategy (CV),2,0.8783,0.265,0.8721
+higgs_w72,share,naive,0.05,0.0599,400,400,full,all,same strategy (CV),2,0.854,0.195,0.8371
+higgs_w72,share,naive,0.1,0.0953,400,400,full,structure + timing,same strategy (CV),2,0.7611,0.0075,0.6937
+higgs_w72,share,naive,0.1,0.0953,400,400,full,reuse,same strategy (CV),2,0.9477,0.4475,0.9438
+higgs_w72,share,naive,0.1,0.0953,400,400,full,all,same strategy (CV),2,0.9541,0.4075,0.945
+higgs_w72,share,naive,0.2,0.1918,400,400,full,structure + timing,same strategy (CV),2,0.8612,0.1275,0.8293
+higgs_w72,share,naive,0.2,0.1918,400,400,full,reuse,same strategy (CV),2,0.9976,0.94,0.9975
+higgs_w72,share,naive,0.2,0.1918,400,400,full,all,same strategy (CV),2,0.9983,0.9575,0.9983
+higgs_w72,strategy,full mimic + rotation,0.1,0.0952,400,400,full,size only,same strategy (CV),2,0.5905,0.005,0.5467
+higgs_w72,strategy,full mimic + rotation,0.1,0.0952,400,400,full,shape,same strategy (CV),2,0.8591,0.1175,0.8203
+higgs_w72,strategy,full mimic + rotation,0.1,0.0952,400,400,full,branching,same strategy (CV),2,0.9254,0.1625,0.8972
+higgs_w72,strategy,full mimic + rotation,0.1,0.0952,400,400,full,timing,same strategy (CV),2,0.8176,0.065,0.7886
+higgs_w72,strategy,full mimic + rotation,0.1,0.0952,400,400,full,reuse,same strategy (CV),2,0.5289,0.0075,0.507
+higgs_w72,strategy,full mimic + rotation,0.1,0.0952,400,400,full,structure + timing,same strategy (CV),2,0.9342,0.295,0.9186
+higgs_w72,strategy,full mimic + rotation,0.1,0.0952,400,400,full,all,same strategy (CV),2,0.9414,0.29,0.9328
+higgs_w72,strategy,full mimic + rotation,0.1,0.0952,400,400,20,structure + timing,same strategy (CV),2,0.7871,0.0775,0.7703
+higgs_w72,strategy,full mimic + rotation,0.1,0.0952,400,400,20,reuse,same strategy (CV),2,0.5076,0.0025,0.4949
+higgs_w72,strategy,full mimic + rotation,0.1,0.0952,400,400,20,all,same strategy (CV),2,0.7876,0.105,0.7752
+higgs_w72,strategy,full mimic + rotation,0.1,0.0952,400,400,full,structure + timing,naive only,2,0.5969,0.0175,0.5816
+higgs_w72,strategy,full mimic + rotation,0.1,0.0952,400,400,full,reuse,naive only,2,0.4487,0.0025,0.4664
+higgs_w72,strategy,full mimic + rotation,0.1,0.0952,400,400,full,all,naive only,2,0.5172,0.0,0.4856
+higgs_w72,strategy,full mimic + rotation,0.3,0.2842,400,400,full,size only,same strategy (CV),2,0.6994,0.0175,0.6299
+higgs_w72,strategy,full mimic + rotation,0.3,0.2842,400,400,full,shape,same strategy (CV),2,0.9748,0.47,0.9706
+higgs_w72,strategy,full mimic + rotation,0.3,0.2842,400,400,full,branching,same strategy (CV),2,0.996,0.9075,0.996
+higgs_w72,strategy,full mimic + rotation,0.3,0.2842,400,400,full,timing,same strategy (CV),2,0.8963,0.265,0.8843
+higgs_w72,strategy,full mimic + rotation,0.3,0.2842,400,400,full,reuse,same strategy (CV),2,0.5658,0.0325,0.564
+higgs_w72,strategy,full mimic + rotation,0.3,0.2842,400,400,full,structure + timing,same strategy (CV),2,0.997,0.94,0.997
+higgs_w72,strategy,full mimic + rotation,0.3,0.2842,400,400,full,all,same strategy (CV),2,0.9972,0.9225,0.9972
+higgs_w72,strategy,full mimic + rotation,0.3,0.2842,400,400,20,structure + timing,same strategy (CV),2,0.9202,0.4375,0.9227
+higgs_w72,strategy,full mimic + rotation,0.3,0.2842,400,400,20,reuse,same strategy (CV),2,0.5406,0.0075,0.5261
+higgs_w72,strategy,full mimic + rotation,0.3,0.2842,400,400,20,all,same strategy (CV),2,0.9272,0.4725,0.9316
+higgs_w72,strategy,full mimic + rotation,0.3,0.2842,400,400,full,structure + timing,naive only,2,0.8341,0.13,0.8112
+higgs_w72,strategy,full mimic + rotation,0.3,0.2842,400,400,full,reuse,naive only,2,0.4451,0.0075,0.4734
+higgs_w72,strategy,full mimic + rotation,0.3,0.2842,400,400,full,all,naive only,2,0.8053,0.0175,0.7276
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,size only,same strategy (CV),2,0.5744,0.0025,0.5424
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,shape,same strategy (CV),2,0.4926,0.0125,0.4831
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,branching,same strategy (CV),2,0.4905,0.015,0.4906
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,timing,same strategy (CV),2,0.5378,0.02,0.5363
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,reuse,same strategy (CV),2,0.9996,1.0,0.9996
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,structure + timing,same strategy (CV),2,0.541,0.0075,0.5291
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,all,same strategy (CV),2,0.9995,1.0,0.9995
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,20,structure + timing,same strategy (CV),2,0.4962,0.0025,0.4967
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,20,reuse,same strategy (CV),2,0.983,0.895,0.9878
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,20,all,same strategy (CV),2,0.9891,0.8975,0.9907
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,structure + timing,naive only,2,0.4653,0.015,0.476
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,reuse,naive only,2,0.9996,1.0,0.9995
+higgs_w72,strategy,control: embedded accounts,0.3,0.2992,400,400,full,all,naive only,2,0.9982,0.995,0.9972
+higgs_w72,strategy,control: embedded accounts,0.1,0.0972,400,400,full,size only,same strategy (CV),2,0.557,0.0075,0.5443
+higgs_w72,strategy,control: embedded accounts,0.1,0.0972,400,400,full,shape,same strategy (CV),2,0.4949,0.01,0.4932
+higgs_w72,strategy,control: embedded accounts,0.1,0.0972,400,400,full,branching,same strategy (CV),2,0.5064,0.0125,0.5051
+higgs_w72,strategy,control: embedded accounts,0.1,0.0972,400,400,full,timing,same strategy (CV),2,0.5438,0.0125,0.5283
+higgs_w72,strategy,control: embedded accounts,0.1,0.0972,400,400,full,reuse,same strategy (CV),2,0.9586,0.5125,0.9543
+higgs_w72,strategy,control: embedded accounts,0.1,0.0972,400,400,full,structure + timing,same strategy (CV),2,0.5375,0.0075,0.52
+higgs_w72,strategy,control: embedded accounts,0.1,0.0972,400,400,full,all,same strategy (CV),2,0.9408,0.38,0.929
+higgs_w72,strategy,control: embedded accounts,0.1,0.0972,400,400,20,structure + timing,same strategy (CV),2,0.4804,0.0125,0.4792
+higgs_w72,strategy,control: embedded accounts,0.1,0.0972,400,400,20,reuse,same strategy (CV),2,0.9197,0.46,0.9329
+higgs_w72,strategy,control: embedded accounts,0.1,0.0972,400,400,20,all,same strategy (CV),2,0.9121,0.2525,0.9043
+higgs_w72,strategy,control: embedded accounts,0.1,0.0972,400,400,full,structure + timing,naive only,2,0.4788,0.01,0.4821
+higgs_w72,strategy,control: embedded accounts,0.1,0.0972,400,400,full,reuse,naive only,2,0.9614,0.565,0.9592
+higgs_w72,strategy,control: embedded accounts,0.1,0.0972,400,400,full,all,naive only,2,0.8833,0.2225,0.8681
+higgs_w72,share,naive,0.4,0.372,400,400,full,structure + timing,same strategy (CV),2,0.9845,0.73,0.9837
+higgs_w72,share,naive,0.4,0.372,400,400,full,reuse,same strategy (CV),2,1.0,1.0,1.0
+higgs_w72,share,naive,0.4,0.372,400,400,full,all,same strategy (CV),2,1.0,1.0,1.0
+higgs_w72,share,full mimic + rotation,0.02,0.0479,400,400,full,structure + timing,same strategy (CV),2,0.8432,0.1075,0.8185
+higgs_w72,share,full mimic + rotation,0.02,0.0479,400,400,full,reuse,same strategy (CV),2,0.5133,0.005,0.4979
+higgs_w72,share,full mimic + rotation,0.02,0.0479,400,400,full,all,same strategy (CV),2,0.8573,0.13,0.8363
+higgs_w72,share,full mimic + rotation,0.05,0.0597,400,400,full,structure + timing,same strategy (CV),2,0.8938,0.115,0.8668
+higgs_w72,share,full mimic + rotation,0.05,0.0597,400,400,full,reuse,same strategy (CV),2,0.5196,0.01,0.5323
+higgs_w72,share,full mimic + rotation,0.05,0.0597,400,400,full,all,same strategy (CV),2,0.9011,0.1975,0.8803
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0948,400,400,full,size only,same strategy (CV),2,0.5795,0.0,0.5299
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0948,400,400,full,shape,same strategy (CV),2,0.5519,0.0175,0.53
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0948,400,400,full,branching,same strategy (CV),2,0.5344,0.0275,0.5261
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0948,400,400,full,timing,same strategy (CV),2,0.5985,0.015,0.5696
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0948,400,400,full,reuse,same strategy (CV),2,0.5364,0.0,0.5128
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0948,400,400,full,structure + timing,same strategy (CV),2,0.5717,0.025,0.5538
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0948,400,400,full,all,same strategy (CV),2,0.5793,0.0175,0.5563
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0948,400,400,20,structure + timing,same strategy (CV),2,0.5297,0.015,0.5131
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0948,400,400,20,reuse,same strategy (CV),2,0.4591,0.0125,0.4719
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0948,400,400,20,all,same strategy (CV),2,0.5271,0.02,0.5162
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0948,400,400,full,structure + timing,naive only,2,0.5565,0.015,0.5352
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0948,400,400,full,reuse,naive only,2,0.4531,0.0075,0.4718
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0948,400,400,full,all,naive only,2,0.4914,0.0025,0.4791
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2797,400,400,full,size only,same strategy (CV),2,0.6754,0.03,0.6229
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2797,400,400,full,shape,same strategy (CV),2,0.6931,0.01,0.6316
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2797,400,400,full,branching,same strategy (CV),2,0.7021,0.0075,0.637
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2797,400,400,full,timing,same strategy (CV),2,0.6983,0.035,0.6527
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2797,400,400,full,reuse,same strategy (CV),2,0.5567,0.02,0.5629
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2797,400,400,full,structure + timing,same strategy (CV),2,0.8058,0.06,0.7551
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2797,400,400,full,all,same strategy (CV),2,0.8127,0.105,0.7807
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2797,400,400,20,structure + timing,same strategy (CV),2,0.7712,0.01,0.7072
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2797,400,400,20,reuse,same strategy (CV),2,0.5066,0.015,0.5126
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2797,400,400,20,all,same strategy (CV),2,0.7777,0.0325,0.7285
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2797,400,400,full,structure + timing,naive only,2,0.6375,0.06,0.6306
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2797,400,400,full,reuse,naive only,2,0.4778,0.0125,0.4834
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2797,400,400,full,all,naive only,2,0.5914,0.02,0.5619
+higgs_w72,share,full mimic + rotation,0.1,0.0952,400,400,full,structure + timing,same strategy (CV),2,0.9342,0.295,0.9186
+higgs_w72,share,full mimic + rotation,0.1,0.0952,400,400,full,reuse,same strategy (CV),2,0.5289,0.0075,0.507
+higgs_w72,share,full mimic + rotation,0.1,0.0952,400,400,full,all,same strategy (CV),2,0.9414,0.29,0.9328
+higgs_w72,share,full mimic + rotation,0.4,0.3662,400,400,full,structure + timing,same strategy (CV),2,0.9993,0.985,0.9993
+higgs_w72,share,full mimic + rotation,0.4,0.3662,400,400,full,reuse,same strategy (CV),2,0.701,0.0475,0.679
+higgs_w72,share,full mimic + rotation,0.4,0.3662,400,400,full,all,same strategy (CV),2,0.9992,0.9875,0.9992
+higgs_w72,share,full mimic + rotation,0.2,0.1898,400,400,full,structure + timing,same strategy (CV),2,0.9865,0.73,0.9853
+higgs_w72,share,full mimic + rotation,0.2,0.1898,400,400,full,reuse,same strategy (CV),2,0.5296,0.0125,0.5177
+higgs_w72,share,full mimic + rotation,0.2,0.1898,400,400,full,all,same strategy (CV),2,0.9879,0.755,0.9873
+higgs_w72,share,empirical mimic + rotation,0.02,0.0474,400,400,full,structure + timing,same strategy (CV),2,0.53,0.01,0.512
+higgs_w72,share,empirical mimic + rotation,0.02,0.0474,400,400,full,reuse,same strategy (CV),2,0.5215,0.005,0.5107
+higgs_w72,share,empirical mimic + rotation,0.02,0.0474,400,400,full,all,same strategy (CV),2,0.5295,0.01,0.5184
+higgs_w72,share,empirical mimic + rotation,0.05,0.0602,400,400,full,structure + timing,same strategy (CV),2,0.5516,0.0275,0.5457
+higgs_w72,share,empirical mimic + rotation,0.05,0.0602,400,400,full,reuse,same strategy (CV),2,0.5331,0.0,0.5187
+higgs_w72,share,empirical mimic + rotation,0.05,0.0602,400,400,full,all,same strategy (CV),2,0.5637,0.03,0.5535
+higgs_w72,share,empirical mimic + rotation,0.4,0.3697,400,400,full,structure + timing,same strategy (CV),2,0.9405,0.235,0.9146
+higgs_w72,share,empirical mimic + rotation,0.4,0.3697,400,400,full,reuse,same strategy (CV),2,0.6934,0.04,0.6882
+higgs_w72,share,empirical mimic + rotation,0.4,0.3697,400,400,full,all,same strategy (CV),2,0.9471,0.52,0.9334
+higgs_w72,share,empirical mimic + rotation,0.1,0.0948,400,400,full,structure + timing,same strategy (CV),2,0.5717,0.025,0.5538
+higgs_w72,share,empirical mimic + rotation,0.1,0.0948,400,400,full,reuse,same strategy (CV),2,0.5364,0.0,0.5128
+higgs_w72,share,empirical mimic + rotation,0.1,0.0948,400,400,full,all,same strategy (CV),2,0.5793,0.0175,0.5563
+higgs_w72,share,empirical mimic + rotation,0.2,0.1916,400,400,full,structure + timing,same strategy (CV),2,0.6722,0.0125,0.6395
+higgs_w72,share,empirical mimic + rotation,0.2,0.1916,400,400,full,reuse,same strategy (CV),2,0.5149,0.0275,0.5165
+higgs_w72,share,empirical mimic + rotation,0.2,0.1916,400,400,full,all,same strategy (CV),2,0.6685,0.0425,0.6487
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,size only,same strategy (CV),3,0.5753,0.0325,0.5606
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,shape,same strategy (CV),3,0.592,0.01,0.5592
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,branching,same strategy (CV),3,0.5839,0.015,0.5588
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,timing,same strategy (CV),3,0.7551,0.06,0.7245
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,reuse,same strategy (CV),3,0.9527,0.425,0.947
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,structure + timing,same strategy (CV),3,0.7808,0.115,0.7528
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,all,same strategy (CV),3,0.958,0.3975,0.952
+higgs_w72,strategy,naive,0.1,0.0954,400,400,20,structure + timing,same strategy (CV),3,0.7551,0.1675,0.763
+higgs_w72,strategy,naive,0.1,0.0954,400,400,20,reuse,same strategy (CV),3,0.9556,0.6525,0.9624
+higgs_w72,strategy,naive,0.1,0.0954,400,400,20,all,same strategy (CV),3,0.9661,0.5775,0.9645
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,structure + timing,naive only,3,0.7892,0.0775,0.7441
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,reuse,naive only,3,0.9442,0.3225,0.9345
+higgs_w72,strategy,naive,0.1,0.0954,400,400,full,all,naive only,3,0.9584,0.38,0.9488
+higgs_w72,strategy,naive,0.3,0.2794,400,400,full,size only,same strategy (CV),3,0.6767,0.0,0.5976
+higgs_w72,strategy,naive,0.3,0.2794,400,400,full,shape,same strategy (CV),3,0.8152,0.0925,0.7722
+higgs_w72,strategy,naive,0.3,0.2794,400,400,full,branching,same strategy (CV),3,0.7918,0.0525,0.7386
+higgs_w72,strategy,naive,0.3,0.2794,400,400,full,timing,same strategy (CV),3,0.8881,0.3125,0.8868
+higgs_w72,strategy,naive,0.3,0.2794,400,400,full,reuse,same strategy (CV),3,0.9986,0.9825,0.9987
+higgs_w72,strategy,naive,0.3,0.2794,400,400,full,structure + timing,same strategy (CV),3,0.9218,0.345,0.9255
+higgs_w72,strategy,naive,0.3,0.2794,400,400,full,all,same strategy (CV),3,0.9984,0.995,0.9982
+higgs_w72,strategy,naive,0.3,0.2794,400,400,20,structure + timing,same strategy (CV),3,0.925,0.565,0.9334
+higgs_w72,strategy,naive,0.3,0.2794,400,400,20,reuse,same strategy (CV),3,0.9757,0.95,0.985
+higgs_w72,strategy,naive,0.3,0.2794,400,400,20,all,same strategy (CV),3,0.9969,0.935,0.997
+higgs_w72,strategy,naive,0.3,0.2794,400,400,full,structure + timing,naive only,3,0.9518,0.4525,0.9464
+higgs_w72,strategy,naive,0.3,0.2794,400,400,full,reuse,naive only,3,0.9993,0.985,0.9994
+higgs_w72,strategy,naive,0.3,0.2794,400,400,full,all,naive only,3,0.9995,0.99,0.9995
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,size only,same strategy (CV),3,0.5753,0.0325,0.5606
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,shape,same strategy (CV),3,0.592,0.01,0.5592
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,branching,same strategy (CV),3,0.5839,0.015,0.5588
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,timing,same strategy (CV),3,0.7577,0.0725,0.7264
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,reuse,same strategy (CV),3,0.9527,0.425,0.947
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,structure + timing,same strategy (CV),3,0.7888,0.065,0.7503
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,all,same strategy (CV),3,0.9558,0.375,0.95
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,20,structure + timing,same strategy (CV),3,0.7623,0.1875,0.7668
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,20,reuse,same strategy (CV),3,0.9562,0.675,0.963
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,20,all,same strategy (CV),3,0.966,0.575,0.9639
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,structure + timing,naive only,3,0.7906,0.065,0.7438
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,reuse,naive only,3,0.9442,0.3225,0.9345
+higgs_w72,strategy,random timing,0.1,0.0954,400,400,full,all,naive only,3,0.9587,0.38,0.9489
+higgs_w72,strategy,random timing,0.3,0.2794,400,400,full,size only,same strategy (CV),3,0.6767,0.0,0.5976
+higgs_w72,strategy,random timing,0.3,0.2794,400,400,full,shape,same strategy (CV),3,0.8152,0.0925,0.7722
+higgs_w72,strategy,random timing,0.3,0.2794,400,400,full,branching,same strategy (CV),3,0.7918,0.0525,0.7386
+higgs_w72,strategy,random timing,0.3,0.2794,400,400,full,timing,same strategy (CV),3,0.9099,0.3425,0.9126
+higgs_w72,strategy,random timing,0.3,0.2794,400,400,full,reuse,same strategy (CV),3,0.9986,0.9825,0.9987
+higgs_w72,strategy,random timing,0.3,0.2794,400,400,full,structure + timing,same strategy (CV),3,0.9283,0.3875,0.9237
+higgs_w72,strategy,random timing,0.3,0.2794,400,400,full,all,same strategy (CV),3,0.9985,0.9925,0.9983
+higgs_w72,strategy,random timing,0.3,0.2794,400,400,20,structure + timing,same strategy (CV),3,0.9323,0.5,0.9386
+higgs_w72,strategy,random timing,0.3,0.2794,400,400,20,reuse,same strategy (CV),3,0.9762,0.9525,0.9852
+higgs_w72,strategy,random timing,0.3,0.2794,400,400,20,all,same strategy (CV),3,0.9967,0.935,0.9968
+higgs_w72,strategy,random timing,0.3,0.2794,400,400,full,structure + timing,naive only,3,0.9222,0.1925,0.8973
+higgs_w72,strategy,random timing,0.3,0.2794,400,400,full,reuse,naive only,3,0.9993,0.985,0.9994
+higgs_w72,strategy,random timing,0.3,0.2794,400,400,full,all,naive only,3,0.9995,0.9875,0.9995
+higgs_w72,strategy,organic timing + structure,0.3,0.2789,400,400,full,size only,same strategy (CV),3,0.6592,0.01,0.5819
+higgs_w72,strategy,organic timing + structure,0.3,0.2789,400,400,full,shape,same strategy (CV),3,0.9713,0.385,0.9585
+higgs_w72,strategy,organic timing + structure,0.3,0.2789,400,400,full,branching,same strategy (CV),3,0.9958,0.9175,0.9962
+higgs_w72,strategy,organic timing + structure,0.3,0.2789,400,400,full,timing,same strategy (CV),3,0.8757,0.1825,0.8626
+higgs_w72,strategy,organic timing + structure,0.3,0.2789,400,400,full,reuse,same strategy (CV),3,0.9984,0.98,0.9985
+higgs_w72,strategy,organic timing + structure,0.3,0.2789,400,400,full,structure + timing,same strategy (CV),3,0.9963,0.97,0.9971
+higgs_w72,strategy,organic timing + structure,0.3,0.2789,400,400,full,all,same strategy (CV),3,0.9998,0.9975,0.9998
+higgs_w72,strategy,organic timing + structure,0.3,0.2789,400,400,20,structure + timing,same strategy (CV),3,0.9213,0.3575,0.9195
+higgs_w72,strategy,organic timing + structure,0.3,0.2789,400,400,20,reuse,same strategy (CV),3,0.8892,0.47,0.9066
+higgs_w72,strategy,organic timing + structure,0.3,0.2789,400,400,20,all,same strategy (CV),3,0.9325,0.5825,0.943
+higgs_w72,strategy,organic timing + structure,0.3,0.2789,400,400,full,structure + timing,naive only,3,0.8396,0.08,0.8001
+higgs_w72,strategy,organic timing + structure,0.3,0.2789,400,400,full,reuse,naive only,3,0.999,0.9825,0.9991
+higgs_w72,strategy,organic timing + structure,0.3,0.2789,400,400,full,all,naive only,3,0.9989,0.99,0.9988
+higgs_w72,strategy,organic timing,0.3,0.281,400,400,full,size only,same strategy (CV),3,0.6693,0.0075,0.5912
+higgs_w72,strategy,organic timing,0.3,0.281,400,400,full,shape,same strategy (CV),3,0.8215,0.065,0.7668
+higgs_w72,strategy,organic timing,0.3,0.281,400,400,full,branching,same strategy (CV),3,0.8179,0.0675,0.7749
+higgs_w72,strategy,organic timing,0.3,0.281,400,400,full,timing,same strategy (CV),3,0.7727,0.0925,0.7577
+higgs_w72,strategy,organic timing,0.3,0.281,400,400,full,reuse,same strategy (CV),3,0.9981,0.99,0.9985
+higgs_w72,strategy,organic timing,0.3,0.281,400,400,full,structure + timing,same strategy (CV),3,0.886,0.135,0.861
+higgs_w72,strategy,organic timing,0.3,0.281,400,400,full,all,same strategy (CV),3,0.9992,0.99,0.9992
+higgs_w72,strategy,organic timing,0.3,0.281,400,400,20,structure + timing,same strategy (CV),3,0.7935,0.055,0.7384
+higgs_w72,strategy,organic timing,0.3,0.281,400,400,20,reuse,same strategy (CV),3,0.9881,0.83,0.9862
+higgs_w72,strategy,organic timing,0.3,0.281,400,400,20,all,same strategy (CV),3,0.9878,0.7875,0.9855
+higgs_w72,strategy,organic timing,0.3,0.281,400,400,full,structure + timing,naive only,3,0.7812,0.09,0.7522
+higgs_w72,strategy,organic timing,0.3,0.281,400,400,full,reuse,naive only,3,0.9997,0.9975,0.9997
+higgs_w72,strategy,organic timing,0.3,0.281,400,400,full,all,naive only,3,0.999,0.995,0.9989
+higgs_w72,strategy,organic timing + structure,0.1,0.0954,400,400,full,size only,same strategy (CV),3,0.5954,0.005,0.5563
+higgs_w72,strategy,organic timing + structure,0.1,0.0954,400,400,full,shape,same strategy (CV),3,0.8768,0.185,0.8478
+higgs_w72,strategy,organic timing + structure,0.1,0.0954,400,400,full,branching,same strategy (CV),3,0.9451,0.4275,0.9418
+higgs_w72,strategy,organic timing + structure,0.1,0.0954,400,400,full,timing,same strategy (CV),3,0.7403,0.035,0.6917
+higgs_w72,strategy,organic timing + structure,0.1,0.0954,400,400,full,reuse,same strategy (CV),3,0.9549,0.445,0.9497
+higgs_w72,strategy,organic timing + structure,0.1,0.0954,400,400,full,structure + timing,same strategy (CV),3,0.9479,0.3775,0.9454
+higgs_w72,strategy,organic timing + structure,0.1,0.0954,400,400,full,all,same strategy (CV),3,0.9733,0.62,0.9738
+higgs_w72,strategy,organic timing + structure,0.1,0.0954,400,400,20,structure + timing,same strategy (CV),3,0.7975,0.0575,0.7669
+higgs_w72,strategy,organic timing + structure,0.1,0.0954,400,400,20,reuse,same strategy (CV),3,0.8165,0.2125,0.8385
+higgs_w72,strategy,organic timing + structure,0.1,0.0954,400,400,20,all,same strategy (CV),3,0.8557,0.2375,0.8612
+higgs_w72,strategy,organic timing + structure,0.1,0.0954,400,400,full,structure + timing,naive only,3,0.6044,0.01,0.568
+higgs_w72,strategy,organic timing + structure,0.1,0.0954,400,400,full,reuse,naive only,3,0.9457,0.345,0.9337
+higgs_w72,strategy,organic timing + structure,0.1,0.0954,400,400,full,all,naive only,3,0.8794,0.105,0.8436
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,size only,same strategy (CV),3,0.5364,0.0075,0.5191
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,shape,same strategy (CV),3,0.5697,0.015,0.5368
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,branching,same strategy (CV),3,0.559,0.0075,0.5353
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,timing,same strategy (CV),3,0.6051,0.02,0.5817
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,reuse,same strategy (CV),3,0.9521,0.415,0.9483
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,structure + timing,same strategy (CV),3,0.6161,0.04,0.6119
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,all,same strategy (CV),3,0.9385,0.3875,0.9334
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,20,structure + timing,same strategy (CV),3,0.5566,0.005,0.5301
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,20,reuse,same strategy (CV),3,0.924,0.49,0.9316
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,20,all,same strategy (CV),3,0.9208,0.3575,0.919
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,structure + timing,naive only,3,0.565,0.025,0.5594
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,reuse,naive only,3,0.9472,0.2875,0.9331
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,all,naive only,3,0.8959,0.225,0.8825
+higgs_w72,share,naive,0.02,0.0447,400,400,full,structure + timing,same strategy (CV),3,0.6154,0.0275,0.5835
+higgs_w72,share,naive,0.02,0.0447,400,400,full,reuse,same strategy (CV),3,0.7962,0.245,0.8004
+higgs_w72,share,naive,0.02,0.0447,400,400,full,all,same strategy (CV),3,0.7736,0.15,0.7546
+higgs_w72,share,naive,0.05,0.0577,400,400,full,structure + timing,same strategy (CV),3,0.6392,0.0275,0.6225
+higgs_w72,share,naive,0.05,0.0577,400,400,full,reuse,same strategy (CV),3,0.8467,0.2325,0.8412
+higgs_w72,share,naive,0.05,0.0577,400,400,full,all,same strategy (CV),3,0.8327,0.12,0.8154
+higgs_w72,share,naive,0.2,0.1896,400,400,full,structure + timing,same strategy (CV),3,0.8486,0.1625,0.8345
+higgs_w72,share,naive,0.2,0.1896,400,400,full,reuse,same strategy (CV),3,0.9913,0.85,0.9903
+higgs_w72,share,naive,0.2,0.1896,400,400,full,all,same strategy (CV),3,0.9947,0.9075,0.9937
+higgs_w72,strategy,full mimic + rotation,0.1,0.0958,400,400,full,size only,same strategy (CV),3,0.5551,0.0025,0.5244
+higgs_w72,strategy,full mimic + rotation,0.1,0.0958,400,400,full,shape,same strategy (CV),3,0.8592,0.0975,0.8178
+higgs_w72,strategy,full mimic + rotation,0.1,0.0958,400,400,full,branching,same strategy (CV),3,0.9425,0.355,0.9371
+higgs_w72,strategy,full mimic + rotation,0.1,0.0958,400,400,full,timing,same strategy (CV),3,0.7571,0.0575,0.7191
+higgs_w72,strategy,full mimic + rotation,0.1,0.0958,400,400,full,reuse,same strategy (CV),3,0.5244,0.0025,0.5147
+higgs_w72,strategy,full mimic + rotation,0.1,0.0958,400,400,full,structure + timing,same strategy (CV),3,0.944,0.38,0.9407
+higgs_w72,strategy,full mimic + rotation,0.1,0.0958,400,400,full,all,same strategy (CV),3,0.9473,0.505,0.9461
+higgs_w72,strategy,full mimic + rotation,0.1,0.0958,400,400,20,structure + timing,same strategy (CV),3,0.7855,0.0475,0.7585
+higgs_w72,strategy,full mimic + rotation,0.1,0.0958,400,400,20,reuse,same strategy (CV),3,0.5221,0.0,0.5173
+higgs_w72,strategy,full mimic + rotation,0.1,0.0958,400,400,20,all,same strategy (CV),3,0.7861,0.0675,0.7689
+higgs_w72,strategy,full mimic + rotation,0.1,0.0958,400,400,full,structure + timing,naive only,3,0.6038,0.01,0.5732
+higgs_w72,strategy,full mimic + rotation,0.1,0.0958,400,400,full,reuse,naive only,3,0.4961,0.0125,0.5016
+higgs_w72,strategy,full mimic + rotation,0.1,0.0958,400,400,full,all,naive only,3,0.5304,0.0025,0.501
+higgs_w72,share,naive,0.1,0.0954,400,400,full,structure + timing,same strategy (CV),3,0.7808,0.115,0.7528
+higgs_w72,share,naive,0.1,0.0954,400,400,full,reuse,same strategy (CV),3,0.9527,0.425,0.947
+higgs_w72,share,naive,0.1,0.0954,400,400,full,all,same strategy (CV),3,0.958,0.3975,0.952
+higgs_w72,strategy,full mimic + rotation,0.3,0.283,400,400,full,size only,same strategy (CV),3,0.6791,0.0175,0.6061
+higgs_w72,strategy,full mimic + rotation,0.3,0.283,400,400,full,shape,same strategy (CV),3,0.9699,0.5175,0.953
+higgs_w72,strategy,full mimic + rotation,0.3,0.283,400,400,full,branching,same strategy (CV),3,0.9948,0.9325,0.9954
+higgs_w72,strategy,full mimic + rotation,0.3,0.283,400,400,full,timing,same strategy (CV),3,0.8765,0.245,0.8645
+higgs_w72,strategy,full mimic + rotation,0.3,0.283,400,400,full,reuse,same strategy (CV),3,0.6442,0.055,0.6361
+higgs_w72,strategy,full mimic + rotation,0.3,0.283,400,400,full,structure + timing,same strategy (CV),3,0.997,0.975,0.9974
+higgs_w72,strategy,full mimic + rotation,0.3,0.283,400,400,full,all,same strategy (CV),3,0.9966,0.965,0.9972
+higgs_w72,strategy,full mimic + rotation,0.3,0.283,400,400,20,structure + timing,same strategy (CV),3,0.9272,0.45,0.9302
+higgs_w72,strategy,full mimic + rotation,0.3,0.283,400,400,20,reuse,same strategy (CV),3,0.586,0.01,0.5617
+higgs_w72,strategy,full mimic + rotation,0.3,0.283,400,400,20,all,same strategy (CV),3,0.9259,0.48,0.9296
+higgs_w72,strategy,full mimic + rotation,0.3,0.283,400,400,full,structure + timing,naive only,3,0.8366,0.0875,0.8017
+higgs_w72,strategy,full mimic + rotation,0.3,0.283,400,400,full,reuse,naive only,3,0.4843,0.01,0.4916
+higgs_w72,strategy,full mimic + rotation,0.3,0.283,400,400,full,all,naive only,3,0.896,0.0225,0.8353
+higgs_w72,strategy,control: embedded accounts,0.1,0.0987,400,400,full,size only,same strategy (CV),3,0.5234,0.0075,0.5194
+higgs_w72,strategy,control: embedded accounts,0.1,0.0987,400,400,full,shape,same strategy (CV),3,0.5205,0.015,0.5099
+higgs_w72,strategy,control: embedded accounts,0.1,0.0987,400,400,full,branching,same strategy (CV),3,0.5065,0.0075,0.4971
+higgs_w72,strategy,control: embedded accounts,0.1,0.0987,400,400,full,timing,same strategy (CV),3,0.5106,0.02,0.5225
+higgs_w72,strategy,control: embedded accounts,0.1,0.0987,400,400,full,reuse,same strategy (CV),3,0.9561,0.5325,0.9535
+higgs_w72,strategy,control: embedded accounts,0.1,0.0987,400,400,full,structure + timing,same strategy (CV),3,0.5198,0.0075,0.505
+higgs_w72,strategy,control: embedded accounts,0.1,0.0987,400,400,full,all,same strategy (CV),3,0.9392,0.32,0.9266
+higgs_w72,strategy,control: embedded accounts,0.1,0.0987,400,400,20,structure + timing,same strategy (CV),3,0.5095,0.0075,0.5139
+higgs_w72,strategy,control: embedded accounts,0.1,0.0987,400,400,20,reuse,same strategy (CV),3,0.907,0.3325,0.9126
+higgs_w72,strategy,control: embedded accounts,0.1,0.0987,400,400,20,all,same strategy (CV),3,0.904,0.2,0.8906
+higgs_w72,strategy,control: embedded accounts,0.1,0.0987,400,400,full,structure + timing,naive only,3,0.4763,0.0075,0.4805
+higgs_w72,strategy,control: embedded accounts,0.1,0.0987,400,400,full,reuse,naive only,3,0.9609,0.34,0.9521
+higgs_w72,strategy,control: embedded accounts,0.1,0.0987,400,400,full,all,naive only,3,0.8896,0.205,0.8699
+higgs_w72,strategy,control: embedded accounts,0.3,0.2976,400,400,full,size only,same strategy (CV),3,0.5187,0.005,0.5076
+higgs_w72,strategy,control: embedded accounts,0.3,0.2976,400,400,full,shape,same strategy (CV),3,0.512,0.0175,0.5078
+higgs_w72,strategy,control: embedded accounts,0.3,0.2976,400,400,full,branching,same strategy (CV),3,0.5082,0.015,0.5014
+higgs_w72,strategy,control: embedded accounts,0.3,0.2976,400,400,full,timing,same strategy (CV),3,0.5054,0.015,0.5061
+higgs_w72,strategy,control: embedded accounts,0.3,0.2976,400,400,full,reuse,same strategy (CV),3,1.0,0.9975,1.0
+higgs_w72,strategy,control: embedded accounts,0.3,0.2976,400,400,full,structure + timing,same strategy (CV),3,0.5076,0.005,0.4996
+higgs_w72,strategy,control: embedded accounts,0.3,0.2976,400,400,full,all,same strategy (CV),3,1.0,1.0,1.0
+higgs_w72,strategy,control: embedded accounts,0.3,0.2976,400,400,20,structure + timing,same strategy (CV),3,0.493,0.0175,0.4957
+higgs_w72,strategy,control: embedded accounts,0.3,0.2976,400,400,20,reuse,same strategy (CV),3,0.9852,0.8225,0.9849
+higgs_w72,strategy,control: embedded accounts,0.3,0.2976,400,400,20,all,same strategy (CV),3,0.9855,0.585,0.9835
+higgs_w72,strategy,control: embedded accounts,0.3,0.2976,400,400,full,structure + timing,naive only,3,0.4897,0.0075,0.497
+higgs_w72,strategy,control: embedded accounts,0.3,0.2976,400,400,full,reuse,naive only,3,1.0,1.0,1.0
+higgs_w72,strategy,control: embedded accounts,0.3,0.2976,400,400,full,all,naive only,3,0.9988,0.9975,0.9987
+higgs_w72,share,naive,0.4,0.3676,400,400,full,structure + timing,same strategy (CV),3,0.9837,0.8225,0.9842
+higgs_w72,share,naive,0.4,0.3676,400,400,full,reuse,same strategy (CV),3,0.9999,0.995,0.9999
+higgs_w72,share,naive,0.4,0.3676,400,400,full,all,same strategy (CV),3,0.9999,0.995,0.9999
+higgs_w72,share,full mimic + rotation,0.02,0.0447,400,400,full,structure + timing,same strategy (CV),3,0.811,0.0575,0.7603
+higgs_w72,share,full mimic + rotation,0.02,0.0447,400,400,full,reuse,same strategy (CV),3,0.5091,0.01,0.4987
+higgs_w72,share,full mimic + rotation,0.02,0.0447,400,400,full,all,same strategy (CV),3,0.8184,0.1225,0.78
+higgs_w72,share,full mimic + rotation,0.05,0.058,400,400,full,structure + timing,same strategy (CV),3,0.8834,0.145,0.8538
+higgs_w72,share,full mimic + rotation,0.05,0.058,400,400,full,reuse,same strategy (CV),3,0.5321,0.015,0.5257
+higgs_w72,share,full mimic + rotation,0.05,0.058,400,400,full,all,same strategy (CV),3,0.8903,0.1325,0.8663
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2807,400,400,full,size only,same strategy (CV),3,0.6822,0.005,0.612
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2807,400,400,full,shape,same strategy (CV),3,0.7009,0.04,0.6487
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2807,400,400,full,branching,same strategy (CV),3,0.7558,0.0625,0.7326
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2807,400,400,full,timing,same strategy (CV),3,0.6981,0.015,0.6532
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2807,400,400,full,reuse,same strategy (CV),3,0.616,0.0375,0.6086
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2807,400,400,full,structure + timing,same strategy (CV),3,0.8132,0.145,0.7992
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2807,400,400,full,all,same strategy (CV),3,0.8224,0.045,0.7953
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2807,400,400,20,structure + timing,same strategy (CV),3,0.8035,0.08,0.7571
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2807,400,400,20,reuse,same strategy (CV),3,0.5987,0.0475,0.6011
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2807,400,400,20,all,same strategy (CV),3,0.805,0.0675,0.7538
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2807,400,400,full,structure + timing,naive only,3,0.6617,0.0575,0.6468
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2807,400,400,full,reuse,naive only,3,0.4817,0.0175,0.4956
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2807,400,400,full,all,naive only,3,0.6031,0.025,0.5972
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0959,400,400,full,size only,same strategy (CV),3,0.594,0.0075,0.5655
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0959,400,400,full,shape,same strategy (CV),3,0.545,0.0225,0.5469
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0959,400,400,full,branching,same strategy (CV),3,0.5401,0.0225,0.5398
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0959,400,400,full,timing,same strategy (CV),3,0.6075,0.0125,0.5754
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0959,400,400,full,reuse,same strategy (CV),3,0.4909,0.015,0.5042
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0959,400,400,full,structure + timing,same strategy (CV),3,0.6051,0.0075,0.5741
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0959,400,400,full,all,same strategy (CV),3,0.6015,0.0175,0.5777
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0959,400,400,20,structure + timing,same strategy (CV),3,0.5754,0.015,0.5469
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0959,400,400,20,reuse,same strategy (CV),3,0.5279,0.035,0.5324
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0959,400,400,20,all,same strategy (CV),3,0.5911,0.0175,0.563
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0959,400,400,full,structure + timing,naive only,3,0.537,0.02,0.5383
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0959,400,400,full,reuse,naive only,3,0.4916,0.0175,0.5003
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.0959,400,400,full,all,naive only,3,0.508,0.005,0.5017
+higgs_w72,share,full mimic + rotation,0.1,0.0958,400,400,full,structure + timing,same strategy (CV),3,0.944,0.38,0.9407
+higgs_w72,share,full mimic + rotation,0.1,0.0958,400,400,full,reuse,same strategy (CV),3,0.5244,0.0025,0.5147
+higgs_w72,share,full mimic + rotation,0.1,0.0958,400,400,full,all,same strategy (CV),3,0.9473,0.505,0.9461
+higgs_w72,share,full mimic + rotation,0.2,0.1903,400,400,full,structure + timing,same strategy (CV),3,0.9881,0.825,0.988
+higgs_w72,share,full mimic + rotation,0.2,0.1903,400,400,full,reuse,same strategy (CV),3,0.5874,0.015,0.5665
+higgs_w72,share,full mimic + rotation,0.2,0.1903,400,400,full,all,same strategy (CV),3,0.9885,0.8275,0.988
+higgs_w72,share,full mimic + rotation,0.4,0.3661,400,400,full,structure + timing,same strategy (CV),3,0.9994,0.995,0.9995
+higgs_w72,share,full mimic + rotation,0.4,0.3661,400,400,full,reuse,same strategy (CV),3,0.7191,0.065,0.7039
+higgs_w72,share,full mimic + rotation,0.4,0.3661,400,400,full,all,same strategy (CV),3,0.9995,0.995,0.9995
+higgs_w72,share,empirical mimic + rotation,0.02,0.0444,400,400,full,structure + timing,same strategy (CV),3,0.5161,0.0125,0.4991
+higgs_w72,share,empirical mimic + rotation,0.02,0.0444,400,400,full,reuse,same strategy (CV),3,0.5212,0.0125,0.5117
+higgs_w72,share,empirical mimic + rotation,0.02,0.0444,400,400,full,all,same strategy (CV),3,0.5272,0.01,0.5096
+higgs_w72,share,empirical mimic + rotation,0.05,0.0575,400,400,full,structure + timing,same strategy (CV),3,0.5543,0.02,0.5412
+higgs_w72,share,empirical mimic + rotation,0.05,0.0575,400,400,full,reuse,same strategy (CV),3,0.5215,0.01,0.5058
+higgs_w72,share,empirical mimic + rotation,0.05,0.0575,400,400,full,all,same strategy (CV),3,0.5661,0.035,0.5668
+higgs_w72,share,empirical mimic + rotation,0.1,0.0959,400,400,full,structure + timing,same strategy (CV),3,0.6051,0.0075,0.5741
+higgs_w72,share,empirical mimic + rotation,0.1,0.0959,400,400,full,reuse,same strategy (CV),3,0.4909,0.015,0.5042
+higgs_w72,share,empirical mimic + rotation,0.1,0.0959,400,400,full,all,same strategy (CV),3,0.6015,0.0175,0.5777
+higgs_w72,share,empirical mimic + rotation,0.4,0.3685,400,400,full,structure + timing,same strategy (CV),3,0.939,0.355,0.9277
+higgs_w72,share,empirical mimic + rotation,0.4,0.3685,400,400,full,reuse,same strategy (CV),3,0.7184,0.025,0.6934
+higgs_w72,share,empirical mimic + rotation,0.4,0.3685,400,400,full,all,same strategy (CV),3,0.9451,0.1975,0.9261
+higgs_w72,share,empirical mimic + rotation,0.2,0.1898,400,400,full,structure + timing,same strategy (CV),3,0.6605,0.06,0.6463
+higgs_w72,share,empirical mimic + rotation,0.2,0.1898,400,400,full,reuse,same strategy (CV),3,0.5906,0.0025,0.5628
+higgs_w72,share,empirical mimic + rotation,0.2,0.1898,400,400,full,all,same strategy (CV),3,0.6712,0.03,0.6505
+higgs_w72,strategy,naive,0.1,0.0962,400,400,full,size only,same strategy (CV),4,0.549,0.005,0.5095
+higgs_w72,strategy,naive,0.1,0.0962,400,400,full,shape,same strategy (CV),4,0.6395,0.0125,0.5965
+higgs_w72,strategy,naive,0.1,0.0962,400,400,full,branching,same strategy (CV),4,0.6263,0.0075,0.5801
+higgs_w72,strategy,naive,0.1,0.0962,400,400,full,timing,same strategy (CV),4,0.7448,0.04,0.7051
+higgs_w72,strategy,naive,0.1,0.0962,400,400,full,reuse,same strategy (CV),4,0.9505,0.45,0.9472
+higgs_w72,strategy,naive,0.1,0.0962,400,400,full,structure + timing,same strategy (CV),4,0.7738,0.0775,0.7451
+higgs_w72,strategy,naive,0.1,0.0962,400,400,full,all,same strategy (CV),4,0.9493,0.415,0.9401
+higgs_w72,strategy,naive,0.1,0.0962,400,400,20,structure + timing,same strategy (CV),4,0.7239,0.14,0.7233
+higgs_w72,strategy,naive,0.1,0.0962,400,400,20,reuse,same strategy (CV),4,0.9547,0.65,0.9642
+higgs_w72,strategy,naive,0.1,0.0962,400,400,20,all,same strategy (CV),4,0.9592,0.5025,0.9566
+higgs_w72,strategy,naive,0.1,0.0962,400,400,full,structure + timing,naive only,4,0.8059,0.095,0.7771
+higgs_w72,strategy,naive,0.1,0.0962,400,400,full,reuse,naive only,4,0.9494,0.485,0.948
+higgs_w72,strategy,naive,0.1,0.0962,400,400,full,all,naive only,4,0.9598,0.4275,0.9482
+higgs_w72,strategy,naive,0.3,0.2811,400,400,full,size only,same strategy (CV),4,0.6714,0.01,0.5964
+higgs_w72,strategy,naive,0.3,0.2811,400,400,full,shape,same strategy (CV),4,0.8188,0.03,0.7687
+higgs_w72,strategy,naive,0.3,0.2811,400,400,full,branching,same strategy (CV),4,0.811,0.065,0.7559
+higgs_w72,strategy,naive,0.3,0.2811,400,400,full,timing,same strategy (CV),4,0.8803,0.25,0.8774
+higgs_w72,strategy,naive,0.3,0.2811,400,400,full,reuse,same strategy (CV),4,0.9981,0.945,0.9981
+higgs_w72,strategy,naive,0.3,0.2811,400,400,full,structure + timing,same strategy (CV),4,0.9317,0.3425,0.9299
+higgs_w72,strategy,naive,0.3,0.2811,400,400,full,all,same strategy (CV),4,0.9983,0.985,0.9979
+higgs_w72,strategy,naive,0.3,0.2811,400,400,20,structure + timing,same strategy (CV),4,0.9132,0.5225,0.9196
+higgs_w72,strategy,naive,0.3,0.2811,400,400,20,reuse,same strategy (CV),4,0.9633,0.9225,0.9767
+higgs_w72,strategy,naive,0.3,0.2811,400,400,20,all,same strategy (CV),4,0.994,0.9175,0.9943
+higgs_w72,strategy,naive,0.3,0.2811,400,400,full,structure + timing,naive only,4,0.9449,0.5075,0.9466
+higgs_w72,strategy,naive,0.3,0.2811,400,400,full,reuse,naive only,4,0.9953,0.95,0.9918
+higgs_w72,strategy,naive,0.3,0.2811,400,400,full,all,naive only,4,0.9975,0.9775,0.9965
+higgs_w72,strategy,random timing,0.1,0.0962,400,400,full,size only,same strategy (CV),4,0.549,0.005,0.5095
+higgs_w72,strategy,random timing,0.1,0.0962,400,400,full,shape,same strategy (CV),4,0.6395,0.0125,0.5965
+higgs_w72,strategy,random timing,0.1,0.0962,400,400,full,branching,same strategy (CV),4,0.6263,0.0075,0.5801
+higgs_w72,strategy,random timing,0.1,0.0962,400,400,full,timing,same strategy (CV),4,0.7519,0.06,0.7114
+higgs_w72,strategy,random timing,0.1,0.0962,400,400,full,reuse,same strategy (CV),4,0.9505,0.45,0.9472
+higgs_w72,strategy,random timing,0.1,0.0962,400,400,full,structure + timing,same strategy (CV),4,0.7787,0.1025,0.7555
+higgs_w72,strategy,random timing,0.1,0.0962,400,400,full,all,same strategy (CV),4,0.9485,0.3775,0.9396
+higgs_w72,strategy,random timing,0.1,0.0962,400,400,20,structure + timing,same strategy (CV),4,0.7258,0.13,0.721
+higgs_w72,strategy,random timing,0.1,0.0962,400,400,20,reuse,same strategy (CV),4,0.9545,0.6375,0.9639
+higgs_w72,strategy,random timing,0.1,0.0962,400,400,20,all,same strategy (CV),4,0.9589,0.53,0.9568
+higgs_w72,strategy,random timing,0.1,0.0962,400,400,full,structure + timing,naive only,4,0.806,0.095,0.7761
+higgs_w72,strategy,random timing,0.1,0.0962,400,400,full,reuse,naive only,4,0.9494,0.485,0.948
+higgs_w72,strategy,random timing,0.1,0.0962,400,400,full,all,naive only,4,0.9599,0.425,0.9483
+higgs_w72,strategy,random timing,0.3,0.2811,400,400,full,size only,same strategy (CV),4,0.6714,0.01,0.5964
+higgs_w72,strategy,random timing,0.3,0.2811,400,400,full,shape,same strategy (CV),4,0.8188,0.03,0.7687
+higgs_w72,strategy,random timing,0.3,0.2811,400,400,full,branching,same strategy (CV),4,0.811,0.065,0.7559
+higgs_w72,strategy,random timing,0.3,0.2811,400,400,full,timing,same strategy (CV),4,0.9105,0.2625,0.9051
+higgs_w72,strategy,random timing,0.3,0.2811,400,400,full,reuse,same strategy (CV),4,0.9981,0.945,0.9981
+higgs_w72,strategy,random timing,0.3,0.2811,400,400,full,structure + timing,same strategy (CV),4,0.9431,0.345,0.9342
+higgs_w72,strategy,random timing,0.3,0.2811,400,400,full,all,same strategy (CV),4,0.9986,0.99,0.9985
+higgs_w72,strategy,random timing,0.3,0.2811,400,400,20,structure + timing,same strategy (CV),4,0.9226,0.485,0.9253
+higgs_w72,strategy,random timing,0.3,0.2811,400,400,20,reuse,same strategy (CV),4,0.9616,0.9175,0.9757
+higgs_w72,strategy,random timing,0.3,0.2811,400,400,20,all,same strategy (CV),4,0.9936,0.905,0.9939
+higgs_w72,strategy,random timing,0.3,0.2811,400,400,full,structure + timing,naive only,4,0.9317,0.33,0.9258
+higgs_w72,strategy,random timing,0.3,0.2811,400,400,full,reuse,naive only,4,0.9953,0.95,0.9918
+higgs_w72,strategy,random timing,0.3,0.2811,400,400,full,all,naive only,4,0.9969,0.9775,0.9948
+higgs_w72,strategy,organic timing + structure,0.3,0.282,400,400,full,size only,same strategy (CV),4,0.6865,0.0075,0.5977
+higgs_w72,strategy,organic timing + structure,0.3,0.282,400,400,full,shape,same strategy (CV),4,0.9777,0.65,0.9746
+higgs_w72,strategy,organic timing + structure,0.3,0.282,400,400,full,branching,same strategy (CV),4,0.9946,0.8775,0.9944
+higgs_w72,strategy,organic timing + structure,0.3,0.282,400,400,full,timing,same strategy (CV),4,0.889,0.1475,0.8664
+higgs_w72,strategy,organic timing + structure,0.3,0.282,400,400,full,reuse,same strategy (CV),4,0.9964,0.9675,0.9956
+higgs_w72,strategy,organic timing + structure,0.3,0.282,400,400,full,structure + timing,same strategy (CV),4,0.996,0.8875,0.9959
+higgs_w72,strategy,organic timing + structure,0.3,0.282,400,400,full,all,same strategy (CV),4,0.999,0.9825,0.999
+higgs_w72,strategy,organic timing + structure,0.3,0.282,400,400,20,structure + timing,same strategy (CV),4,0.9073,0.41,0.9092
+higgs_w72,strategy,organic timing + structure,0.3,0.282,400,400,20,reuse,same strategy (CV),4,0.8738,0.4325,0.893
+higgs_w72,strategy,organic timing + structure,0.3,0.282,400,400,20,all,same strategy (CV),4,0.927,0.4825,0.9328
+higgs_w72,strategy,organic timing + structure,0.3,0.282,400,400,full,structure + timing,naive only,4,0.8545,0.2425,0.8431
+higgs_w72,strategy,organic timing + structure,0.3,0.282,400,400,full,reuse,naive only,4,0.995,0.93,0.9912
+higgs_w72,strategy,organic timing + structure,0.3,0.282,400,400,full,all,naive only,4,0.9937,0.96,0.9879
+higgs_w72,strategy,organic timing,0.3,0.2795,400,400,full,size only,same strategy (CV),4,0.6761,0.0275,0.6152
+higgs_w72,strategy,organic timing,0.3,0.2795,400,400,full,shape,same strategy (CV),4,0.8324,0.045,0.7895
+higgs_w72,strategy,organic timing,0.3,0.2795,400,400,full,branching,same strategy (CV),4,0.8195,0.105,0.7727
+higgs_w72,strategy,organic timing,0.3,0.2795,400,400,full,timing,same strategy (CV),4,0.7807,0.07,0.7546
+higgs_w72,strategy,organic timing,0.3,0.2795,400,400,full,reuse,same strategy (CV),4,0.9988,0.975,0.9988
+higgs_w72,strategy,organic timing,0.3,0.2795,400,400,full,structure + timing,same strategy (CV),4,0.88,0.22,0.8612
+higgs_w72,strategy,organic timing,0.3,0.2795,400,400,full,all,same strategy (CV),4,0.9977,0.9825,0.9975
+higgs_w72,strategy,organic timing,0.3,0.2795,400,400,20,structure + timing,same strategy (CV),4,0.7752,0.0825,0.7254
+higgs_w72,strategy,organic timing,0.3,0.2795,400,400,20,reuse,same strategy (CV),4,0.9704,0.755,0.9752
+higgs_w72,strategy,organic timing,0.3,0.2795,400,400,20,all,same strategy (CV),4,0.9845,0.7825,0.9854
+higgs_w72,strategy,organic timing,0.3,0.2795,400,400,full,structure + timing,naive only,4,0.7902,0.1175,0.7789
+higgs_w72,strategy,organic timing,0.3,0.2795,400,400,full,reuse,naive only,4,0.9961,0.9875,0.9924
+higgs_w72,strategy,organic timing,0.3,0.2795,400,400,full,all,naive only,4,0.9963,0.9825,0.9928
+higgs_w72,strategy,organic timing + structure,0.1,0.0962,400,400,full,size only,same strategy (CV),4,0.5403,0.0075,0.5015
+higgs_w72,strategy,organic timing + structure,0.1,0.0962,400,400,full,shape,same strategy (CV),4,0.858,0.135,0.8246
+higgs_w72,strategy,organic timing + structure,0.1,0.0962,400,400,full,branching,same strategy (CV),4,0.9358,0.335,0.9231
+higgs_w72,strategy,organic timing + structure,0.1,0.0962,400,400,full,timing,same strategy (CV),4,0.7848,0.065,0.7491
+higgs_w72,strategy,organic timing + structure,0.1,0.0962,400,400,full,reuse,same strategy (CV),4,0.9511,0.5075,0.9498
+higgs_w72,strategy,organic timing + structure,0.1,0.0962,400,400,full,structure + timing,same strategy (CV),4,0.9396,0.4375,0.9339
+higgs_w72,strategy,organic timing + structure,0.1,0.0962,400,400,full,all,same strategy (CV),4,0.9613,0.49,0.9585
+higgs_w72,strategy,organic timing + structure,0.1,0.0962,400,400,20,structure + timing,same strategy (CV),4,0.7499,0.13,0.7559
+higgs_w72,strategy,organic timing + structure,0.1,0.0962,400,400,20,reuse,same strategy (CV),4,0.7927,0.2875,0.8249
+higgs_w72,strategy,organic timing + structure,0.1,0.0962,400,400,20,all,same strategy (CV),4,0.8195,0.1975,0.8291
+higgs_w72,strategy,organic timing + structure,0.1,0.0962,400,400,full,structure + timing,naive only,4,0.6436,0.0175,0.6203
+higgs_w72,strategy,organic timing + structure,0.1,0.0962,400,400,full,reuse,naive only,4,0.9464,0.5075,0.9449
+higgs_w72,strategy,organic timing + structure,0.1,0.0962,400,400,full,all,naive only,4,0.873,0.1325,0.8372
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,size only,same strategy (CV),4,0.5323,0.0075,0.501
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,shape,same strategy (CV),4,0.6309,0.0225,0.5964
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,branching,same strategy (CV),4,0.642,0.0175,0.5928
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,timing,same strategy (CV),4,0.6051,0.0125,0.5692
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,reuse,same strategy (CV),4,0.9479,0.5075,0.947
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,structure + timing,same strategy (CV),4,0.6765,0.035,0.6556
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,all,same strategy (CV),4,0.9336,0.4425,0.93
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,20,structure + timing,same strategy (CV),4,0.5529,0.0175,0.5279
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,20,reuse,same strategy (CV),4,0.9124,0.4475,0.9171
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,20,all,same strategy (CV),4,0.8914,0.21,0.8759
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,structure + timing,naive only,4,0.6071,0.015,0.5827
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,reuse,naive only,4,0.9473,0.5275,0.9467
+higgs_w72,strategy,organic timing,0.1,0.0961,400,400,full,all,naive only,4,0.8812,0.2225,0.8671
+higgs_w72,share,naive,0.02,0.0457,400,400,full,structure + timing,same strategy (CV),4,0.5947,0.02,0.5572
+higgs_w72,share,naive,0.02,0.0457,400,400,full,reuse,same strategy (CV),4,0.7908,0.3025,0.8088
+higgs_w72,share,naive,0.02,0.0457,400,400,full,all,same strategy (CV),4,0.7946,0.185,0.7935
+higgs_w72,share,naive,0.05,0.0583,400,400,full,structure + timing,same strategy (CV),4,0.6464,0.0325,0.6195
+higgs_w72,share,naive,0.05,0.0583,400,400,full,reuse,same strategy (CV),4,0.8645,0.2925,0.869
+higgs_w72,share,naive,0.05,0.0583,400,400,full,all,same strategy (CV),4,0.8516,0.2275,0.8452
+higgs_w72,share,naive,0.1,0.0962,400,400,full,structure + timing,same strategy (CV),4,0.7738,0.0775,0.7451
+higgs_w72,share,naive,0.1,0.0962,400,400,full,reuse,same strategy (CV),4,0.9505,0.45,0.9472
+higgs_w72,share,naive,0.1,0.0962,400,400,full,all,same strategy (CV),4,0.9493,0.415,0.9401
+higgs_w72,strategy,full mimic + rotation,0.3,0.2779,400,400,full,size only,same strategy (CV),4,0.6653,0.03,0.6009
+higgs_w72,strategy,full mimic + rotation,0.3,0.2779,400,400,full,shape,same strategy (CV),4,0.9777,0.5725,0.9694
+higgs_w72,strategy,full mimic + rotation,0.3,0.2779,400,400,full,branching,same strategy (CV),4,0.9971,0.9575,0.9967
+higgs_w72,strategy,full mimic + rotation,0.3,0.2779,400,400,full,timing,same strategy (CV),4,0.8864,0.115,0.8638
+higgs_w72,strategy,full mimic + rotation,0.3,0.2779,400,400,full,reuse,same strategy (CV),4,0.5835,0.03,0.5632
+higgs_w72,strategy,full mimic + rotation,0.3,0.2779,400,400,full,structure + timing,same strategy (CV),4,0.9978,0.9625,0.9977
+higgs_w72,strategy,full mimic + rotation,0.3,0.2779,400,400,full,all,same strategy (CV),4,0.9981,0.975,0.998
+higgs_w72,strategy,full mimic + rotation,0.3,0.2779,400,400,20,structure + timing,same strategy (CV),4,0.9034,0.4575,0.9129
+higgs_w72,strategy,full mimic + rotation,0.3,0.2779,400,400,20,reuse,same strategy (CV),4,0.5165,0.01,0.5179
+higgs_w72,strategy,full mimic + rotation,0.3,0.2779,400,400,20,all,same strategy (CV),4,0.904,0.49,0.9171
+higgs_w72,strategy,full mimic + rotation,0.3,0.2779,400,400,full,structure + timing,naive only,4,0.857,0.225,0.8446
+higgs_w72,strategy,full mimic + rotation,0.3,0.2779,400,400,full,reuse,naive only,4,0.5094,0.0075,0.4884
+higgs_w72,strategy,full mimic + rotation,0.3,0.2779,400,400,full,all,naive only,4,0.8683,0.0125,0.7764
+higgs_w72,strategy,full mimic + rotation,0.1,0.0953,400,400,full,size only,same strategy (CV),4,0.5886,0.0075,0.5441
+higgs_w72,strategy,full mimic + rotation,0.1,0.0953,400,400,full,shape,same strategy (CV),4,0.8558,0.1,0.8115
+higgs_w72,strategy,full mimic + rotation,0.1,0.0953,400,400,full,branching,same strategy (CV),4,0.9348,0.3625,0.9194
+higgs_w72,strategy,full mimic + rotation,0.1,0.0953,400,400,full,timing,same strategy (CV),4,0.7954,0.03,0.7387
+higgs_w72,strategy,full mimic + rotation,0.1,0.0953,400,400,full,reuse,same strategy (CV),4,0.4757,0.005,0.4784
+higgs_w72,strategy,full mimic + rotation,0.1,0.0953,400,400,full,structure + timing,same strategy (CV),4,0.9369,0.315,0.9251
+higgs_w72,strategy,full mimic + rotation,0.1,0.0953,400,400,full,all,same strategy (CV),4,0.942,0.3475,0.9291
+higgs_w72,strategy,full mimic + rotation,0.1,0.0953,400,400,20,structure + timing,same strategy (CV),4,0.7551,0.1125,0.7523
+higgs_w72,strategy,full mimic + rotation,0.1,0.0953,400,400,20,reuse,same strategy (CV),4,0.505,0.0025,0.4897
+higgs_w72,strategy,full mimic + rotation,0.1,0.0953,400,400,20,all,same strategy (CV),4,0.7586,0.0925,0.7621
+higgs_w72,strategy,full mimic + rotation,0.1,0.0953,400,400,full,structure + timing,naive only,4,0.6551,0.0175,0.633
+higgs_w72,strategy,full mimic + rotation,0.1,0.0953,400,400,full,reuse,naive only,4,0.4793,0.0125,0.4928
+higgs_w72,strategy,full mimic + rotation,0.1,0.0953,400,400,full,all,naive only,4,0.5413,0.0025,0.5185
+higgs_w72,share,naive,0.2,0.1899,400,400,full,structure + timing,same strategy (CV),4,0.8683,0.2625,0.86
+higgs_w72,share,naive,0.2,0.1899,400,400,full,reuse,same strategy (CV),4,0.9923,0.8725,0.9931
+higgs_w72,share,naive,0.2,0.1899,400,400,full,all,same strategy (CV),4,0.9949,0.85,0.9947
+higgs_w72,strategy,control: embedded accounts,0.1,0.0983,400,400,full,size only,same strategy (CV),4,0.5118,0.015,0.5106
+higgs_w72,strategy,control: embedded accounts,0.1,0.0983,400,400,full,shape,same strategy (CV),4,0.5053,0.0025,0.4906
+higgs_w72,strategy,control: embedded accounts,0.1,0.0983,400,400,full,branching,same strategy (CV),4,0.4849,0.005,0.4822
+higgs_w72,strategy,control: embedded accounts,0.1,0.0983,400,400,full,timing,same strategy (CV),4,0.4663,0.0025,0.4723
+higgs_w72,strategy,control: embedded accounts,0.1,0.0983,400,400,full,reuse,same strategy (CV),4,0.9598,0.5325,0.9575
+higgs_w72,strategy,control: embedded accounts,0.1,0.0983,400,400,full,structure + timing,same strategy (CV),4,0.4696,0.02,0.4983
+higgs_w72,strategy,control: embedded accounts,0.1,0.0983,400,400,full,all,same strategy (CV),4,0.9291,0.33,0.9206
+higgs_w72,strategy,control: embedded accounts,0.1,0.0983,400,400,20,structure + timing,same strategy (CV),4,0.4428,0.005,0.4703
+higgs_w72,strategy,control: embedded accounts,0.1,0.0983,400,400,20,reuse,same strategy (CV),4,0.9089,0.315,0.9063
+higgs_w72,strategy,control: embedded accounts,0.1,0.0983,400,400,20,all,same strategy (CV),4,0.8887,0.195,0.8783
+higgs_w72,strategy,control: embedded accounts,0.1,0.0983,400,400,full,structure + timing,naive only,4,0.5105,0.01,0.5129
+higgs_w72,strategy,control: embedded accounts,0.1,0.0983,400,400,full,reuse,naive only,4,0.9617,0.67,0.963
+higgs_w72,strategy,control: embedded accounts,0.1,0.0983,400,400,full,all,naive only,4,0.8688,0.1475,0.8475
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,size only,same strategy (CV),4,0.4809,0.0,0.4837
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,shape,same strategy (CV),4,0.4962,0.0025,0.4921
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,branching,same strategy (CV),4,0.4697,0.0075,0.4754
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,timing,same strategy (CV),4,0.465,0.0,0.467
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,reuse,same strategy (CV),4,0.9993,0.985,0.9993
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,structure + timing,same strategy (CV),4,0.4897,0.015,0.4975
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,all,same strategy (CV),4,0.9977,0.94,0.9973
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,20,structure + timing,same strategy (CV),4,0.4379,0.0,0.4677
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,20,reuse,same strategy (CV),4,0.9865,0.8275,0.9869
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,20,all,same strategy (CV),4,0.9768,0.6175,0.9771
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,structure + timing,naive only,4,0.5109,0.0275,0.518
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,reuse,naive only,4,0.9932,0.815,0.9885
+higgs_w72,strategy,control: embedded accounts,0.3,0.2982,400,400,full,all,naive only,4,0.9909,0.7425,0.9821
+higgs_w72,share,naive,0.4,0.3684,400,400,full,structure + timing,same strategy (CV),4,0.9792,0.705,0.9796
+higgs_w72,share,naive,0.4,0.3684,400,400,full,reuse,same strategy (CV),4,0.999,0.9925,0.999
+higgs_w72,share,naive,0.4,0.3684,400,400,full,all,same strategy (CV),4,0.9993,0.9925,0.9993
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.096,400,400,full,size only,same strategy (CV),4,0.5874,0.0025,0.534
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.096,400,400,full,shape,same strategy (CV),4,0.5681,0.0125,0.5379
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.096,400,400,full,branching,same strategy (CV),4,0.5664,0.0125,0.5322
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.096,400,400,full,timing,same strategy (CV),4,0.6077,0.015,0.5861
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.096,400,400,full,reuse,same strategy (CV),4,0.478,0.015,0.481
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.096,400,400,full,structure + timing,same strategy (CV),4,0.6589,0.05,0.6546
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.096,400,400,full,all,same strategy (CV),4,0.6433,0.035,0.632
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.096,400,400,20,structure + timing,same strategy (CV),4,0.5216,0.005,0.5021
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.096,400,400,20,reuse,same strategy (CV),4,0.498,0.005,0.4936
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.096,400,400,20,all,same strategy (CV),4,0.5255,0.0125,0.5127
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.096,400,400,full,structure + timing,naive only,4,0.5797,0.015,0.5571
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.096,400,400,full,reuse,naive only,4,0.4932,0.015,0.5059
+higgs_w72,strategy,empirical mimic + rotation,0.1,0.096,400,400,full,all,naive only,4,0.5111,0.01,0.5093
+higgs_w72,share,full mimic + rotation,0.02,0.0456,400,400,full,structure + timing,same strategy (CV),4,0.8185,0.055,0.7726
+higgs_w72,share,full mimic + rotation,0.02,0.0456,400,400,full,reuse,same strategy (CV),4,0.4922,0.015,0.5068
+higgs_w72,share,full mimic + rotation,0.02,0.0456,400,400,full,all,same strategy (CV),4,0.8271,0.1025,0.8019
+higgs_w72,share,full mimic + rotation,0.1,0.0953,400,400,full,structure + timing,same strategy (CV),4,0.9369,0.315,0.9251
+higgs_w72,share,full mimic + rotation,0.1,0.0953,400,400,full,reuse,same strategy (CV),4,0.4757,0.005,0.4784
+higgs_w72,share,full mimic + rotation,0.1,0.0953,400,400,full,all,same strategy (CV),4,0.942,0.3475,0.9291
+higgs_w72,share,full mimic + rotation,0.05,0.0578,400,400,full,structure + timing,same strategy (CV),4,0.879,0.085,0.8338
+higgs_w72,share,full mimic + rotation,0.05,0.0578,400,400,full,reuse,same strategy (CV),4,0.5087,0.0075,0.5045
+higgs_w72,share,full mimic + rotation,0.05,0.0578,400,400,full,all,same strategy (CV),4,0.8826,0.16,0.8526
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2806,400,400,full,size only,same strategy (CV),4,0.6648,0.0525,0.6128
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2806,400,400,full,shape,same strategy (CV),4,0.7133,0.04,0.6819
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2806,400,400,full,branching,same strategy (CV),4,0.7201,0.075,0.7043
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2806,400,400,full,timing,same strategy (CV),4,0.6775,0.015,0.6346
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2806,400,400,full,reuse,same strategy (CV),4,0.5516,0.0175,0.54
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2806,400,400,full,structure + timing,same strategy (CV),4,0.7912,0.085,0.7703
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2806,400,400,full,all,same strategy (CV),4,0.7908,0.135,0.7708
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2806,400,400,20,structure + timing,same strategy (CV),4,0.7806,0.07,0.7376
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2806,400,400,20,reuse,same strategy (CV),4,0.5055,0.0125,0.5108
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2806,400,400,20,all,same strategy (CV),4,0.7838,0.0575,0.7324
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2806,400,400,full,structure + timing,naive only,4,0.654,0.0575,0.6441
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2806,400,400,full,reuse,naive only,4,0.4975,0.005,0.4837
+higgs_w72,strategy,empirical mimic + rotation,0.3,0.2806,400,400,full,all,naive only,4,0.5993,0.0075,0.5672
+higgs_w72,share,full mimic + rotation,0.2,0.1895,400,400,full,structure + timing,same strategy (CV),4,0.9848,0.815,0.9851
+higgs_w72,share,full mimic + rotation,0.2,0.1895,400,400,full,reuse,same strategy (CV),4,0.5233,0.02,0.5267
+higgs_w72,share,full mimic + rotation,0.2,0.1895,400,400,full,all,same strategy (CV),4,0.9852,0.84,0.9863
+higgs_w72,share,full mimic + rotation,0.4,0.3654,400,400,full,structure + timing,same strategy (CV),4,0.9982,0.9775,0.9979
+higgs_w72,share,full mimic + rotation,0.4,0.3654,400,400,full,reuse,same strategy (CV),4,0.662,0.0375,0.6336
+higgs_w72,share,full mimic + rotation,0.4,0.3654,400,400,full,all,same strategy (CV),4,0.9983,0.9725,0.9981
+higgs_w72,share,empirical mimic + rotation,0.02,0.0453,400,400,full,structure + timing,same strategy (CV),4,0.5385,0.0175,0.5328
+higgs_w72,share,empirical mimic + rotation,0.02,0.0453,400,400,full,reuse,same strategy (CV),4,0.4897,0.0025,0.4935
+higgs_w72,share,empirical mimic + rotation,0.02,0.0453,400,400,full,all,same strategy (CV),4,0.5587,0.01,0.5368
+higgs_w72,share,empirical mimic + rotation,0.05,0.0575,400,400,full,structure + timing,same strategy (CV),4,0.5974,0.025,0.576
+higgs_w72,share,empirical mimic + rotation,0.05,0.0575,400,400,full,reuse,same strategy (CV),4,0.4771,0.015,0.4912
+higgs_w72,share,empirical mimic + rotation,0.05,0.0575,400,400,full,all,same strategy (CV),4,0.5968,0.0225,0.5764
+higgs_w72,share,empirical mimic + rotation,0.1,0.096,400,400,full,structure + timing,same strategy (CV),4,0.6589,0.05,0.6546
+higgs_w72,share,empirical mimic + rotation,0.1,0.096,400,400,full,reuse,same strategy (CV),4,0.478,0.015,0.481
+higgs_w72,share,empirical mimic + rotation,0.1,0.096,400,400,full,all,same strategy (CV),4,0.6433,0.035,0.632
+higgs_w72,share,empirical mimic + rotation,0.4,0.3691,400,400,full,structure + timing,same strategy (CV),4,0.9291,0.1925,0.9057
+higgs_w72,share,empirical mimic + rotation,0.4,0.3691,400,400,full,reuse,same strategy (CV),4,0.7357,0.0275,0.7064
+higgs_w72,share,empirical mimic + rotation,0.4,0.3691,400,400,full,all,same strategy (CV),4,0.9372,0.1925,0.917
+higgs_w72,share,empirical mimic + rotation,0.2,0.1898,400,400,full,structure + timing,same strategy (CV),4,0.6691,0.0675,0.6568
+higgs_w72,share,empirical mimic + rotation,0.2,0.1898,400,400,full,reuse,same strategy (CV),4,0.4969,0.0075,0.519
+higgs_w72,share,empirical mimic + rotation,0.2,0.1898,400,400,full,all,same strategy (CV),4,0.6386,0.06,0.6265

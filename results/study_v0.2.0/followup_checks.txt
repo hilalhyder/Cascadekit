@@ -1,0 +1,18 @@
+1. Size effect (naive, pi = 0.1, structure + timing features)
+   seed 0: median organic size 40.5; AUROC below median 0.802, at or above 0.986
+   seed 1: median organic size 37; AUROC below median 0.825, at or above 0.967
+   seed 2: median organic size 40; AUROC below median 0.769, at or above 0.968
+   mean: below median 0.799, at or above 0.974
+
+2. Feature medians under evasion
+   organic timing + structure (pi = 0.3)
+      root_share               organic median      0.231   amplified median      0.143
+      mean_depth               organic median      3.095   amplified median      3.809
+      leaf_share               organic median      0.622   amplified median      0.535
+      mean_offspring           organic median      2.464   amplified median      2.088
+      duration_s               organic median  46621.436   amplified median  62018.580
+      reuse_mean               organic median      6.009   amplified median      9.099
+      reuse_share_5plus        organic median      0.151   amplified median      0.357
+   full mimic + rotation (pi = 0.3)
+      reuse_mean               organic median      5.991   amplified median      4.103
+      reuse_share_5plus        organic median      0.148   amplified median      0.107
